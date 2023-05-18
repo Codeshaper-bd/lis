@@ -170,3 +170,32 @@ img {
     }
   }
 }
+
+
+
+// Banner Area
+.banner {
+  position: relative;
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+  .banner-video {
+    width: 100%;
+  }
+
+  .banner-content {
+    // padding: {
+    //   top: 200px;
+    //   bottom: 225px;
+    // };
+
+
+  }
+}
