@@ -2,7 +2,7 @@
 :root {
   --primaryFont: "Lato", sans-serif;
   --blueColor: #294269;
-  --yellowColor: #F09020;
+  --yellowColor: #f09020;
   --whiteColor: #ffffff;
 }
 
@@ -32,6 +32,63 @@ p:last-child {
 
 img {
   max-width: 100%;
+}
+
+.ptb-140 {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.pt-140 {
+  padding-top: 140px;
+}
+
+.pb-140 {
+  padding-bottom: 140px;
+}
+
+.bg-F1F5F9 {
+  background-color: #f1f5f9;
+}
+
+.default-button {
+  padding: 12px 20px;
+  border: 1px solid #294269;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--blueColor);
+  transition: 0.5s ease-in-out;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.default-button iconify-icon {
+  padding-left: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
+.default-button:hover {
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
+
+.section-heading {
+  text-align: center;
+}
+.section-heading h6 {
+  color: var(--yellowColor);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.section-heading h3 {
+  color: var(--blueColor);
+  line-height: 1.2;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
 }
 
 .topbar {
@@ -158,4 +215,115 @@ img {
 }
 .banner .banner-video {
   width: 100%;
+}
+.program-card {
+  margin-top: 30px;
+  transition: 0.5s ease-in-out;
+  background-color: var(--whiteColor);
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.program-card::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--yellowColor);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s ease-in-out;
+}
+.program-card .program-card-img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.program-card .program-card-img img {
+  transition: 0.5s ease-in-out;
+}
+.program-card .program-card-text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.program-card .program-card-text h3 a {
+  color: var(--blueColor);
+  padding-top: 24px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--blueColor);
+}
+.program-card .program-card-text p {
+  color: var(--blueColor);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.program-card .program-card-text .program-card-bottom-area {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(41, 66, 105, 0.3137254902);
+}
+.program-card:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.062745098);
+}
+.program-card:hover .program-card-img img {
+  transform: scale(1.2);
+}
+.program-card:hover::before {
+  width: 100%;
+}
+.program-card:hover .program-card-text .program-card-bottom-area img {
+  animation: swing 1s infinite linear;
+}
+
+.features {
+  position: relative;
+  background-image: url("../images/featuresBG.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.features::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 66, 105, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.features .container {
+  position: relative;
+  z-index: 1;
+}
+
+.features-card {
+  text-align: center;
+  border-radius: 5px;
+  padding: 60px 60px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.5019607843);
+}
+.features-card h3 {
+  color: var(--whiteColor);
+  margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.features-card p {
+  color: var(--whiteColor);
+  line-height: 1.4;
+}
+.features-card .default-button {
+  position: relative;
+  color: var(--whiteColor);
+  border-color: var(--yellowColor);
+  background-color: var(--yellowColor);
+  top: 23px;
 }/*# sourceMappingURL=style.css.map */
