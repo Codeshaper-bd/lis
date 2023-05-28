@@ -1300,4 +1300,54 @@ img {
 .about-details-text p {
   line-height: 1.5;
   color: var(--whiteColor);
+}
+
+.mission-vision-text-area h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.mission-vision-text-area ul {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.mission-vision-text-area ul li {
+  margin-top: 5px;
+  color: #475569;
+  font-size: 22px;
+  font-weight: 400;
+}
+.mission-vision-text-area p {
+  color: #475569;
+  line-height: 1.4;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+
+.values-tab-area {
+  background-color: #F1F5F9;
+  padding: 70px 65px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+}
+.values-tab-area .nav-tabs {
+  justify-content: center;
+  border-radius: 15px;
+  border: none;
+}
+.values-tab-area .nav-tabs .nav-link {
+  background-color: var(--whiteColor);
+  border: 0px;
+  border-radius: 0;
+  font-size: 14px;
+}
+.values-tab-area .nav-tabs .active {
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
 }/*# sourceMappingURL=style.css.map */
