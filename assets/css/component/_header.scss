@@ -12,7 +12,6 @@ a.meanmenu-reveal {
     background: transparent;
     padding: 20px 0 0;
     z-index: 2;
-    height: 60px;
     text-transform: capitalize;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -30,10 +29,10 @@ a.meanmenu-reveal {
     padding: 12px 15px 0 0;
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 33px;
     cursor: pointer;
     transform: translateY(-50%);
-    color: var(--mainColor);
+    color: var(--blueColor);
     text-decoration: none;
     font-size: 16px;
     text-indent: -9999em;
@@ -44,7 +43,7 @@ a.meanmenu-reveal {
 
     span {
       display: block;
-      background: var(--mainColor);
+      background: var(--blueColor);
       height: 4px;
       margin-top: 5px;
       border-radius: 3px;
@@ -190,7 +189,7 @@ a.meanmenu-reveal {
     ul {
       li {
         a.active {
-          color: var(--mainColor);
+          color: var(--blueColor);
         }
       }
     }
@@ -235,7 +234,7 @@ a.meanmenu-reveal {
             position: absolute;
           }
           &:hover {
-            color: var(--mainColor);
+            color: var(--blueColor);
             transition: 0.5s;
           }
           &::after {
@@ -246,12 +245,12 @@ a.meanmenu-reveal {
           }
         }
         a.active {
-          color: var(--mainColor);
+          color: var(--blueColor);
           transition: 0.5s;
         }
         &:hover {
           a {
-            color: var(--mainColor);
+            color: var(--blueColor);
           }
           ul {
             opacity: 1;
@@ -303,7 +302,7 @@ a.meanmenu-reveal {
               &::before {
                 content: "+";
                 font-size: 0px;
-                color: var(--mainColor);
+                color: var(--blueColor);
                 transition: 0.2s ease;
                 position: absolute;
                 top: 50%;
@@ -313,7 +312,7 @@ a.meanmenu-reveal {
               }
               &:hover,
               &.active {
-                color: var(--mainColor);
+                color: var(--blueColor);
                 padding-left: 25px;
                 &::before {
                   font-size: 15px;
@@ -340,7 +339,7 @@ a.meanmenu-reveal {
 
                   &:hover,
                   &.active {
-                    color: var(--mainColor);
+                    color: var(--blueColor);
                   }
                 }
               }
@@ -362,7 +361,7 @@ a.meanmenu-reveal {
                 }
               }
               a {
-                color: var(--mainColor);
+                color: var(--blueColor);
               }
             }
           }
@@ -379,12 +378,12 @@ a.meanmenu-reveal {
 }
 .navbar-light {
   .navbar-brand {
-    color: var(--mainColor);
+    color: var(--blueColor);
     font-weight: bold;
     text-transform: uppercase;
 
     &:hover {
-      color: var(--mainColor);
+      color: var(--blueColor);
       font-weight: bold;
       text-transform: uppercase;
     }
@@ -392,19 +391,19 @@ a.meanmenu-reveal {
 }
 .mean-container {
   .mean-bar {
-    position: relative;
+    position: absolute;
   }
 }
 .mobile-nav {
-  .menu-sidebar-small-device {
+  .menu-small-device {
     display: none;
     margin: 0px;
     padding: 0px;
     list-style: none;
     position: absolute;
-    top: 15px;
-    right: 47px;
-
+    top: 17px;
+    right: 50px;
+    z-index: 999999;
     .uni-button {
       padding: 5px 10px;
     }
@@ -440,20 +439,20 @@ a.meanmenu-reveal {
 }
 
 .popup-button {
-  border: 0;
   background-color: transparent;
   position: relative;
+  border: 0;
   top: 1px;
   .popupSearchBar {
+    width: 250px;
+    display: none;
     padding: 8px 10px;
     border-radius: 5px;
-    display: none;
     background-color: var(--whiteColor);
     box-shadow: 0 0 5px 1px #00000010;
     position: absolute;
     top: 50px;
     right: 0;
-    width: 250px;
     z-index: 99;
     .form-control {
       outline: none !important;
@@ -533,6 +532,9 @@ Header Responsive Area CSS
       font-weight: bold;
       text-transform: uppercase;
       text-decoration: none;
+      img {
+        height: 40px;
+      }
     }
     nav {
       .navbar-nav {

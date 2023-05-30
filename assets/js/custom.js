@@ -11,10 +11,12 @@
     $(".popupSearchBar").toggle();
   });
 
+
   $(document).on('click', function(event) {
     var $div = $('#popupSearchButton');
-    if (!$div.is(event.target) && !$div.has(event.target).length) {
-      $(".popupSearchBar").hide();
+    var $target = $(event.target);
+    if (!$div.is($target) && !$div.has($target).length && !$target.is('input')) {
+      $('.popupSearchBar').hide();
     }
   });
   
