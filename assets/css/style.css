@@ -501,6 +501,79 @@ Header Responsive Area CSS
     top: 0;
   }
 }
+.child-protection h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  padding-bottom: 20px;
+}
+.child-protection p {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.child-protection .protecting-children h5 {
+  color: #475569;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.child-protection .protecting-children .child-protection-img {
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  height: 100%;
+  background-image: url("../images/about-details-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.child-protection .protecting-children .child-protection-img img {
+  display: none;
+}
+.child-protection .policy-link h6 {
+  color: var(--blueColor);
+  font-size: 28px;
+  padding: 0 0 20px 0;
+}
+.child-protection .policy-link ul {
+  list-style-type: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 10%;
+  padding-right: 0;
+}
+.child-protection .policy-link ul li {
+  position: relative;
+  padding-left: 12px;
+  margin-bottom: 6px;
+}
+.child-protection .policy-link ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+  margin-left: -21px;
+}
+.child-protection .policy-link ul li a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  font-size: 20px;
+  line-height: 20px;
+}
+.child-protection .policy-link ul li span {
+  color: var(--blueColor);
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 1%;
+}
+
 body {
   margin: 0;
   padding: 0;
