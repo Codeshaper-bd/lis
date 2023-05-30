@@ -1,5 +1,160 @@
-.side-card-wrapper{
-    .child-video-card{
-        
+.side-card-wrapper {
+    .video-card {
+        background-color: var(--cardBg);
+        padding: 32px;
+        border-radius: 4px;
+
+        .video-card-image {
+            width: 100%;
+            padding-bottom: 24px;
+
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+        .video-card-text {
+            h3 {
+                color: #0f172a;
+                line-height: 32px;
+
+                font: {
+                    size: 24px;
+                    weight: 700;
+                    font-family: var(--primaryFont);
+                }
+            }
+            .default-button {
+                text-align: center;
+                display: block;
+                iconify-icon {
+                    position: relative;
+                    top: 5px;
+                }
+            }
+        }
+        .video-card-social {
+            padding: {
+                top: 32px;
+            }
+            h3 {
+                color: #0f172a;
+                text-align: left;
+                line-height: 30px;
+                font: {
+                    weight: 600;
+                    size: 20px;
+                    family: var(--primaryFont);
+                }
+            }
+            ul {
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                padding-bottom: 48px;
+                li {
+                    margin: 0 6px;
+                    a {
+                        padding: 10px;
+                        color: var(--blueColor);
+                        background-color: var(--whiteColor);
+                        &:hover {
+                            background-color: var(--blueColor);
+                            color: var(--whiteColor);
+                        }
+                        line-height: 0px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            p {
+                border-top: 1px solid #475569;
+                padding-top: 24px;
+                font: {
+                    size: 14px;
+                    weight: 400;
+                    family: var(--primaryFont);
+                }
+                a {
+                    padding-left: 15px;
+                    iconify-icon {
+                        margin-right: 4px;
+                        position: relative;
+                        top: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .blog-card {
+        background-color: var(--cardBg);
+        padding: 32px;
+        border-radius: 4px;
+        margin-top: 30px;
+
+        .blog-card-image {
+            width: 100%;
+            padding-bottom: 24px;
+
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+        .blog-card-text {
+            position: relative;
+            .blog-date {
+                right: 12px;
+                top: -67px;
+                position: absolute;
+                background-color: var(--whiteColor);
+                border-radius: 4px;
+                max-width: 72px;
+                text-align: center;
+                padding: 10px 9px;
+                box-shadow: 0 2px 2px #888888;
+                p {
+                    color: #0f172a;
+                    font: {
+                        weight: 700;
+                        size: 16px;
+                        family: var(--primaryFont);
+                    }
+                    line-height: 20px;
+                    margin: 0;
+                }
+            }
+            h3 {
+                color: #0f172a;
+                line-height: 32px;
+
+                font: {
+                    size: 24px;
+                    weight: 600;
+                    family: var(--primaryFont);
+                }
+            }
+            p {
+                color: #475569;
+                font: {
+                    size: 18px;
+                    family: var(--primaryFont);
+                }
+                line-height: 27px;
+            }
+            &:last-child {
+                a {
+                    color: #f09020;
+                    weight: 600;
+                    font: {
+                        size: 18px;
+                        family: var(--primaryFont);
+                    }
+                    line-height: 27px;
+                }
+            }
+        }
     }
 }
