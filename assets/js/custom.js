@@ -10,4 +10,13 @@
   $("#popupSearchButton").on("click", function () {
     $(".popupSearchBar").toggle();
   });
+
+  $(document).on('click', function(event) {
+    var $div = $('#popupSearchButton');
+    if (!$div.is(event.target) && !$div.has(event.target).length) {
+      $(".popupSearchBar").hide();
+    }
+  });
+  
+
 })(jQuery);
