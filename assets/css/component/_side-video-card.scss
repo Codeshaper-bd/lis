@@ -5,15 +5,75 @@
         border-radius: 4px;
 
         .video-card-image {
-            width: 100%;
-            padding-bottom: 24px;
-
-            img {
+            background: url(/assets/images/sidecard/video-bg-solar-card.jpg);
+            background-size: cover;
+            height: 220px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 4px;
+            &::before {
+                content: "";
+                position: absolute;
                 width: 100%;
-                border-radius: 4px;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .play-btn {
+                height: 55px;
+                width: 55px;
+                border: none;
+                font-size: 30px;
+                display: inline-block;
+                border-radius: 50%;
+                background-color: var(--blueColor);
+                color: var(--whiteColor);
+                position: relative;
+                margin: 30px;
+                top: 25%;
+                left: 35%;
+                padding-top: 5px;
+
+                iconify-icon {
+                    position: relative;
+                    z-index: 1;
+                    top: 5%;
+                    left: 20%;
+                }
+
+                &::before {
+                    content: "";
+                    width: 150%;
+                    height: 150%;
+                    border-radius: 50%;
+                    background-color: var(--blueColor);
+                    opacity: 0.4;
+                    animation: plusAnimate 2s linear infinite;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 0;
+                }
+
+                &::after {
+                    content: "";
+                    width: 190%;
+                    height: 190%;
+                    border-radius: 50%;
+                    background-color: var(--blueColor);
+                    animation: plusAnimate 5s linear infinite;
+                    opacity: 0.2;
+                    transition-delay: 0.3s;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 0;
+                }
             }
         }
         .video-card-text {
+            padding-top: 24px;
             h3 {
                 color: #0f172a;
                 line-height: 32px;
@@ -60,12 +120,13 @@
                         padding: 10px;
                         color: var(--blueColor);
                         background-color: var(--whiteColor);
+                        line-height: 0px;
+                        border-radius: 4px;
                         &:hover {
+                            transition: 0.4s ease-in-out;
                             background-color: var(--blueColor);
                             color: var(--whiteColor);
                         }
-                        line-height: 0px;
-                        border-radius: 4px;
                     }
                 }
             }
@@ -118,7 +179,7 @@
                 p {
                     color: #0f172a;
                     font: {
-                        weight: 700;
+                        weight: 900;
                         size: 16px;
                         family: var(--primaryFont);
                     }
@@ -156,5 +217,18 @@
                 }
             }
         }
+    }
+}
+@keyframes plusAnimate {
+    // 0%,
+    // 100% {
+    //     width: 130%;
+    //     height: 130%;
+    //     opacity: 1;
+    // }
+    100% {
+        width: 170%;
+        height: 170%;
+        opacity: 0;
     }
 }
