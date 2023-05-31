@@ -1174,7 +1174,7 @@ img {
         line-height: 30px;
         font: {
           size: 20px;
-          weight: 400;
+          weight: 700;
           family: var(--primaryFont);
         }
 
@@ -1189,9 +1189,6 @@ img {
           background-color: var(--blueColor);
           outline-offset: 3px;
           outline: 1px solid var(--blueColor);
-        }
-        span {
-          font-weight: 600;
         }
       }
     }

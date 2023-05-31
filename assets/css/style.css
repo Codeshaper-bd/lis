@@ -830,7 +830,7 @@ Header Responsive Area CSS
   outline: 1px solid var(--blueColor);
 }
 .philosophy .philosophy-wrapper ul li span {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 body {
@@ -1793,7 +1793,7 @@ img {
   margin-top: 6px;
   line-height: 30px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: var(--primaryFont);
 }
 .association .association-event ul li::before {
@@ -1807,7 +1807,4 @@ img {
   background-color: var(--blueColor);
   outline-offset: 3px;
   outline: 1px solid var(--blueColor);
-}
-.association .association-event ul li span {
-  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
