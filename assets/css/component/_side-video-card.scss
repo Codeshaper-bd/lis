@@ -208,8 +208,9 @@
             &:last-child {
                 a {
                     color: #f09020;
-                    weight: 600;
+
                     font: {
+                        weight: 600;
                         size: 18px;
                         family: var(--primaryFont);
                     }
