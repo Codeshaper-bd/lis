@@ -1074,3 +1074,23 @@ img {
     }
   }
 }
+
+//Community area
+.community {
+  text-align: center;
+  .card-image {
+    width: 100%;
+  }
+  h3 {
+    padding: {
+      top: 32px;
+      bottom: 32px;
+    }
+    font: {
+      weight: 700;
+      size: 36px;
+      family: var(--primaryFont);
+    }
+    line-height: 43px;
+  }
+}

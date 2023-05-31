@@ -1715,4 +1715,19 @@ img {
 .values-tab-area .nav-tabs .active {
   color: var(--whiteColor);
   background-color: var(--blueColor);
+}
+
+.community {
+  text-align: center;
+}
+.community .card-image {
+  width: 100%;
+}
+.community h3 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: var(--primaryFont);
+  line-height: 43px;
 }/*# sourceMappingURL=style.css.map */
