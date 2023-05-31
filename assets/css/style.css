@@ -6,7 +6,7 @@
   --blueColor: #294269;
   --yellowColor: #f09020;
   --whiteColor: #ffffff;
-  --cardBg:#F1F5F9;
+  --cardBg: #f1f5f9;
 }
 
 /*================================================
@@ -781,6 +781,58 @@ Header Responsive Area CSS
     opacity: 0;
   }
 }
+.philosophy .philosophy-wrapper h3 {
+  color: #0f172a;
+  padding-bottom: 32px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 43px;
+}
+.philosophy .philosophy-wrapper .philosophy-image {
+  width: 100%;
+}
+.philosophy .philosophy-wrapper .philosophy-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+.philosophy .philosophy-wrapper p {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #475569;
+  font-size: 18px;
+  line-height: 27px;
+}
+.philosophy .philosophy-wrapper ul {
+  list-style-type: none;
+  padding-left: 50px;
+  color: #294269;
+}
+.philosophy .philosophy-wrapper ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.philosophy .philosophy-wrapper ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+.philosophy .philosophy-wrapper ul li span {
+  font-weight: 600;
+}
+
 body {
   margin: 0;
   padding: 0;

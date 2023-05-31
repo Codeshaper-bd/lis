@@ -1,0 +1,63 @@
+.philosophy {
+    .philosophy-wrapper {
+        h3 {
+            color: #0f172a;
+            padding-bottom: 32px;
+            font: {
+                size: 36px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+            line-height: 43px;
+        }
+        .philosophy-image {
+            width: 100%;
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+        p {
+            padding: {
+                top: 32px;
+                bottom: 32px;
+            }
+            color: #475569;
+            font-size: 18px;
+            line-height: 27px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 50px;
+            color: #294269;
+
+            li {
+                position: relative;
+                padding-left: 30px;
+                margin-top: 6px;
+                line-height: 30px;
+                font: {
+                    size: 20px;
+                    weight: 400;
+                    family: var(--primaryFont);
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 12px;
+                    left: 0;
+                    border-radius: 1px;
+                    width: 10px;
+                    height: 10px;
+                    background-color: var(--blueColor);
+                    outline-offset: 3px;
+                    outline: 1px solid var(--blueColor);
+                }
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
