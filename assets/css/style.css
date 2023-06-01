@@ -845,6 +845,49 @@ Header Responsive Area CSS
   font-weight: 700;
 }
 
+.alumni .alumni-wrapper h3 {
+  color: #0f172a;
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+}
+.alumni .alumni-wrapper p {
+  color: #475569;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.alumni .alumni-wrapper p a {
+  color: var(--yellowColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+}
+.alumni .alumni-wrapper .alumni-wrapper-group {
+  padding-top: 24px;
+}
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card {
+  padding-bottom: 70px;
+}
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-image {
+  border-radius: 50%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f1f5f9;
+}
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-image img {
+  width: 100%;
+}
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header {
+  margin-bottom: 20px;
+}
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header h3 {
+  font-size: 30px;
+}
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header p {
+  padding-top: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
