@@ -13,6 +13,7 @@
 @import "component/child-protection";
 @import "component/side-video-card";
 @import "component/commitment";
+@import "component/alumni";
 
 body {
   margin: 0;
@@ -1315,7 +1316,7 @@ img {
     }
     ul {
       list-style-type: none;
-      max-width: 745px;
+      max-width: 800px;
       padding-top: 48px;
       line-height: 30px;
 
@@ -1361,8 +1362,46 @@ img {
       .accridation-image {
         width: 100%;
         img {
-          width: 50%;
+          width: 100%;
         }
+      }
+    }
+  }
+}
+
+//Accreditation
+
+.accreditation {
+  h3 {
+    color: #0f172a;
+    font: {
+      family: var(--primaryFont);
+      size: 36px;
+      weight: 700;
+    }
+    line-height: 43.2px;
+  }
+  p {
+    padding: {
+      top: 24px;
+    }
+    color: #475569;
+    font: {
+      size: 18px;
+      family: var(--primaryFont);
+    }
+
+    line-height: 27px;
+  }
+
+  .logo-single-accreditation {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    .accreditation-image {
+      width: 100%;
+      img {
+        width: 100%;
       }
     }
   }

@@ -1909,7 +1909,7 @@ img {
 }
 .school .experience-campus ul {
   list-style-type: none;
-  max-width: 745px;
+  max-width: 800px;
   padding-top: 48px;
   line-height: 30px;
   margin-left: auto;
@@ -1949,5 +1949,31 @@ img {
   width: 100%;
 }
 .school .accridation-campus .campus-single-accridation .accridation-image img {
-  width: 50%;
+  width: 100%;
+}
+
+.accreditation h3 {
+  color: #0f172a;
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+}
+.accreditation p {
+  padding-top: 24px;
+  color: #475569;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.accreditation .logo-single-accreditation {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.accreditation .logo-single-accreditation .accreditation-image {
+  width: 100%;
+}
+.accreditation .logo-single-accreditation .accreditation-image img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
