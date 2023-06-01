@@ -5,8 +5,8 @@
     font: {
       size: 36px;
       weight: 700;
-      family: var(--primaryFont)
-    };
+      family: var(--primaryFont);
+    }
   }
   p {
     color: #475569;
@@ -47,8 +47,8 @@
       font: {
         size: 24px;
         weight: 700;
-        family: var(--primaryFont)
-      };
+        family: var(--primaryFont);
+      }
     }
     ul {
       list-style-type: none;
@@ -62,7 +62,7 @@
           size: 20px;
           weight: 400;
           family: var(--primaryFont);
-        };
+        }
 
         &::before {
           content: "";

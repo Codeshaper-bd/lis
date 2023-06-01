@@ -83,6 +83,12 @@
                     weight: 700;
                     font-family: var(--primaryFont);
                 }
+                a {
+                    color: #0f172a;
+                }
+                &:hover {
+                    color: #475569;
+                }
             }
             .default-button {
                 text-align: center;
@@ -196,6 +202,13 @@
                     weight: 600;
                     family: var(--primaryFont);
                 }
+
+                a {
+                    color: #0f172a;
+                    &:hover {
+                        color: #475569;
+                    }
+                }
             }
             p {
                 color: #475569;
@@ -205,7 +218,8 @@
                 }
                 line-height: 27px;
             }
-            &:last-child {
+
+            p {
                 a {
                     color: #f09020;
                     font: {
