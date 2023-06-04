@@ -888,6 +888,166 @@ Header Responsive Area CSS
   padding-top: 0;
 }
 
+@media only screen and (max-width: 991px) {
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .col-lg-5 {
+    order: 1 !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .col-lg-7 {
+    order: 2 !important;
+  }
+}
+.primary-years .primary-years-wrapper h3 {
+  color: #0f172a;
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-text {
+  padding-top: 48px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-text p {
+  color: #475569;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-text h5 {
+  color: #0f172a;
+  font-family: var(--primaryFont);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list {
+  padding-top: 32px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list h6 {
+  color: #0f172a;
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list ul {
+  list-style-type: none;
+  padding-left: 70px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 30px;
+  color: var(--blueColor);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list ul li a {
+  text-decoration: underline;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list ul li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-list ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image {
+  padding-top: 10px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .primary-image {
+  background: url(/assets/images/programme/pyp.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 525px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .primary-image::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .primary-image .play-btn {
+  height: 83px;
+  width: 83px;
+  border: none;
+  font-size: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--blueColor);
+  color: var(--whiteColor);
+  position: relative;
+  margin: 30px;
+  top: 40%;
+  left: 45%;
+  padding-top: 8px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .primary-image .play-btn iconify-icon {
+  position: relative;
+  z-index: 1;
+  top: 10%;
+  left: 25%;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .primary-image .play-btn::before {
+  content: "";
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  background-color: var(--blueColor);
+  opacity: 0.4;
+  animation: plusAnimate 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .primary-image .play-btn::after {
+  content: "";
+  width: 190%;
+  height: 190%;
+  border-radius: 50%;
+  background-color: var(--blueColor);
+  animation: plusAnimate 5s linear infinite;
+  opacity: 0.2;
+  transition-delay: 0.3s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .caption {
+  padding-top: 32px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .caption h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 30px;
+}
+.primary-years .primary-years-wrapper .primary-years-wrapper-image .caption p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+  line-height: 24px;
+}
+
 body {
   margin: 0;
   padding: 0;
