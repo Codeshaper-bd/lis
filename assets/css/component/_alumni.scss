@@ -40,6 +40,7 @@
                     background-color: #f1f5f9;
                 }
                 .alumni-text {
+                    margin-top: 10px;
                     .header {
                         margin-bottom: 20px;
                         h3 {
@@ -57,14 +58,14 @@
 
 //responsive
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
     .alumni-wrapper {
         .alumni-wrapper-group {
             .alumni-card {
-                .col-lg-5 {
+                .order1 {
                     order: 1 !important;
                 }
-                .col-lg-7 {
+                .order2 {
                     order: 2 !important;
                 }
             }

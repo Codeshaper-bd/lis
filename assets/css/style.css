@@ -878,6 +878,9 @@ Header Responsive Area CSS
 .alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-image img {
   width: 100%;
 }
+.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text {
+  margin-top: 10px;
+}
 .alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header {
   margin-bottom: 20px;
 }
@@ -888,11 +891,11 @@ Header Responsive Area CSS
   padding-top: 0;
 }
 
-@media only screen and (max-width: 991px) {
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .col-lg-5 {
+@media only screen and (max-width: 767px) {
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
     order: 1 !important;
   }
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .col-lg-7 {
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
     order: 2 !important;
   }
 }
@@ -1321,9 +1324,7 @@ Header Responsive Area CSS
   margin-bottom: 32px;
   border: 1px solid var(--blueColor);
   border-radius: 8px;
-  max-height: 372px;
-  min-height: 300px;
-  max-width: 290px;
+  height: 100%;
 }
 .diploma-wrapper-groups .groups-single .header {
   padding-top: 16px;
