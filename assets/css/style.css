@@ -2523,4 +2523,47 @@ img {
 }
 .accreditation .logo-single-accreditation .accreditation-image img {
   width: 100%;
+}
+
+.calendar p {
+  padding-top: 16px;
+  color: var(--blueColor);
+  font-weight: 400;
+  font-size: 18px;
+  font-font: var(--primaryFont);
+  line-height: 27px;
+}
+.calendar h4 {
+  padding-bottom: 32px;
+  color: var(--blueColor);
+  font-weight: 700;
+  font-size: 36;
+  font-font: var(--primaryFont);
+  line-height: 43.2px;
+}
+.calendar h3 {
+  padding-top: 70px;
+  color: var(--blueColor);
+  font-weight: 700;
+  font-size: 48;
+  font-font: var(--primaryFont);
+  line-height: 57.6px;
+}
+.calendar .calendar-color {
+  background-color: #d9d9d9;
+  height: 620px;
+  width: 100%;
+  border-radius: 8px;
+}
+.calendar .default-button {
+  margin-top: 40px;
+  text-align: center;
+  line-height: 19px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: var(--primaryFont);
+}
+.calendar .default-button iconify-icon {
+  position: relative;
+  top: -2px;
 }/*# sourceMappingURL=style.css.map */
