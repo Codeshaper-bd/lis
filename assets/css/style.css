@@ -605,7 +605,7 @@ Header Responsive Area CSS
   height: 55px;
   width: 55px;
   border: none;
-  font-size: 30px;
+  font-size: 35px;
   display: inline-block;
   border-radius: 50%;
   background-color: var(--blueColor);
@@ -613,8 +613,8 @@ Header Responsive Area CSS
   position: relative;
   margin: 30px;
   top: 25%;
-  left: 35%;
-  padding-top: 5px;
+  left: 40%;
+  padding-top: 3px;
 }
 .side-card-wrapper .video-card .video-card-image .play-btn iconify-icon {
   position: relative;
@@ -631,7 +631,7 @@ Header Responsive Area CSS
   opacity: 0.4;
   animation: plusAnimate 2s linear infinite;
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
@@ -1259,7 +1259,7 @@ Header Responsive Area CSS
   position: relative;
   margin: 30px;
   top: 40%;
-  left: 45%;
+  left: 40%;
   padding-top: 8px;
 }
 .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn iconify-icon {
@@ -1303,6 +1303,95 @@ Header Responsive Area CSS
     padding-top: 50px;
   }
 }
+.diploma-wrapper-groups {
+  padding-top: 32px;
+}
+.diploma-wrapper-groups p {
+  color: #475569;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.diploma-wrapper-groups p a {
+  color: var(--yellowColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+}
+.diploma-wrapper-groups .groups-single {
+  margin-bottom: 32px;
+  border: 1px solid var(--blueColor);
+  border-radius: 8px;
+  max-height: 372px;
+  min-height: 300px;
+  max-width: 290px;
+}
+.diploma-wrapper-groups .groups-single .header {
+  padding-top: 16px;
+  text-align: center;
+}
+.diploma-wrapper-groups .groups-single .header h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 30px;
+}
+.diploma-wrapper-groups .groups-single .header p {
+  margin: 0;
+  color: #475569;
+  font-size: 16px;
+  font-family: var(--primaryFont);
+  line-height: 24px;
+}
+.diploma-wrapper-groups .groups-single ul {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.diploma-wrapper-groups .groups-single ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 24px;
+  color: var(--blueColor);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.diploma-wrapper-groups .groups-single ul li a {
+  text-decoration: underline;
+}
+.diploma-wrapper-groups .groups-single ul li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.diploma-wrapper-groups .groups-single ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+
+.co-curricular-wrapper-text {
+  padding-top: 20px;
+}
+
+.caption {
+  padding-top: 32px;
+}
+.caption h6 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 30px;
+}
+
 body {
   margin: 0;
   padding: 0;

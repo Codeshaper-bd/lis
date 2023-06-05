@@ -22,7 +22,7 @@
                 height: 55px;
                 width: 55px;
                 border: none;
-                font-size: 30px;
+                font-size: 35px;
                 display: inline-block;
                 border-radius: 50%;
                 background-color: var(--blueColor);
@@ -30,8 +30,8 @@
                 position: relative;
                 margin: 30px;
                 top: 25%;
-                left: 35%;
-                padding-top: 5px;
+                left: 40%;
+                padding-top: 3px;
 
                 iconify-icon {
                     position: relative;
@@ -49,7 +49,7 @@
                     opacity: 0.4;
                     animation: plusAnimate 2s linear infinite;
                     position: absolute;
-                    left: 50%;
+                    left: 45%;
                     top: 50%;
                     transform: translate(-50%, -50%);
                     z-index: 0;
