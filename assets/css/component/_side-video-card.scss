@@ -79,7 +79,7 @@
                 line-height: 32px;
 
                 font: {
-                    size: 24px;
+                    size: 22px;
                     weight: 700;
                     font-family: var(--primaryFont);
                 }
@@ -186,7 +186,7 @@
                     color: #0f172a;
                     font: {
                         weight: 900;
-                        size: 16px;
+                        size: 14px;
                         family: var(--primaryFont);
                     }
                     line-height: 20px;
@@ -198,7 +198,7 @@
                 line-height: 32px;
 
                 font: {
-                    size: 24px;
+                    size: 22px;
                     weight: 600;
                     family: var(--primaryFont);
                 }
@@ -213,7 +213,7 @@
             p {
                 color: #475569;
                 font: {
-                    size: 18px;
+                    size: 16px;
                     family: var(--primaryFont);
                 }
                 line-height: 27px;
@@ -224,7 +224,7 @@
                     color: #f09020;
                     font: {
                         weight: 600;
-                        size: 18px;
+                        size: 16px;
                         family: var(--primaryFont);
                     }
                     line-height: 27px;
@@ -234,12 +234,6 @@
     }
 }
 @keyframes plusAnimate {
-    // 0%,
-    // 100% {
-    //     width: 130%;
-    //     height: 130%;
-    //     opacity: 1;
-    // }
     100% {
         width: 170%;
         height: 170%;

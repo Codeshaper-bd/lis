@@ -657,7 +657,7 @@ Header Responsive Area CSS
 .side-card-wrapper .video-card .video-card-text h3 {
   color: #0f172a;
   line-height: 32px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   font-font-family: var(--primaryFont);
 }
@@ -754,7 +754,7 @@ Header Responsive Area CSS
 .side-card-wrapper .blog-card .blog-card-text .blog-date p {
   color: #0f172a;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 14px;
   font-family: var(--primaryFont);
   line-height: 20px;
   margin: 0;
@@ -762,7 +762,7 @@ Header Responsive Area CSS
 .side-card-wrapper .blog-card .blog-card-text h3 {
   color: #0f172a;
   line-height: 32px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   font-family: var(--primaryFont);
 }
@@ -774,14 +774,14 @@ Header Responsive Area CSS
 }
 .side-card-wrapper .blog-card .blog-card-text p {
   color: #475569;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--primaryFont);
   line-height: 27px;
 }
 .side-card-wrapper .blog-card .blog-card-text p a {
   color: #f09020;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--primaryFont);
   line-height: 27px;
 }
@@ -2556,9 +2556,9 @@ img {
   border-radius: 8px;
 }
 .calendar .default-button {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
-  line-height: 19px;
+  line-height: 19.2px;
   font-weight: 600;
   font-size: 16px;
   font-family: var(--primaryFont);
