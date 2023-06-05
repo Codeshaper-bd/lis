@@ -1,0 +1,73 @@
+.alumni {
+    .alumni-wrapper {
+        h3 {
+            color: #0f172a;
+            font: {
+                family: var(--primaryFont);
+                size: 36px;
+                weight: 700;
+            }
+            line-height: 43.2px;
+        }
+        p {
+            color: #475569;
+            font: {
+                size: 18px;
+                family: var(--primaryFont);
+            }
+
+            line-height: 27px;
+            a {
+                color: var(--yellowColor);
+                font: {
+                    size: 18px;
+                    family: var(--primaryFont);
+                }
+            }
+        }
+
+        .alumni-wrapper-group {
+            padding-top: 24px;
+            .alumni-card {
+                padding-bottom: 70px;
+                .alumni-image {
+                    border-radius: 50%;
+                    width: 100%;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                    }
+                    background-color: #f1f5f9;
+                }
+                .alumni-text {
+                    .header {
+                        margin-bottom: 20px;
+                        h3 {
+                            font-size: 30px;
+                        }
+                        p {
+                            padding-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//responsive
+
+@media only screen and (max-width: 991px) {
+    .alumni-wrapper {
+        .alumni-wrapper-group {
+            .alumni-card {
+                .col-lg-5 {
+                    order: 1 !important;
+                }
+                .col-lg-7 {
+                    order: 2 !important;
+                }
+            }
+        }
+    }
+}

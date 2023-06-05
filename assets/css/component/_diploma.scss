@@ -1,0 +1,105 @@
+.diploma-wrapper-groups {
+    padding-top: 32px;
+
+    p {
+        color: #475569;
+        font: {
+            size: 18px;
+            family: var(--primaryFont);
+        }
+
+        line-height: 27px;
+        a {
+            color: var(--yellowColor);
+            font: {
+                size: 18px;
+                family: var(--primaryFont);
+            }
+        }
+    }
+    .groups-single {
+        margin-bottom: 32px;
+        border: 1px solid var(--blueColor);
+        border-radius: 8px;
+        max-height: 372px;
+        min-height: 300px;
+        max-width: 290px;
+        .header {
+            padding-top: 16px;
+            text-align: center;
+            h6 {
+                margin: 0;
+                font: {
+                    size: 20px;
+                    weight: 600;
+                    family: var(--primaryFont);
+                }
+                line-height: 30px;
+            }
+            p {
+                margin: 0;
+                color: #475569;
+                font: {
+                    size: 16px;
+                    family: var(--primaryFont);
+                }
+                line-height: 24px;
+            }
+        }
+        ul {
+            list-style-type: none;
+            padding-top: 15px;
+
+            li {
+                position: relative;
+                padding-left: 30px;
+                margin-top: 6px;
+                line-height: 24px;
+                color: var(--blueColor);
+                font: {
+                    size: 16px;
+                    weight: 400;
+                    family: var(--primaryFont);
+                }
+                a {
+                    text-decoration: underline;
+                }
+                &:hover {
+                    a {
+                        color: var(--yellowColor);
+                        text-decoration: underline;
+                        line-height: 30px;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 12px;
+                    left: 0;
+                    border-radius: 1px;
+                    width: 10px;
+                    height: 10px;
+                    background-color: var(--blueColor);
+                    outline-offset: 3px;
+                    outline: 1px solid var(--blueColor);
+                }
+            }
+        }
+    }
+}
+
+.co-curricular-wrapper-text {
+    padding-top: 20px;
+}
+.caption {
+    padding-top: 32px;
+    h6 {
+        font: {
+            size: 20px;
+            weight: 600;
+            family: var(--primaryFont);
+        }
+        line-height: 30px;
+    }
+}

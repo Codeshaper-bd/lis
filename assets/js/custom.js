@@ -12,13 +12,19 @@
   });
 
 
-  $(document).on('click', function(event) {
+  $(document).on('click', function (event) {
     var $div = $('#popupSearchButton');
     var $target = $(event.target);
     if (!$div.is($target) && !$div.has($target).length && !$target.is('input')) {
       $('.popupSearchBar').hide();
     }
   });
-  
+
+  // sidebar Video Player
+  $('.play-btn').magnificPopup({
+    type: 'video',
+    // mainClass: 'mfp-fade'
+  });
+
 
 })(jQuery);
