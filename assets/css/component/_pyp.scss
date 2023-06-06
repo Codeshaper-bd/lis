@@ -1,7 +1,7 @@
 .pyp {
     .pyp-wrapper {
         h3 {
-            color: #0f172a;
+            color: var(--headerColor);
             font: {
                 family: var(--primaryFont);
                 size: 36px;
@@ -13,7 +13,7 @@
         .pyp-wrapper-text {
             padding-top: 40px;
             p {
-                color: #475569;
+                color: var(--textColor);
                 font: {
                     size: 18px;
                     family: var(--primaryFont);
@@ -22,7 +22,7 @@
                 line-height: 27px;
             }
             h5 {
-                color: #0f172a;
+                color: var(--headerColor);
                 font: {
                     family: var(--primaryFont);
                     size: 24px;
@@ -34,7 +34,7 @@
         .pyp-wrapper-list {
             padding-top: 32px;
             h6 {
-                color: #0f172a;
+                color: var(--headerColor);
                 font: {
                     family: var(--primaryFont);
                     size: 20px;

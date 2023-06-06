@@ -4,6 +4,8 @@
   --primaryFont: "Lato", sans-serif;
   --SecondaryFont: "Nunito", sans-serif;
   --blueColor: #294269;
+  --headerColor: #0f172a;
+  --textColor: #475569;
   --yellowColor: #f09020;
   --whiteColor: #ffffff;
   --cardBg: #f1f5f9;
@@ -506,20 +508,20 @@ Header Responsive Area CSS
   }
 }
 .child-protection h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   padding-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
   font-family: var(--primaryFont);
 }
 .child-protection p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
 }
 .child-protection .protecting-children h5 {
-  color: #475569;
+  color: var(--textColor);
   font-size: 16px;
   line-height: 25px;
   font-weight: 600;
@@ -655,17 +657,17 @@ Header Responsive Area CSS
   padding-top: 24px;
 }
 .side-card-wrapper .video-card .video-card-text h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   line-height: 32px;
   font-size: 22px;
   font-weight: 700;
   font-font-family: var(--primaryFont);
 }
 .side-card-wrapper .video-card .video-card-text h3 a {
-  color: #0f172a;
+  color: var(--headerColor);
 }
 .side-card-wrapper .video-card .video-card-text h3:hover {
-  color: #475569;
+  color: var(--textColor);
 }
 .side-card-wrapper .video-card .video-card-text .default-button {
   text-align: center;
@@ -679,7 +681,7 @@ Header Responsive Area CSS
   padding-top: 32px;
 }
 .side-card-wrapper .video-card .video-card-social h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   text-align: left;
   line-height: 30px;
   font-weight: 600;
@@ -709,7 +711,7 @@ Header Responsive Area CSS
   color: var(--whiteColor);
 }
 .side-card-wrapper .video-card .video-card-social p {
-  border-top: 1px solid #475569;
+  border-top: 1px solid var(--textColor);
   padding-top: 24px;
   font-size: 14px;
   font-weight: 400;
@@ -752,7 +754,7 @@ Header Responsive Area CSS
   box-shadow: 0 2px 2px #888888;
 }
 .side-card-wrapper .blog-card .blog-card-text .blog-date p {
-  color: #0f172a;
+  color: var(--headerColor);
   font-weight: 900;
   font-size: 14px;
   font-family: var(--primaryFont);
@@ -760,20 +762,20 @@ Header Responsive Area CSS
   margin: 0;
 }
 .side-card-wrapper .blog-card .blog-card-text h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   line-height: 32px;
   font-size: 22px;
   font-weight: 600;
   font-family: var(--primaryFont);
 }
 .side-card-wrapper .blog-card .blog-card-text h3 a {
-  color: #0f172a;
+  color: var(--headerColor);
 }
 .side-card-wrapper .blog-card .blog-card-text h3 a:hover {
-  color: #475569;
+  color: var(--textColor);
 }
 .side-card-wrapper .blog-card .blog-card-text p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 16px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -794,7 +796,7 @@ Header Responsive Area CSS
   }
 }
 .philosophy .philosophy-wrapper h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   padding-bottom: 32px;
   font-size: 36px;
   font-weight: 700;
@@ -811,7 +813,7 @@ Header Responsive Area CSS
 .philosophy .philosophy-wrapper p {
   padding-top: 32px;
   padding-bottom: 32px;
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   line-height: 27px;
 }
@@ -846,14 +848,14 @@ Header Responsive Area CSS
 }
 
 .alumni .alumni-wrapper h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
   line-height: 43.2px;
 }
 .alumni .alumni-wrapper p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -900,7 +902,7 @@ Header Responsive Area CSS
   }
 }
 .pyp .pyp-wrapper h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
@@ -910,13 +912,13 @@ Header Responsive Area CSS
   padding-top: 40px;
 }
 .pyp .pyp-wrapper .pyp-wrapper-text p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
 }
 .pyp .pyp-wrapper .pyp-wrapper-text h5 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 24px;
   font-weight: 600;
@@ -926,7 +928,7 @@ Header Responsive Area CSS
   padding-top: 32px;
 }
 .pyp .pyp-wrapper .pyp-wrapper-list h6 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 20px;
   font-weight: 600;
@@ -1057,7 +1059,7 @@ Header Responsive Area CSS
   }
 }
 .myp .myp-wrapper h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
@@ -1067,7 +1069,7 @@ Header Responsive Area CSS
   padding-top: 40px;
 }
 .myp .myp-wrapper .myp-wrapper-text p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -1076,7 +1078,7 @@ Header Responsive Area CSS
   color: var(--yellowColor);
 }
 .myp .myp-wrapper .myp-wrapper-text h5 {
-  color: #0f172a;
+  color: var(--headerColor);
   padding: 15px 0;
   font-family: var(--primaryFont);
   font-size: 24px;
@@ -1208,7 +1210,7 @@ Header Responsive Area CSS
   }
 }
 .co-curricular .co-curricular-wrapper h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
@@ -1218,13 +1220,13 @@ Header Responsive Area CSS
   padding-top: 40px;
 }
 .co-curricular .co-curricular-wrapper .co-curricular-wrapper-text p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
 }
 .co-curricular .co-curricular-wrapper .co-curricular-wrapper-text h5 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 24px;
   font-weight: 600;
@@ -1310,7 +1312,7 @@ Header Responsive Area CSS
   padding-top: 32px;
 }
 .diploma-wrapper-groups p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -1339,7 +1341,7 @@ Header Responsive Area CSS
 }
 .diploma-wrapper-groups .groups-single .header p {
   margin: 0;
-  color: #475569;
+  color: var(--textColor);
   font-size: 16px;
   font-family: var(--primaryFont);
   line-height: 24px;
@@ -1391,6 +1393,138 @@ Header Responsive Area CSS
   font-weight: 600;
   font-family: var(--primaryFont);
   line-height: 30px;
+}
+
+.enrollment p {
+  color: var(--textColor);
+  font-weight: 400;
+  font-size: 18px;
+  font-font: var(--primaryFont);
+  line-height: 27px;
+}
+.enrollment h3 {
+  color: var(--headerColor);
+  font-weight: 700;
+  font-size: 36px;
+  font-font: var(--primaryFont);
+  line-height: 43.2px;
+}
+.enrollment .enrollment-image {
+  width: 100%;
+}
+.enrollment .enrollment-image img {
+  border-radius: 8px;
+}
+.enrollment .enrollment-content-wrapper {
+  margin-top: 50px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single {
+  margin-top: 48px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single h4 {
+  color: var(--headerColor);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 39px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single p {
+  padding-top: 5px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single p a {
+  color: var(--yellowColor);
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single p a:hover {
+  text-decoration: underline;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single h6 {
+  color: var(--headerColor);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 32px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single ul {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 24px;
+  color: var(--blueColor);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single ul li a {
+  color: var(--yellowColor);
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single ul li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-single ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-small {
+  margin-top: 20px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-small p {
+  padding-top: 5px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-small p a {
+  color: var(--yellowColor);
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-small p a:hover {
+  text-decoration: underline;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-small h6 {
+  color: var(--headerColor);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 32px;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-email {
+  margin-top: 48px;
+  background-color: #f1f5f9;
+  padding: 32px;
+  text-align: center;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-email p {
+  text-align: left;
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-email .default-button {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 21px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+}
+.enrollment .enrollment-content-wrapper .enrollment-content-email .default-button iconify-icon {
+  position: relative;
+  top: 3px;
 }
 
 body {
@@ -2203,7 +2337,7 @@ img {
   padding: 32px;
   border-radius: 10px;
   color: var(--whiteColor);
-  background-color: rgba(15, 23, 42, 0.7);
+  background-color: rgba(var(--headerColor), 0.7);
   position: absolute;
   left: 50%;
   bottom: 16px;
@@ -2238,12 +2372,12 @@ img {
 }
 .mission-vision-text-area ul li {
   margin-top: 5px;
-  color: #475569;
+  color: var(--textColor);
   font-size: 22px;
   font-weight: 400;
 }
 .mission-vision-text-area p {
-  color: #475569;
+  color: var(--textColor);
   line-height: 1.4;
   font-size: 22px;
   font-weight: 400;
@@ -2296,7 +2430,7 @@ img {
   padding-bottom: 70px;
 }
 .association .parent-association h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   padding-bottom: 24px;
   font-family: var(--primaryFont);
   font-size: 36px;
@@ -2304,7 +2438,7 @@ img {
   line-height: 43.2px;
 }
 .association .parent-association p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   line-height: 27px;
 }
@@ -2313,7 +2447,7 @@ img {
   color: var(--yellowColor);
 }
 .association .association-event h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   padding-bottom: 24px;
   font-family: var(--primaryFont);
   font-size: 30px;
@@ -2327,7 +2461,7 @@ img {
   line-height: 32px;
 }
 .association .association-event p {
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   line-height: 27px;
 }
@@ -2370,7 +2504,7 @@ img {
 }
 
 .learn-wrapper h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
@@ -2378,7 +2512,7 @@ img {
 }
 .learn-wrapper p {
   padding-top: 24px;
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -2431,7 +2565,7 @@ img {
 }
 
 .school h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
@@ -2439,7 +2573,7 @@ img {
 }
 .school p {
   padding-top: 24px;
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -2501,7 +2635,7 @@ img {
 }
 
 .accreditation h3 {
-  color: #0f172a;
+  color: var(--headerColor);
   font-family: var(--primaryFont);
   font-size: 36px;
   font-weight: 700;
@@ -2509,7 +2643,7 @@ img {
 }
 .accreditation p {
   padding-top: 24px;
-  color: #475569;
+  color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
@@ -2528,7 +2662,7 @@ img {
 
 .calendar p {
   padding-top: 16px;
-  color: var(--blueColor);
+  color: var(--textColor);
   font-weight: 400;
   font-size: 18px;
   font-font: var(--primaryFont);
@@ -2536,7 +2670,7 @@ img {
 }
 .calendar h4 {
   padding-bottom: 32px;
-  color: var(--blueColor);
+  color: var(--headerColor);
   font-weight: 700;
   font-size: 36;
   font-font: var(--primaryFont);
@@ -2544,7 +2678,7 @@ img {
 }
 .calendar h3 {
   padding-top: 70px;
-  color: var(--blueColor);
+  color: var(--headerColor);
   font-weight: 700;
   font-size: 48;
   font-font: var(--primaryFont);
@@ -2571,7 +2705,7 @@ img {
 
 .join p {
   padding-top: 16px;
-  color: var(--blueColor);
+  color: var(--textColor);
   font-weight: 400;
   font-size: 18px;
   font-font: var(--primaryFont);
@@ -2579,16 +2713,16 @@ img {
 }
 .join h4 {
   padding-bottom: 32px;
-  color: var(--blueColor);
+  color: var(--headerColor);
   font-weight: 700;
   font-size: 30px;
   font-font: var(--primaryFont);
   line-height: 32px;
 }
 .join h3 {
-  color: var(--blueColor);
+  color: var(--headerColor);
   font-weight: 700;
-  font-size: 48;
+  font-size: 36px;
   font-font: var(--primaryFont);
   line-height: 43.2px;
 }

@@ -1,7 +1,7 @@
 .alumni {
     .alumni-wrapper {
         h3 {
-            color: #0f172a;
+            color: var(--headerColor);
             font: {
                 family: var(--primaryFont);
                 size: 36px;
@@ -10,7 +10,7 @@
             line-height: 43.2px;
         }
         p {
-            color: #475569;
+            color: var(--textColor);
             font: {
                 size: 18px;
                 family: var(--primaryFont);

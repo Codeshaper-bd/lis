@@ -4,6 +4,8 @@
   --primaryFont: "Lato", sans-serif;
   --SecondaryFont: "Nunito", sans-serif;
   --blueColor: #294269;
+  --headerColor: #0f172a;
+  --textColor: #475569;
   --yellowColor: #f09020;
   --whiteColor: #ffffff;
   --cardBg: #f1f5f9;
@@ -18,6 +20,7 @@
 @import "component/myp";
 @import "component/co-curricular";
 @import "component/diploma";
+@import "component/enrollment";
 
 body {
   margin: 0;
@@ -986,7 +989,7 @@ img {
       padding: 32px;
       border-radius: 10px;
       color: var(--whiteColor);
-      background-color: rgba($color: #0f172a, $alpha: 0.7);
+      background-color: rgba($color: var(--headerColor), $alpha: 0.7);
       position: absolute;
       left: 50%;
       bottom: 16px;
@@ -1029,7 +1032,7 @@ img {
     margin-bottom: 30px;
     li {
       margin-top: 5px;
-      color: #475569;
+      color: var(--textColor);
       font: {
         size: 22px;
         weight: 400;
@@ -1037,7 +1040,7 @@ img {
     }
   }
   p {
-    color: #475569;
+    color: var(--textColor);
     line-height: 1.4;
     font: {
       size: 22px;
@@ -1105,7 +1108,7 @@ img {
   .parent-association {
     padding-bottom: 70px;
     h3 {
-      color: #0f172a;
+      color: var(--headerColor);
       padding-bottom: 24px;
       font: {
         family: var(--primaryFont);
@@ -1115,7 +1118,7 @@ img {
       line-height: 43.2px;
     }
     p {
-      color: #475569;
+      color: var(--textColor);
       font: {
         size: 18px;
       }
@@ -1129,7 +1132,7 @@ img {
   }
   .association-event {
     h3 {
-      color: #0f172a;
+      color: var(--headerColor);
       padding-bottom: 24px;
       font: {
         family: var(--primaryFont);
@@ -1147,7 +1150,7 @@ img {
       line-height: 32px;
     }
     p {
-      color: #475569;
+      color: var(--textColor);
       font: {
         size: 18px;
       }
@@ -1203,7 +1206,7 @@ img {
 //Learn
 .learn-wrapper {
   h3 {
-    color: #0f172a;
+    color: var(--headerColor);
     font: {
       family: var(--primaryFont);
       size: 36px;
@@ -1215,7 +1218,7 @@ img {
     padding: {
       top: 24px;
     }
-    color: #475569;
+    color: var(--textColor);
     font: {
       size: 18px;
       family: var(--primaryFont);
@@ -1282,7 +1285,7 @@ img {
 //School-Campus
 .school {
   h3 {
-    color: #0f172a;
+    color: var(--headerColor);
     font: {
       family: var(--primaryFont);
       size: 36px;
@@ -1294,7 +1297,7 @@ img {
     padding: {
       top: 24px;
     }
-    color: #475569;
+    color: var(--textColor);
     font: {
       size: 18px;
       family: var(--primaryFont);
@@ -1377,7 +1380,7 @@ img {
 
 .accreditation {
   h3 {
-    color: #0f172a;
+    color: var(--headerColor);
     font: {
       family: var(--primaryFont);
       size: 36px;
@@ -1389,7 +1392,7 @@ img {
     padding: {
       top: 24px;
     }
-    color: #475569;
+    color: var(--textColor);
     font: {
       size: 18px;
       family: var(--primaryFont);
@@ -1415,7 +1418,7 @@ img {
 .calendar {
   p {
     padding-top: 16px;
-    color: var(--blueColor);
+    color: var(--textColor);
     font: {
       weight: 400;
       size: 18px;
@@ -1425,7 +1428,7 @@ img {
   }
   h4 {
     padding-bottom: 32px;
-    color: var(--blueColor);
+    color: var(--headerColor);
     font: {
       weight: 700;
       size: 36;
@@ -1436,7 +1439,7 @@ img {
   h3 {
     padding-top: 70px;
 
-    color: var(--blueColor);
+    color: var(--headerColor);
     font: {
       weight: 700;
       size: 48;
@@ -1470,7 +1473,7 @@ img {
 .join {
   p {
     padding-top: 16px;
-    color: var(--blueColor);
+    color: var(--textColor);
     font: {
       weight: 400;
       size: 18px;
@@ -1480,7 +1483,7 @@ img {
   }
   h4 {
     padding-bottom: 32px;
-    color: var(--blueColor);
+    color: var(--headerColor);
     font: {
       weight: 700;
       size: 30px;
@@ -1489,10 +1492,10 @@ img {
     line-height: 32px;
   }
   h3 {
-    color: var(--blueColor);
+    color: var(--headerColor);
     font: {
       weight: 700;
-      size: 48;
+      size: 36px;
       font: var(--primaryFont);
     }
     line-height: 43.2px;

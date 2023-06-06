@@ -1,0 +1,162 @@
+.enrollment {
+    p {
+        color: var(--textColor);
+        font: {
+            weight: 400;
+            size: 18px;
+            font: var(--primaryFont);
+        }
+        line-height: 27px;
+    }
+
+    h3 {
+        color: var(--headerColor);
+        font: {
+            weight: 700;
+            size: 36px;
+            font: var(--primaryFont);
+        }
+        line-height: 43.2px;
+    }
+    .enrollment-image {
+        width: 100%;
+        img {
+            border-radius: 8px;
+        }
+    }
+    .enrollment-content-wrapper {
+        margin-top: 50px;
+
+        .enrollment-content-single {
+            margin-top: 48px;
+            h4 {
+                color: var(--headerColor);
+                font: {
+                    size: 30px;
+                    weight: 700;
+                    family: var(--primaryFont);
+                }
+                line-height: 39px;
+            }
+            p {
+                padding-top: 5px;
+                color: var(--textColor);
+                font: {
+                    size: 18px;
+                    family: var(--primaryFont);
+                }
+
+                line-height: 27px;
+                a {
+                    color: var(--yellowColor);
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            h6 {
+                color: var(--headerColor);
+                font: {
+                    size: 24px;
+                    weight: 600;
+                    family: var(--primaryFont);
+                }
+                line-height: 32px;
+            }
+            ul {
+                list-style-type: none;
+                padding-top: 15px;
+
+                li {
+                    position: relative;
+                    padding-left: 30px;
+                    margin-top: 6px;
+                    line-height: 24px;
+                    color: var(--blueColor);
+                    font: {
+                        size: 16px;
+                        weight: 400;
+                        family: var(--primaryFont);
+                    }
+                    a {
+                        color: var(--yellowColor);
+                    }
+                    &:hover {
+                        a {
+                            color: var(--yellowColor);
+                            text-decoration: underline;
+                            line-height: 30px;
+                        }
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 12px;
+                        left: 0;
+                        border-radius: 1px;
+                        width: 10px;
+                        height: 10px;
+                        background-color: var(--blueColor);
+                        outline-offset: 3px;
+                        outline: 1px solid var(--blueColor);
+                    }
+                }
+            }
+        }
+        .enrollment-content-small {
+            margin-top: 20px;
+
+            p {
+                padding-top: 5px;
+                color: var(--textColor);
+                font: {
+                    size: 18px;
+                    family: var(--primaryFont);
+                }
+
+                line-height: 27px;
+                a {
+                    color: var(--yellowColor);
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            h6 {
+                color: var(--headerColor);
+                font: {
+                    size: 24px;
+                    weight: 600;
+                    family: var(--primaryFont);
+                }
+                line-height: 32px;
+            }
+        }
+        .enrollment-content-email {
+            margin-top: 48px;
+            background-color: #f1f5f9;
+            padding: 32px;
+            text-align: center;
+            p {
+                text-align: left;
+            }
+            .default-button {
+                margin-top: 20px;
+                text-align: center;
+                line-height: 21px;
+                font: {
+                    weight: 600;
+                    size: 18px;
+                    family: var(--primaryFont);
+                }
+                iconify-icon {
+                    position: relative;
+                    top: 3px;
+                }
+            }
+        }
+    }
+}

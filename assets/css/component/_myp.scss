@@ -1,7 +1,7 @@
 .myp {
     .myp-wrapper {
         h3 {
-            color: #0f172a;
+            color: var(--headerColor);
             font: {
                 family: var(--primaryFont);
                 size: 36px;
@@ -12,7 +12,7 @@
         .myp-wrapper-text {
             padding-top: 40px;
             p {
-                color: #475569;
+                color: var(--textColor);
                 font: {
                     size: 18px;
                     family: var(--primaryFont);
@@ -24,7 +24,7 @@
                 }
             }
             h5 {
-                color: #0f172a;
+                color: var(--headerColor);
                 padding: 15px 0;
                 font: {
                     family: var(--primaryFont);
