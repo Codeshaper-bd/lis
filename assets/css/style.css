@@ -2567,4 +2567,44 @@ img {
 .calendar .default-button iconify-icon {
   position: relative;
   top: -2px;
+}
+
+.join p {
+  padding-top: 16px;
+  color: var(--blueColor);
+  font-weight: 400;
+  font-size: 18px;
+  font-font: var(--primaryFont);
+  line-height: 27px;
+}
+.join h4 {
+  padding-bottom: 32px;
+  color: var(--blueColor);
+  font-weight: 700;
+  font-size: 30px;
+  font-font: var(--primaryFont);
+  line-height: 32px;
+}
+.join h3 {
+  color: var(--blueColor);
+  font-weight: 700;
+  font-size: 48;
+  font-font: var(--primaryFont);
+  line-height: 43.2px;
+}
+.join .join-card {
+  margin-top: 32px;
+}
+.join .join-card .join-card-image {
+  background-color: #d9d9d9;
+  height: 334px;
+  width: 100%;
+  border-radius: 8px;
+}
+.join .join-banner {
+  margin-top: 32px;
+  background-color: #d9d9d9;
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
