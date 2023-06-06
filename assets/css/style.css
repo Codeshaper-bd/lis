@@ -751,14 +751,14 @@ Header Responsive Area CSS
   max-width: 72px;
   text-align: center;
   padding: 10px 9px;
-  box-shadow: 0 2px 2px #888888;
+  box-shadow: 0 2px 5px rgba(41, 66, 105, 0.2);
 }
 .side-card-wrapper .blog-card .blog-card-text .blog-date p {
   color: var(--headerColor);
   font-weight: 900;
   font-size: 14px;
   font-family: var(--primaryFont);
-  line-height: 20px;
+  line-height: 10px;
   margin: 0;
 }
 .side-card-wrapper .blog-card .blog-card-text h3 {
@@ -2932,4 +2932,84 @@ img {
   height: 500px;
   width: 100%;
   border-radius: 8px;
+}
+
+.recruitment p {
+  padding-top: 10px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.recruitment p a {
+  color: var(--yellowColor);
+}
+.recruitment p a:hover {
+  text-decoration: underline;
+}
+.recruitment h3 {
+  margin-bottom: 15px;
+  color: var(--headerColor);
+  font-weight: 700;
+  font-size: 36px;
+  font-font: var(--primaryFont);
+  line-height: 43.2px;
+}
+.recruitment .recruitment-image {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.recruitment .recruitment-image img {
+  border-radius: 8px;
+}
+.recruitment .recruitment-content-single {
+  margin-top: 32px;
+}
+.recruitment .recruitment-content-single h6 {
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 30px;
+}
+.recruitment .recruitment-content-single ul {
+  list-style-type: none;
+}
+.recruitment .recruitment-content-single ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 27px;
+  color: var(--blueColor);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.recruitment .recruitment-content-single ul li a {
+  color: var(--yellowColor);
+}
+.recruitment .recruitment-content-single ul li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.recruitment .recruitment-content-single ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+.recruitment .blue-button {
+  margin-top: 40px;
+}
+.recruitment .blue-button iconify-icon {
+  position: relative;
+  top: 5px;
 }/*# sourceMappingURL=style.css.map */
