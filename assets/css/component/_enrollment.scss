@@ -2,11 +2,18 @@
     p {
         color: var(--textColor);
         font: {
-            weight: 400;
             size: 18px;
-            font: var(--primaryFont);
+            family: var(--primaryFont);
         }
+
         line-height: 27px;
+        a {
+            color: var(--yellowColor);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     h3 {
@@ -38,23 +45,7 @@
                 }
                 line-height: 39px;
             }
-            p {
-                padding-top: 5px;
-                color: var(--textColor);
-                font: {
-                    size: 18px;
-                    family: var(--primaryFont);
-                }
 
-                line-height: 27px;
-                a {
-                    color: var(--yellowColor);
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-            }
             h6 {
                 color: var(--headerColor);
                 font: {
@@ -72,10 +63,10 @@
                     position: relative;
                     padding-left: 30px;
                     margin-top: 6px;
-                    line-height: 24px;
+                    line-height: 27px;
                     color: var(--blueColor);
                     font: {
-                        size: 16px;
+                        size: 18px;
                         weight: 400;
                         family: var(--primaryFont);
                     }
@@ -109,7 +100,8 @@
             margin-top: 20px;
 
             p {
-                padding-top: 5px;
+                padding: 0;
+                margin: 0;
                 color: var(--textColor);
                 font: {
                     size: 18px;
@@ -140,6 +132,7 @@
             background-color: #f1f5f9;
             padding: 32px;
             text-align: center;
+            border-radius: 8px;
             p {
                 text-align: left;
             }

@@ -1397,10 +1397,15 @@ Header Responsive Area CSS
 
 .enrollment p {
   color: var(--textColor);
-  font-weight: 400;
   font-size: 18px;
-  font-font: var(--primaryFont);
+  font-family: var(--primaryFont);
   line-height: 27px;
+}
+.enrollment p a {
+  color: var(--yellowColor);
+}
+.enrollment p a:hover {
+  text-decoration: underline;
 }
 .enrollment h3 {
   color: var(--headerColor);
@@ -1428,19 +1433,6 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
   line-height: 39px;
 }
-.enrollment .enrollment-content-wrapper .enrollment-content-single p {
-  padding-top: 5px;
-  color: var(--textColor);
-  font-size: 18px;
-  font-family: var(--primaryFont);
-  line-height: 27px;
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single p a {
-  color: var(--yellowColor);
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single p a:hover {
-  text-decoration: underline;
-}
 .enrollment .enrollment-content-wrapper .enrollment-content-single h6 {
   color: var(--headerColor);
   font-size: 24px;
@@ -1456,9 +1448,9 @@ Header Responsive Area CSS
   position: relative;
   padding-left: 30px;
   margin-top: 6px;
-  line-height: 24px;
+  line-height: 27px;
   color: var(--blueColor);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-family: var(--primaryFont);
 }
@@ -1486,7 +1478,8 @@ Header Responsive Area CSS
   margin-top: 20px;
 }
 .enrollment .enrollment-content-wrapper .enrollment-content-small p {
-  padding-top: 5px;
+  padding: 0;
+  margin: 0;
   color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
@@ -1510,6 +1503,7 @@ Header Responsive Area CSS
   background-color: #f1f5f9;
   padding: 32px;
   text-align: center;
+  border-radius: 8px;
 }
 .enrollment .enrollment-content-wrapper .enrollment-content-email p {
   text-align: left;
@@ -1523,6 +1517,203 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
 }
 .enrollment .enrollment-content-wrapper .enrollment-content-email .default-button iconify-icon {
+  position: relative;
+  top: 3px;
+}
+
+.policy p {
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.policy p a {
+  color: var(--yellowColor);
+}
+.policy p a:hover {
+  text-decoration: underline;
+}
+.policy h3 {
+  margin-bottom: 32px;
+  color: var(--headerColor);
+  font-weight: 700;
+  font-size: 36px;
+  font-font: var(--primaryFont);
+  line-height: 43.2px;
+}
+.policy .policy-image {
+  background: url(/assets/images/policy.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 525px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.policy .policy-image::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.policy .policy-image .play-btn {
+  height: 83px;
+  width: 83px;
+  border: none;
+  font-size: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--blueColor);
+  color: var(--whiteColor);
+  position: relative;
+  margin: 30px;
+  top: 40%;
+  left: 40%;
+  padding-top: 8px;
+}
+.policy .policy-image .play-btn iconify-icon {
+  position: relative;
+  z-index: 1;
+  top: 10%;
+  left: 25%;
+}
+.policy .policy-image .play-btn::before {
+  content: "";
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  background-color: var(--blueColor);
+  opacity: 0.4;
+  animation: plusAnimate 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.policy .policy-image .play-btn::after {
+  content: "";
+  width: 190%;
+  height: 190%;
+  border-radius: 50%;
+  background-color: var(--blueColor);
+  animation: plusAnimate 5s linear infinite;
+  opacity: 0.2;
+  transition-delay: 0.3s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.policy .policy-content-wrapper {
+  margin-top: 50px;
+}
+.policy .policy-content-wrapper .policy-content-single {
+  margin-top: 48px;
+}
+.policy .policy-content-wrapper .policy-content-single h4 {
+  color: var(--headerColor);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 39px;
+}
+.policy .policy-content-wrapper .policy-content-single h6 {
+  color: var(--headerColor);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 32px;
+}
+.policy .policy-content-wrapper .policy-content-single ul {
+  list-style-type: none;
+}
+.policy .policy-content-wrapper .policy-content-single ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 27px;
+  color: var(--blueColor);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.policy .policy-content-wrapper .policy-content-single ul li a {
+  color: var(--yellowColor);
+}
+.policy .policy-content-wrapper .policy-content-single ul li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.policy .policy-content-wrapper .policy-content-single ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+.policy .policy-content-wrapper .policy-content-small {
+  margin-top: 40px;
+}
+.policy .policy-content-wrapper .policy-content-small p {
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.policy .policy-content-wrapper .policy-content-small p a {
+  color: var(--yellowColor);
+}
+.policy .policy-content-wrapper .policy-content-small p a:hover {
+  text-decoration: underline;
+}
+.policy .policy-content-wrapper .policy-content-small h6 {
+  color: var(--headerColor);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 32px;
+}
+.policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p {
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p a {
+  color: var(--headerColor);
+  font-weight: 600;
+}
+.policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p a:hover {
+  text-decoration: none;
+}
+.policy .policy-content-wrapper .policy-content-email {
+  margin-top: 48px;
+  background-color: #f1f5f9;
+  padding: 32px;
+  text-align: center;
+  border-radius: 8px;
+}
+.policy .policy-content-wrapper .policy-content-email p {
+  text-align: left;
+}
+.policy .policy-content-wrapper .policy-content-email .default-button {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 21px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+}
+.policy .policy-content-wrapper .policy-content-email .default-button iconify-icon {
   position: relative;
   top: 3px;
 }
