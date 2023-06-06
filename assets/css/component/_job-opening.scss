@@ -1,0 +1,87 @@
+.job-opening {
+    .job-opening-wrapper {
+        h3 {
+            color: var(--headerColor);
+            font: {
+                family: var(--primaryFont);
+                size: 36px;
+                weight: 700;
+            }
+            line-height: 43.2px;
+        }
+        p {
+            color: var(--textColor);
+            font: {
+                size: 18px;
+                family: var(--primaryFont);
+            }
+
+            line-height: 27px;
+            a {
+                color: var(--yellowColor);
+                font: {
+                    size: 18px;
+                    family: var(--primaryFont);
+                }
+            }
+        }
+
+        .job-opening-wrapper-group {
+            padding-top: 24px;
+            .job-opening-card {
+                padding-bottom: 70px;
+                .job-opening-image {
+                    border-radius: 50%;
+                    width: 100%;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                    }
+                    background-color: #f1f5f9;
+                }
+                .job-opening-text {
+                    margin-top: 10px;
+                    .header {
+                        margin-bottom: 20px;
+                        h3 {
+                            font-size: 30px;
+                        }
+                        p {
+                            padding-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .job-opening-testimonial {
+            margin-top: 30px;
+            padding: 32px;
+            background-color: #f1f5f9;
+            padding-top: 20px;
+            border-radius: 8px;
+            p {
+                color: var(--textColor);
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+//responsive
+
+@media only screen and (max-width: 767px) {
+    .job-opening-wrapper {
+        .job-opening-wrapper-group {
+            .job-opening-card {
+                .order1 {
+                    order: 1 !important;
+                }
+                .order2 {
+                    order: 2 !important;
+                }
+            }
+        }
+    }
+}

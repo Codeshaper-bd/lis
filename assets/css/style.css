@@ -1718,6 +1718,73 @@ Header Responsive Area CSS
   top: 3px;
 }
 
+.job-opening .job-opening-wrapper h3 {
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+}
+.job-opening .job-opening-wrapper p {
+  color: var(--textColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  line-height: 27px;
+}
+.job-opening .job-opening-wrapper p a {
+  color: var(--yellowColor);
+  font-size: 18px;
+  font-family: var(--primaryFont);
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group {
+  padding-top: 24px;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card {
+  padding-bottom: 70px;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-image {
+  border-radius: 50%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f1f5f9;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-image img {
+  width: 100%;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text {
+  margin-top: 10px;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header {
+  margin-bottom: 20px;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header h3 {
+  font-size: 30px;
+}
+.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header p {
+  padding-top: 0;
+}
+.job-opening .job-opening-wrapper .job-opening-testimonial {
+  margin-top: 30px;
+  padding: 32px;
+  background-color: #f1f5f9;
+  padding-top: 20px;
+  border-radius: 8px;
+}
+.job-opening .job-opening-wrapper .job-opening-testimonial p {
+  color: var(--textColor);
+}
+.job-opening .job-opening-wrapper .job-opening-testimonial p span {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .order1 {
+    order: 1 !important;
+  }
+  .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .order2 {
+    order: 2 !important;
+  }
+}
 body {
   margin: 0;
   padding: 0;
