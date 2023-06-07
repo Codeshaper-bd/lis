@@ -1785,6 +1785,71 @@ Header Responsive Area CSS
     order: 2 !important;
   }
 }
+.social-media h3 {
+  color: var(--headerColor);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 43.2px;
+}
+.social-media p {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  line-height: 32px;
+}
+.social-media .social-media-frame {
+  margin-top: 45px;
+  margin-bottom: 70px;
+  border: 1px solid var(--textColor);
+  border-radius: 8px;
+}
+.social-media .social-media-frame .social-meida-button-section {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media .social-media-frame .social-meida-button-section .default-button {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 30px;
+}
+.social-media .social-media-frame .social-meida-content-section {
+  border-top: 1px solid var(--textColor);
+}
+.social-media .social-media-frame .social-meida-content-section .social-media-image {
+  padding: 16px;
+}
+.social-media .social-follow-buttons ul {
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+}
+.social-media .social-follow-buttons ul li {
+  margin: 15px;
+  background-color: #f1f5f9;
+  border-radius: 50%;
+  color: var(--textColor);
+  font-size: 30px;
+}
+.social-media .social-follow-buttons ul li:hover {
+  background-color: var(--blueColor);
+}
+.social-media .social-follow-buttons ul li:hover a {
+  text-decoration: none;
+  color: #f1f5f9;
+}
+.social-media .social-follow-buttons ul li a {
+  position: relative;
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   padding: 0;
