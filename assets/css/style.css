@@ -1850,6 +1850,40 @@ Header Responsive Area CSS
   align-items: center;
 }
 
+.quick-links {
+  padding-top: 50px;
+}
+.quick-links .quick-links-single {
+  margin-top: 100px;
+  text-align: center;
+}
+.quick-links .quick-links-single .quick-link-image {
+  background-color: var(--blueColor);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quick-links .quick-links-single .quick-link-image img {
+  width: 50%;
+}
+.quick-links .quick-links-single p {
+  line-height: 32px;
+  padding-top: 32px;
+  transition: 0.5s ease-in-out;
+  color: var(--headerColor);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+}
+.quick-links .quick-links-single:hover p {
+  color: var(--yellowColor);
+}
+
 body {
   margin: 0;
   padding: 0;

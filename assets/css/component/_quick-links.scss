@@ -1,0 +1,39 @@
+.quick-links {
+    padding-top: 50px;
+    .quick-links-single {
+        margin-top: 100px;
+        text-align: center;
+        .quick-link-image {
+            background-color: var(--blueColor);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: {
+                left: auto;
+                right: auto;
+            }
+            img {
+                width: 50%;
+            }
+        }
+        p {
+            line-height: 32px;
+            padding-top: 32px;
+            transition: 0.5s ease-in-out;
+            color: var(--headerColor);
+            font: {
+                size: 24px;
+                weight: 600;
+                family: var(--primaryFont);
+            }
+        }
+        &:hover {
+            p {
+                color: var(--yellowColor);
+            }
+        }
+    }
+}
