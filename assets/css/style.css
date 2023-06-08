@@ -1958,6 +1958,62 @@ Header Responsive Area CSS
   width: 100%;
 }
 
+.site-map h3 {
+  line-height: 43.2px;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+}
+.site-map h6 {
+  padding-left: 10px;
+  line-height: 32px;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 24px;
+  font-weight: 700;
+}
+.site-map .site-map-single-wrapper {
+  margin-top: 50px;
+}
+.site-map .site-map-single-wrapper .site-map-single {
+  margin-bottom: 50px;
+  padding-top: 20px;
+  border-left: 30px solid var(--blueColor);
+}
+.site-map .site-map-single-wrapper .site-map-single ul {
+  list-style-type: none;
+  padding-left: 40px;
+  color: #294269;
+}
+.site-map .site-map-single-wrapper .site-map-single ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.site-map .site-map-single-wrapper .site-map-single ul li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+.site-map .site-map-single-wrapper .site-map-single ul li a:hover {
+  color: var(--yellowColor);
+}
+.site-map .site-map-single-wrapper .site-map-single ul li a:hover a {
+  color: var(--yellowColor);
+}
+
 body {
   margin: 0;
   padding: 0;
