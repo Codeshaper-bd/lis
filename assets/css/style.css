@@ -2014,6 +2014,119 @@ Header Responsive Area CSS
   color: var(--yellowColor);
 }
 
+.sign-in .login-card-wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sign-in .login-card-wrapper .login-card {
+  border: 1px solid rgba(100, 116, 139, 0.3);
+  border-radius: 0 0 8px 8px;
+  position: relative;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form {
+  margin-top: 80px;
+  text-align: center;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form .login-card-lock-logo {
+  position: absolute;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  left: 45%;
+  top: 270px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(41, 66, 105, 0.2);
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 32px;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--textColor);
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 39px;
+  font-size: 30px;
+  font-family: var(--primaryFont);
+  font-weight: 700;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p a {
+  color: var(--yellowColor);
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p a:hover {
+  color: var(--yellowColor);
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper input {
+  border: 1px solid var(--textColor) !important;
+  border-radius: 8px !important;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass {
+  margin-bottom: 16px;
+  border: 1px solid var(--textColor);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass input {
+  padding: 5px 0 0 10px;
+  border: none !important;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass iconify-icon {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .default-button {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .default-button iconify-icon {
+  position: relative;
+  top: 5px;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .forget-pass {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .forget-pass .checkbox {
+  color: var(--textColor);
+  line-height: 27px;
+  font-size: 16px;
+  font-family: var(--primaryFont);
+  font-weight: 600;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .forget-pass .checkbox span {
+  padding-left: 10px;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .image-capcha img {
+  width: 90%;
+}
+.sign-in .login-card-wrapper .login-card h4 {
+  text-align: center;
+  line-height: 32px;
+  font-size: 24px;
+  font-family: var(--primaryFont);
+  font-weight: 700;
+}
+.sign-in .login-card-wrapper .login-card .button {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.sign-in .login-card-wrapper .login-card .button iconify-icon {
+  margin-right: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;

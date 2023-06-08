@@ -1,0 +1,135 @@
+.sign-in {
+    .login-card-wrapper {
+        max-width: 1000px;
+        margin: {
+            left: auto;
+            right: auto;
+        }
+
+        .login-card {
+            border: 1px solid rgba(100, 116, 139, 0.3);
+            border-radius: 0 0 8px 8px;
+            position: relative;
+
+            .login-card-form {
+                margin-top: 80px;
+                text-align: center;
+
+                .login-card-lock-logo {
+                    position: absolute;
+                    background-color: #ffffff;
+                    height: 100px;
+                    width: 100px;
+                    border-radius: 50%;
+                    left: 45%;
+                    top: 270px;
+                    padding: 25px;
+                    box-shadow: 0 2px 5px rgb(41, 66, 105, 0.2);
+                }
+                form {
+                    padding: {
+                        left: 120px;
+                        right: 120px;
+                        top: 32px;
+                    }
+
+                    .form-group-wrapper {
+                        padding-bottom: 10px;
+                        margin-bottom: 20px;
+
+                        border-bottom: 1px solid var(--textColor);
+                        h3 {
+                            margin: {
+                                top: 50px;
+                                bottom: 20px;
+                            }
+                            text-align: center;
+                            line-height: 39px;
+                            font: {
+                                size: 30px;
+                                family: var(--primaryFont);
+                                weight: 700;
+                            }
+                        }
+                        p {
+                            a {
+                                color: var(--yellowColor);
+                                &:hover {
+                                    color: var(--yellowColor);
+                                }
+                            }
+                        }
+                        input {
+                            border: 1px solid var(--textColor) !important;
+                            border-radius: 8px !important;
+                        }
+                        .show-pass {
+                            margin-bottom: 16px;
+                            border: 1px solid var(--textColor);
+                            border-radius: 8px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: first baseline;
+                            input {
+                                padding: 5px 0 0 10px;
+                                border: none !important;
+                            }
+                            iconify-icon {
+                                margin-top: 20px;
+                                margin-right: 10px;
+                            }
+                        }
+                        .default-button {
+                            text-align: center;
+                            display: block;
+                            margin-bottom: 20px;
+                            iconify-icon {
+                                position: relative;
+                                top: 5px;
+                            }
+                        }
+                        .forget-pass {
+                            margin-bottom: 32px;
+                            display: flex;
+                            justify-content: space-between;
+                            .checkbox {
+                                color: var(--textColor);
+                                line-height: 27px;
+                                font: {
+                                    size: 16px;
+                                    family: var(--primaryFont);
+                                    weight: 600;
+                                }
+                                span {
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+                        .image-capcha {
+                            img {
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+            }
+            h4 {
+                text-align: center;
+                line-height: 32px;
+                font: {
+                    size: 24px;
+                    family: var(--primaryFont);
+                    weight: 700;
+                }
+            }
+            .button {
+                text-align: center;
+                margin-bottom: 50px;
+                margin-top: 20px;
+                iconify-icon {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
