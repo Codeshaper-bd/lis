@@ -52,6 +52,7 @@
                             }
                         }
                         p {
+                            color: var(--textColor);
                             a {
                                 color: var(--yellowColor);
                                 &:hover {
@@ -127,7 +128,12 @@
                 margin-bottom: 50px;
                 margin-top: 20px;
                 iconify-icon {
+                    position: relative;
+                    top: 3px;
                     margin-right: 10px;
+                    background-color: #ffffff;
+                    padding-left: 0px !important;
+                    font-size: 20px !important;
                 }
             }
         }
