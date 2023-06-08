@@ -25,6 +25,7 @@
 @import "component/job-opening";
 @import "component/social-media";
 @import "component/quick-links";
+@import "component/contact-us";
 
 body {
   margin: 0;
@@ -56,6 +57,33 @@ p {
 
 img {
   max-width: 100%;
+}
+
+.form-control {
+  color: #707070 !important;
+  margin-bottom: 16px;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-color: none !important;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: var(--primaryFont);
+  line-height: 24px !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  &:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-color: none !important;
+    border-radius: 4px;
+    font-family: var(--primaryFont);
+    line-height: 24px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #707070 !important;
+  }
 }
 
 .ptb-140 {

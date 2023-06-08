@@ -1884,6 +1884,80 @@ Header Responsive Area CSS
   color: var(--yellowColor);
 }
 
+.contact-us {
+  padding-top: 250px;
+}
+.contact-us .contact-form-section {
+  padding-bottom: 230px;
+  background-color: #f1f5f9;
+}
+.contact-us .contact-form-section .contact-form h3 {
+  padding-top: 50px;
+  margin-bottom: 63px;
+  color: var(--headerColor);
+  font-weight: 700;
+  font-size: 48px;
+  font-font: var(--primaryFont);
+  line-height: 57.6px;
+  text-align: left;
+}
+.contact-us .contact-form-section .contact-form .default-button {
+  margin-top: 10px;
+}
+.contact-us .contact-form-section .address-card-wrapper {
+  position: relative;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card {
+  max-width: 475px;
+  position: absolute;
+  top: -80px;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-image {
+  border-radius: 8px 8px 0 0;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text {
+  border-radius: 0 0 8px 8px;
+  background-color: #ffffff;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul {
+  max-width: 295px;
+  list-style: none;
+  padding: 16px 32px 32px 32px;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li {
+  padding-top: 16px;
+  display: flex;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li img {
+  width: 30px;
+  height: 30px;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text {
+  padding-left: 16px;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text h6 {
+  color: var(--headerColor);
+  line-height: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  font-size: 24px;
+}
+.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text p {
+  line-height: 27px;
+  color: var(--textColor);
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.contact-us .map-campus {
+  width: 100%;
+  max-height: 550px;
+}
+.contact-us .accridation-campus .accridation-image {
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -1910,6 +1984,33 @@ p:last-child {
 
 img {
   max-width: 100%;
+}
+
+.form-control {
+  color: #707070 !important;
+  margin-bottom: 16px;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-color: none !important;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: var(--primaryFont);
+  line-height: 24px !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.form-control:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-color: none !important;
+  border-radius: 4px;
+  font-family: var(--primaryFont);
+  line-height: 24px !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #707070 !important;
 }
 
 .ptb-140 {
