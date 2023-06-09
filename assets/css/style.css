@@ -2185,6 +2185,205 @@ Header Responsive Area CSS
   font-size: 20px !important;
 }
 
+.information .school-info {
+  border-bottom: 1px solid var(--blueColor);
+  padding-bottom: 32px;
+  margin-bottom: 10px;
+}
+.information .school-info h6 {
+  line-height: 30px;
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .school-info h6 span {
+  font-weight: 400;
+}
+.information .school-info p {
+  line-height: 27px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.information .school-info p span {
+  font-weight: 400;
+}
+.information .designation-info-wrapper {
+  border-bottom: 1px solid var(--blueColor);
+  padding-bottom: 32px;
+}
+.information .designation-info-wrapper .designation-info {
+  margin-top: 24px;
+}
+.information .designation-info-wrapper .designation-info h6 {
+  margin-bottom: 5px;
+  line-height: 30px;
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .designation-info-wrapper .designation-info p {
+  margin-bottom: 5px;
+  line-height: 27px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--primaryFont);
+}
+.information .designation-info-wrapper .designation-info p span {
+  font-weight: 400;
+}
+.information .designation-info-wrapper .designation-info a {
+  color: var(--yellowColor);
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.information .accridation {
+  border-bottom: 1px solid var(--blueColor);
+  padding-bottom: 32px;
+  margin-top: 24px;
+}
+.information .accridation h6 {
+  margin-bottom: 5px;
+  line-height: 30px;
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .accridation p {
+  margin-bottom: 5px;
+  line-height: 27px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.information .accridation p a {
+  color: var(--textColor);
+}
+.information .accridation p a:hover {
+  color: var(--textColor);
+}
+.information .diploma-subject {
+  margin-top: 24px;
+}
+.information .diploma-subject .diploma-subject-single {
+  margin-top: 20px;
+}
+.information .diploma-subject .diploma-subject-single h5 {
+  line-height: 30px;
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .diploma-subject .diploma-subject-single h6 {
+  margin-bottom: 5px;
+  line-height: 30px;
+  color: var(--headerColor);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+}
+.information .diploma-subject .diploma-subject-single p {
+  margin-bottom: 5px;
+  line-height: 27px;
+  color: var(--textColor);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--primaryFont);
+}
+.information .diploma-subject .diploma-subject-single p span {
+  font-weight: 400;
+}
+.information .info-image {
+  margin-top: 50px;
+}
+.information .offer-admission {
+  margin-top: 50px;
+}
+.information .offer-admission h3 {
+  color: var(--headerColor);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 43.2px;
+}
+.information .offer-admission h6 {
+  line-height: 30px;
+  color: var(--textColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .offer-admission h6 span {
+  color: var(--headerColor);
+}
+.information .offer-admission h5 {
+  margin-bottom: 5px;
+  line-height: 32px;
+  color: var(--headerColor);
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .offer-admission .offer-admission-card {
+  border: 1px solid var(--headerColor);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.information .offer-admission .offer-admission-card h6 {
+  line-height: 30px;
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+}
+.information .offer-admission .offer-admission-card h6 span {
+  color: var(--headerColor);
+}
+.information .offer-admission .offer-admission-card ul {
+  list-style-type: none;
+}
+.information .offer-admission .offer-admission-card ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 24px;
+  color: var(--blueColor);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.information .offer-admission .offer-admission-card ul li a {
+  text-decoration: underline;
+}
+.information .offer-admission .offer-admission-card ul li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.information .offer-admission .offer-admission-card ul li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+
 body {
   margin: 0;
   padding: 0;
