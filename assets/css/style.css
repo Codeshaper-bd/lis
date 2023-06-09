@@ -2384,6 +2384,49 @@ Header Responsive Area CSS
   outline: 1px solid var(--blueColor);
 }
 
+.leadership h3 {
+  text-align: center;
+  line-height: 43.2px;
+  color: var(--headerColor);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  margin-bottom: 50px;
+}
+.leadership .card-group-wrapper {
+  margin-top: 32px;
+}
+.leadership .card-group-wrapper .card-image image {
+  width: 50%;
+}
+.leadership .card-group-wrapper .card-text {
+  margin-top: 30px;
+  position: relative;
+  border: 1px solid rgba(41, 66, 105, 0.3);
+  border-radius: 4px;
+  padding: 24px;
+}
+.leadership .card-group-wrapper .card-text .card-about {
+  padding: 0px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid rgba(41, 66, 105, 0.3);
+  position: absolute;
+  top: 0;
+  transform: translate(50%, -50%);
+}
+.leadership .card-group-wrapper .card-text .card-about p {
+  padding-top: 0;
+}
+.leadership .card-group-wrapper .card-text p {
+  text-align: center;
+  padding-top: 10px;
+  font-family: var(--primaryFont);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
 body {
   margin: 0;
   padding: 0;
