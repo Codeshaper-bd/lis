@@ -30,6 +30,7 @@
 @import "component/sign-in";
 @import "component/information";
 @import "component/leadership";
+@import "component/lis-news";
 
 body {
   margin: 0;
@@ -63,13 +64,12 @@ img {
   max-width: 100%;
 }
 
-.form-control {
+.control {
   color: #707070 !important;
   margin-bottom: 16px;
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
-  border-color: none !important;
   border-radius: 4px;
   padding: 20px;
   font-family: var(--primaryFont);

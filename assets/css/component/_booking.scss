@@ -1,63 +1,44 @@
 .booking {
-    .login-card-wrapper {
-        max-width: 1000px;
-        margin: {
-            left: auto;
-            right: auto;
-        }
+    .booking-card-wrapper {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+
+        border-bottom: 1px solid var(--textColor);
         h3 {
+            margin: {
+                top: 50px;
+                bottom: 20px;
+            }
+            text-align: center;
             line-height: 39px;
             font: {
-                weight: 700px;
                 size: 30px;
                 family: var(--primaryFont);
+                weight: 700;
             }
-            margin-bottom: 32px;
         }
-
-        form {
-            padding: {
-                left: 120px;
-                right: 120px;
-                top: 32px;
+        p {
+            color: var(--textColor);
+            a {
+                padding-left: 10px;
+                color: var(--yellowColor);
+                &:hover {
+                    color: var(--yellowColor);
+                }
             }
-
-            .form-group-wrapper {
-                padding-bottom: 10px;
-                margin-bottom: 20px;
-
-                border-bottom: 1px solid var(--textColor);
-
-                input {
-                    border: 1px solid var(--textColor) !important;
-                    border-radius: 8px !important;
+        }
+        .booking-wrapper {
+            .form-group {
+                .form-control {
                     background-color: #f1f5f9 !important;
-                }
-                .show-pass {
-                    margin-bottom: 16px;
-                    border: 1px solid var(--textColor);
-                    border-radius: 8px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: first baseline;
-                    input {
-                        padding: 5px 0 0 10px;
-                        border: none !important;
-                    }
-                    iconify-icon {
-                        margin-top: 20px;
-                        margin-right: 10px;
+
+                    &:focus {
+                        background-color: #f1f5f9 !important;
                     }
                 }
-                .default-button {
-                    text-align: center;
-                    display: block;
-                    margin-bottom: 20px;
-                    iconify-icon {
-                        position: relative;
-                        top: 5px;
-                    }
-                }
+            }
+            .default-button {
+                display: block !important;
             }
         }
     }

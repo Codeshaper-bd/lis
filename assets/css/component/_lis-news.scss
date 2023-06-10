@@ -1,0 +1,19 @@
+.lis-news-image {
+    margin-top: 32px;
+    margin-bottom: 70px;
+}
+.lis-news-info-wrapper {
+    background-color: #ffff;
+    box-shadow: 0px 2px 4px rgba(41, 66, 105, 0.15);
+    display: flex;
+    padding: {
+        top: 15px;
+        left: 20px;
+        bottom: 30px;
+    }
+    .lis-news-info-single {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

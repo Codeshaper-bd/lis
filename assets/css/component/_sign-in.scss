@@ -21,8 +21,8 @@
                     height: 100px;
                     width: 100px;
                     border-radius: 50%;
-                    left: 45%;
-                    top: 270px;
+                    top: 0;
+                    transform: translate(450%, 270%);
                     padding: 25px;
                     box-shadow: 0 2px 5px rgb(41, 66, 105, 0.2);
                 }
@@ -54,26 +54,31 @@
                         p {
                             color: var(--textColor);
                             a {
+                                padding-left: 10px;
                                 color: var(--yellowColor);
                                 &:hover {
                                     color: var(--yellowColor);
                                 }
                             }
                         }
-                        input {
+                        .form-control {
                             border: 1px solid var(--textColor) !important;
                             border-radius: 8px !important;
                         }
                         .show-pass {
+                            background-color: #ffffff;
                             margin-bottom: 16px;
                             border: 1px solid var(--textColor);
                             border-radius: 8px;
                             display: flex;
                             justify-content: center;
                             align-items: first baseline;
-                            input {
+                            .form-control {
                                 padding: 5px 0 0 10px;
                                 border: none !important;
+                                &:focus {
+                                    background-color: #ffffff;
+                                }
                             }
                             iconify-icon {
                                 margin-top: 20px;

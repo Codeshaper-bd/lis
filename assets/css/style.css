@@ -615,7 +615,7 @@ Header Responsive Area CSS
   position: relative;
   margin: 30px;
   top: 25%;
-  left: 40%;
+  left: 38%;
   padding-top: 3px;
 }
 .side-card-wrapper .video-card .video-card-image .play-btn iconify-icon {
@@ -1888,7 +1888,7 @@ Header Responsive Area CSS
   padding-top: 250px;
 }
 .contact-us .contact-form-section {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   background-color: #f1f5f9;
 }
 .contact-us .contact-form-section .contact-form h3 {
@@ -2008,6 +2008,61 @@ Header Responsive Area CSS
   width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .address-card-wrapper {
+    margin-top: 50px;
+  }
+  .address-card-wrapper .address-card {
+    position: unset !important;
+  }
+  .office-time-wrapper {
+    padding-bottom: 50px;
+    background-color: #ffffff;
+  }
+  .office-time-wrapper::before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background-color: #f1f5f9;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .office-time-wrapper .office-time {
+    z-index: 1;
+  }
+  .office-time-wrapper .office-time .office-time-group .office-time-single {
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 400px;
+    border: 1px solid var(--blueColor);
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .office-time-wrapper .office-time .office-time-group .office-time-single h4 {
+    color: var(--headerColor);
+    line-height: 39px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    font-size: 30px;
+  }
+  .office-time-wrapper .office-time .office-time-group .office-time-single p {
+    line-height: 27px;
+    color: var(--textColor);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+  }
+  .office-time-wrapper .office-time .office-time-group .office-time-single h6 {
+    color: var(--headerColor);
+    line-height: 27px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+  }
+}
 .site-map h3 {
   line-height: 43.2px;
   color: var(--headerColor);
@@ -2084,8 +2139,8 @@ Header Responsive Area CSS
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  left: 45%;
-  top: 270px;
+  top: 0;
+  transform: translate(450%, 270%);
   padding: 25px;
   box-shadow: 0 2px 5px rgba(41, 66, 105, 0.2);
 }
@@ -2112,16 +2167,18 @@ Header Responsive Area CSS
   color: var(--textColor);
 }
 .sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p a {
+  padding-left: 10px;
   color: var(--yellowColor);
 }
 .sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p a:hover {
   color: var(--yellowColor);
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper input {
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .form-control {
   border: 1px solid var(--textColor) !important;
   border-radius: 8px !important;
 }
 .sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass {
+  background-color: #ffffff;
   margin-bottom: 16px;
   border: 1px solid var(--textColor);
   border-radius: 8px;
@@ -2129,9 +2186,12 @@ Header Responsive Area CSS
   justify-content: center;
   align-items: first baseline;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass input {
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass .form-control {
   padding: 5px 0 0 10px;
   border: none !important;
+}
+.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass .form-control:focus {
+  background-color: #ffffff;
 }
 .sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass iconify-icon {
   margin-top: 20px;
@@ -2427,6 +2487,25 @@ Header Responsive Area CSS
   line-height: 27px;
 }
 
+.lis-news-image {
+  margin-top: 32px;
+  margin-bottom: 70px;
+}
+
+.lis-news-info-wrapper {
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(41, 66, 105, 0.15);
+  display: flex;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.lis-news-info-wrapper .lis-news-info-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -2455,13 +2534,12 @@ img {
   max-width: 100%;
 }
 
-.form-control {
+.control {
   color: #707070 !important;
   margin-bottom: 16px;
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
-  border-color: none !important;
   border-radius: 4px;
   padding: 20px;
   font-family: var(--primaryFont);
@@ -2469,7 +2547,7 @@ img {
   font-size: 16px !important;
   font-weight: 400 !important;
 }
-.form-control:focus {
+.control:focus {
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
