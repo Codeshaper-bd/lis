@@ -30,8 +30,9 @@
                 background-color: #ffffff;
                 border: 1px solid rgba(41, 66, 105, 0.3);
                 position: absolute;
-                top: 0;
-                transform: translate(50%, -50%);
+                top: -15px;
+                left: 50%;
+                transform: translateX(-50px);
 
                 p {
                     padding-top: 0;

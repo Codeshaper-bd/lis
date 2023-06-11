@@ -1,6 +1,6 @@
 .diploma-wrapper-groups {
     padding-top: 32px;
-
+    padding-bottom: 32px;
     p {
         color: var(--textColor);
         font: {
@@ -16,12 +16,15 @@
                 family: var(--primaryFont);
             }
         }
+        &:nth-child(2) {
+            margin-top: 30px;
+        }
     }
     .groups-single {
-        margin-bottom: 32px;
         border: 1px solid var(--blueColor);
         border-radius: 8px;
         height: 100%;
+
         .header {
             padding-top: 16px;
             text-align: center;

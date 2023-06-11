@@ -1310,6 +1310,7 @@ Header Responsive Area CSS
 }
 .diploma-wrapper-groups {
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 .diploma-wrapper-groups p {
   color: var(--textColor);
@@ -1322,8 +1323,10 @@ Header Responsive Area CSS
   font-size: 18px;
   font-family: var(--primaryFont);
 }
+.diploma-wrapper-groups p:nth-child(2) {
+  margin-top: 30px;
+}
 .diploma-wrapper-groups .groups-single {
-  margin-bottom: 32px;
   border: 1px solid var(--blueColor);
   border-radius: 8px;
   height: 100%;
@@ -1801,26 +1804,10 @@ Header Responsive Area CSS
 .social-media .social-media-frame {
   margin-top: 45px;
   margin-bottom: 70px;
-  border: 1px solid var(--textColor);
-  border-radius: 8px;
 }
-.social-media .social-media-frame .social-meida-button-section {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.social-media .social-media-frame .social-meida-button-section .default-button {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: var(--primaryFont);
-  line-height: 30px;
-}
-.social-media .social-media-frame .social-meida-content-section {
-  border-top: 1px solid var(--textColor);
-}
-.social-media .social-media-frame .social-meida-content-section .social-media-image {
-  padding: 16px;
+.social-media .social-media-frame .twitter-timeline {
+  height: 100vh;
+  overflow: auto;
 }
 .social-media .social-follow-buttons ul {
   display: flex;
@@ -1828,6 +1815,7 @@ Header Responsive Area CSS
   margin-left: 100px;
 }
 .social-media .social-follow-buttons ul li {
+  transition: 0.4s ease-in-out;
   margin: 15px;
   background-color: #f1f5f9;
   border-radius: 50%;
@@ -1973,7 +1961,7 @@ Header Responsive Area CSS
   margin-top: 30px;
   background-color: #ffffff;
   border-radius: 8px;
-  max-width: 400px;
+  max-width: 100%;
   border: 1px solid var(--blueColor);
   text-align: center;
   padding-top: 48px;
@@ -2126,12 +2114,12 @@ Header Responsive Area CSS
 }
 .sign-in .login-card-wrapper .login-card {
   border: 1px solid rgba(100, 116, 139, 0.3);
-  border-radius: 0 0 8px 8px;
-  position: relative;
+  border-radius: 15px;
 }
 .sign-in .login-card-wrapper .login-card .login-card-form {
-  margin-top: 80px;
+  padding-top: 80px;
   text-align: center;
+  position: relative;
 }
 .sign-in .login-card-wrapper .login-card .login-card-form .login-card-lock-logo {
   position: absolute;
@@ -2139,10 +2127,11 @@ Header Responsive Area CSS
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  top: 0;
-  transform: translate(450%, 270%);
+  top: -55px;
   padding: 25px;
   box-shadow: 0 2px 5px rgba(41, 66, 105, 0.2);
+  left: 50%;
+  transform: translateX(-50px);
 }
 .sign-in .login-card-wrapper .login-card .login-card-form form {
   padding-left: 120px;
@@ -2152,7 +2141,7 @@ Header Responsive Area CSS
 .sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper {
   padding-bottom: 10px;
   margin-bottom: 20px;
-  border-bottom: 1px solid var(--textColor);
+  border-bottom: 1px solid #cbd5e1;
 }
 .sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper h3 {
   margin-top: 50px;
@@ -2472,8 +2461,9 @@ Header Responsive Area CSS
   background-color: #ffffff;
   border: 1px solid rgba(41, 66, 105, 0.3);
   position: absolute;
-  top: 0;
-  transform: translate(50%, -50%);
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50px);
 }
 .leadership .card-group-wrapper .card-text .card-about p {
   padding-top: 0;
@@ -2504,6 +2494,36 @@ Header Responsive Area CSS
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.booking .booking-card-wrapper {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.booking .booking-card-wrapper h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 39px;
+  font-size: 30px;
+  font-family: var(--primaryFont);
+  font-weight: 700;
+}
+.booking .booking-card-wrapper .booking-wrapper {
+  margin-top: 32px;
+}
+.booking .booking-card-wrapper .booking-wrapper .form-group .form-control {
+  background-color: #f1f5f9 !important;
+}
+.booking .booking-card-wrapper .booking-wrapper .form-group .form-control:focus {
+  background-color: #f1f5f9 !important;
+}
+.booking .booking-card-wrapper .booking-wrapper .blue-button {
+  display: block;
+  text-align: center;
+}
+.booking .booking-card-wrapper .booking-calender {
+  margin-top: 32px;
 }
 
 body {
@@ -2582,6 +2602,9 @@ img {
 }
 
 .bg-F1F5F9 {
+  background-color: #f1f5f9;
+}
+.bg-F1F5F9:focus {
   background-color: #f1f5f9;
 }
 

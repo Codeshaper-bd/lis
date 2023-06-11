@@ -23,29 +23,9 @@
             top: 45px;
             bottom: 70px;
         }
-        border: 1px solid var(--textColor);
-        border-radius: 8px;
-        .social-meida-button-section {
-            padding: 16px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            .default-button {
-                font: {
-                    size: 16px;
-                    weight: 700;
-                    family: var(--primaryFont);
-                }
-
-                line-height: 30px;
-            }
-        }
-        .social-meida-content-section {
-            border-top: 1px solid var(--textColor);
-            .social-media-image {
-                padding: 16px;
-            }
+        .twitter-timeline {
+            height: 100vh;
+            overflow: auto;
         }
     }
     .social-follow-buttons {
@@ -54,6 +34,7 @@
             list-style: none;
             margin-left: 100px;
             li {
+                transition: 0.4s ease-in-out;
                 margin: 15px;
                 background-color: #f1f5f9;
 
