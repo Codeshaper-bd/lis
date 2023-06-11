@@ -2610,10 +2610,10 @@ Header Responsive Area CSS
   z-index: 5;
   background: rgba(0, 0, 0, 0.35);
   border-radius: 4px;
-  bottom: 25px;
+  bottom: 15px;
   transform: translateX(5%);
   width: 85%;
-  padding: 20px;
+  padding: 10px;
 }
 .slider-card-wrapper .slider-card-single .news-content-card h4 {
   color: var(--whiteColor);
