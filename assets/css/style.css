@@ -2598,6 +2598,87 @@ Header Responsive Area CSS
   color: var(--whiteColor);
 }
 
+.slider-card-wrapper {
+  margin-bottom: 50px;
+}
+.slider-card-wrapper .slider-card-single {
+  position: relative;
+}
+.slider-card-wrapper .slider-card-single .news-content-card {
+  color: white;
+  position: absolute;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  bottom: 15px;
+  transform: translateX(5%);
+  width: 85%;
+  padding: 10px;
+}
+.slider-card-wrapper .slider-card-single .news-content-card h4 {
+  color: var(--whiteColor);
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+}
+.slider-card-wrapper .slider-card-single .news-content-card p {
+  color: var(--whiteColor);
+  margin-bottom: 10px;
+  line-height: 21px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: var(--primaryFont);
+}
+.slider-card-wrapper .slider-card-single .news-content-card a {
+  color: var(--yellowColor);
+  line-height: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--primaryFont);
+}
+.slider-card-wrapper .slider-card-single .news-content-card a iconify-icon {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--primaryFont);
+}
+.slider-card-wrapper .slider-card-single .news-content-card a:hover a {
+  color: var(--yellowColor);
+  line-height: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--primaryFont);
+}
+.slider-card-wrapper .slider-card-single .news-content-card a:hover a iconify-icon {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--primaryFont);
+}
+.slider-card-wrapper .slider-card-single span {
+  padding-top: 8px;
+  color: white;
+  position: absolute;
+  background-color: var(--blueColor);
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: var(--primaryFont);
+  top: 25px;
+  transform: translateX(-85px);
+}
+
 .lis-news-image {
   margin-top: 32px;
   margin-bottom: 70px;
