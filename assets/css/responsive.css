@@ -1,3 +1,101 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .default-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .ptb-140 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .pt-140 {
+    padding-top: 80px;
+  }
+  .pb-140 {
+    padding-bottom: 80px;
+  }
+  .pl-70 {
+    padding-left: 0px;
+  }
+  .pl-30 {
+    padding-left: 0px;
+  }
+  .section-heading h3 {
+    font-size: 36px;
+  }
+  .features-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+  }
+  .features-card h3 {
+    font-size: 24px;
+  }
+  .article-card .articles-img {
+    margin-right: 20px;
+  }
+  .article-card .article-text-area h3 a {
+    font-size: 18px;
+  }
+  .article-card .article-text-area ul li {
+    font-size: 12px;
+  }
+  .article-card .article-text-area .article-card-header .article-date {
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    bottom: 10px;
+  }
+  .partner-logos img {
+    width: 120px;
+  }
+  .footer .pl-70 {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pl-70 {
+    padding-left: 30px;
+  }
+  .default-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .program-card {
+    padding: 10px;
+  }
+  .program-card .program-card-text h3 a {
+    font-size: 18px;
+  }
+  .program-card .program-card-text p {
+    font-size: 12px;
+  }
+  .program-card .program-card-text .program-card-bottom-area img {
+    width: 35px;
+  }
+  .features-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+  }
+  .features-card h3 {
+    font-size: 32px;
+  }
+  .article-card .articles-img {
+    margin-right: 15px;
+  }
+  .article-card .article-text-area h3 a {
+    font-size: 16px;
+  }
+  .article-card .article-text-area ul li {
+    font-size: 12px;
+  }
+  .article-card .article-text-area .article-card-header .article-date {
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    bottom: 10px;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .article-card .article-text-area h3 a {
     font-size: 20px;
