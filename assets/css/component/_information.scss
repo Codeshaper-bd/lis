@@ -1,0 +1,235 @@
+.information {
+    .school-info {
+        border-bottom: 1px solid var(--blueColor);
+        padding-bottom: 32px;
+        margin-bottom: 10px;
+        h6 {
+            line-height: 30px;
+            color: var(--headerColor);
+            font: {
+                size: 20px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+            span {
+                font-weight: 400;
+            }
+        }
+        p {
+            line-height: 27px;
+            color: var(--textColor);
+            font: {
+                size: 18px;
+                weight: 400;
+                family: var(--primaryFont);
+            }
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+    .designation-info-wrapper {
+        border-bottom: 1px solid var(--blueColor);
+        padding-bottom: 32px;
+        .designation-info {
+            margin-top: 24px;
+            h6 {
+                margin-bottom: 5px;
+                line-height: 30px;
+                color: var(--headerColor);
+                font: {
+                    size: 20px;
+                    weight: 700;
+                    family: var(--primaryFont);
+                }
+            }
+            p {
+                margin-bottom: 5px;
+                line-height: 27px;
+                color: var(--textColor);
+                font: {
+                    size: 18px;
+                    weight: 500;
+                    family: var(--primaryFont);
+                }
+                span {
+                    font-weight: 400;
+                }
+            }
+            a {
+                color: var(--yellowColor);
+                text-decoration: none;
+                line-height: 24px;
+                font: {
+                    size: 16px;
+                    weight: 400;
+                    family: var(--primaryFont);
+                }
+            }
+        }
+    }
+    .accridation {
+        border-bottom: 1px solid var(--blueColor);
+        padding-bottom: 32px;
+        margin-top: 24px;
+        h6 {
+            margin-bottom: 5px;
+            line-height: 30px;
+            color: var(--headerColor);
+            font: {
+                size: 20px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+        }
+        p {
+            margin-bottom: 5px;
+            line-height: 27px;
+            color: var(--textColor);
+            font: {
+                size: 18px;
+                weight: 400;
+                family: var(--primaryFont);
+            }
+            a {
+                color: var(--textColor);
+                &:hover {
+                    color: var(--textColor);
+                }
+            }
+        }
+    }
+    .diploma-subject {
+        margin-top: 24px;
+        .diploma-subject-single {
+            margin-top: 20px;
+            h5 {
+                line-height: 30px;
+                color: var(--headerColor);
+                font: {
+                    size: 20px;
+                    weight: 700;
+                    family: var(--primaryFont);
+                }
+            }
+            h6 {
+                margin-bottom: 5px;
+                line-height: 30px;
+                color: var(--headerColor);
+                font: {
+                    size: 18px;
+                    weight: 600;
+                    family: var(--primaryFont);
+                }
+            }
+            p {
+                margin-bottom: 5px;
+                line-height: 27px;
+                color: var(--textColor);
+                font: {
+                    size: 18px;
+                    weight: 500;
+                    family: var(--primaryFont);
+                }
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .info-image {
+        margin-top: 50px;
+    }
+    .offer-admission {
+        margin-top: 50px;
+        h3 {
+            color: var(--headerColor);
+            font: {
+                size: 36px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+
+            line-height: 43.2px;
+        }
+        h6 {
+            line-height: 30px;
+            color: var(--textColor);
+            font: {
+                size: 20px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+            span {
+                color: var(--headerColor);
+            }
+        }
+        h5 {
+            margin-bottom: 5px;
+            line-height: 32px;
+            color: var(--headerColor);
+            font: {
+                size: 24px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+        }
+        .offer-admission-card {
+            h6 {
+                line-height: 30px;
+                color: var(--headerColor);
+                font: {
+                    size: 20px;
+                    weight: 700;
+                    family: var(--primaryFont);
+                }
+                span {
+                    color: var(--headerColor);
+                }
+            }
+            border: 1px solid var(--headerColor);
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 20px;
+            ul {
+                list-style-type: none;
+
+                li {
+                    position: relative;
+                    padding-left: 30px;
+                    margin-top: 6px;
+                    line-height: 24px;
+                    color: var(--blueColor);
+                    font: {
+                        size: 16px;
+                        weight: 400;
+                        family: var(--primaryFont);
+                    }
+                    a {
+                        text-decoration: underline;
+                    }
+                    &:hover {
+                        a {
+                            color: var(--yellowColor);
+                            text-decoration: underline;
+                            line-height: 30px;
+                        }
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 8px;
+                        left: 0;
+                        border-radius: 1px;
+                        width: 10px;
+                        height: 10px;
+                        background-color: var(--blueColor);
+                        outline-offset: 3px;
+                        outline: 1px solid var(--blueColor);
+                    }
+                }
+            }
+        }
+    }
+}

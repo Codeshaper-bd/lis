@@ -1,6 +1,6 @@
 .child-protection {
   h3 {
-    color: #0f172a;
+    color: var(--headerColor);
     padding-bottom: 20px;
     font: {
       size: 36px;
@@ -9,7 +9,7 @@
     }
   }
   p {
-    color: #475569;
+    color: var(--textColor);
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
@@ -17,7 +17,7 @@
 
   .protecting-children {
     h5 {
-      color: #475569;
+      color: var(--textColor);
       font-size: 16px;
       line-height: 25px;
       font-weight: 600;

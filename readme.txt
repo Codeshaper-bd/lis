@@ -1,8 +1,6 @@
 Skipped:
-1. LIS leadership
-2. Board of Directors
-3. LIS news
-4. School Profile
+1. LIS News
+2. Booking
 
 
 Done: 

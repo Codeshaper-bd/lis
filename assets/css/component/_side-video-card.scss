@@ -30,7 +30,7 @@
                 position: relative;
                 margin: 30px;
                 top: 25%;
-                left: 40%;
+                left: 38%;
                 padding-top: 3px;
 
                 iconify-icon {
@@ -75,19 +75,19 @@
         .video-card-text {
             padding-top: 24px;
             h3 {
-                color: #0f172a;
+                color: var(--headerColor);
                 line-height: 32px;
 
                 font: {
-                    size: 24px;
+                    size: 22px;
                     weight: 700;
                     font-family: var(--primaryFont);
                 }
                 a {
-                    color: #0f172a;
+                    color: var(--headerColor);
                 }
                 &:hover {
-                    color: #475569;
+                    color: var(--textColor);
                 }
             }
             .default-button {
@@ -104,7 +104,7 @@
                 top: 32px;
             }
             h3 {
-                color: #0f172a;
+                color: var(--headerColor);
                 text-align: left;
                 line-height: 30px;
                 font: {
@@ -137,7 +137,7 @@
                 }
             }
             p {
-                border-top: 1px solid #475569;
+                border-top: 1px solid var(--textColor);
                 padding-top: 24px;
                 font: {
                     size: 14px;
@@ -181,39 +181,39 @@
                 max-width: 72px;
                 text-align: center;
                 padding: 10px 9px;
-                box-shadow: 0 2px 2px #888888;
+                box-shadow: 0 2px 5px rgb(41, 66, 105, 0.2);
                 p {
-                    color: #0f172a;
+                    color: var(--headerColor);
                     font: {
                         weight: 900;
-                        size: 16px;
+                        size: 14px;
                         family: var(--primaryFont);
                     }
-                    line-height: 20px;
+                    line-height: 10px;
                     margin: 0;
                 }
             }
             h3 {
-                color: #0f172a;
+                color: var(--headerColor);
                 line-height: 32px;
 
                 font: {
-                    size: 24px;
+                    size: 22px;
                     weight: 600;
                     family: var(--primaryFont);
                 }
 
                 a {
-                    color: #0f172a;
+                    color: var(--headerColor);
                     &:hover {
-                        color: #475569;
+                        color: var(--textColor);
                     }
                 }
             }
             p {
-                color: #475569;
+                color: var(--textColor);
                 font: {
-                    size: 18px;
+                    size: 16px;
                     family: var(--primaryFont);
                 }
                 line-height: 27px;
@@ -224,7 +224,7 @@
                     color: #f09020;
                     font: {
                         weight: 600;
-                        size: 18px;
+                        size: 16px;
                         family: var(--primaryFont);
                     }
                     line-height: 27px;
@@ -234,12 +234,6 @@
     }
 }
 @keyframes plusAnimate {
-    // 0%,
-    // 100% {
-    //     width: 130%;
-    //     height: 130%;
-    //     opacity: 1;
-    // }
     100% {
         width: 170%;
         height: 170%;

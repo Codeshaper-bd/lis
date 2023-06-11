@@ -1,7 +1,7 @@
 .philosophy {
     .philosophy-wrapper {
         h3 {
-            color: #0f172a;
+            color: var(--headerColor);
             padding-bottom: 32px;
             font: {
                 size: 36px;
@@ -22,7 +22,7 @@
                 top: 32px;
                 bottom: 32px;
             }
-            color: #475569;
+            color: var(--textColor);
             font-size: 18px;
             line-height: 27px;
         }
