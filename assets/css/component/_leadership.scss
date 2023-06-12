@@ -18,11 +18,17 @@
             overflow: hidden;
             position: relative;
             &::before {
-                content: '';
+                content: "";
                 width: 100%;
                 height: 0%;
-                transition: .5s ease-in-out;
-                background-image: linear-gradient(180.5deg, rgba(41, 66, 105, 0), rgba(41, 66, 105, 0), rgba(41, 66, 105, 0.411), #294269);
+                transition: 0.5s ease-in-out;
+                background-image: linear-gradient(
+                    180.5deg,
+                    rgba(41, 66, 105, 0),
+                    rgba(41, 66, 105, 0),
+                    rgba(41, 66, 105, 0.411),
+                    #294269
+                );
                 position: absolute;
                 bottom: 0;
                 left: 50%;
@@ -35,11 +41,11 @@
                 bottom: 0;
                 z-index: 1;
                 opacity: 0;
-                transition: .5s ease-in-out;
+                transition: 0.5s ease-in-out;
                 padding: {
                     left: 24px;
                     bottom: 20px;
-                };
+                }
 
                 h4 {
                     margin-bottom: 0px;
@@ -48,7 +54,7 @@
                         size: 24px;
                         weight: 400;
                         family: var(--primaryFont);
-                    };
+                    }
                 }
 
                 p {
@@ -56,24 +62,22 @@
                     font: {
                         size: 18px;
                         weight: 400;
-                        family: var(--primaryFont)
-                    };
+                        family: var(--primaryFont);
+                    }
                 }
             }
-
-
         }
         .card-text {
             margin-top: 30px;
             position: relative;
-            transition: .5s ease-in-out;
+            transition: 0.5s ease-in-out;
             border: 1px solid rgba(41, 66, 105, 0.3);
             border-radius: 4px;
             padding: 24px;
             .card-about {
                 padding: 0px 20px;
                 border-radius: 4px;
-                transition: .5s ease-in-out;
+                transition: 0.5s ease-in-out;
                 background-color: #ffffff;
                 border: 1px solid rgba(41, 66, 105, 0.3);
                 position: absolute;
@@ -83,7 +87,7 @@
 
                 p {
                     padding-top: 0;
-                    transition: .5s ease-in-out;
+                    transition: 0.5s ease-in-out;
                 }
             }
             p {
@@ -98,7 +102,7 @@
 
         &:hover {
             .card-image {
-                &::before  {
+                &::before {
                     height: 100%;
                 }
                 .team-intro {
@@ -119,7 +123,45 @@
 }
 
 //responsive
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
+    .leadership {
+        h3 {
+            line-height: 15px;
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .card-group-wrapper {
+            .card-image {
+                &::before {
+                    height: 100%;
+                }
+                .team-intro {
+                    opacity: 1;
+                    h4 {
+                        margin-bottom: 8px;
+                        color: var(--whiteColor);
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: var(--primaryFont);
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 15px;
+                    }
+                }
+            }
+            .card-text {
+                padding: 10px;
+                margin-top: 20px;
+                p {
+                    padding-top: 0px;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {

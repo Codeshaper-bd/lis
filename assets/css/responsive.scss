@@ -1,24 +1,4 @@
-@media only screen and (max-width: 567px) {
-  .accreditation {
-    h3 {
-      font-size: 28px;
-      line-height: 27px;
-    }
-    p {
-      padding-top: 10px;
-      font-size: 16px;
-      line-height: 22px;
-      margin-bottom: 5px;
-    }
-    .logo-single-accreditation {
-      padding-top: 30px;
-      display: flex;
-      justify-content: space-around;
-    }
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   // Header Area
   .mean-container {
     a.meanmenu-reveal {
@@ -72,6 +52,7 @@
     }
   }
 
+  //mission
   .mission {
     .mission-content {
       h3 {
@@ -147,24 +128,30 @@
     }
   }
 
-  //accredation
+  // acreedation
   .accreditation {
     h3 {
-      font-size: 30px;
-      line-height: 30px;
+      font-size: 28px;
+      line-height: 27px;
     }
     p {
       padding-top: 10px;
       font-size: 16px;
-      line-height: 24px;
+      line-height: 22px;
       margin-bottom: 5px;
     }
     .logo-single-accreditation {
-      padding-top: 50px;
+      padding-top: 30px;
       display: flex;
       justify-content: space-around;
     }
   }
+
+  //leadership
+ 
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -359,6 +346,7 @@
     }
   }
 
+  //aricle-card
   .article-card {
     .articles-img {
       margin-right: 15px;
