@@ -863,6 +863,33 @@ Header Responsive Area CSS
   .side-card-wrapper {
     padding-top: 10px !important;
   }
+  .side-card-wrapper .video-card {
+    padding: 16px;
+  }
+  .side-card-wrapper .video-card .video-card-image {
+    height: 185px;
+  }
+  .side-card-wrapper .video-card .video-card-text {
+    padding-top: 15px;
+  }
+  .side-card-wrapper .video-card .video-card-text h3 {
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .side-card-wrapper .video-card .video-card-text .video-card-social {
+    padding-top: 20px;
+  }
+  .side-card-wrapper .video-card .video-card-text .video-card-social h3 {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .side-card-wrapper .video-card .video-card-text .video-card-social ul {
+    padding-bottom: 20px;
+  }
+  .side-card-wrapper .video-card .video-card-text .video-card-social ul li {
+    margin: 0 5px;
+  }
   .side-card-wrapper .blog-card {
     background-color: var(--cardBg);
     padding: 16px;

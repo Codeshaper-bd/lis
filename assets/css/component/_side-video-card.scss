@@ -243,6 +243,35 @@
 @media only screen and (max-width: 767px) {
     .side-card-wrapper {
         padding-top: 10px !important;
+
+        .video-card {
+            .video-card-image {
+                height: 185px;
+            }
+            padding: 16px;
+            .video-card-text {
+                padding-top: 15px;
+                h3 {
+                    line-height: 30px;
+                    padding-bottom: 10px;
+                }
+                .video-card-social {
+                    padding-top: 20px;
+
+                    h3 {
+                        line-height: 20px;
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                    ul {
+                        padding-bottom: 20px;
+                        li {
+                            margin: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
         .blog-card {
             background-color: var(--cardBg);
             padding: 16px;
