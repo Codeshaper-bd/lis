@@ -172,24 +172,20 @@
             position: relative;
             .blog-date {
                 right: 12px;
-                top: -67px;
+                top: -60px;
                 position: absolute;
                 background-color: var(--whiteColor);
                 border-radius: 4px;
                 max-width: 72px;
                 text-align: center;
-                padding: 10px 9px;
-                box-shadow: 0 2px 5px rgb(41, 66, 105, 0.2);
-                p {
-                    color: var(--headerColor);
-                    font: {
-                        weight: 900;
-                        size: 14px;
-                        family: var(--primaryFont);
-                    }
-                    line-height: 10px;
-                    margin: 0;
+                padding: 5px 6px;
+                color: var(--headerColor);
+                font: {
+                    weight: 900;
+                    size: 14px;
+                    family: var(--primaryFont);
                 }
+                box-shadow: 0 2px 5px rgb(41, 66, 105, 0.2);
             }
             h3 {
                 color: var(--headerColor);
@@ -244,7 +240,40 @@
 }
 
 //responsive
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
+    .side-card-wrapper {
+        padding-top: 10px !important;
+        .blog-card {
+            background-color: var(--cardBg);
+            padding: 16px;
+            border-radius: 4px;
+            margin-top: 15px;
+            .blog-card-image {
+                padding-bottom: 15px;
+            }
+            .blog-card-text {
+                .blog-date {
+                    right: 8px;
+                    top: -50px;
+                    max-width: 72px;
+                    font-weight: 900;
+                    font-size: 12px;
+                }
+                h3 {
+                    line-height: 24px;
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                    a {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {

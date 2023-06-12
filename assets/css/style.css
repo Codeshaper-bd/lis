@@ -809,22 +809,18 @@ Header Responsive Area CSS
 }
 .side-card-wrapper .blog-card .blog-card-text .blog-date {
   right: 12px;
-  top: -67px;
+  top: -60px;
   position: absolute;
   background-color: var(--whiteColor);
   border-radius: 4px;
   max-width: 72px;
   text-align: center;
-  padding: 10px 9px;
-  box-shadow: 0 2px 5px rgba(41, 66, 105, 0.2);
-}
-.side-card-wrapper .blog-card .blog-card-text .blog-date p {
+  padding: 5px 6px;
   color: var(--headerColor);
   font-weight: 900;
   font-size: 14px;
   font-family: var(--primaryFont);
-  line-height: 10px;
-  margin: 0;
+  box-shadow: 0 2px 5px rgba(41, 66, 105, 0.2);
 }
 .side-card-wrapper .blog-card .blog-card-text h3 {
   color: var(--headerColor);
@@ -861,6 +857,39 @@ Header Responsive Area CSS
   }
   100% {
     opacity: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .side-card-wrapper {
+    padding-top: 10px !important;
+  }
+  .side-card-wrapper .blog-card {
+    background-color: var(--cardBg);
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+  .side-card-wrapper .blog-card .blog-card-image {
+    padding-bottom: 15px;
+  }
+  .side-card-wrapper .blog-card .blog-card-text .blog-date {
+    right: 8px;
+    top: -50px;
+    max-width: 72px;
+    font-weight: 900;
+    font-size: 12px;
+  }
+  .side-card-wrapper .blog-card .blog-card-text h3 {
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .side-card-wrapper .blog-card .blog-card-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .side-card-wrapper .blog-card .blog-card-text p a {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 .philosophy .philosophy-wrapper h3 {
@@ -961,12 +990,104 @@ Header Responsive Area CSS
   padding-top: 0;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+  .alumni-wrapper h3 {
+    font-size: 24px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card {
+    text-align: center;
+    padding-bottom: 20px !important;
+  }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
     order: 1 !important;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
     order: 2 !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-image {
+    margin-top: 30px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header {
+    margin-bottom: 10px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header h3 {
+    font-size: 26px !important;
+    line-height: 30px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  .alumni-wrapper p {
+    font-size: 16px !important;
+  }
+  .alumni-wrapper p a {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .alumni-wrapper h3 {
+    font-size: 36px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card {
+    text-align: center;
+    padding-bottom: 20px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
+    order: 1 !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
+    order: 2 !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card h3 {
+    font-size: 34px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-image {
+    margin-top: 30px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header {
+    margin-bottom: 10px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header h3 {
+    font-size: 28px !important;
+    line-height: 30px !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .alumni-wrapper h3 {
+    font-size: 34px !important;
+  }
+  .alumni-wrapper .alumni-image {
+    margin-top: 30px !important;
+  }
+  .alumni-wrapper .alumni-text .header h3 {
+    font-size: 28px !important;
+    line-height: 30px !important;
+  }
+  .alumni-wrapper .alumni-text .header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .alumni-wrapper .alumni-text p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .alumni-image {
+    margin-top: 50px;
   }
 }
 .pyp .pyp-wrapper h3 {
