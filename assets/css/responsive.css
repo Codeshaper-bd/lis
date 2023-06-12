@@ -1,4 +1,91 @@
+@media only screen and (max-width: 767px) {
+  .mean-container a.meanmenu-reveal {
+    top: 28px;
+  }
+  .popup-button {
+    position: relative;
+    top: 4px;
+  }
+  .mobile-nav .logo {
+    top: 13px;
+  }
+  .default-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .ptb-140 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-140 {
+    padding-top: 50px;
+  }
+  .pb-140 {
+    padding-bottom: 50px;
+  }
+  .pl-70 {
+    padding-left: 0px;
+  }
+  .pl-30 {
+    padding-left: 0px;
+  }
+  .section-heading h3 {
+    font-size: 36px;
+  }
+  .mission .mission-content h3 {
+    font-size: 36px;
+  }
+  .mission .mission-content p {
+    font-size: 16px;
+  }
+  .features-card {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .features-card h3 {
+    font-size: 24px;
+  }
+  .article-card .articles-img {
+    margin-right: 20px;
+  }
+  .article-card .article-text-area h3 a {
+    font-size: 18px;
+  }
+  .article-card .article-text-area ul li {
+    font-size: 12px;
+  }
+  .article-card .article-text-area .article-card-header .article-date {
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    bottom: 10px;
+  }
+  .partner-logos img {
+    width: 120px;
+  }
+  .footer {
+    padding-top: 170px;
+    padding-bottom: 50px;
+  }
+  .footer .pl-70 {
+    margin-top: 0;
+  }
+  .copyright-content p {
+    font-size: 14px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mean-container a.meanmenu-reveal {
+    top: 28px;
+  }
+  .popup-button {
+    position: relative;
+    top: 4px;
+  }
+  .mobile-nav .logo {
+    top: 13px;
+  }
   .default-button {
     padding: 8px 12px;
     font-size: 14px;
