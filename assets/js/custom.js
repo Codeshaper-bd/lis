@@ -26,6 +26,11 @@
     // mainClass: 'mfp-fade'
   });
 
+  //calousel
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel();
+  }); 
+
 
 
 })(jQuery);
