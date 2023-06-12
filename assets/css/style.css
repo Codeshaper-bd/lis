@@ -961,7 +961,7 @@ Header Responsive Area CSS
   padding-top: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
     order: 1 !important;
   }

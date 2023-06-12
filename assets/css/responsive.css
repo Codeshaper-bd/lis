@@ -138,6 +138,26 @@
   .footer .pl-70 {
     margin-top: 0;
   }
+  .accreditation h3 {
+    color: var(--headerColor);
+    font-family: var(--primaryFont);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .accreditation p {
+    padding-top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .accreditation .logo-single-accreditation {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accreditation .logo-single-accreditation .accreditation-image {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pl-70 {

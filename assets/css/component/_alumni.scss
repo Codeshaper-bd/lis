@@ -57,9 +57,12 @@
 }
 
 //responsive
+@media only screen and (max-width: 575px)  {
+  
+}
 
-@media only screen and (max-width: 767px) {
-    .alumni-wrapper {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ .alumni-wrapper {
         .alumni-wrapper-group {
             .alumni-card {
                 .order1 {
@@ -71,4 +74,20 @@
             }
         }
     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media only screen and (min-width: 1500px)  {
+
 }
