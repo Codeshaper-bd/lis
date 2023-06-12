@@ -143,6 +143,16 @@
   .pl-70 {
     padding-left: 30px;
   }
+  .ptb-140 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pt-140 {
+    padding-top: 100px;
+  }
+  .pb-140 {
+    padding-bottom: 100px;
+  }
   .default-button {
     padding: 8px 12px;
     font-size: 14px;
@@ -182,9 +192,44 @@
     font-size: 16px;
     bottom: 10px;
   }
+  .inner-page-banner .banner-content {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .inner-page-banner .banner-content h1 {
+    font-size: 44px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle {
+    bottom: -25px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul {
+    padding: 12px 36px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul li {
+    font-size: 16px;
+  }
+  .inner-about-img {
+    margin-bottom: 30px;
+  }
+  .about-details-text {
+    margin-left: 0;
+  }
+  .about-details-text-area h4 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .article-card .article-text-area h3 a {
     font-size: 20px;
+  }
+  .about-details-text p {
+    font-size: 14px;
+  }
+  .about-details-text-area .about-details-img p {
+    line-height: 1.5;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=responsive.css.map */

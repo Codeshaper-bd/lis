@@ -1,17 +1,18 @@
 .slider-card-wrapper {
     margin-bottom: 50px;
+    position: relative;
     .slider-card-single {
         position: relative;
         .news-content-card {
-            color: #ffff;
-            position: absolute;
-            z-index: 5;
-            background: rgba(0, 0, 0, 0.35);
-            border-radius: 4px;
-            bottom: 15px;
-            transform: translateX(5%);
             width: 85%;
             padding: 10px;
+            color: #ffff;
+            border-radius: 4px;
+            background: rgba(0, 0, 0, 0.35);
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            z-index: 5;
             h4 {
                 color: var(--whiteColor);
                 line-height: 24px;
@@ -41,10 +42,10 @@
                 }
 
                 iconify-icon {
+                    line-height: 20px;
+                    margin-left: 10px;
                     position: relative;
                     top: 3px;
-                    margin-left: 10px;
-                    line-height: 20px;
                     font: {
                         weight: 700;
                         size: 14px;
@@ -62,9 +63,9 @@
                         }
                         iconify-icon {
                             position: relative;
-                            top: 3px;
                             margin-left: 10px;
                             line-height: 20px;
+                            top: 3px;
                             font: {
                                 weight: 700;
                                 size: 14px;
@@ -85,16 +86,54 @@
             border-radius: 4px;
             line-height: 22px;
             text-align: center;
+            
+            top: 20px;
+            right: 20px;
+
             font: {
                 weight: 700;
                 size: 16px;
                 family: var(--primaryFont);
             }
-            top: 25px;
-            transform: translateX(-85px);
+        }
+    }
+    .owl-nav  {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        button {
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--whiteColor) !important;
+            background-color: var(--blueColor) !important;
+            iconify-icon {
+                font-size: 24px;
+            }
+        }
+
+        .owl-prev {
+            left: -50px;
+        }
+        .owl-next {
+            right: -50px;
         }
     }
 }
+
+
+
+
+
+
+
 
 .lis-news-image {
     margin-top: 32px;

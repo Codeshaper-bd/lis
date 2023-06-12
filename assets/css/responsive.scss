@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
   // Header Area
   .mean-container {
     a.meanmenu-reveal {
@@ -64,79 +63,76 @@
     }
   }
 
-    // Features Area
-    .features-card {
+  // Features Area
+  .features-card {
+    h3 {
+      font-size: 24px;
+    }
+    padding: {
+      left: 10px;
+      right: 10px;
+      top: 20px;
+    }
+  }
+
+  // Article Area CSS
+  .article-card {
+    .articles-img {
+      margin-right: 20px;
+    }
+    .article-text-area {
       h3 {
-        font-size: 24px;
-      }
-      padding: {
-        left: 10px;
-        right: 10px;
-        top: 20px;
-      }
-    }
-  
-    // Article Area CSS
-    .article-card {
-      .articles-img {
-        margin-right: 20px;
-      }
-      .article-text-area {
-        h3 {
-          a {
-            font-size: 18px;
-          }
+        a {
+          font-size: 18px;
         }
-        ul {
-          li {
-            font-size: 12px;
-          }
+      }
+      ul {
+        li {
+          font-size: 12px;
         }
-  
-        .article-card-header {
-          .article-date {
-            width: 56px;
-            height: 56px;
-            font-size: 16px;
-            bottom: 10px;
-          }
+      }
+
+      .article-card-header {
+        .article-date {
+          width: 56px;
+          height: 56px;
+          font-size: 16px;
+          bottom: 10px;
         }
       }
     }
-  
-    // Partner Logos
-    .partner-logos {
-      img {
-        width: 120px;
-      }
+  }
+
+  // Partner Logos
+  .partner-logos {
+    img {
+      width: 120px;
     }
-  
-    // Footer Area
-    .footer {
-      padding: {
-        top: 170px;
-        bottom: 50px;
-      };
-      .pl-70 {
-        margin-top: 0;
-      }
+  }
+
+  // Footer Area
+  .footer {
+    padding: {
+      top: 170px;
+      bottom: 50px;
     }
-
-    .copyright-content {
-      p {
-        font-size: 14px;
-      }
+    .pl-70 {
+      margin-top: 0;
     }
+  }
 
-
-
+  .copyright-content {
+    p {
+      font-size: 14px;
+    }
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    // Header Area
+  // Header Area
   .mean-container {
     a.meanmenu-reveal {
       top: 28px;
@@ -246,6 +242,22 @@
     padding-left: 30px;
   }
 
+  
+  .ptb-140 {
+    padding: {
+      top: 100px;
+      bottom: 100px;
+    }
+  }
+
+  .pt-140 {
+    padding-top: 100px;
+  }
+
+  .pb-140 {
+    padding-bottom: 100px;
+  }
+
   // Default Button
   .default-button {
     padding: 8px 12px;
@@ -311,6 +323,47 @@
       }
     }
   }
+
+  // Inner page banner Area
+  .inner-page-banner {
+    .banner-content {
+      padding-top: 80px;
+      padding-bottom: 100px;
+      h1 {
+        font-size: 44px;
+      }
+      .banner-subtitle {
+        bottom: -25px;
+        ul {
+          padding: 12px 36px;
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .inner-about-img {
+    margin-bottom: 30px;
+  }
+
+  .about-details-text {
+    margin-left: 0;
+  }
+
+  .about-details-text-area {
+    h4 {
+      text-align: center;
+      font-size: 32px;
+      padding: {
+        top: 50px;
+        bottom: 50px;
+      };
+    }
+  }
+
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -320,6 +373,21 @@
         a {
           font-size: 20px;
         }
+      }
+    }
+  }
+
+  // About Page
+  .about-details-text {
+    p {
+      font-size: 14px;
+    }
+  }
+  .about-details-text-area {
+    .about-details-img {
+      p {
+        line-height: 1.5;
+        font-size: 16px;
       }
     }
   }

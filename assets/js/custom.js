@@ -11,28 +11,43 @@
     $(".popupSearchBar").toggle();
   });
 
-
-  $(document).on('click', function (event) {
-    var $div = $('#popupSearchButton');
+  $(document).on("click", function (event) {
+    var $div = $("#popupSearchButton");
     var $target = $(event.target);
-    if (!$div.is($target) && !$div.has($target).length && !$target.is('input')) {
-      $('.popupSearchBar').hide();
+    if (
+      !$div.is($target) &&
+      !$div.has($target).length &&
+      !$target.is("input")
+    ) {
+      $(".popupSearchBar").hide();
     }
   });
 
   // sidebar Video Player
-  $('.play-btn').magnificPopup({
-    type: 'video',
+  $(".play-btn").magnificPopup({
+    type: "video",
     // mainClass: 'mfp-fade'
   });
 
   //calousel
-  $(document).ready(function () {
-    $(".owl-carousel").owlCarousel();
-  }); 
-
-
-
+  $(".slider-card-wrapper").owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: false,
+    nav: true,
+    navText: ["<iconify-icon icon='ic:round-keyboard-arrow-left'>", "<iconify-icon icon='ic:round-keyboard-arrow-left' rotate='180deg'> "],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      991: {
+        items: 3,
+      },
+      1400: {
+        items: 3,
+      },
+    },
+  });
 })(jQuery);
 
 function myFunction() {
