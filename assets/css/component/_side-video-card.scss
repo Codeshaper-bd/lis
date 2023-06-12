@@ -309,6 +309,34 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .video-card-text {
+        padding-top: 15px;
+        h3 {
+            line-height: 30px;
+            padding-bottom: 10px;
+        }
+        .video-card-social {
+            padding-top: 20px;
+
+            h3 {
+                line-height: 20px;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            ul {
+                padding-bottom: 20px;
+                li {
+                    margin: 0 10px;
+                    a {
+                        padding: 20px;
+                        iconify-icon {
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
