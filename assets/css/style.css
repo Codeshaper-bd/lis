@@ -604,6 +604,10 @@ Header Responsive Area CSS
 .child-protection .protecting-children .child-protection-img img {
   display: none;
 }
+.child-protection .protection-policy {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .child-protection .policy-link {
   max-width: 750px;
 }
@@ -649,6 +653,63 @@ Header Responsive Area CSS
   padding-left: 5px;
 }
 
+@media only screen and (max-width: 767px) {
+  .child-protection .protecting-children h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .child-protection h3 {
+    padding-bottom: 5px;
+    font-size: 26px;
+  }
+  .child-protection p {
+    color: var(--textColor);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .child-protection .protection-policy {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .child-protection .policy-link {
+    max-width: 750px;
+  }
+  .child-protection .policy-link h6 {
+    padding-bottom: 10px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .child-protection .policy-link ul {
+    list-style-type: none;
+    padding-left: 15px;
+  }
+  .child-protection .policy-link ul li {
+    position: relative;
+    padding-left: 15px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .child-protection .policy-link ul li::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 1px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--blueColor);
+    outline-offset: 2px;
+    outline: 1px solid var(--blueColor);
+  }
+  .child-protection .policy-link ul li a {
+    line-height: 15px;
+  }
+  .child-protection .policy-link ul li span {
+    padding-left: 3px;
+  }
+}
 .side-card-wrapper .video-card {
   background-color: var(--cardBg);
   padding: 32px;
