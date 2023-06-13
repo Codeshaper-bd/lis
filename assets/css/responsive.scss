@@ -365,6 +365,43 @@
       }
     }
   }
+
+  //recruitment
+  .recruitment {
+    p {
+      margin-bottom: 0px;
+      padding-top: 10px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    h3 {
+      margin-bottom: 15px;
+      font-size: 26px;
+      line-height: 30px;
+    }
+    .recruitment-image {
+      width: 100%;
+      img {
+        border-radius: 8px;
+      }
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+    .recruitment-content-single {
+      margin-top: 20px;
+      h6 {
+        font-size: 20px;
+        line-height: 26px;
+      }
+    }
+    .blue-button {
+      margin-top: 20px;
+      iconify-icon {
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
