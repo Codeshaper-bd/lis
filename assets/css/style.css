@@ -699,9 +699,7 @@ Header Responsive Area CSS
     border-radius: 1px;
     width: 6px;
     height: 6px;
-    background-color: var(--blueColor);
     outline-offset: 2px;
-    outline: 1px solid var(--blueColor);
   }
   .child-protection .policy-link ul li a {
     line-height: 15px;
