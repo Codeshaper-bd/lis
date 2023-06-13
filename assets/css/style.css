@@ -1960,6 +1960,13 @@ Header Responsive Area CSS
   height: 100vh;
   overflow: auto;
 }
+.social-media .social-follow-buttons h3 {
+  color: var(--headerColor);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
+  line-height: 43.2px;
+}
 .social-media .social-follow-buttons ul {
   display: flex;
   list-style: none;
@@ -1989,6 +1996,27 @@ Header Responsive Area CSS
   align-items: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .social-media h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .social-media p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .social-media .social-media-frame {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .social-media .social-follow-buttons h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .social-media .social-follow-buttons ul {
+    margin-left: 20px;
+  }
+}
 .quick-links {
   padding-top: 50px;
 }
