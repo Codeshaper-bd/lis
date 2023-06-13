@@ -699,9 +699,7 @@ Header Responsive Area CSS
     border-radius: 1px;
     width: 6px;
     height: 6px;
-    background-color: var(--blueColor);
     outline-offset: 2px;
-    outline: 1px solid var(--blueColor);
   }
   .child-protection .policy-link ul li a {
     line-height: 15px;
@@ -1568,16 +1566,17 @@ Header Responsive Area CSS
   background-color: var(--blueColor);
   color: var(--whiteColor);
   position: relative;
-  margin: 30px;
-  top: 40%;
-  left: 40%;
-  padding-top: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn iconify-icon {
   position: relative;
-  z-index: 1;
-  top: 10%;
-  left: 25%;
+  z-index: 2;
+  left: 50%;
+  top: 43%;
+  transform: translate(-50%, -50%);
 }
 .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn::before {
   content: "";
@@ -1609,6 +1608,70 @@ Header Responsive Area CSS
   z-index: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .co-curricular .co-curricular-wrapper h3 {
+    font-size: 26px;
+    line-height: 35.2px;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-text {
+    padding-top: 20px;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-text h5 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image {
+    padding-top: 25px;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image {
+    height: 350px;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn {
+    height: 63px;
+    width: 63px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn iconify-icon {
+    position: relative;
+    z-index: 2;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn::before {
+    content: "";
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+    background-color: var(--blueColor);
+    opacity: 0.4;
+    animation: plusAnimate 2s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .co-curricular .co-curricular-wrapper .co-curricular-wrapper-image .co-curricular-image .play-btn::after {
+    content: "";
+    width: 190%;
+    height: 190%;
+    border-radius: 50%;
+    background-color: var(--blueColor);
+    animation: plusAnimate 5s linear infinite;
+    opacity: 0.2;
+    transition-delay: 0.3s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+}
 @media only screen and (max-width: 991px) {
   .side-card-wrapper {
     padding-top: 50px;
@@ -4204,7 +4267,7 @@ img {
   padding-bottom: 32px;
   color: var(--headerColor);
   font-weight: 700;
-  font-size: 36;
+  font-size: 36px;
   font-font: var(--primaryFont);
   line-height: 43.2px;
 }
@@ -4212,8 +4275,8 @@ img {
   padding-top: 70px;
   color: var(--headerColor);
   font-weight: 700;
-  font-size: 48;
-  font-font: var(--primaryFont);
+  font-size: 48px;
+  font-family: var(--primaryFont);
   line-height: 57.6px;
 }
 .calendar .calendar-color {

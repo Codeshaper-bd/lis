@@ -1469,7 +1469,7 @@ img {
     color: var(--headerColor);
     font: {
       weight: 700;
-      size: 36;
+      size: 36px;
       font: var(--primaryFont);
     }
     line-height: 43.2px;
@@ -1480,8 +1480,8 @@ img {
     color: var(--headerColor);
     font: {
       weight: 700;
-      size: 48;
-      font: var(--primaryFont);
+      size: 48px;
+      family: var(--primaryFont);
     }
     line-height: 57.6px;
   }

@@ -164,6 +164,55 @@
   .inner-page-banner .banner-content .banner-subtitle ul li {
     font-size: 16px;
   }
+  .calendar h4 {
+    padding-bottom: 20px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .calendar h3 {
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .philosophy .philosophy-wrapper h3 {
+    padding-bottom: 25px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .philosophy .philosophy-wrapper p {
+    padding-top: 24px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .philosophy .philosophy-wrapper ul {
+    padding-left: 25px;
+  }
+  .philosophy .philosophy-wrapper ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-top: 6px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+  }
+  .philosophy .philosophy-wrapper ul li::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 1px;
+    width: 6px;
+    height: 6px;
+    outline-offset: 2px;
+  }
+  .community h3 {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .topbar {
