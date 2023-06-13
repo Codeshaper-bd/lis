@@ -1,0 +1,75 @@
+.list-style {
+    list-style-type: none;
+    padding-top: 15px;
+
+    li {
+        position: relative;
+        padding-left: 30px;
+        margin-top: 6px;
+        line-height: 27px;
+        color: var(--blueColor);
+        font: {
+            size: 18px;
+            weight: 400;
+            family: var(--primaryFont);
+        }
+        a {
+            color: var(--yellowColor);
+        }
+        &:hover {
+            a {
+                color: var(--yellowColor);
+                text-decoration: underline;
+                line-height: 30px;
+            }
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: 0;
+            border-radius: 1px;
+            width: 10px;
+            height: 10px;
+            background-color: var(--blueColor);
+            outline-offset: 3px;
+            outline: 1px solid var(--blueColor);
+        }
+    }
+}
+
+//responsive
+@media only screen and (max-width: 767px) {
+    .list-style {
+        padding-left: 10px;
+        li {
+            padding-left: 25px;
+            margin-top: 6px;
+            line-height: 20px;
+            font-size: 14px;
+            &::before {
+                content: "";
+                top: 10px;
+                width: 6px;
+                height: 6px;
+                outline-offset: 2px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

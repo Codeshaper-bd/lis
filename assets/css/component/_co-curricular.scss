@@ -37,6 +37,9 @@
 
 //responsive
 @media only screen and (max-width: 767px) {
+    .side-card-wrapper {
+        padding-top: 50px;
+    }
     .co-curricular {
         .co-curricular-wrapper {
             h3 {
@@ -128,6 +131,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .side-card-wrapper {
+        padding-top: 50px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -137,9 +143,4 @@
 }
 
 @media only screen and (min-width: 1500px) {
-}
-@media only screen and (max-width: 991px) {
-    .side-card-wrapper {
-        padding-top: 50px;
-    }
 }

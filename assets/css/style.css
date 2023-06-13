@@ -1539,6 +1539,9 @@ Header Responsive Area CSS
 }
 
 @media only screen and (max-width: 767px) {
+  .side-card-wrapper {
+    padding-top: 50px;
+  }
   .co-curricular .co-curricular-wrapper h3 {
     font-size: 26px;
     line-height: 35.2px;
@@ -1611,7 +1614,7 @@ Header Responsive Area CSS
     line-height: 26px;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .side-card-wrapper {
     padding-top: 50px;
   }
@@ -1750,7 +1753,7 @@ Header Responsive Area CSS
   color: var(--headerColor);
   font-weight: 700;
   font-size: 36px;
-  font-font: var(--primaryFont);
+  font-family: var(--primaryFont);
   line-height: 43.2px;
 }
 .enrollment .enrollment-image {
@@ -1778,40 +1781,6 @@ Header Responsive Area CSS
   font-weight: 600;
   font-family: var(--primaryFont);
   line-height: 32px;
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single ul {
-  list-style-type: none;
-  padding-top: 15px;
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 27px;
-  color: var(--blueColor);
-  font-size: 18px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single ul li a {
-  color: var(--yellowColor);
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single ul li:hover a {
-  color: var(--yellowColor);
-  text-decoration: underline;
-  line-height: 30px;
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-single ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
 }
 .enrollment .enrollment-content-wrapper .enrollment-content-small {
   margin-top: 20px;
@@ -1860,6 +1829,32 @@ Header Responsive Area CSS
   top: 3px;
 }
 
+@media only screen and (max-width: 767px) {
+  .enrollment h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .enrollment P {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .enrollment .enrollment-content-wrapper .enrollment-content-single {
+    margin-top: 30px;
+  }
+  .enrollment .enrollment-content-wrapper .enrollment-content-single h4 {
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .enrollment .enrollment-content-wrapper .enrollment-content-small p {
+    font-size: 14px;
+    font-family: var(--primaryFont);
+    line-height: 24px;
+  }
+  .enrollment .enrollment-content-wrapper .enrollment-content-small p a {
+    color: var(--yellowColor);
+  }
+}
 .policy p {
   color: var(--textColor);
   font-size: 18px;
@@ -3246,6 +3241,59 @@ Header Responsive Area CSS
 @media only screen and (max-width: 991px) {
   .side-card-wrapper {
     padding-top: 50px;
+  }
+}
+.list-style {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.list-style li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 6px;
+  line-height: 27px;
+  color: var(--blueColor);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--primaryFont);
+}
+.list-style li a {
+  color: var(--yellowColor);
+}
+.list-style li:hover a {
+  color: var(--yellowColor);
+  text-decoration: underline;
+  line-height: 30px;
+}
+.list-style li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blueColor);
+  outline-offset: 3px;
+  outline: 1px solid var(--blueColor);
+}
+
+@media only screen and (max-width: 767px) {
+  .list-style {
+    padding-left: 10px;
+  }
+  .list-style li {
+    padding-left: 25px;
+    margin-top: 6px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .list-style li::before {
+    content: "";
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    outline-offset: 2px;
   }
 }
 body {
