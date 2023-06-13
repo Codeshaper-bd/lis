@@ -65,13 +65,30 @@
     width: 120px;
   }
   .footer {
-    padding-top: 170px;
+    padding-top: 80px;
     padding-bottom: 50px;
+  }
+  .footer::before {
+    -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+  }
+  .footer::after {
+    -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
   }
   .footer .pl-70 {
     margin-top: 0;
   }
-  .copyright-content p {
+  .footer .footer-links {
+    margin-top: 30px;
+  }
+  .footer .footer-links ul li a {
+    font-size: 14px;
+  }
+  .copyright .copyright-content {
+    justify-content: center;
+  }
+  .copyright .copyright-content p {
     font-size: 14px;
   }
   .accreditation h3 {
@@ -88,6 +105,22 @@
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
+  }
+  .inner-page-banner .banner-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .inner-page-banner .banner-content h1 {
+    font-size: 28px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle {
+    width: 100%;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul {
+    padding: 12px 36px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul li {
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

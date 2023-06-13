@@ -113,18 +113,38 @@
 
   // Footer Area
   .footer {
+    &::before {
+      clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+    }
+    &::after {
+      clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
     padding: {
-      top: 170px;
+      top: 80px;
       bottom: 50px;
     }
     .pl-70 {
       margin-top: 0;
     }
+
+    .footer-links {
+      margin-top: 30px;
+      ul {
+        li {
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
   }
 
-  .copyright-content {
-    p {
-      font-size: 14px;
+  .copyright {
+    .copyright-content {
+      justify-content: center;
+      p {
+        font-size: 14px;
+      }
     }
   }
 
@@ -144,6 +164,29 @@
       padding-top: 30px;
       display: flex;
       justify-content: space-around;
+    }
+  }
+
+  // inner Pages Banner Area
+  .inner-page-banner {
+    .banner-content {
+      padding: {
+        top: 50px;
+        bottom: 50px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+      .banner-subtitle {
+        width: 100%;
+        ul {
+          padding: 12px 36px;
+          li {
+            font-size: 16px;
+          }
+        }
+      }
     }
   }
 }
