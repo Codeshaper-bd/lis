@@ -1,6 +1,5 @@
 .list-style {
     list-style-type: none;
-    padding-top: 15px;
 
     li {
         position: relative;
@@ -15,19 +14,20 @@
         }
         a {
             color: var(--yellowColor);
+            transition: 0.3s ease-in-out;
         }
         &:hover {
             a {
                 color: var(--yellowColor);
                 text-decoration: underline;
-                line-height: 30px;
+                line-height: 27px;
             }
         }
 
         &::before {
             content: "";
             position: absolute;
-            top: 12px;
+            top: 10px;
             left: 0;
             border-radius: 1px;
             width: 10px;
@@ -42,15 +42,15 @@
 //responsive
 @media only screen and (max-width: 767px) {
     .list-style {
-        padding-left: 10px;
+        padding-left: 20px;
         li {
-            padding-left: 25px;
+            padding-left: 15px;
             margin-top: 6px;
             line-height: 20px;
             font-size: 14px;
             &::before {
                 content: "";
-                top: 10px;
+                top: 8px;
                 width: 6px;
                 height: 6px;
                 outline-offset: 2px;

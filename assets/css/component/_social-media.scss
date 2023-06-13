@@ -29,6 +29,16 @@
         }
     }
     .social-follow-buttons {
+        h3 {
+            color: var(--headerColor);
+            font: {
+                size: 36px;
+                weight: 700;
+                family: var(--primaryFont);
+            }
+
+            line-height: 43.2px;
+        }
         ul {
             display: flex;
             list-style: none;
@@ -64,7 +74,32 @@
 }
 
 //responsive
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
+    .social-media {
+        h3 {
+            font-size: 26px;
+            line-height: 30px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .social-media-frame {
+            margin: {
+                top: 25px;
+                bottom: 40px;
+            }
+        }
+        .social-follow-buttons {
+            h3 {
+                font-size: 26px;
+                line-height: 30px;
+            }
+            ul {
+                margin-left: 20px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {

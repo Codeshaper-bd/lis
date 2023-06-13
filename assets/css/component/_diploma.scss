@@ -48,46 +48,6 @@
                     line-height: 24px;
                 }
             }
-            ul {
-                list-style-type: none;
-                padding-top: 15px;
-
-                li {
-                    position: relative;
-                    padding-left: 30px;
-                    margin-top: 6px;
-                    line-height: 24px;
-                    color: var(--blueColor);
-                    font: {
-                        size: 16px;
-                        weight: 400;
-                        family: var(--primaryFont);
-                    }
-                    a {
-                        text-decoration: underline;
-                    }
-                    &:hover {
-                        a {
-                            color: var(--yellowColor);
-                            text-decoration: underline;
-                            line-height: 30px;
-                        }
-                    }
-
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        top: 12px;
-                        left: 0;
-                        border-radius: 1px;
-                        width: 10px;
-                        height: 10px;
-                        background-color: var(--blueColor);
-                        outline-offset: 3px;
-                        outline: 1px solid var(--blueColor);
-                    }
-                }
-            }
         }
     }
 
@@ -120,23 +80,6 @@
             }
         }
         .diploma-wrapper-groups {
-            .groups-single {
-                ul {
-                    li {
-                        padding-left: 25px;
-                        margin-top: 6px;
-                        line-height: 20px;
-                        font-size: 14px;
-                        &::before {
-                            content: "";
-                            top: 10px;
-                            width: 6px;
-                            height: 6px;
-                            outline-offset: 2px;
-                        }
-                    }
-                }
-            }
             p {
                 font-size: 14px;
                 line-height: 22px;
