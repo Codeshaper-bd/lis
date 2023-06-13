@@ -32,13 +32,52 @@
   .section-heading h3 {
     font-size: 36px;
   }
+  .topbar {
+    overflow: hidden;
+  }
+  .topbar .topbar-leftside .topbar-social-links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .topbar .topbar-leftside .topbar-social-links ul {
+    padding-left: 5px;
+  }
+  .topbar .topbar-leftside .topbar-social-links ul li a {
+    margin-left: 0;
+  }
+  .topbar .topbar-leftside::before {
+    right: -999px;
+  }
+  .topbar .tobar-rightSide {
+    justify-content: center;
+  }
+  .topbar-rightSide-contact-card {
+    margin-right: 0;
+    padding-right: 20px;
+    padding-left: 32px;
+  }
+  .topbar-rightSide-contact-card a {
+    font-size: 14px;
+  }
+  .topbar-rightSide-contact-card iconify-icon {
+    font-size: 28px;
+  }
+  .banner .banner-content {
+    width: 100%;
+    text-align: center;
+  }
   .mission .mission-content h3 {
     font-size: 36px;
   }
   .mission .mission-content p {
     font-size: 16px;
   }
+  .features {
+    padding-top: 0 !important;
+    padding-bottom: 70px !important;
+  }
   .features-card {
+    margin-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -60,6 +99,9 @@
     height: 56px;
     font-size: 16px;
     bottom: 10px;
+  }
+  .partner-logos {
+    flex-wrap: wrap;
   }
   .partner-logos img {
     width: 120px;
@@ -121,6 +163,17 @@
   }
   .inner-page-banner .banner-content .banner-subtitle ul li {
     font-size: 16px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .topbar {
+    overflow: hidden;
+  }
+  .topbar .topbar-leftside::before {
+    right: 0px;
+  }
+  .topbar .tobar-rightSide {
+    justify-content: end;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

@@ -52,6 +52,55 @@
     }
   }
 
+  // Topbar Area
+  .topbar {
+    overflow: hidden;
+    .topbar-leftside {
+      .topbar-social-links {
+        ul {
+          padding-left: 5px;
+          li {
+            a {
+              margin-left: 0;
+            }
+          }
+        }
+        margin: {
+          left: auto;
+          right: auto;
+        };
+      } 
+      &::before {
+        right: -999px;
+      }
+    }
+
+    .tobar-rightSide {
+      justify-content: center;
+    }
+  }
+
+  .topbar-rightSide-contact-card {
+    margin-right: 0;
+    padding-right: 20px;
+    padding-left: 32px;
+    a {
+      font-size: 14px;
+    }
+
+    iconify-icon {
+      font-size: 28px;
+    }
+  }
+
+  // banner Area Start
+  .banner {
+    .banner-content {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
   //mission
   .mission {
     .mission-content {
@@ -65,7 +114,12 @@
   }
 
   // Features Area
+  .features {
+    padding-top: 0 !important;
+    padding-bottom: 70px !important;
+  }
   .features-card {
+    margin-top: 60px;
     h3 {
       font-size: 24px;
     }
@@ -106,6 +160,7 @@
 
   // Partner Logos
   .partner-logos {
+    flex-wrap: wrap;
     img {
       width: 120px;
     }
@@ -192,6 +247,20 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  // Topbar Area
+  .topbar {
+    overflow: hidden;
+    .topbar-leftside {
+      &::before {
+        right: 0px;
+      }
+    }
+
+    .tobar-rightSide {
+      justify-content: end;
+    }
+  }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
