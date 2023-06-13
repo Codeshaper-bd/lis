@@ -189,6 +189,20 @@
       }
     }
   }
+
+  //Calender
+  .calendar {
+    h4 {
+      padding-bottom: 20px;
+      line-height: 40px;
+      font-size: 26px;
+    }
+    h3 {
+      padding-top: 30px;
+      line-height: 40px;
+      font-size: 26px;
+    }
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
