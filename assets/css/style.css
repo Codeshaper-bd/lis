@@ -2431,6 +2431,21 @@ Header Responsive Area CSS
   font-size: 20px !important;
 }
 
+@media only screen and (max-width: 767px) {
+  .sign-in .login-card-wrapper {
+    width: 100%;
+  }
+  .sign-in .login-card-wrapper .login-card .login-card-form {
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+  }
+  .sign-in .login-card-wrapper .login-card .login-card-form form {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+  }
+}
 .information .school-info {
   border-bottom: 1px solid var(--blueColor);
   padding-bottom: 32px;
