@@ -2254,7 +2254,7 @@ Header Responsive Area CSS
   color: var(--headerColor);
   font-weight: 700;
   font-size: 48px;
-  font-font: var(--primaryFont);
+  font-family: var(--primaryFont);
   line-height: 57.6px;
   text-align: left;
 }
@@ -2366,17 +2366,41 @@ Header Responsive Area CSS
 }
 
 @media only screen and (max-width: 767px) {
-  .address-card-wrapper {
+  .contact-us {
+    padding-top: 50px;
+  }
+  .contact-us .contact-form-section .address-card-wrapper {
     margin-top: 50px;
   }
-  .address-card-wrapper .address-card {
+  .contact-us .contact-form-section .address-card-wrapper .address-card {
     position: unset !important;
   }
-  .office-time-wrapper {
+  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text h6 {
+    font-size: 18px;
+  }
+  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .contact-us .contact-form-section .contact-form h3 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .contact-us .contact-form-section .contact-form form .default-button {
+    display: block;
+    text-align: center;
+  }
+  .contact-us .contact-form-section .contact-form form .default-button iconify-icon {
+    top: 5px;
+  }
+  .contact-us .office-time-wrapper {
     padding-bottom: 50px;
     background-color: #ffffff;
   }
-  .office-time-wrapper::before {
+  .contact-us .office-time-wrapper::before {
     content: "";
     width: 100%;
     height: 150px;
@@ -2385,39 +2409,61 @@ Header Responsive Area CSS
     left: 0;
     z-index: 0;
   }
-  .office-time-wrapper .office-time {
+  .contact-us .office-time-wrapper .office-time {
     z-index: 1;
   }
-  .office-time-wrapper .office-time .office-time-group .office-time-single {
+  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single {
     margin-top: 30px;
     background-color: #ffffff;
     border-radius: 8px;
-    max-width: 400px;
+    width: 100%;
     border: 1px solid var(--blueColor);
     text-align: center;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 20px;
+    padding-bottom: 25px;
   }
-  .office-time-wrapper .office-time .office-time-group .office-time-single h4 {
+  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h4 {
     color: var(--headerColor);
-    line-height: 39px;
+    line-height: 28px;
     font-weight: 700;
     font-family: var(--primaryFont);
-    font-size: 30px;
+    font-size: 26px;
   }
-  .office-time-wrapper .office-time .office-time-group .office-time-single p {
-    line-height: 27px;
-    color: var(--textColor);
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--primaryFont);
+  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single p {
+    line-height: 22px;
+    font-size: 16px;
   }
-  .office-time-wrapper .office-time .office-time-group .office-time-single h6 {
+  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h6 {
     color: var(--headerColor);
-    line-height: 27px;
-    font-weight: 700;
-    font-family: var(--primaryFont);
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .contact-us .accridation-campus .accridation-image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us {
+    padding-top: 150px;
+  }
+  .contact-us .contact-form-section .address-card-wrapper .address-card {
+    max-width: 100%;
+    position: absolute;
+    top: -35px;
+  }
+  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text h6 {
     font-size: 18px;
+  }
+  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .contact-us .contact-form-section .contact-form h3 {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
   }
 }
 .site-map h3 {
