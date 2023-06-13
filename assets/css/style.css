@@ -1107,11 +1107,11 @@ Header Responsive Area CSS
 
 @media only screen and (max-width: 767px) {
   .alumni-wrapper h3 {
-    font-size: 24px !important;
+    font-size: 24px;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card {
     text-align: center;
-    padding-bottom: 20px !important;
+    padding-bottom: 20px;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
     order: 1 !important;
@@ -1120,28 +1120,28 @@ Header Responsive Area CSS
     order: 2 !important;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-image {
-    margin-top: 30px !important;
+    margin-top: 30px;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header {
-    margin-bottom: 10px !important;
+    margin-bottom: 10px;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header h3 {
-    font-size: 26px !important;
-    line-height: 30px !important;
+    font-size: 26px;
+    line-height: 30px;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header p {
     font-size: 14px;
     line-height: 24px;
   }
   .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text p {
-    font-size: 14px !important;
-    line-height: 24px !important;
+    font-size: 14px;
+    line-height: 24px;
   }
   .alumni-wrapper p {
-    font-size: 16px !important;
+    font-size: 16px;
   }
   .alumni-wrapper p a {
-    font-size: 16px !important;
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2064,6 +2064,46 @@ Header Responsive Area CSS
   font-weight: 600;
 }
 
+@media only screen and (max-width: 767px) {
+  .job-opening .job-opening-wrapper h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .job-opening .job-opening-wrapper p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .job-opening .job-opening-wrapper p a {
+    font-size: 14px;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group {
+    padding-top: 24px;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card {
+    padding-bottom: 70px;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-image {
+    border-radius: 50%;
+    width: 60%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header {
+    margin-bottom: 20px;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header h3 {
+    font-size: 26px;
+  }
+  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header p {
+    font-size: 14px;
+    padding-top: 0;
+  }
+}
 @media only screen and (max-width: 767px) {
   .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .order1 {
     order: 1 !important;
