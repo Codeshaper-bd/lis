@@ -290,6 +290,40 @@
     position: relative;
     top: 5px;
   }
+  .school h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .school p {
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .school .our-campus .school-image {
+    padding-top: 25px;
+    width: 100%;
+  }
+  .school .experience-campus {
+    padding-top: 40px;
+  }
+  .school .experience-campus .school-image {
+    width: 100%;
+    padding-top: 28px;
+  }
+  .school .map-campus {
+    width: 100%;
+    max-height: 550px;
+  }
+  .school .accridation-campus .campus-single-accridation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .school .accridation-campus .campus-single-accridation .accridation-image {
+    width: 100%;
+  }
+  .school .accridation-campus .campus-single-accridation .accridation-image img {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mean-container a.meanmenu-reveal {

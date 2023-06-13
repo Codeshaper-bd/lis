@@ -4244,36 +4244,6 @@ img {
   width: 100%;
   padding-top: 48px;
 }
-.school .experience-campus ul {
-  list-style-type: none;
-  max-width: 800px;
-  padding-top: 48px;
-  line-height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.school .experience-campus ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 30px;
-  color: var(--blueColor);
-  font-size: 20px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
-}
-.school .experience-campus ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
-}
 .school .map-campus {
   width: 100%;
   max-height: 550px;
