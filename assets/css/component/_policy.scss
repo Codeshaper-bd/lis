@@ -26,6 +26,17 @@
         }
         line-height: 43.2px;
     }
+    .side-card-wrapper {
+        .video-card {
+            .video-card-social {
+                p {
+                    a {
+                        color: var(--blueColor) !important;
+                    }
+                }
+            }
+        }
+    }
 
     .policy-image {
         background: url(/assets/images/policy.jpg);

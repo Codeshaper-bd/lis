@@ -1238,125 +1238,45 @@ Header Responsive Area CSS
   font-weight: 600;
   line-height: 30px;
 }
-.pyp .pyp-wrapper .pyp-wrapper-list ul {
+.pyp .pyp-wrapper .pyp-wrapper-list .list-style {
   list-style-type: none;
-  padding-left: 70px;
 }
-.pyp .pyp-wrapper .pyp-wrapper-list ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 30px;
-  color: var(--blueColor);
-  font-size: 20px;
-  font-weight: 600;
-  font-family: var(--primaryFont);
+.pyp .pyp-wrapper .pyp-wrapper-list .list-style li a {
+  color: var(--blueColor) !important;
+  transition: 0.3s ease-in-out;
 }
-.pyp .pyp-wrapper .pyp-wrapper-list ul li a {
+.pyp .pyp-wrapper .pyp-wrapper-list .list-style li:hover a {
+  color: var(--yellowColor) !important;
   text-decoration: underline;
-}
-.pyp .pyp-wrapper .pyp-wrapper-list ul li:hover a {
-  color: var(--yellowColor);
-  text-decoration: underline;
-  line-height: 30px;
-}
-.pyp .pyp-wrapper .pyp-wrapper-list ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
-}
-.pyp .pyp-wrapper .pyp-wrapper-image {
-  padding-top: 10px;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .pyp-image {
-  background: url(/assets/images/programme/pyp.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 525px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .pyp-image::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .pyp-image .play-btn {
-  height: 83px;
-  width: 83px;
-  border: none;
-  font-size: 40px;
-  display: inline-block;
-  border-radius: 50%;
-  background-color: var(--blueColor);
-  color: var(--whiteColor);
-  position: relative;
-  margin: 30px;
-  top: 40%;
-  left: 45%;
-  padding-top: 8px;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .pyp-image .play-btn iconify-icon {
-  position: relative;
-  z-index: 1;
-  top: 10%;
-  left: 25%;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .pyp-image .play-btn::before {
-  content: "";
-  width: 150%;
-  height: 150%;
-  border-radius: 50%;
-  background-color: var(--blueColor);
-  opacity: 0.4;
-  animation: plusAnimate 2s linear infinite;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 0;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .pyp-image .play-btn::after {
-  content: "";
-  width: 190%;
-  height: 190%;
-  border-radius: 50%;
-  background-color: var(--blueColor);
-  animation: plusAnimate 5s linear infinite;
-  opacity: 0.2;
-  transition-delay: 0.3s;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 0;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .caption {
-  padding-top: 32px;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .caption h6 {
-  font-size: 20px;
-  font-weight: 600;
-  font-family: var(--primaryFont);
-  line-height: 30px;
-}
-.pyp .pyp-wrapper .pyp-wrapper-image .caption p {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
-  line-height: 24px;
+  line-height: 27px;
 }
 
+@media only screen and (max-width: 767px) {
+  .pyp .pyp-wrapper {
+    line-height: 30px;
+  }
+  .pyp .pyp-wrapper h3 {
+    font-size: 26px;
+  }
+  .pyp .pyp-wrapper .pyp-wrapper-text {
+    padding-top: 20px;
+  }
+  .pyp .pyp-wrapper .pyp-wrapper-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .pyp .pyp-wrapper .pyp-wrapper-text h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .pyp .pyp-wrapper .pyp-wrapper-list {
+    padding-top: 20px;
+  }
+  .pyp .pyp-wrapper .pyp-wrapper-list h6 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .side-card-wrapper {
     padding-top: 50px;
@@ -1730,6 +1650,9 @@ Header Responsive Area CSS
   font-size: 36px;
   font-family: var(--primaryFont);
   line-height: 43.2px;
+}
+.policy .side-card-wrapper .video-card .video-card-social p a {
+  color: var(--blueColor) !important;
 }
 .policy .policy-image {
   background: url(/assets/images/policy.jpg);
