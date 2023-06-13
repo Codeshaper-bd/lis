@@ -1660,40 +1660,6 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
   line-height: 24px;
 }
-.diploma .diploma-wrapper-groups .groups-single ul {
-  list-style-type: none;
-  padding-top: 15px;
-}
-.diploma .diploma-wrapper-groups .groups-single ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 24px;
-  color: var(--blueColor);
-  font-size: 16px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
-}
-.diploma .diploma-wrapper-groups .groups-single ul li a {
-  text-decoration: underline;
-}
-.diploma .diploma-wrapper-groups .groups-single ul li:hover a {
-  color: var(--yellowColor);
-  text-decoration: underline;
-  line-height: 30px;
-}
-.diploma .diploma-wrapper-groups .groups-single ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
-}
 .diploma .co-curricular-wrapper-text {
   padding-top: 20px;
 }
@@ -1714,19 +1680,6 @@ Header Responsive Area CSS
   .diploma .co-curricular-wrapper-text p {
     line-height: 22px;
     font-size: 14px;
-  }
-  .diploma .diploma-wrapper-groups .groups-single ul li {
-    padding-left: 25px;
-    margin-top: 6px;
-    line-height: 20px;
-    font-size: 14px;
-  }
-  .diploma .diploma-wrapper-groups .groups-single ul li::before {
-    content: "";
-    top: 10px;
-    width: 6px;
-    height: 6px;
-    outline-offset: 2px;
   }
   .diploma .diploma-wrapper-groups p {
     font-size: 14px;
@@ -2776,40 +2729,117 @@ Header Responsive Area CSS
 .information .offer-admission .offer-admission-card h6 span {
   color: var(--headerColor);
 }
-.information .offer-admission .offer-admission-card ul {
-  list-style-type: none;
-}
-.information .offer-admission .offer-admission-card ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 24px;
-  color: var(--blueColor);
-  font-size: 16px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
-}
-.information .offer-admission .offer-admission-card ul li a {
-  text-decoration: underline;
-}
-.information .offer-admission .offer-admission-card ul li:hover a {
-  color: var(--yellowColor);
-  text-decoration: underline;
-  line-height: 30px;
-}
-.information .offer-admission .offer-admission-card ul li::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
-}
 
+@media only screen and (max-width: 767px) {
+  .information .school-info {
+    border-bottom: 1px solid var(--blueColor);
+    padding-bottom: 32px;
+    margin-bottom: 10px;
+  }
+  .information .school-info h6 {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .information .school-info p {
+    line-height: 22px;
+    color: var(--textColor);
+    font-size: 14px;
+  }
+  .information .designation-info-wrapper {
+    padding-bottom: 20px;
+  }
+  .information .designation-info-wrapper .designation-info {
+    margin-top: 24px;
+  }
+  .information .designation-info-wrapper .designation-info h6 {
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .information .designation-info-wrapper .designation-info p {
+    line-height: 22px;
+    color: var(--textColor);
+    font-size: 14px;
+  }
+  .information .designation-info-wrapper .designation-info a {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .information .accridation {
+    padding-bottom: 20px;
+    margin-top: 24px;
+  }
+  .information .accridation h6 {
+    line-height: 24px;
+    font-size: 20px;
+  }
+  .information .accridation p {
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .information .diploma-subject {
+    margin-top: 24px;
+  }
+  .information .diploma-subject .diploma-subject-single {
+    margin-top: 20px;
+  }
+  .information .diploma-subject .diploma-subject-single h5 {
+    line-height: 30px;
+    color: var(--headerColor);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+  }
+  .information .diploma-subject .diploma-subject-single h6 {
+    margin-bottom: 5px;
+    line-height: 20px;
+    color: var(--headerColor);
+    font-size: 16px;
+  }
+  .information .diploma-subject .diploma-subject-single p {
+    margin-bottom: 5px;
+    line-height: 20px;
+    color: var(--textColor);
+    font-size: 14px;
+  }
+  .information .info-image {
+    margin-top: 50px;
+  }
+  .information .offer-admission {
+    margin-top: 50px;
+  }
+  .information .offer-admission h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .information .offer-admission h6 {
+    line-height: 24px;
+    color: var(--textColor);
+    font-size: 16px;
+  }
+  .information .offer-admission h5 {
+    margin-bottom: 5px;
+    line-height: 26px;
+    font-size: 18px;
+  }
+  .information .offer-admission .offer-admission-card {
+    border: 1px solid var(--headerColor);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .information .offer-admission .offer-admission-card h6 {
+    line-height: 20px;
+    color: var(--textColor);
+    font-size: 18px;
+  }
+  .information .co-curricular-wrapper {
+    margin-top: 30px;
+  }
+  .information .co-curricular-wrapper .co-curricular-wrapper-text {
+    margin-top: 20px;
+  }
+}
 .leadership h3 {
   text-align: center;
   line-height: 43.2px;
@@ -3245,7 +3275,6 @@ Header Responsive Area CSS
 }
 .list-style {
   list-style-type: none;
-  padding-top: 15px;
 }
 .list-style li {
   position: relative;
@@ -3280,17 +3309,17 @@ Header Responsive Area CSS
 
 @media only screen and (max-width: 767px) {
   .list-style {
-    padding-left: 10px;
+    padding-left: 20px;
   }
   .list-style li {
-    padding-left: 25px;
+    padding-left: 15px;
     margin-top: 6px;
     line-height: 20px;
     font-size: 14px;
   }
   .list-style li::before {
     content: "";
-    top: 10px;
+    top: 8px;
     width: 6px;
     height: 6px;
     outline-offset: 2px;

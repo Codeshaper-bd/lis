@@ -191,51 +191,169 @@
             padding: 10px;
             border-radius: 8px;
             margin-top: 20px;
-            ul {
-                list-style-type: none;
+            // ul {
+            //     list-style-type: none;
 
-                li {
-                    position: relative;
-                    padding-left: 30px;
-                    margin-top: 6px;
-                    line-height: 24px;
-                    color: var(--blueColor);
-                    font: {
-                        size: 16px;
-                        weight: 400;
-                        family: var(--primaryFont);
-                    }
-                    a {
-                        text-decoration: underline;
-                    }
-                    &:hover {
-                        a {
-                            color: var(--yellowColor);
-                            text-decoration: underline;
-                            line-height: 30px;
-                        }
-                    }
+            //     li {
+            //         position: relative;
+            //         padding-left: 30px;
+            //         margin-top: 6px;
+            //         line-height: 24px;
+            //         color: var(--blueColor);
+            //         font: {
+            //             size: 16px;
+            //             weight: 400;
+            //             family: var(--primaryFont);
+            //         }
+            //         a {
+            //             text-decoration: underline;
+            //         }
+            //         &:hover {
+            //             a {
+            //                 color: var(--yellowColor);
+            //                 text-decoration: underline;
+            //                 line-height: 30px;
+            //             }
+            //         }
 
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        top: 8px;
-                        left: 0;
-                        border-radius: 1px;
-                        width: 10px;
-                        height: 10px;
-                        background-color: var(--blueColor);
-                        outline-offset: 3px;
-                        outline: 1px solid var(--blueColor);
-                    }
-                }
-            }
+            //         &::before {
+            //             content: "";
+            //             position: absolute;
+            //             top: 8px;
+            //             left: 0;
+            //             border-radius: 1px;
+            //             width: 10px;
+            //             height: 10px;
+            //             background-color: var(--blueColor);
+            //             outline-offset: 3px;
+            //             outline: 1px solid var(--blueColor);
+            //         }
+            //     }
+            // }
         }
     }
 }
 
 //responsive
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
+    .information {
+        .school-info {
+            border-bottom: 1px solid var(--blueColor);
+            padding-bottom: 32px;
+            margin-bottom: 10px;
+            h6 {
+                line-height: 20px;
+                font-size: 16px;
+            }
+            p {
+                line-height: 22px;
+                color: var(--textColor);
+                font-size: 14px;
+            }
+        }
+        .designation-info-wrapper {
+            padding-bottom: 20px;
+            .designation-info {
+                margin-top: 24px;
+                h6 {
+                    line-height: 20px;
+                    font-size: 18px;
+                }
+                p {
+                    line-height: 22px;
+                    color: var(--textColor);
+                    font-size: 14px;
+                }
+                a {
+                    line-height: 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .accridation {
+            padding-bottom: 20px;
+            margin-top: 24px;
+            h6 {
+                line-height: 24px;
+                font: {
+                    size: 20px;
+                }
+            }
+            p {
+                margin-bottom: 5px;
+                line-height: 24px;
+                font: {
+                    size: 14px;
+                }
+            }
+        }
+        .diploma-subject {
+            margin-top: 24px;
+            .diploma-subject-single {
+                margin-top: 20px;
+                h5 {
+                    line-height: 30px;
+                    color: var(--headerColor);
+                    font: {
+                        size: 20px;
+                        weight: 700;
+                        family: var(--primaryFont);
+                    }
+                }
+                h6 {
+                    margin-bottom: 5px;
+                    line-height: 20px;
+                    color: var(--headerColor);
+                    font-size: 16px;
+                }
+                p {
+                    margin-bottom: 5px;
+                    line-height: 20px;
+                    color: var(--textColor);
+                    font: {
+                        size: 14px;
+                    }
+                }
+            }
+        }
+        .info-image {
+            margin-top: 50px;
+        }
+        .offer-admission {
+            margin-top: 50px;
+            h3 {
+                font-size: 24px;
+                line-height: 26px;
+            }
+            h6 {
+                line-height: 24px;
+                color: var(--textColor);
+                font-size: 16px;
+            }
+            h5 {
+                margin-bottom: 5px;
+                line-height: 26px;
+                font-size: 18px;
+            }
+            .offer-admission-card {
+                h6 {
+                    line-height: 20px;
+                    color: var(--textColor);
+                    font-size: 18px;
+                }
+                border: 1px solid var(--headerColor);
+                padding: 10px;
+                border-radius: 8px;
+                margin-top: 20px;
+            }
+        }
+        .co-curricular-wrapper {
+            margin-top: 30px;
+            .co-curricular-wrapper-text {
+                margin-top: 20px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
