@@ -1,112 +1,152 @@
-.diploma-wrapper-groups {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    p {
-        color: var(--textColor);
-        font: {
-            size: 18px;
-            family: var(--primaryFont);
-        }
-
-        line-height: 27px;
-        a {
-            color: var(--yellowColor);
+.diploma {
+    .diploma-wrapper-groups {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        p {
+            color: var(--textColor);
             font: {
                 size: 18px;
                 family: var(--primaryFont);
             }
-        }
-        &:nth-child(2) {
-            margin-top: 30px;
-        }
-    }
-    .groups-single {
-        border: 1px solid var(--blueColor);
-        border-radius: 8px;
-        height: 100%;
 
-        .header {
-            padding-top: 16px;
-            text-align: center;
-            h6 {
-                margin: 0;
+            line-height: 27px;
+            a {
+                color: var(--yellowColor);
                 font: {
-                    size: 20px;
-                    weight: 600;
+                    size: 18px;
                     family: var(--primaryFont);
                 }
-                line-height: 30px;
             }
-            p {
-                margin: 0;
-                color: var(--textColor);
-                font: {
-                    size: 16px;
-                    family: var(--primaryFont);
-                }
-                line-height: 24px;
+            &:nth-child(2) {
+                margin-top: 30px;
             }
         }
-        ul {
-            list-style-type: none;
-            padding-top: 15px;
+        .groups-single {
+            border: 1px solid var(--blueColor);
+            border-radius: 8px;
+            height: 100%;
 
-            li {
-                position: relative;
-                padding-left: 30px;
-                margin-top: 6px;
-                line-height: 24px;
-                color: var(--blueColor);
-                font: {
-                    size: 16px;
-                    weight: 400;
-                    family: var(--primaryFont);
+            .header {
+                padding-top: 16px;
+                text-align: center;
+                h6 {
+                    margin: 0;
+                    font: {
+                        size: 20px;
+                        weight: 600;
+                        family: var(--primaryFont);
+                    }
+                    line-height: 30px;
                 }
-                a {
-                    text-decoration: underline;
+                p {
+                    margin: 0;
+                    color: var(--textColor);
+                    font: {
+                        size: 16px;
+                        family: var(--primaryFont);
+                    }
+                    line-height: 24px;
                 }
-                &:hover {
+            }
+            ul {
+                list-style-type: none;
+                padding-top: 15px;
+
+                li {
+                    position: relative;
+                    padding-left: 30px;
+                    margin-top: 6px;
+                    line-height: 24px;
+                    color: var(--blueColor);
+                    font: {
+                        size: 16px;
+                        weight: 400;
+                        family: var(--primaryFont);
+                    }
                     a {
-                        color: var(--yellowColor);
                         text-decoration: underline;
-                        line-height: 30px;
+                    }
+                    &:hover {
+                        a {
+                            color: var(--yellowColor);
+                            text-decoration: underline;
+                            line-height: 30px;
+                        }
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 12px;
+                        left: 0;
+                        border-radius: 1px;
+                        width: 10px;
+                        height: 10px;
+                        background-color: var(--blueColor);
+                        outline-offset: 3px;
+                        outline: 1px solid var(--blueColor);
                     }
                 }
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 12px;
-                    left: 0;
-                    border-radius: 1px;
-                    width: 10px;
-                    height: 10px;
-                    background-color: var(--blueColor);
-                    outline-offset: 3px;
-                    outline: 1px solid var(--blueColor);
-                }
             }
         }
     }
-}
 
-.co-curricular-wrapper-text {
-    padding-top: 20px;
-}
-.caption {
-    padding-top: 32px;
-    h6 {
-        font: {
-            size: 20px;
-            weight: 600;
-            family: var(--primaryFont);
+    .co-curricular-wrapper-text {
+        padding-top: 20px;
+    }
+    .caption {
+        padding-top: 32px;
+        h6 {
+            font: {
+                size: 20px;
+                weight: 600;
+                family: var(--primaryFont);
+            }
+            line-height: 30px;
         }
-        line-height: 30px;
     }
 }
 
 //responsive
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
+    .diploma {
+        .co-curricular-wrapper-text {
+            padding-top: 20px;
+            h5 {
+            }
+            p {
+                line-height: 22px;
+                font-size: 14px;
+            }
+        }
+        .diploma-wrapper-groups {
+            .groups-single {
+                ul {
+                    li {
+                        padding-left: 25px;
+                        margin-top: 6px;
+                        line-height: 20px;
+                        font-size: 14px;
+                        &::before {
+                            content: "";
+                            top: 10px;
+                            width: 6px;
+                            height: 6px;
+                            outline-offset: 2px;
+                        }
+                    }
+                }
+            }
+            p {
+                font-size: 14px;
+                line-height: 22px;
+                a {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
