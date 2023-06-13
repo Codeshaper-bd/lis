@@ -4246,32 +4246,13 @@ img {
 .association .association-event .association-image img {
   border-radius: 4px;
 }
-.association .association-event ul {
-  list-style-type: none;
+.association .association-event .list-style {
   padding-left: 50px;
   padding-top: 32px;
-  color: #294269;
+  color: var(--blueColor);
 }
-.association .association-event ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 30px;
-  font-size: 20px;
+.association .association-event .list-style li {
   font-weight: 700;
-  font-family: var(--primaryFont);
-}
-.association .association-event ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
 }
 
 .learn-wrapper h3 {

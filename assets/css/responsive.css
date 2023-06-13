@@ -221,6 +221,44 @@
   .learn .learn-wrapper .learn-image-wrapper .list-style li a {
     color: var(--blueColor) !important;
   }
+  .association .parent-association {
+    padding-bottom: 50px;
+  }
+  .association .parent-association h3 {
+    padding-bottom: 24px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .association .parent-association p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .association .parent-association p a {
+    text-decoration: underline;
+    color: var(--yellowColor);
+  }
+  .association .association-event h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .association .association-event h4 {
+    padding-bottom: 24px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .association .association-event p {
+    color: var(--textColor);
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .association .association-event .list-style {
+    padding-left: 50px;
+    padding-top: 32px;
+    color: var(--blueColor);
+  }
+  .association .association-event .list-style li {
+    font-weight: 700;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mean-container a.meanmenu-reveal {
