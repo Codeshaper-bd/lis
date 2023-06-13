@@ -171,6 +171,56 @@
     font-size: 26px;
     line-height: 20px;
   }
+  .join p {
+    padding-top: 16px;
+    color: var(--textColor);
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .join h4 {
+    padding-bottom: 32px;
+    font-size: 30px;
+    line-height: 24px;
+  }
+  .join h3 {
+    font-size: 36px;
+    line-height: 30px;
+  }
+  .join .join-card {
+    margin-top: 32px;
+  }
+  .join .join-card .join-card-image {
+    background-color: #d9d9d9;
+    height: 334px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .join .join-banner {
+    margin-top: 32px;
+    background-color: #d9d9d9;
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .learn .learn-wrapper h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .learn .learn-wrapper p {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .learn .learn-wrapper .learn-image-wrapper {
+    padding-top: 24px;
+  }
+  .learn .learn-wrapper .learn-image-wrapper .list-style {
+    list-style-type: none;
+    padding-left: 25px;
+  }
+  .learn .learn-wrapper .learn-image-wrapper .list-style li a {
+    color: var(--blueColor) !important;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mean-container a.meanmenu-reveal {

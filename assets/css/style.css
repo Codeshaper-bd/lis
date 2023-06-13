@@ -3332,12 +3332,12 @@ Header Responsive Area CSS
 .list-style li:hover a {
   color: var(--yellowColor);
   text-decoration: underline;
-  line-height: 30px;
+  line-height: 27px;
 }
 .list-style li::before {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 10px;
   left: 0;
   border-radius: 1px;
   width: 10px;
@@ -4399,36 +4399,15 @@ img {
 .learn-wrapper .learn-image-wrapper .learn-image img {
   display: none;
 }
-.learn-wrapper .learn-image-wrapper ul {
+.learn-wrapper .learn-image-wrapper .list-style {
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 25px;
 }
-.learn-wrapper .learn-image-wrapper ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 30px;
+.learn-wrapper .learn-image-wrapper .list-style li a {
   color: var(--blueColor);
-  font-size: 20px;
-  font-weight: 600;
-  font-family: var(--primaryFont);
 }
-.learn-wrapper .learn-image-wrapper ul li:hover a {
+.learn-wrapper .learn-image-wrapper .list-style li a:hover {
   color: var(--yellowColor);
-  text-decoration: none;
-  line-height: 30px;
-}
-.learn-wrapper .learn-image-wrapper ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
 }
 
 .school h3 {
