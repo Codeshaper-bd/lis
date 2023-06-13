@@ -222,10 +222,10 @@
     color: var(--blueColor) !important;
   }
   .association .parent-association {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
   .association .parent-association h3 {
-    padding-bottom: 24px;
+    padding-bottom: 10px;
     font-size: 28px;
     line-height: 30px;
   }
@@ -240,6 +240,7 @@
   .association .association-event h3 {
     font-size: 26px;
     line-height: 32px;
+    padding-bottom: 10px;
   }
   .association .association-event h4 {
     padding-bottom: 24px;
@@ -253,11 +254,8 @@
   }
   .association .association-event .list-style {
     padding-left: 50px;
-    padding-top: 32px;
+    padding-top: 15px;
     color: var(--blueColor);
-  }
-  .association .association-event .list-style li {
-    font-weight: 700;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

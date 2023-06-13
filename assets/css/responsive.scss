@@ -320,9 +320,9 @@
   //Parent Association
   .association {
     .parent-association {
-      padding-bottom: 50px;
+      padding-bottom: 30px;
       h3 {
-        padding-bottom: 24px;
+        padding-bottom: 10px;
         font-size: 28px;
         line-height: 30px;
       }
@@ -340,6 +340,7 @@
       h3 {
         font-size: 26px;
         line-height: 32px;
+        padding-bottom: 10px;
       }
       h4 {
         padding-bottom: 24px;
@@ -358,13 +359,9 @@
       .list-style {
         padding: {
           left: 50px;
-          top: 32px;
+          top: 15px;
         }
         color: var(--blueColor);
-
-        li {
-          font-weight: 700;
-        }
       }
     }
   }

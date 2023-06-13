@@ -1728,7 +1728,7 @@ Header Responsive Area CSS
   color: var(--headerColor);
   font-weight: 700;
   font-size: 36px;
-  font-font: var(--primaryFont);
+  font-family: var(--primaryFont);
   line-height: 43.2px;
 }
 .policy .policy-image {
@@ -1757,16 +1757,17 @@ Header Responsive Area CSS
   background-color: var(--blueColor);
   color: var(--whiteColor);
   position: relative;
-  margin: 30px;
-  top: 40%;
-  left: 40%;
-  padding-top: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 .policy .policy-image .play-btn iconify-icon {
   position: relative;
-  z-index: 1;
-  top: 10%;
-  left: 25%;
+  z-index: 2;
+  left: 50%;
+  top: 43%;
+  transform: translate(-50%, -50%);
 }
 .policy .policy-image .play-btn::before {
   content: "";
@@ -1816,39 +1817,6 @@ Header Responsive Area CSS
   font-weight: 600;
   font-family: var(--primaryFont);
   line-height: 32px;
-}
-.policy .policy-content-wrapper .policy-content-single ul {
-  list-style-type: none;
-}
-.policy .policy-content-wrapper .policy-content-single ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 27px;
-  color: var(--blueColor);
-  font-size: 18px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
-}
-.policy .policy-content-wrapper .policy-content-single ul li a {
-  color: var(--yellowColor);
-}
-.policy .policy-content-wrapper .policy-content-single ul li:hover a {
-  color: var(--yellowColor);
-  text-decoration: underline;
-  line-height: 30px;
-}
-.policy .policy-content-wrapper .policy-content-single ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
 }
 .policy .policy-content-wrapper .policy-content-small {
   margin-top: 40px;
@@ -1908,6 +1876,39 @@ Header Responsive Area CSS
   top: 3px;
 }
 
+@media only screen and (max-width: 767px) {
+  .policy .policy-image {
+    height: 350px;
+  }
+  .policy h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .policy p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .policy .policy-content-wrapper .policy-content-single h4 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .policy .policy-content-wrapper .policy-content-single p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .policy .policy-content-wrapper .policy-content-small p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .policy .policy-content-small-email p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
 .job-opening .job-opening-wrapper h3 {
   color: var(--headerColor);
   font-family: var(--primaryFont);
@@ -4198,7 +4199,7 @@ img {
 }
 
 .association .parent-association {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .association .parent-association h3 {
   color: var(--headerColor);
