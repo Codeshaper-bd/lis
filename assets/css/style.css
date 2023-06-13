@@ -2271,39 +2271,44 @@ Header Responsive Area CSS
   padding-top: 20px;
   border-left: 30px solid var(--blueColor);
 }
-.site-map .site-map-single-wrapper .site-map-single ul {
+.site-map .site-map-single-wrapper .site-map-single .list-style {
   list-style-type: none;
-  padding-left: 40px;
-  color: #294269;
 }
-.site-map .site-map-single-wrapper .site-map-single ul li {
-  position: relative;
-  padding-left: 30px;
-  margin-top: 6px;
-  line-height: 30px;
-  font-size: 20px;
-  font-weight: 400;
-  font-family: var(--primaryFont);
+.site-map .site-map-single-wrapper .site-map-single .list-style li a {
+  color: var(--blueColor) !important;
+  transition: 0.3s ease-in-out;
 }
-.site-map .site-map-single-wrapper .site-map-single ul li::before {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 0;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: var(--blueColor);
-  outline-offset: 3px;
-  outline: 1px solid var(--blueColor);
-}
-.site-map .site-map-single-wrapper .site-map-single ul li a:hover {
-  color: var(--yellowColor);
-}
-.site-map .site-map-single-wrapper .site-map-single ul li a:hover a {
-  color: var(--yellowColor);
+.site-map .site-map-single-wrapper .site-map-single .list-style li a:hover {
+  color: var(--yellowColor) !important;
+  text-decoration: underline;
+  line-height: 27px;
 }
 
+@media only screen and (max-width: 767px) {
+  .site-map h3 {
+    text-align: center;
+  }
+  .site-map .site-map-single-wrapper {
+    margin-top: 25px;
+  }
+  .site-map .site-map-single-wrapper .site-map-single {
+    margin-bottom: 25px;
+  }
+  .site-map .site-map-single-wrapper .list-style {
+    list-style-type: none;
+  }
+  .site-map .site-map-single-wrapper .list-style li {
+    color: var(--blueColor) !important;
+  }
+  .site-map .site-map-single-wrapper .list-style li a {
+    transition: 0.3s ease-in-out;
+  }
+  .site-map .site-map-single-wrapper .list-style li:hover a {
+    color: var(--yellowColor);
+    text-decoration: underline;
+    line-height: 27px;
+  }
+}
 .sign-in .login-card-wrapper {
   max-width: 1000px;
   margin-left: auto;

@@ -24,40 +24,17 @@
             margin-bottom: 50px;
             padding-top: 20px;
             border-left: 30px solid var(--blueColor);
-            ul {
+            .list-style {
                 list-style-type: none;
-                padding-left: 40px;
-                color: #294269;
 
                 li {
-                    position: relative;
-                    padding-left: 30px;
-                    margin-top: 6px;
-                    line-height: 30px;
-                    font: {
-                        size: 20px;
-                        weight: 400;
-                        family: var(--primaryFont);
-                    }
-
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        top: 12px;
-                        left: 0;
-                        border-radius: 1px;
-                        width: 10px;
-                        height: 10px;
-                        background-color: var(--blueColor);
-                        outline-offset: 3px;
-                        outline: 1px solid var(--blueColor);
-                    }
                     a {
+                        color: var(--blueColor) !important;
+                        transition: 0.3s ease-in-out;
                         &:hover {
-                            color: var(--yellowColor);
-                            a {
-                                color: var(--yellowColor);
-                            }
+                            color: var(--yellowColor) !important;
+                            text-decoration: underline;
+                            line-height: 27px;
                         }
                     }
                 }
@@ -67,7 +44,35 @@
 }
 
 //responsive
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
+    .site-map {
+        h3 {
+            text-align: center;
+        }
+        .site-map-single-wrapper {
+            margin-top: 25px;
+            .site-map-single {
+                margin-bottom: 25px;
+            }
+            .list-style {
+                list-style-type: none;
+
+                li {
+                    color: var(--blueColor) !important;
+                    a {
+                        transition: 0.3s ease-in-out;
+                    }
+                    &:hover {
+                        a {
+                            color: var(--yellowColor);
+                            text-decoration: underline;
+                            line-height: 27px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
