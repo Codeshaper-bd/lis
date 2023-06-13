@@ -243,6 +243,16 @@
       }
     }
   }
+
+  //community
+  .community {
+    h3 {
+      padding-top: 20px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 20px;
+    }
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
