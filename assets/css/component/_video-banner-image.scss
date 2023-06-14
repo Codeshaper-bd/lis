@@ -85,65 +85,65 @@
 
 //responsive
 @media only screen and (max-width: 767px) {
-               .video-banner-image {
-                padding-top: 25px;
-                .video-banner {
-                    height: 350px;
-                    .play-btn {
-                        height: 63px;
-                        width: 63px;
-                        font-size: 30px;
-                        transform: translate(-50%, -50%);
-                        z-index: 1;
-                        iconify-icon {
-                            position: relative;
-                            z-index: 2;
-                        }
-
-                        &::before {
-                            content: "";
-                            width: 150%;
-                            height: 150%;
-                            border-radius: 50%;
-                            background-color: var(--blueColor);
-                            opacity: 0.4;
-                            animation: plusAnimate 2s linear infinite;
-                            position: absolute;
-                            left: 50%;
-                            top: 50%;
-                            transform: translate(-50%, -50%);
-                            z-index: 1;
-                        }
-
-                        &::after {
-                            content: "";
-                            width: 190%;
-                            height: 190%;
-                            border-radius: 50%;
-                            background-color: var(--blueColor);
-                            animation: plusAnimate 5s linear infinite;
-                            opacity: 0.2;
-                            transition-delay: 0.3s;
-                            position: absolute;
-                            left: 50%;
-                            top: 50%;
-                            transform: translate(-50%, -50%);
-                            z-index: 1;
-                        }
-                    }
+    .video-banner-image {
+        padding-top: 25px;
+        .video-banner {
+            height: 350px;
+            .play-btn {
+                height: 63px;
+                width: 63px;
+                font-size: 30px;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+                iconify-icon {
+                    position: relative;
+                    z-index: 2;
                 }
-                .caption {
-                    padding-top: 10px;
-                    h6 {
-                        font: {
-                            size: 18px;
-                            weight: 600;
-                            family: var(--primaryFont);
-                        }
-                        line-height: 26px;
-                    }
+
+                &::before {
+                    content: "";
+                    width: 150%;
+                    height: 150%;
+                    border-radius: 50%;
+                    background-color: var(--blueColor);
+                    opacity: 0.4;
+                    animation: plusAnimate 2s linear infinite;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 1;
+                }
+
+                &::after {
+                    content: "";
+                    width: 190%;
+                    height: 190%;
+                    border-radius: 50%;
+                    background-color: var(--blueColor);
+                    animation: plusAnimate 5s linear infinite;
+                    opacity: 0.2;
+                    transition-delay: 0.3s;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 1;
                 }
             }
+        }
+        .caption {
+            padding-top: 10px;
+            h6 {
+                font: {
+                    size: 18px;
+                    weight: 600;
+                    family: var(--primaryFont);
+                }
+                line-height: 26px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
