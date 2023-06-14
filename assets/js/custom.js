@@ -48,6 +48,14 @@
       },
     },
   });
+
+
+  //calendar
+  $('.booking-calender').updateCalendarOptions({
+    date: '05/11/2017'
+  });
+
+
 })(jQuery);
 
 function myFunction() {
