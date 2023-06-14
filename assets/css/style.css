@@ -3182,7 +3182,70 @@ Header Responsive Area CSS
 .lis-news-details-area .lis-news-details-text-area-info ul li:last-child {
   margin-right: 0;
 }
+.lis-news-details-area .post-social-share {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.lis-news-details-area .post-social-share h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+}
+.lis-news-details-area .post-social-share ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lis-news-details-area .post-social-share ul li {
+  display: inline-block;
+}
+.lis-news-details-area .post-social-share ul li a {
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blueColor);
+  background-color: var(--cardBg);
+  transition: 0.5s ease-in-out;
+}
+.lis-news-details-area .post-social-share ul li:hover a {
+  transform: scale(1.1);
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .recent-news-card-area {
+    padding: 20px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list {
+    padding: 15px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button {
+    font-size: 16px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button .accordion-icon {
+    font-size: 24px;
+    top: 2px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li a {
+    font-size: 12px;
+  }
+  .side-card-wrapper .video-card {
+    padding: 20px;
+  }
+  .side-card-wrapper .video-card .video-card-text h3 {
+    font-size: 18px;
+  }
+}
 .booking .booking-card-wrapper {
   padding-bottom: 10px;
   margin-bottom: 20px;

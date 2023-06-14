@@ -338,6 +338,54 @@
             }
         }
     }
+
+    .post-social-share {
+      display: flex;
+      align-items: center;
+      padding: {
+        top: 20px;
+        bottom: 20px;
+      };
+      border: {
+        top: 1px solid #eeeeee;
+        bottom: 1px solid #eeeeee;
+      };
+      h4 {
+        font: {
+          size: 20px;
+          weight: 600;
+          family: var(--primaryFont);
+        };
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+          display: inline-block;
+          a {
+            width: 32px;
+            height: 32px;
+            font-size: 14px;
+            margin-left: 10px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--blueColor);
+            background-color: var(--cardBg);
+            transition: .5s ease-in-out;
+          }
+          &:hover {
+            a {
+              transform: scale(1.1);
+              color: var(--whiteColor);
+              background-color: var(--blueColor);
+            }
+          }
+        }
+      }
+    }
 }
 
 
@@ -352,6 +400,45 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .recent-news-card-area {
+    padding: 20px;
+    .recent-news-card-content {
+      .news-list {
+        padding: 15px;
+        .accordion {
+          .accordion-item {
+            .accordion-button {
+              font-size: 16px;
+              .accordion-icon {
+                font-size: 24px;
+                top: 2px;
+              }
+            }
+            .accordion-body {
+              ul {
+                li {
+                  a {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .side-card-wrapper {
+    .video-card {
+      padding: 20px;
+      .video-card-text {
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
