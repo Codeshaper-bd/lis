@@ -3142,7 +3142,7 @@ Header Responsive Area CSS
           clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
   background-color: var(--whiteColor);
   position: absolute;
-  right: -20px;
+  right: -19px;
   top: 0;
   z-index: 1;
 }
@@ -3222,6 +3222,109 @@ Header Responsive Area CSS
   background-color: var(--blueColor);
 }
 
+@media only screen and (max-width: 767px) {
+  .slider-card-wrapper {
+    padding-bottom: 60px;
+  }
+  .slider-card-wrapper .owl-nav {
+    width: unset;
+    top: unset;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+  .slider-card-wrapper .owl-nav .owl-next {
+    margin-left: 10px;
+    position: unset;
+    right: unset;
+  }
+  .slider-card-wrapper .owl-nav .owl-prev {
+    margin-right: 10px;
+    position: unset;
+    left: unset;
+  }
+  .slider-card-wrapper .slider-card-single .news-content-card p {
+    margin-bottom: 2px;
+  }
+  .slider-card-wrapper .slider-card-single .news-content-card h4 {
+    margin-bottom: 0;
+  }
+  .slider-card-wrapper .slider-card-single .news-content-card h4 a {
+    font-size: 14px;
+  }
+  .slider-card-wrapper .slider-card-single span {
+    line-height: 18px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+  }
+  .lis-news-details-area {
+    margin-top: 50px;
+  }
+  .recent-news-card-area {
+    padding: 20px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list {
+    padding: 15px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button {
+    font-size: 16px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button .accordion-icon {
+    font-size: 24px;
+    top: 2px;
+  }
+  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li a {
+    font-size: 12px;
+  }
+  .lis-news-details-area h3 {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  .lis-news-details-area .lis-news-details-text-area-info {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 6px;
+  }
+  .lis-news-details-area .lis-news-details-text-area-info ul li {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  .side-card-wrapper .video-card {
+    padding: 20px;
+  }
+  .side-card-wrapper .video-card .video-card-text h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .lis-news-details-area h3 {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  .lis-news-details-area .lis-news-details-text-area-info {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 6px;
+  }
+  .lis-news-details-area .lis-news-details-text-area-info ul li {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-card-wrapper .owl-nav .owl-next {
+    right: -18px;
+  }
+  .slider-card-wrapper .owl-nav .owl-prev {
+    left: -18px;
+  }
+  .lis-news-details-area {
+    margin-top: 50px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .recent-news-card-area {
     padding: 20px;
@@ -3239,11 +3342,24 @@ Header Responsive Area CSS
   .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li a {
     font-size: 12px;
   }
+  .lis-news-details-area h3 {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  .lis-news-details-area .lis-news-details-text-area-info ul li {
+    margin-right: 16px;
+  }
   .side-card-wrapper .video-card {
     padding: 20px;
   }
   .side-card-wrapper .video-card .video-card-text h3 {
     font-size: 18px;
+  }
+  .slider-card-wrapper .owl-nav .owl-next {
+    right: -18px;
+  }
+  .slider-card-wrapper .owl-nav .owl-prev {
+    left: -18px;
   }
 }
 .booking .booking-card-wrapper {
