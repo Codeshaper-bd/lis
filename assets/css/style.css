@@ -1321,10 +1321,31 @@ Header Responsive Area CSS
     font-size: 26px;
     line-height: 30px;
   }
+  .myp .myp-wrapper .myp-wrapper-text {
+    padding-top: 15px;
+  }
   .myp .myp-wrapper .myp-wrapper-text h5 {
-    padding: 15px 0;
+    padding: 10px 0;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 20px;
+  }
+  .myp .myp-wrapper .myp-wrapper-text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .myp .myp-wrapper h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .myp .myp-wrapper .myp-wrapper-text {
+    padding-top: 20px;
+  }
+  .myp .myp-wrapper .myp-wrapper-text h5 {
+    padding: 10px 0;
+    font-size: 20px;
+    line-height: 20px;
   }
   .myp .myp-wrapper .myp-wrapper-text p {
     font-size: 16px;
@@ -3621,6 +3642,23 @@ Header Responsive Area CSS
     outline-offset: 2px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .list-style li {
+    position: relative;
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .list-style li:hover a {
+    line-height: 25px;
+  }
+  .list-style li::before {
+    content: "";
+    top: 10px;
+    width: 8px;
+    height: 8px;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -4738,9 +4776,6 @@ img {
   line-height: 57.6px;
 }
 .calendar .calendar-color {
-  background-color: #d9d9d9;
-  height: 620px;
-  width: 100%;
   border-radius: 8px;
 }
 .calendar .default-button {
