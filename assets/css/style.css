@@ -2888,6 +2888,40 @@ Header Responsive Area CSS
     line-height: 22px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .leadership h3 {
+    line-height: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .leadership .card-group-wrapper .card-image::before {
+    height: 100%;
+  }
+  .leadership .card-group-wrapper .card-image .team-intro {
+    opacity: 1;
+  }
+  .leadership .card-group-wrapper .card-image .team-intro h4 {
+    margin-bottom: 8px;
+    color: var(--whiteColor);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+  }
+  .leadership .card-group-wrapper .card-image .team-intro p {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .leadership .card-group-wrapper .card-text {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .leadership .card-group-wrapper .card-text p {
+    padding-top: 0px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
 .slider-card-wrapper {
   margin-bottom: 50px;
   position: relative;
