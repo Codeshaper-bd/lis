@@ -1362,12 +1362,10 @@ img {
   .logo-single-accreditation {
     padding-top: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    .accreditation-image {
-      width: 100%;
-      img {
-        width: 100%;
-      }
+    img {
+      max-width: 150px;
     }
   }
 }

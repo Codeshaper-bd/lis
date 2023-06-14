@@ -217,10 +217,12 @@
     }
     .logo-single-accreditation {
       padding-top: 30px;
-      display: flex;
-      justify-content: space-around;
+      img {
+        max-width: 100px;
+      }
     }
   }
+
 
   // inner Pages Banner Area
   .inner-page-banner {

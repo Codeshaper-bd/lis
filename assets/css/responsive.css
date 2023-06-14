@@ -145,8 +145,9 @@
   }
   .accreditation .logo-single-accreditation {
     padding-top: 30px;
-    display: flex;
-    justify-content: space-around;
+  }
+  .accreditation .logo-single-accreditation img {
+    max-width: 100px;
   }
   .inner-page-banner .banner-content {
     padding-top: 50px;

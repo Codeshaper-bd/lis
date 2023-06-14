@@ -4670,13 +4670,11 @@ img {
 .accreditation .logo-single-accreditation {
   padding-top: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
-.accreditation .logo-single-accreditation .accreditation-image {
-  width: 100%;
-}
-.accreditation .logo-single-accreditation .accreditation-image img {
-  width: 100%;
+.accreditation .logo-single-accreditation img {
+  max-width: 150px;
 }
 
 .calendar p {
