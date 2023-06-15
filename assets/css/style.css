@@ -1108,6 +1108,7 @@ Header Responsive Area CSS
 @media only screen and (max-width: 767px) {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   .alumni-wrapper h3 {
     font-size: 24px;
   }
@@ -1206,6 +1207,14 @@ Header Responsive Area CSS
   .alumni-image {
     margin-top: 50px;
   }
+=======
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
+    order: 2 !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
+    order: 1 !important;
+  }
+>>>>>>> Stashed changes
 =======
   .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
     order: 2 !important;
