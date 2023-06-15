@@ -57,12 +57,19 @@
 }
 
 //responsive
+<<<<<<< Updated upstream
+=======
+
+
+
+>>>>>>> Stashed changes
 @media only screen and (max-width: 767px) {
     .alumni-wrapper {
         h3 {
             font-size: 24px;
         }
         .alumni-wrapper-group {
+<<<<<<< Updated upstream
             .alumni-card {
                 .order1 {
                     order: 1 !important;
@@ -143,11 +150,21 @@
                         line-height: 24px !important;
                     }
                 }
+=======
+            .alumni-card{
+                .order2 {
+                    order: 2 !important;
+                }
+                .order1 {
+                    order: 1 !important;
+                }
+>>>>>>> Stashed changes
             }
         }
     }
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .alumni-wrapper {
         h3 {
@@ -186,3 +203,6 @@
 
 @media only screen and (min-width: 1500px) {
 }
+=======
+
+>>>>>>> Stashed changes

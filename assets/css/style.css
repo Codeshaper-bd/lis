@@ -1106,6 +1106,7 @@ Header Responsive Area CSS
 }
 
 @media only screen and (max-width: 767px) {
+<<<<<<< Updated upstream
   .alumni-wrapper h3 {
     font-size: 24px;
   }
@@ -1204,6 +1205,14 @@ Header Responsive Area CSS
   .alumni-image {
     margin-top: 50px;
   }
+=======
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
+    order: 2 !important;
+  }
+  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
+    order: 1 !important;
+  }
+>>>>>>> Stashed changes
 }
 .pyp .pyp-wrapper h3 {
   color: var(--headerColor);
