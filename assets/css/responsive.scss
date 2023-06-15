@@ -203,6 +203,40 @@
     }
   }
 
+  // Inner About Page
+  .inner-about-text-area {
+    margin-top: 30px;
+  }
+
+  .inner-about-card {
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .about-details-text-area {
+    h4 {
+      font-size: 18px;
+      padding: {
+        top: 50px;
+        bottom: 30px;
+      };
+    }
+  }
+
+  .about-details-text-area {
+    .about-details-img {
+      p {
+        padding: 15px;
+        font-size: 12px;
+        background-color: rgb(0 0 0 / 64%);
+      }
+    }
+  }
+
   // acreedation
   .accreditation {
     h3 {
@@ -244,6 +278,14 @@
           }
         }
       }
+    }
+  }
+
+  .about-details-text {
+    margin-left: 0;
+    padding: 15px;
+    p {
+      font-size: 14px;
     }
   }
 

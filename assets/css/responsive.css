@@ -133,6 +133,25 @@
   .copyright .copyright-content p {
     font-size: 14px;
   }
+  .inner-about-text-area {
+    margin-top: 30px;
+  }
+  .inner-about-card h3 {
+    font-size: 20px;
+  }
+  .inner-about-card p {
+    font-size: 14px;
+  }
+  .about-details-text-area h4 {
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .about-details-text-area .about-details-img p {
+    padding: 15px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.64);
+  }
   .accreditation h3 {
     font-size: 28px;
     line-height: 27px;
@@ -164,6 +183,13 @@
   }
   .inner-page-banner .banner-content .banner-subtitle ul li {
     font-size: 16px;
+  }
+  .about-details-text {
+    margin-left: 0;
+    padding: 15px;
+  }
+  .about-details-text p {
+    font-size: 14px;
   }
   .calendar h4 {
     padding-bottom: 20px;
