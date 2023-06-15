@@ -29,6 +29,7 @@
     // mainClass: 'mfp-fade'
   });
 
+
   //calousel
   $(".slider-card-wrapper").owlCarousel({
     loop: true,
@@ -48,8 +49,35 @@
       },
     },
   });
+
+
+
+
+
 })(jQuery);
 
+//calendar
+function selectDate(date) {
+  $('.booking-calender').updateCalendarOptions({
+    date: date
+  });
+  console.log(calendar.getSelectedDate());
+}
+
+var defaultConfig = {
+  weekDayLength: 1,
+  date: '08/05/2021',
+  onClickDate: selectDate,
+  showYearDropdown: true,
+  startOnMonday: false,
+};
+
+var calendar = $('.booking-calender').calendar(defaultConfig);
+console.log(calendar.getSelectedDate());
+
+
+
+//pass hide icon
 function myFunction() {
   var x = document.getElementById("password");
   if (x.type === "password") {
