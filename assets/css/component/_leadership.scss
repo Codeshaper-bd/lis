@@ -68,28 +68,28 @@
             }
         }
         .card-text {
-            margin-top: 30px;
+            margin-top: 3px;
             position: relative;
             transition: 0.5s ease-in-out;
             border: 1px solid rgba(41, 66, 105, 0.3);
             border-radius: 4px;
             padding: 24px;
-            .card-about {
-                padding: 0px 20px;
-                border-radius: 4px;
-                transition: 0.5s ease-in-out;
-                background-color: #ffffff;
-                border: 1px solid rgba(41, 66, 105, 0.3);
-                position: absolute;
-                top: -15px;
-                left: 50%;
-                transform: translateX(-50px);
+            // .card-about {
+            //     padding: 0px 20px;
+            //     border-radius: 4px;
+            //     transition: 0.5s ease-in-out;
+            //     background-color: #ffffff;
+            //     border: 1px solid rgba(41, 66, 105, 0.3);
+            //     position: absolute;
+            //     top: -15px;
+            //     left: 50%;
+            //     transform: translateX(-50px);
 
-                p {
-                    padding-top: 0;
-                    transition: 0.5s ease-in-out;
-                }
-            }
+            //     p {
+            //         padding-top: 0;
+            //         transition: 0.5s ease-in-out;
+            //     }
+            // }
             p {
                 text-align: center;
                 padding-top: 10px;

@@ -59,23 +59,10 @@
         .enrollment-content-small {
             margin-top: 20px;
 
-            p {
-                padding: 0;
-                margin: 0;
-                color: var(--textColor);
-                font: {
-                    size: 18px;
-                    family: var(--primaryFont);
-                }
-
-                line-height: 27px;
-                a {
-                    color: var(--yellowColor);
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
+            .default-button {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: 1px solid gray !important;
             }
             h6 {
                 color: var(--headerColor);

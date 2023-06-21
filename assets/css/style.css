@@ -1582,19 +1582,10 @@ Header Responsive Area CSS
 .enrollment .enrollment-content-wrapper .enrollment-content-small {
   margin-top: 20px;
 }
-.enrollment .enrollment-content-wrapper .enrollment-content-small p {
-  padding: 0;
-  margin: 0;
-  color: var(--textColor);
-  font-size: 18px;
-  font-family: var(--primaryFont);
-  line-height: 27px;
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-small p a {
-  color: var(--yellowColor);
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-small p a:hover {
-  text-decoration: underline;
+.enrollment .enrollment-content-wrapper .enrollment-content-small .default-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray !important;
 }
 .enrollment .enrollment-content-wrapper .enrollment-content-small h6 {
   color: var(--headerColor);
@@ -2832,27 +2823,12 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
 }
 .leadership .card-group-wrapper .card-text {
-  margin-top: 30px;
+  margin-top: 3px;
   position: relative;
   transition: 0.5s ease-in-out;
   border: 1px solid rgba(41, 66, 105, 0.3);
   border-radius: 4px;
   padding: 24px;
-}
-.leadership .card-group-wrapper .card-text .card-about {
-  padding: 0px 20px;
-  border-radius: 4px;
-  transition: 0.5s ease-in-out;
-  background-color: #ffffff;
-  border: 1px solid rgba(41, 66, 105, 0.3);
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  transform: translateX(-50px);
-}
-.leadership .card-group-wrapper .card-text .card-about p {
-  padding-top: 0;
-  transition: 0.5s ease-in-out;
 }
 .leadership .card-group-wrapper .card-text p {
   text-align: center;
@@ -4183,12 +4159,15 @@ img {
   width: 100%;
 }
 
-.partner-logos {
+.partner .section-heading {
+  margin-bottom: 50px !important;
+}
+.partner .partner-logos {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.partner-logos img {
+.partner .partner-logos img {
   max-width: 175px;
 }
 
