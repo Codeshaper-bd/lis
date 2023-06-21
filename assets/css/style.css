@@ -1582,7 +1582,7 @@ Header Responsive Area CSS
 .enrollment .enrollment-content-wrapper .enrollment-content-small {
   margin-top: 20px;
 }
-.enrollment .enrollment-content-wrapper .enrollment-content-small .default-button {
+.enrollment .enrollment-content-wrapper .enrollment-content-small .blue-button {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid gray !important;
@@ -1641,6 +1641,9 @@ Header Responsive Area CSS
   }
   .enrollment .enrollment-content-wrapper .enrollment-content-small p a {
     color: var(--yellowColor);
+  }
+  .enrollment .enrollment-content-wrapper .enrollment-content-email p {
+    font-size: 14px;
   }
 }
 .policy p {
