@@ -213,34 +213,37 @@ img {
       top: 0;
       z-index: 0;
     }
-
-    .topbar-social-links {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      span {
+    .language {
+      label {
+        position: relative;
+        font-family: "Lato";
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
         color: var(--whiteColor);
-        font: {
-          size: 16px;
-          weight: 400;
-          family: var(--primaryFont);
-        }
       }
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        li {
-          display: inline-block;
-          a {
-            font-size: 18px;
-            color: #fff;
-            position: relative;
-            top: 3px;
-            margin-left: 12px;
+
+      select {
+        position: relative;
+        text-transform: uppercase;
+        text-align: center;
+        background: none;
+        border: none;
+        color: var(--whiteColor);
+        background-color: #f09020;
+        option {
+          background-color: var(--blueColor);
+          color: var(--whiteColor);
+          font-family: "Lato";
+          font-weight: 500;
+          font-size: 16px;
+          &:hover {
+            background: var(--whiteColor);
           }
+        }
+        &:focus {
+          outline: none;
+          border: none;
         }
       }
     }
@@ -256,70 +259,100 @@ img {
     top: 10px;
     bottom: 10px;
   }
-}
-
-.topbar-rightSide-contact-card {
-  position: relative;
-  padding-left: 45px;
-  margin-right: 10px;
-  padding-right: 30px;
-
-  iconify-icon {
-    color: var(--yellowColor);
-    font-size: 36px;
-    font-weight: 400;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: 0.5s ease-in-out;
-  }
-
-  p {
-    margin: 0;
-    line-height: 18px;
-    color: var(--whiteColor);
-    font: {
-      size: 12px;
-      weight: 400;
-      family: var(--primaryFont);
+  .topbar-social-links {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    span {
+      color: var(--whiteColor);
+      font: {
+        size: 16px;
+        weight: 400;
+        family: var(--primaryFont);
+      }
     }
-  }
-
-  a {
-    color: var(--whiteColor);
-    font: {
-      size: 16px;
-      weight: 400;
-      family: var(--primaryFont);
-    }
-  }
-
-  &:hover {
-    iconify-icon {
-      transform: translateY(-50%) scale(1.1);
-    }
-  }
-
-  &::after {
-    content: "";
-    width: 1px;
-    height: 100%;
-    background-color: rgba($color: #e2ddda, $alpha: 1);
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  &:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    &::after {
-      display: none;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          font-size: 18px;
+          color: #fff;
+          position: relative;
+          top: 3px;
+          margin-left: 12px;
+        }
+      }
     }
   }
 }
+
+// .topbar-rightSide-contact-card {
+//   position: relative;
+//   padding-left: 45px;
+//   margin-right: 10px;
+//   padding-right: 30px;
+
+//   iconify-icon {
+//     color: var(--yellowColor);
+//     font-size: 36px;
+//     font-weight: 400;
+//     position: absolute;
+//     left: 0;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     transition: 0.5s ease-in-out;
+//   }
+
+//   p {
+//     margin: 0;
+//     line-height: 18px;
+//     color: var(--whiteColor);
+//     font: {
+//       size: 12px;
+//       weight: 400;
+//       family: var(--primaryFont);
+//     }
+//   }
+
+//   a {
+//     color: var(--whiteColor);
+//     font: {
+//       size: 16px;
+//       weight: 400;
+//       family: var(--primaryFont);
+//     }
+//   }
+
+//   &:hover {
+//     iconify-icon {
+//       transform: translateY(-50%) scale(1.1);
+//     }
+//   }
+
+//   &::after {
+//     content: "";
+//     width: 1px;
+//     height: 100%;
+//     background-color: rgba($color: #e2ddda, $alpha: 1);
+//     position: absolute;
+//     right: 10px;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+
+//   &:last-child {
+//     margin-right: 0;
+//     padding-right: 0;
+//     &::after {
+//       display: none;
+//     }
+//   }
+// }
 
 // Banner Area
 .banner {
