@@ -3944,30 +3944,28 @@ img {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-image: url("/assets/images/program/program1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.program-card img {
+  width: 100%;
 }
 .program-card .program-card-title {
-  width: 100%;
-  transition: 0.5s ease-in-out;
   position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
-  color: var(--headerColor);
-  font-size: 20px;
+  top: 50px;
+  opacity: 1;
+  color: var(--whiteColor);
+  font-size: 26px;
   font-weight: 700;
   font-family: var(--primaryFont);
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 .program-card .program-card-text {
-  padding: 30px 20px;
+  padding: 11px 10px;
   opacity: 0;
-  background-color: red;
+  background-color: #707070;
   transition: 0.5s ease-in-out;
-  position: relative;
-  top: 30px;
+  position: absolute;
 }
 .program-card .program-card-text h3 a {
   color: var(--blueColor);

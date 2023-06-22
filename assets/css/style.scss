@@ -443,40 +443,98 @@ img {
 }
 
 // Program Area CSS
+// .program-card {
+//   transition: 0.5s ease-in-out;
+//   text-align: center;
+//   overflow: hidden;
+//   position: relative;
+//   background: {
+//     image: url("/assets/images/program/program1.jpg");
+//     size: cover;
+//     position: center;
+//     repeat: no-repeat;
+//   }
+
+//   .program-card-title {
+//     width: 100%;
+//     transition: 0.5s ease-in-out;
+//     position: absolute;
+//     left: 50%;
+//     top: 30%;
+//     transform: translate(-50%, -50%);
+//     color: var(--headerColor);
+//     font: {
+//       size: 20px;
+//       weight: 700;
+//       family: var(--primaryFont);
+//     }
+//   }
+
+//   .program-card-text {
+//     padding: 30px 20px;
+//     opacity: 0;
+//     background-color: red;
+//     transition: 0.5s ease-in-out;
+//     position: relative;
+//     top: 30px;
+
+//     h3 {
+//       a {
+//         color: var(--blueColor);
+//         font: {
+//           size: 20px;
+//           weight: 700;
+//           family: var(--primaryFont);
+//         }
+//       }
+//     }
+//   }
+
+//   &:hover {
+//     .program-card-title {
+//       top: 30px;
+//       color: #fff;
+//       opacity: 0;
+//     }
+//     .program-card-text {
+//       opacity: 0.9;
+//       top: 0;
+//       h3 a,
+//       p {
+//         color: #ffffff;
+//       }
+//     }
+//   }
+// }
 .program-card {
   transition: 0.5s ease-in-out;
   text-align: center;
   overflow: hidden;
   position: relative;
-  background: {
-    image: url("/assets/images/program/program1.jpg");
-    size: cover;
-    position: center;
-    repeat: no-repeat;
-  }
+  border-radius: 5px;
 
-  .program-card-title {
+  img {
     width: 100%;
-    transition: 0.5s ease-in-out;
+  }
+  .program-card-title {
     position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    color: var(--headerColor);
+    top: 50px;
+    opacity: 1;
+    color: var(--whiteColor);
     font: {
-      size: 20px;
+      size: 26px;
       weight: 700;
       family: var(--primaryFont);
     }
+    right: 50%;
+    transform: translate(50%, 50%);
   }
-
   .program-card-text {
-    padding: 30px 20px;
+    padding: 11px 10px;
     opacity: 0;
-    background-color: red;
+    background-color: #707070;
     transition: 0.5s ease-in-out;
-    position: relative;
-    top: 30px;
+    position: absolute;
 
     h3 {
       a {
