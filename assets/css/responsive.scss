@@ -68,8 +68,8 @@
         margin: {
           left: auto;
           right: auto;
-        };
-      } 
+        }
+      }
       &::before {
         right: -999px;
       }
@@ -175,8 +175,8 @@
       clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
     }
     padding: {
-      top: 80px;
-      bottom: 50px;
+      top: 50px;
+      bottom: 30px;
     }
     .pl-70 {
       margin-top: 0;
@@ -482,9 +482,7 @@
       .school-image {
         width: 100%;
         padding-top: 28px;
-      
       }
-
     }
     .map-campus {
       width: 100%;
@@ -519,7 +517,6 @@
       justify-content: end;
     }
   }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
