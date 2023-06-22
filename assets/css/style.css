@@ -1106,9 +1106,6 @@ Header Responsive Area CSS
 }
 
 @media only screen and (max-width: 767px) {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   .alumni-wrapper h3 {
     font-size: 24px;
   }
@@ -1207,30 +1204,6 @@ Header Responsive Area CSS
   .alumni-image {
     margin-top: 50px;
   }
-=======
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
-    order: 2 !important;
-  }
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
-    order: 1 !important;
-  }
->>>>>>> Stashed changes
-=======
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
-    order: 2 !important;
-  }
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
-    order: 1 !important;
-  }
->>>>>>> Stashed changes
-=======
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .order2 {
-    order: 2 !important;
-  }
-  .alumni-wrapper .alumni-wrapper-group .alumni-card .order1 {
-    order: 1 !important;
-  }
->>>>>>> Stashed changes
 }
 .pyp .pyp-wrapper h3 {
   color: var(--headerColor);
@@ -1609,19 +1582,10 @@ Header Responsive Area CSS
 .enrollment .enrollment-content-wrapper .enrollment-content-small {
   margin-top: 20px;
 }
-.enrollment .enrollment-content-wrapper .enrollment-content-small p {
-  padding: 0;
-  margin: 0;
-  color: var(--textColor);
-  font-size: 18px;
-  font-family: var(--primaryFont);
-  line-height: 27px;
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-small p a {
-  color: var(--yellowColor);
-}
-.enrollment .enrollment-content-wrapper .enrollment-content-small p a:hover {
-  text-decoration: underline;
+.enrollment .enrollment-content-wrapper .enrollment-content-small .blue-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray !important;
 }
 .enrollment .enrollment-content-wrapper .enrollment-content-small h6 {
   color: var(--headerColor);
@@ -1677,6 +1641,9 @@ Header Responsive Area CSS
   }
   .enrollment .enrollment-content-wrapper .enrollment-content-small p a {
     color: var(--yellowColor);
+  }
+  .enrollment .enrollment-content-wrapper .enrollment-content-email p {
+    font-size: 14px;
   }
 }
 .policy p {
@@ -2001,11 +1968,14 @@ Header Responsive Area CSS
   line-height: 32px;
 }
 .social-media .social-media-frame {
+  border: 1px solid gray;
+  border-radius: 20px;
+  overflow: hidden;
   margin-top: 45px;
   margin-bottom: 70px;
 }
 .social-media .social-media-frame .twitter-timeline {
-  height: 100vh;
+  width: 100%;
   overflow: auto;
 }
 .social-media .social-follow-buttons h3 {
@@ -2856,27 +2826,12 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
 }
 .leadership .card-group-wrapper .card-text {
-  margin-top: 30px;
+  margin-top: 3px;
   position: relative;
   transition: 0.5s ease-in-out;
   border: 1px solid rgba(41, 66, 105, 0.3);
   border-radius: 4px;
   padding: 24px;
-}
-.leadership .card-group-wrapper .card-text .card-about {
-  padding: 0px 20px;
-  border-radius: 4px;
-  transition: 0.5s ease-in-out;
-  background-color: #ffffff;
-  border: 1px solid rgba(41, 66, 105, 0.3);
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  transform: translateX(-50px);
-}
-.leadership .card-group-wrapper .card-text .card-about p {
-  padding-top: 0;
-  transition: 0.5s ease-in-out;
 }
 .leadership .card-group-wrapper .card-text p {
   text-align: center;
@@ -3478,7 +3433,7 @@ Header Responsive Area CSS
   padding-top: 20px;
 }
 .video-banner-image .video-banner {
-  background: url(/assets/images/programme/pyp.jpg);
+  background: url(/../assets/images/programme/pyp.jpg);
   background-size: cover;
   width: 100%;
   height: 525px;
@@ -4207,12 +4162,15 @@ img {
   width: 100%;
 }
 
-.partner-logos {
+.partner .section-heading {
+  margin-bottom: 50px !important;
+}
+.partner .partner-logos {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.partner-logos img {
+.partner .partner-logos img {
   max-width: 175px;
 }
 
@@ -4749,11 +4707,13 @@ img {
 .accreditation .logo-single-accreditation {
   padding-top: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
 }
-.accreditation .logo-single-accreditation img {
-  max-width: 150px;
+.accreditation .logo-single-accreditation .accreditation-image {
+  width: 100%;
+}
+.accreditation .logo-single-accreditation .accreditation-image img {
+  width: 100%;
 }
 
 .calendar p {

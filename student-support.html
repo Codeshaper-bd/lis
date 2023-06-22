@@ -1,503 +1,745 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LIS - School</title>
-        <link rel="icon" type="png/icon" href="assets/images/fav-icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIS - School</title>
+    <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-    </head>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
 
-    <body>
-        <div class="topbar">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-                        <div class="topbar-leftside">
-                            <div class="topbar-social-links">
-                                <span>Follow Us:</span>
-                                <ul>
-                                    <li><a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-9 col-md-8 col-sm-8 col-12">
-                        <div class="tobar-rightSide">
-                            <div class="topbar-rightSide-contact-card">
-                                <iconify-icon icon="bx:support"></iconify-icon>
-                                <div>
-                                    <p>Call Now!</p>
-                                    <a href="tel:+244932337056">+244932337056</a>
-                                </div>
-                            </div>
-                            <div class="topbar-rightSide-contact-card">
-                                <iconify-icon icon="fluent-emoji-high-contrast:e-mail"></iconify-icon>
-                                <div>
-                                    <p>Email Now!</p>
-                                    <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+            <div class="topbar-leftside">
+              <div class="language">
+                <label htmlFor="language">Language:</label>
+                <select name="language" id="language">
+                  <option value="english">PT</option>
+                  <option value="english">EN</option>
+                </select>
+              </div>
             </div>
-        </div>
-
-        <!-- navigation bar area start -->
-        <div class="header-area">
-            <div class="navbar-area">
-                <!-- Menu For Mobile Device -->
-                <div class="main-responsive-nav">
-                    <div class="container">
-                        <div class="mobile-nav">
-                            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" /></a>
-                            <ul class="menu-sidebar menu-small-device">
-                                <li><button class="popup-button"><iconify-icon
-                                            icon="iconamoon:search-thin"></iconify-icon></button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Menu For Desktop Device -->
-                <div class="main-nav">
-                    <div class="container">
-                        <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo.png" alt="logo" />
-                            </a>
-                            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item ">
-                                        <a href="index.html" class="nav-link dropdown-toggle active">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="learn.html" class="nav-link dropdown-toggle">Learn <iconify-icon
-                                                icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="pyp.html"
-                                                    class="nav-link dropdown-toggle">Primary Years Programme
-                                                </a>
-                                            </li>
-                                            <li class="nav-item"><a href="diploma-programme.html"
-                                                    class="nav-link">Diploma Programme</a></li>
-                                            <li class="nav-item"><a href="co-curricular.html"
-                                                    class="nav-link">Co-Curricular Programme</a>
-                                            </li>
-                                            <li class="nav-item"><a href="student-support.html" class="nav-link">Student
-                                                    Support Services</a>
-                                            </li>
-                                            <li class="nav-item"><a href="commitment.html" class="nav-link">Commitment
-                                                    to Well-being</a></li>
-                                            <li class="nav-item"><a href="information.html" class="nav-link">School
-                                                    Profile: Information for
-                                                    Universities</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="job-opening.html" class="nav-link dropdown-toggle">Inspire
-                                            <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="job-opening.html" class="nav-link">Job
-                                                    Openings</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="join.html" class="nav-link dropdown-toggle">Join <iconify-icon
-                                                icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="policy.html" class="nav-link">Policy And
-                                                    General Notes</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact-us.html" class="nav-link dropdown-toggle">Contact <iconify-icon
-                                                icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="parent-association.html"
-                                                    class="nav-link">Parents Teacher
-                                                    Associations (PTA)</a></li>
-                                            <li class="nav-item"><a href="accreditation.html" class="nav-link">LIS
-                                                    Partnerships</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item"><a href="enrollment.html" class="nav-link">Enrollment</a></li>
-                                </ul>
-                                <div class="menu-sidebar">
-                                    <ul>
-                                        <li>
-                                            <button class="popup-button">
-                                                <iconify-icon id="popupSearchButton"
-                                                    icon="iconamoon:search-thin"></iconify-icon>
-                                                <div class="popupSearchBar">
-                                                    <input type="text" class="form-control" placeholder="Search ...">
-                                                </div>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <a class="default-button blue-button"
-                                                href="contact-us.html"><span>Admission</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
+            <div class="tobar-rightSide">
+              <div class="topbar-social-links">
+                <span>Follow Us:</span>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="quick-links.html"
+                      ><iconify-icon
+                        icon="dashicons:admin-links"
+                        alt="quick links"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="calender.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:calender"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- navigation bar area end -->
+      </div>
+    </div>
 
-        <!-- Inner Pages Banner Area Start -->
-        <div class="inner-page-banner">
-            <div class="container">
-                <div class="banner-content">
-                    <h1>Student Support Service</h1>
-                    <div class="banner-subtitle">
-                        <ul>
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>Student Support</li>
+    <!-- navigation bar area start -->
+    <div class="header-area">
+      <div class="navbar-area">
+        <!-- Menu For Mobile Device -->
+        <div class="main-responsive-nav">
+          <div class="container">
+            <div class="mobile-nav">
+              <a href="index.html" class="logo"
+                ><img src="assets/images/logo.png" alt="logo"
+              /></a>
+              <ul class="menu-sidebar menu-small-device">
+                <li>
+                  <button class="popup-button">
+                    <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Menu For Desktop Device -->
+        <div class="main-nav">
+          <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="logo" />
+              </a>
+              <div
+                class="collapse navbar-collapse mean-menu"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link dropdown-toggle active"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link dropdown-toggle"
+                      >About Us
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="mission-values.html" class="nav-link"
+                          >Mission, Vision and Values</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="school-campus.html" class="nav-link"
+                          >School Campus</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="leadership.html" class="nav-link"
+                          >LIS Leadership Team</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="board-of-directors.html" class="nav-link"
+                          >Board of Directors</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="accreditation.html" class="nav-link">
+                          Accreditation</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Health and Safety</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="child-protection.html" class="nav-link"
+                              >Child Protection</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="commitment.html" class="nav-link"
+                              >Commitment to Well-being</a
+                            >
+                          </li>
                         </ul>
-                    </div>
+                      </li>
+                      <li class="nav-item">
+                        <a href="community.html" class="nav-link">Comunity</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="lis-news.html" class="nav-link"
+                              >Lis News</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">Alumni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="parent-association.html" class="nav-link"
+                              >Parent Association</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="learn.html" class="nav-link dropdown-toggle"
+                      >Learn
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="pyp.html" class="nav-link dropdown-toggle"
+                          >Primary Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="myp.html" class="nav-link dropdown-toggle"
+                          >Middle Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="diploma-programme.html" class="nav-link"
+                          >Diploma Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="co-curricular.html" class="nav-link"
+                          >Co-Curricular Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Student Support Services</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="information.html" class="nav-link"
+                          >School Profile: Information for Universities</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="calender.html" class="nav-link">Calender</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="join.html" class="nav-link dropdown-toggle"
+                      >Join
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a
+                          href="enrollment.html"
+                          class="nav-link dropdown-toggle"
+                          >Enrollment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="policy.html"
+                              class="nav-link dropdown-toggle"
+                              >Policies and General Notes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="recruitment.html"
+                          class="nav-link dropdown-toggle"
+                          >Recruitment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="job-opening.html"
+                              class="nav-link dropdown-toggle"
+                              >Job Openings
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="social-media.html" class="nav-link dropdown-toggle"
+                      >Social Media
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="quick-links.html" class="nav-link dropdown-toggle"
+                      >Quick Links
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link dropdown-toggle"
+                      >Contact Us
+                    </a>
+                  </li>
+                </ul>
+                <div class="menu-sidebar">
+                  <ul>
+                    <li>
+                      <button class="popup-button">
+                        <iconify-icon
+                          id="popupSearchButton"
+                          icon="iconamoon:search-thin"
+                        ></iconify-icon>
+                        <div class="popupSearchBar">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search ..."
+                          />
+                        </div>
+                      </button>
+                    </li>
+                    <li>
+                      <a
+                        class="default-button blue-button"
+                        href="contact-us.html"
+                        ><span>Admission</span></a
+                      >
+                    </li>
+                  </ul>
                 </div>
-            </div>
+              </div>
+            </nav>
+          </div>
         </div>
-        <!-- Inner Pages Banner Area End -->
+      </div>
+    </div>
+    <!-- navigation bar area end -->
 
-        <!-- student-support Start -->
-        <div class="co-curricular ptb-140">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="co-curricular-wrapper">
-                            <h3>Student Support Services</h3>
+    <!-- Inner Pages Banner Area Start -->
+    <div class="inner-page-banner">
+      <div class="container">
+        <div class="banner-content">
+          <h1>Student Support Service</h1>
+          <div class="banner-subtitle">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>Student Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner Pages Banner Area End -->
 
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Learn – Thrive – Inspire</h5>
-                                <h5>Introduction</h5>
-                                <p>The LIS Student Support Services, in the Primary and Secondary sections, aims to
-                                    provide all students with access to the
-                                    school’s curriculum as competent, inquiring and confident learners. Educational
-                                    professionals from the specialties of
-                                    learning support, teaching English language learners and school counseling provide
-                                    instructional, social-emotional
-                                    support services and university counseling, to students.</p>
-                                <p>It is a requirement that any educational, social-emotional/behavioral, physical,
-                                    sensory or medical need is fully
-                                    disclosed during the time of seeking admission. In addition to this, academic
-                                    (including achievement or diagnostic
-                                    testing, tutoring, Individual Educational Plans, etc.), psychological and medical
-                                    reports the applicant is receiving or
-                                    has received, must be notified at the time of application. Failure to disclose this
-                                    information will delay the
-                                    application process and may result in the re-evaluation of your child’s offer of
-                                    admission or subsequent enrollment.</p>
-                                <p>External services in tutoring, therapies, and psychology are available in Portuguese,
-                                    however, extremely limited
-                                    services for tutoring and clinical services are available in Luanda by specialists
-                                    speaking languages other than
-                                    Portuguese. This situation should be very carefully considered when deciding on
-                                    Luanda, Angola as a location for
-                                    children and young people with needs requiring additional services and support.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>LEARNING SUPPORT</h5>
-                                <p>Instructional support is available to students who have suspected or diagnosed
-                                    learning needs which prevent them from
-                                    realizing their academic potential. Support is offered based on the assessed and
-                                    identified needs of students through a
-                                    variety of planned instructional opportunities and in collaboration with teachers
-                                    and parents.
-                                    Students with mild-to-moderate needs are eligible for services from the school’s
-                                    Learning Support Teachers. With special
-                                    pre-admissions consideration and other predetermined conditions of enrolment,
-                                    students with needs not usually catered
-                                    for through the school’s specialized services may be provisionally admitted.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>ENGLISH LANGUAGE LEARNING (ELL)</h5>
-                                <p>At LIS the language of instruction is English, therefore English language support is
-                                    offered to students who are
-                                    speakers of languages other than English. The English Language Learner (ELL)
-                                    teachers support students to reach social
-                                    and academic age-level proficiency in English, allowing them to fully engage in the
-                                    life of the school and to benefit
-                                    from its rich and varied IB curriculum. English language support is available
-                                    through a variety of planned learning
-                                    engagements, both within the regular classrooms and in small groups or individually
-                                    in specialized English language
-                                    environments.</p>
-                                <p>Pre-entry assessments for Primary students are only administered to non-English
-                                    proficient students from the second
-                                    semester of Year 5 and thereafter for all students in Years 6-13. Students are
-                                    assessed using the World-Class
-                                    Instructional Design and Assessment (WIDA).</p>
-                                <p>LIS places high importance on the maintenance of students’ home languages, as current
-                                    research suggests multilingualism
-                                    aids cognitive development and the acquisition of additional languages. Students are
-                                    encouraged to use their home
-                                    language(s) to support their learning, we also offer after school activities in a
-                                    number of home languages and have
-                                    books from a range of languages available to students in the school library. We
-                                    encourage parents to actively develop
-                                    their children’s home language(s) skills as a tool to support their child’s learning
-                                    of English and curriculum content.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>COUNSELING</h5>
-                                <p>Our comprehensive school counseling programme focuses on what all students should
-                                    know, understand and be able to do in
-                                    the four domain areas: Academic, Career, Personal/Social and Global Perspective. The
-                                    emphasis is on academic and social
-                                    success in the international context, for every student; working in partnership with
-                                    parents, faculty, school leaders
-                                    and outside resources in support of students achieving their goals.</p>
-                                <p>The purpose of the school counseling programme is to impart specific skills and
-                                    learning opportunities in a proactive,
-                                    preventative manner, ensuring all students can achieve school success through
-                                    academic, career, personal/social and
-                                    global perspective experiences. Therefore, the school counselor’s duties are focused
-                                    on programme delivery and direct
-                                    counseling services, in both a teaching and advisory capacity. Preventative
-                                    education is accomplished through the
-                                    implementation of the Wellbeing curriculum in the classroom and through coordination
-                                    of prevention education programmes
-                                    such as, but not limited to conflict resolution, anti-violence, bullying,
-                                    transitions, acceptance of diversity etc.</p>
+    <!-- student-support Start -->
+    <div class="co-curricular ptb-140">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="co-curricular-wrapper">
+              <h3>Student Support Services</h3>
 
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>UNIVERSITY COUNSELING</h5>
-                                <p>The LIS upper secondary counselor assists students to research and identify
-                                    post-secondary choices that are a good match
-                                    for individual interests, achievement levels, needs and goals. The counselor
-                                    provides a wide range of support to
-                                    students and their families through the post-secondary planning and application
-                                    process. This includes advising on
-                                    course and career path selection, assisting students with personal statement
-                                    writing, and hosting university information
-                                    evenings for students and parents.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Side Card Area Start -->
-                    <div class="col-lg-4">
-                        <div class="side-card-wrapper">
-                            <div class="video-card">
-                                <div class="video-card-image">
-                                    <a class='play-btn mfp-iframe'
-                                        href="assets/images/Website Video Final.mp4"><iconify-icon
-                                            icon="solar:play-bold"></iconify-icon></a>
-
-                                </div>
-                                <div class="video-card-text">
-                                    <h3><a href="">Luanda International School: Campus View</a></h3>
-                                    <a href="" class="default-button blue-button">Enrolement <iconify-icon
-                                            icon="heroicons:arrow-long-right"></iconify-icon></a>
-                                    <div class="video-card-social">
-                                        <h3>We are here:</h3>
-                                        <ul>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a>
-                                            </li>
-                                        </ul>
-                                        <p>For Any Details Our Hotline:<a href=""><iconify-icon icon="nimbus:telephone"
-                                                    rotate="90deg"></iconify-icon>+244 932
-                                                337 056 / 57</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-card">
-                                <div class="blog-card-image">
-                                    <img src="assets/images/sidecard/earth-day-blog-card.jpg" alt="blog-earth">
-                                </div>
-                                <div class="blog-card-text">
-                                    <span class="blog-date">
-                                        20 May<br>2022
-                                    </span>
-                                    <h3><a href="">Respect for ourselves and others, our environment, and our cultural
-                                            contexts
-                                            guides our thoughts, actions and
-                                            relationships.</a></h3>
-                                    <p>On Friday, 21 April 2017, LIS participated in World Earth Day. What an amazing
-                                        day it was! We focused our collective
-                                        efforts on this central idea: Together we can empower everyone with the
-                                        knowledge to inspire action in defense of the
-                                        environment.</p>
-                                    <p><a href="">Read More...</a></p>
-
-                                </div>
-                            </div>
-                            <div class="blog-card">
-                                <div class="blog-card-image">
-                                    <img src="assets/images/sidecard/2017.11.10-Angolan-ID-6_Cropped.jpg"
-                                        alt="blog-earth">
-                                </div>
-                                <div class="blog-card-text">
-                                    <span class="blog-date">
-                                        20 May<br>2022
-                                    </span>
-                                    <h3><a href="">A strong community is built on inclusion, participation,
-                                            communication, kindness
-                                            and mutual respect.</a></h3>
-                                    <p>Luanda International School celebrated Angolan Independence Day on 10 November
-                                        2017. The celebration assembly was a real
-                                        endorsement of our school mission and commitment to play a greater role here in
-                                        Angola.</p>
-                                    <p><a href="">Read More...</a></p>
-
-                                </div>
-                            </div>
-                            <div class="blog-card">
-                                <div class="blog-card-image">
-                                    <img src="assets/images/sidecard/dalene.jpg" alt="blog-earth">
-                                </div>
-                                <div class="blog-card-text">
-                                    <span class="blog-date">
-                                        20 May<br>2022
-                                    </span>
-                                    <h3><a href="">Respect for ourselves and others, our environment, and our cultural
-                                            contexts
-                                            guides our thoughts, actions and
-                                            relationships.</a></h3>
-                                    <p>George’s journey from Angola to the Republic of Congo did not have a happy
-                                        beginning. George, a chimpanzee, was stolen
-                                        from his forest home and family for the illegal pet trade. Thankfully, he was
-                                        found by Dr. Cristina of Casa dos Animais.
-                                    <p><a href="">Read More...</a></p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Side Card Area End -->
+              <div class="co-curricular-wrapper-text">
+                <h5>Learn – Thrive – Inspire</h5>
+                <h5>Introduction</h5>
+                <p>
+                  The LIS Student Support Services, in the Primary and Secondary
+                  sections, aims to provide all students with access to the
+                  school’s curriculum as competent, inquiring and confident
+                  learners. Educational professionals from the specialties of
+                  learning support, teaching English language learners and
+                  school counseling provide instructional, social-emotional
+                  support services and university counseling, to students.
+                </p>
+                <p>
+                  It is a requirement that any educational,
+                  social-emotional/behavioral, physical, sensory or medical need
+                  is fully disclosed during the time of seeking admission. In
+                  addition to this, academic (including achievement or
+                  diagnostic testing, tutoring, Individual Educational Plans,
+                  etc.), psychological and medical reports the applicant is
+                  receiving or has received, must be notified at the time of
+                  application. Failure to disclose this information will delay
+                  the application process and may result in the re-evaluation of
+                  your child’s offer of admission or subsequent enrollment.
+                </p>
+                <p>
+                  External services in tutoring, therapies, and psychology are
+                  available in Portuguese, however, extremely limited services
+                  for tutoring and clinical services are available in Luanda by
+                  specialists speaking languages other than Portuguese. This
+                  situation should be very carefully considered when deciding on
+                  Luanda, Angola as a location for children and young people
+                  with needs requiring additional services and support.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>LEARNING SUPPORT</h5>
+                <p>
+                  Instructional support is available to students who have
+                  suspected or diagnosed learning needs which prevent them from
+                  realizing their academic potential. Support is offered based
+                  on the assessed and identified needs of students through a
+                  variety of planned instructional opportunities and in
+                  collaboration with teachers and parents. Students with
+                  mild-to-moderate needs are eligible for services from the
+                  school’s Learning Support Teachers. With special
+                  pre-admissions consideration and other predetermined
+                  conditions of enrolment, students with needs not usually
+                  catered for through the school’s specialized services may be
+                  provisionally admitted.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>ENGLISH LANGUAGE LEARNING (ELL)</h5>
+                <p>
+                  At LIS the language of instruction is English, therefore
+                  English language support is offered to students who are
+                  speakers of languages other than English. The English Language
+                  Learner (ELL) teachers support students to reach social and
+                  academic age-level proficiency in English, allowing them to
+                  fully engage in the life of the school and to benefit from its
+                  rich and varied IB curriculum. English language support is
+                  available through a variety of planned learning engagements,
+                  both within the regular classrooms and in small groups or
+                  individually in specialized English language environments.
+                </p>
+                <p>
+                  Pre-entry assessments for Primary students are only
+                  administered to non-English proficient students from the
+                  second semester of Year 5 and thereafter for all students in
+                  Years 6-13. Students are assessed using the World-Class
+                  Instructional Design and Assessment (WIDA).
+                </p>
+                <p>
+                  LIS places high importance on the maintenance of students’
+                  home languages, as current research suggests multilingualism
+                  aids cognitive development and the acquisition of additional
+                  languages. Students are encouraged to use their home
+                  language(s) to support their learning, we also offer after
+                  school activities in a number of home languages and have books
+                  from a range of languages available to students in the school
+                  library. We encourage parents to actively develop their
+                  children’s home language(s) skills as a tool to support their
+                  child’s learning of English and curriculum content.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>COUNSELING</h5>
+                <p>
+                  Our comprehensive school counseling programme focuses on what
+                  all students should know, understand and be able to do in the
+                  four domain areas: Academic, Career, Personal/Social and
+                  Global Perspective. The emphasis is on academic and social
+                  success in the international context, for every student;
+                  working in partnership with parents, faculty, school leaders
+                  and outside resources in support of students achieving their
+                  goals.
+                </p>
+                <p>
+                  The purpose of the school counseling programme is to impart
+                  specific skills and learning opportunities in a proactive,
+                  preventative manner, ensuring all students can achieve school
+                  success through academic, career, personal/social and global
+                  perspective experiences. Therefore, the school counselor’s
+                  duties are focused on programme delivery and direct counseling
+                  services, in both a teaching and advisory capacity.
+                  Preventative education is accomplished through the
+                  implementation of the Wellbeing curriculum in the classroom
+                  and through coordination of prevention education programmes
+                  such as, but not limited to conflict resolution,
+                  anti-violence, bullying, transitions, acceptance of diversity
+                  etc.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>UNIVERSITY COUNSELING</h5>
+                <p>
+                  The LIS upper secondary counselor assists students to research
+                  and identify post-secondary choices that are a good match for
+                  individual interests, achievement levels, needs and goals. The
+                  counselor provides a wide range of support to students and
+                  their families through the post-secondary planning and
+                  application process. This includes advising on course and
+                  career path selection, assisting students with personal
+                  statement writing, and hosting university information evenings
+                  for students and parents.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Side Card Area Start -->
+          <div class="col-lg-4">
+            <div class="side-card-wrapper">
+              <div class="video-card">
+                <div class="video-card-image">
+                  <a
+                    class="play-btn mfp-iframe"
+                    href="assets/images/Website Video Final.mp4"
+                    ><iconify-icon icon="solar:play-bold"></iconify-icon
+                  ></a>
                 </div>
-            </div>
-        </div>
-        <!-- student-support End -->
-
-        <!-- Footer Area Start -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-logo-area">
-                            <a href="#"><img src="assets/images/white-logo.png" alt="logo"></a>
-                            <p>Luanda International School is a Preschool–12 private, co-educational international day
-                                school in
-                                Luanda, Angola. Established in October 1996 by five people interested in the creation of
-                                an
-                                English-medium international school in Angola</p>
-                            <div class="footer-social-icons">
-                                <ul>
-                                    <li><a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:youtube-fill"></iconify-icon></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-links pl-70">
-                            <h3>Helpful Link</h3>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Directors</a></li>
-                                <li><a href="#">Mission & Vision</a></li>
-                                <li><a href="#">LIS News</a></li>
-                                <li><a href="#">Campus</a></li>
-                                <li><a href="#">Team Leadership</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-links">
-                            <h3>Explore</h3>
-                            <ul>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Apply Now</a></li>
-                                <li><a href="#">Sitemap</a></li>
-                                <li><a href="#">Employment</a></li>
-                                <li><a href="#">Calendar</a></li>
-                                <li><a href="#">Information for Universities</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-links footer-contact">
-                            <h3>Contact Us</h3>
-                            <ul>
-                                <li><iconify-icon icon="ion:call-outline"></iconify-icon> <a
-                                        href="tel:+24493233705657">+244 932 337 056
-                                        / 57</a></li>
-                                <li><iconify-icon icon="circum:mail"></iconify-icon> <a
-                                        href="mailto:lis@lisluanda.com">lis@lisluanda.com</a></li>
-                                <li><iconify-icon icon="carbon:location"></iconify-icon> <a
-                                        href="https://goo.gl/maps/H21TiMcM5TZE4NPd8" target="_blank">Via S6, Bairro da,
-                                        Av. Talatona, Luanda, Angola</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer Area End -->
-
-        <!-- Copyright Area Start -->
-        <div class="copyright">
-            <div class="container">
-                <div class="copyright-content">
-                    <p> &copy;
-                        <script>document.write(new Date().getFullYear())</script> LIS. All rights reserved
+                <div class="video-card-text">
+                  <h3>
+                    <a href="">Luanda International School: Campus View</a>
+                  </h3>
+                  <a href="" class="default-button blue-button"
+                    >Enrolement
+                    <iconify-icon
+                      icon="heroicons:arrow-long-right"
+                    ></iconify-icon
+                  ></a>
+                  <div class="video-card-social">
+                    <h3>We are here:</h3>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                        ></a>
+                      </li>
+                    </ul>
+                    <p>
+                      For Any Details Our Hotline:<a href=""
+                        ><iconify-icon
+                          icon="nimbus:telephone"
+                          rotate="90deg"
+                        ></iconify-icon
+                        >+244 932 337 056 / 57</a
+                      >
                     </p>
-                    <p> Developed By <a href="#">Department of IT and Innovations</a> </p>
+                  </div>
                 </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-image">
+                  <img
+                    src="assets/images/sidecard/earth-day-blog-card.jpg"
+                    alt="blog-earth"
+                  />
+                </div>
+                <div class="blog-card-text">
+                  <span class="blog-date"> 20 May<br />2022 </span>
+                  <h3>
+                    <a href=""
+                      >Respect for ourselves and others, our environment, and
+                      our cultural contexts guides our thoughts, actions and
+                      relationships.</a
+                    >
+                  </h3>
+                  <p>
+                    On Friday, 21 April 2017, LIS participated in World Earth
+                    Day. What an amazing day it was! We focused our collective
+                    efforts on this central idea: Together we can empower
+                    everyone with the knowledge to inspire action in defense of
+                    the environment.
+                  </p>
+                  <p><a href="">Read More...</a></p>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-image">
+                  <img
+                    src="assets/images/sidecard/2017.11.10-Angolan-ID-6_Cropped.jpg"
+                    alt="blog-earth"
+                  />
+                </div>
+                <div class="blog-card-text">
+                  <span class="blog-date"> 20 May<br />2022 </span>
+                  <h3>
+                    <a href=""
+                      >A strong community is built on inclusion, participation,
+                      communication, kindness and mutual respect.</a
+                    >
+                  </h3>
+                  <p>
+                    Luanda International School celebrated Angolan Independence
+                    Day on 10 November 2017. The celebration assembly was a real
+                    endorsement of our school mission and commitment to play a
+                    greater role here in Angola.
+                  </p>
+                  <p><a href="">Read More...</a></p>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-image">
+                  <img
+                    src="assets/images/sidecard/dalene.jpg"
+                    alt="blog-earth"
+                  />
+                </div>
+                <div class="blog-card-text">
+                  <span class="blog-date"> 20 May<br />2022 </span>
+                  <h3>
+                    <a href=""
+                      >Respect for ourselves and others, our environment, and
+                      our cultural contexts guides our thoughts, actions and
+                      relationships.</a
+                    >
+                  </h3>
+                  <p>
+                    George’s journey from Angola to the Republic of Congo did
+                    not have a happy beginning. George, a chimpanzee, was stolen
+                    from his forest home and family for the illegal pet trade.
+                    Thankfully, he was found by Dr. Cristina of Casa dos
+                    Animais.
+                  </p>
+
+                  <p><a href="">Read More...</a></p>
+                </div>
+              </div>
             </div>
+          </div>
+          <!-- Side Card Area End -->
         </div>
-        <!-- Copyright Area End -->
+      </div>
+    </div>
+    <!-- student-support End -->
 
-        <script src="assets/js/jQuery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/iconify.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
-        <script src="assets/js/meanmenu.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-=======
->>>>>>> 9088957df29166a45934127611c281e6e171b47a
-=======
->>>>>>> 580adccc6a350761f5e98e65df723c8f771ae542
-        <script src="assets/js/custom.js"></script>
+    <!-- Footer Area Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-logo-area">
+              <a href="#"
+                ><img src="assets/images/white-logo.png" alt="logo"
+              /></a>
+              <p>
+                Luanda International School is a Preschool–12 private,
+                co-educational international day school in Luanda, Angola.
+                Established in October 1996 by five people interested in the
+                creation of an English-medium international school in Angola
+              </p>
+              <div class="footer-social-icons">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:youtube-fill"></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links pl-70">
+              <h3>Helpful Link</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Directors</a></li>
+                <li><a href="#">Mission & Vision</a></li>
+                <li><a href="#">LIS News</a></li>
+                <li><a href="#">Campus</a></li>
+                <li><a href="#">Team Leadership</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links">
+              <h3>Explore</h3>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Apply Now</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Employment</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Information for Universities</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links footer-contact">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>
+                  <iconify-icon icon="ion:call-outline"></iconify-icon>
+                  <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
+                </li>
+                <li>
+                  <iconify-icon icon="circum:mail"></iconify-icon>
+                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
+                </li>
+                <li>
+                  <iconify-icon icon="carbon:location"></iconify-icon>
+                  <a
+                    href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
+                    target="_blank"
+                    >Via S6, Bairro da, Av. Talatona, Luanda, Angola</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area End -->
 
-    </body>
+    <!-- Copyright Area Start -->
+    <div class="copyright">
+      <div class="container">
+        <div class="copyright-content">
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            LIS. All rights reserved
+          </p>
+          <p>Developed By <a href="#">Department of IT and Innovations</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright Area End -->
+
+    <script src="assets/js/jQuery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/iconify.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>

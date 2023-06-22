@@ -1,484 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LIS - School</title>
-        <link rel="icon" type="png/icon" href="assets/images/fav-icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIS - School</title>
+    <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-    </head>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
 
-    <body>
-        <div class="topbar">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-                        <div class="topbar-leftside">
-                            <div class="topbar-social-links">
-                                <span>Follow Us:</span>
-                                <ul>
-                                    <li><a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-9 col-md-8 col-sm-8 col-12">
-                        <div class="tobar-rightSide">
-                            <div class="topbar-rightSide-contact-card">
-                                <iconify-icon icon="bx:support"></iconify-icon>
-                                <div>
-                                    <p>Call Now!</p>
-                                    <a href="tel:+244932337056">+244932337056</a>
-                                </div>
-                            </div>
-                            <div class="topbar-rightSide-contact-card">
-                                <iconify-icon icon="fluent-emoji-high-contrast:e-mail"></iconify-icon>
-                                <div>
-                                    <p>Email Now!</p>
-                                    <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+            <div class="topbar-leftside">
+              <div class="language">
+                <label htmlFor="language">Language:</label>
+                <select name="language" id="language">
+                  <option value="english">PT</option>
+                  <option value="english">EN</option>
+                </select>
+              </div>
             </div>
-        </div>
-
-        <!-- navigation bar area start -->
-        <div class="header-area">
-            <div class="navbar-area">
-                <!-- Menu For Mobile Device -->
-                <div class="main-responsive-nav">
-                    <div class="container">
-                        <div class="mobile-nav">
-                            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" /></a>
-                            <ul class="menu-sidebar menu-small-device">
-                                <li><button class="popup-button"><iconify-icon
-                                            icon="iconamoon:search-thin"></iconify-icon></button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Menu For Desktop Device -->
-                <div class="main-nav">
-                    <div class="container">
-                        <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo.png" alt="logo" />
-                            </a>
-                            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item ">
-                                        <a href="index.html" class="nav-link dropdown-toggle active">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="learn.html" class="nav-link dropdown-toggle">Learn <iconify-icon
-                                                icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="pyp.html"
-                                                    class="nav-link dropdown-toggle">Primary Years Programme
-                                                </a>
-                                            </li>
-                                            <li class="nav-item"><a href="diploma-programme.html"
-                                                    class="nav-link">Diploma Programme</a></li>
-                                            <li class="nav-item"><a href="co-curricular.html"
-                                                    class="nav-link">Co-Curricular Programme</a>
-                                            </li>
-                                            <li class="nav-item"><a href="student-support.html" class="nav-link">Student
-                                                    Support Services</a>
-                                            </li>
-                                            <li class="nav-item"><a href="commitment.html" class="nav-link">Commitment
-                                                    to Well-being</a></li>
-                                            <li class="nav-item"><a href="information.html" class="nav-link">School
-                                                    Profile: Information for
-                                                    Universities</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="job-opening.html" class="nav-link dropdown-toggle">Inspire
-                                            <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="job-opening.html" class="nav-link">Job
-                                                    Openings</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="join.html" class="nav-link dropdown-toggle">Join <iconify-icon
-                                                icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="policy.html" class="nav-link">Policy And
-                                                    General Notes</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact-us.html" class="nav-link dropdown-toggle">Contact <iconify-icon
-                                                icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="parent-association.html"
-                                                    class="nav-link">Parents Teacher
-                                                    Associations (PTA)</a></li>
-                                            <li class="nav-item"><a href="accreditation.html" class="nav-link">LIS
-                                                    Partnerships</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item"><a href="enrollment.html" class="nav-link">Enrollment</a></li>
-                                </ul>
-                                <div class="menu-sidebar">
-                                    <ul>
-                                        <li>
-                                            <button class="popup-button">
-                                                <iconify-icon id="popupSearchButton"
-                                                    icon="iconamoon:search-thin"></iconify-icon>
-                                                <div class="popupSearchBar">
-                                                    <input type="text" class="form-control" placeholder="Search ...">
-                                                </div>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <a class="default-button blue-button"
-                                                href="contact-us.html"><span>Admission</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
+            <div class="tobar-rightSide">
+              <div class="topbar-social-links">
+                <span>Follow Us:</span>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="quick-links.html"
+                      ><iconify-icon
+                        icon="dashicons:admin-links"
+                        alt="quick links"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="calender.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:calender"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- navigation bar area end -->
+      </div>
+    </div>
 
-        <!-- Inner Pages Banner Area Start -->
-        <div class="inner-page-banner">
-            <div class="container">
-                <div class="banner-content">
-                    <h1>Policy & General Notes</h1>
-                    <div class="banner-subtitle">
-                        <ul>
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>Policy</li>
+    <!-- navigation bar area start -->
+    <div class="header-area">
+      <div class="navbar-area">
+        <!-- Menu For Mobile Device -->
+        <div class="main-responsive-nav">
+          <div class="container">
+            <div class="mobile-nav">
+              <a href="index.html" class="logo"
+                ><img src="assets/images/logo.png" alt="logo"
+              /></a>
+              <ul class="menu-sidebar menu-small-device">
+                <li>
+                  <button class="popup-button">
+                    <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Menu For Desktop Device -->
+        <div class="main-nav">
+          <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="logo" />
+              </a>
+              <div
+                class="collapse navbar-collapse mean-menu"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link dropdown-toggle active"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link dropdown-toggle"
+                      >About Us
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="mission-values.html" class="nav-link"
+                          >Mission, Vision and Values</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="school-campus.html" class="nav-link"
+                          >School Campus</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="leadership.html" class="nav-link"
+                          >LIS Leadership Team</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="board-of-directors.html" class="nav-link"
+                          >Board of Directors</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="accreditation.html" class="nav-link">
+                          Accreditation</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Health and Safety</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="child-protection.html" class="nav-link"
+                              >Child Protection</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="commitment.html" class="nav-link"
+                              >Commitment to Well-being</a
+                            >
+                          </li>
                         </ul>
-                    </div>
+                      </li>
+                      <li class="nav-item">
+                        <a href="community.html" class="nav-link">Comunity</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="lis-news.html" class="nav-link"
+                              >Lis News</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">Alumni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="parent-association.html" class="nav-link"
+                              >Parent Association</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="learn.html" class="nav-link dropdown-toggle"
+                      >Learn
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="pyp.html" class="nav-link dropdown-toggle"
+                          >Primary Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="myp.html" class="nav-link dropdown-toggle"
+                          >Middle Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="diploma-programme.html" class="nav-link"
+                          >Diploma Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="co-curricular.html" class="nav-link"
+                          >Co-Curricular Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Student Support Services</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="information.html" class="nav-link"
+                          >School Profile: Information for Universities</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="calender.html" class="nav-link">Calender</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="join.html" class="nav-link dropdown-toggle"
+                      >Join
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a
+                          href="enrollment.html"
+                          class="nav-link dropdown-toggle"
+                          >Enrollment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="policy.html"
+                              class="nav-link dropdown-toggle"
+                              >Policies and General Notes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="recruitment.html"
+                          class="nav-link dropdown-toggle"
+                          >Recruitment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="job-opening.html"
+                              class="nav-link dropdown-toggle"
+                              >Job Openings
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="social-media.html" class="nav-link dropdown-toggle"
+                      >Social Media
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="quick-links.html" class="nav-link dropdown-toggle"
+                      >Quick Links
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link dropdown-toggle"
+                      >Contact Us
+                    </a>
+                  </li>
+                </ul>
+                <div class="menu-sidebar">
+                  <ul>
+                    <li>
+                      <button class="popup-button">
+                        <iconify-icon
+                          id="popupSearchButton"
+                          icon="iconamoon:search-thin"
+                        ></iconify-icon>
+                        <div class="popupSearchBar">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search ..."
+                          />
+                        </div>
+                      </button>
+                    </li>
+                    <li>
+                      <a
+                        class="default-button blue-button"
+                        href="contact-us.html"
+                        ><span>Admission</span></a
+                      >
+                    </li>
+                  </ul>
                 </div>
-            </div>
+              </div>
+            </nav>
+          </div>
         </div>
-        <!-- Inner Pages Banner Area End -->
+      </div>
+    </div>
+    <!-- navigation bar area end -->
 
+    <!-- Inner Pages Banner Area Start -->
+    <div class="inner-page-banner">
+      <div class="container">
+        <div class="banner-content">
+          <h1>Policy & General Notes</h1>
+          <div class="banner-subtitle">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>Policy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner Pages Banner Area End -->
 
+    <!-- policy Area Start -->
+    <div class="policy ptb-140">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h3>Policy & General Notes</h3>
+            <div class="policy-image">
+              <a
+                class="play-btn mfp-iframe"
+                href="/assets/images/Website Video Final.mp4"
+                ><iconify-icon icon="solar:play-bold"></iconify-icon
+              ></a>
+            </div>
+            <div class="policy-content-wrapper">
+              <div class="policy-content-single">
+                <h4>Admission Timelines</h4>
+                <p>
+                  Applications are accepted through the year. Students are
+                  generally not enrolled in April or May of the current school
+                  year, given that school closes in early June. In such
+                  instances the preference is to enroll students for the
+                  following year.
+                </p>
+                <p>
+                  Once the required Application and Admissions data is completed
+                  you can expect a notification within the week. Offers of
+                  enrollment not accepted within a month will be considered to
+                  have lapsed.
+                </p>
+                <p>
+                  Students transferring from the Southern Hemisphere (i.e. a
+                  school calendar that runs within January to December) will be
+                  placed in their current or recently completed Year.
+                </p>
+                <p>
+                  LIS does not offer advanced placement resulting from talented
+                  and gifted designations. Our experience is that students
+                  identified as talented and gifted are a natural fit in their
+                  age-appropriate classes.
+                </p>
+              </div>
+              <div class="policy-content-single">
+                <h4>Learning Support</h4>
+                <p>
+                  Parents are expected to inform the school at the time of
+                  application if their child has any diagnosed learning or
+                  physical issues, and/or has been receiving additional support
+                  in their previous school(s). Resources to accommodate and
+                  adequately support students with special or physical needs at
+                  LIS, and within Luanda, are limited, and Section Principals
+                  and delegated staff will consider all information presented to
+                  determine whether LIS programmes are suitable for the
+                  student’s cognitive, social, and emotional needs, which shall
+                  be assessed prior to and/or after acceptance. This policy
+                  refers to all learning, physical and behavioural support
+                  needs.
+                </p>
+                <p>
+                  LIS will enrol non-English speaking students in the lower Year
+                  levels. However, ESL support diminishes as students proceed
+                  through the Year levels. Students enrolling at Year 10 are
+                  expected to be proficient in academic English.
+                </p>
+              </div>
+              <div class="policy-content-single">
+                <h4>Admission Priority</h4>
+                <p>
+                  LIS is committed to enrolling students in an international
+                  community of diverse learners. Admissions is determined by the
+                  following criteria:
+                </p>
+                <ul class="list-style">
+                  <li>Class numbers</li>
+                  <li>Learning or Language needs</li>
+                  <li>Certificate Company applications</li>
+                  <li>Siblings currently enrolled or also applying</li>
+                  <li>Citizenship</li>
+                  <li>Date of completed application</li>
+                  <li>Gender balance</li>
+                </ul>
+              </div>
+              <div class="policy-content-small">
+                <h6>School Fees</h6>
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1IePljWXWBhs3EnNlXJRunc-r7zS727V0/view"
+                    >Click here to see the current School Fees</a
+                  >
+                  for 2022/23.
+                </p>
+                <p>
+                  We are here to help you in your application process, so if you
+                  have questions after reading the material provided below,
+                  please contact us and we will respond by email, or set up a
+                  conference call:
+                </p>
 
-        <!-- policy Area Start -->
-        <div class="policy ptb-140">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h3>Policy & General Notes</h3>
-                        <div class="policy-image">
-                            <a class='play-btn mfp-iframe' href="/assets/images/Website Video Final.mp4"><iconify-icon
-                                    icon="solar:play-bold"></iconify-icon></a>
-                        </div>
-                        <div class="policy-content-wrapper">
-                            <div class="policy-content-single">
-                                <h4>Admission Timelines</h4>
-                                <p>Applications are accepted through the year. Students are generally not enrolled in
-                                    April or May of the current school
-                                    year, given that school closes in early June. In such instances the preference is to
-                                    enroll students for the following
-                                    year.</p>
-                                <p>
-                                    Once the required Application and Admissions data is completed you can expect a
-                                    notification within the week. Offers of
-                                    enrollment not accepted within a month will be considered to have lapsed.
-                                </p>
-                                <p>
-                                    Students transferring from the Southern Hemisphere (i.e. a school calendar that runs
-                                    within January to December) will be
-                                    placed in their current or recently completed Year.
-                                </p>
-                                <p>LIS does not offer advanced placement resulting from talented and gifted
-                                    designations. Our experience is that students
-                                    identified as talented and gifted are a natural fit in their age-appropriate
-                                    classes.</p>
-                            </div>
-                            <div class="policy-content-single">
-                                <h4>Learning Support</h4>
-                                <p>Parents are expected to inform the school at the time of application if their child
-                                    has any diagnosed learning or
-                                    physical issues, and/or has been receiving additional support in their previous
-                                    school(s). Resources to accommodate and
-                                    adequately support students with special or physical needs at LIS, and within
-                                    Luanda, are limited, and Section
-                                    Principals and delegated staff will consider all information presented to determine
-                                    whether LIS programmes are suitable
-                                    for the student’s cognitive, social, and emotional needs, which shall be assessed
-                                    prior to and/or after acceptance. This
-                                    policy refers to all learning, physical and behavioural support needs.</p>
-                                <p>
-                                    LIS will enrol non-English speaking students in the lower Year levels. However, ESL
-                                    support diminishes as students
-                                    proceed through the Year levels. Students enrolling at Year 10 are expected to be
-                                    proficient in academic English.
-                                </p>
-                            </div>
-                            <div class="policy-content-single">
-                                <h4>Admission Priority</h4>
-                                <p>LIS is committed to enrolling students in an international community of diverse
-                                    learners. Admissions is determined by
-                                    the following criteria:</p>
-                                <ul class="list-style">
-                                    <li>Class numbers</li>
-                                    <li>Learning or Language needs</li>
-                                    <li>Certificate Company applications</li>
-                                    <li>Siblings currently enrolled or also applying</li>
-                                    <li>Citizenship</li>
-                                    <li>Date of completed application</li>
-                                    <li>Gender balance</li>
-                                </ul>
-                            </div>
-                            <div class="policy-content-small">
-                                <h6>School Fees</h6>
-                                <p><a href="https://drive.google.com/file/d/1IePljWXWBhs3EnNlXJRunc-r7zS727V0/view">Click
-                                        here to see the current School Fees</a> for 2022/23.</p>
-                                <p>We are here to help you in your application process, so if you have questions after
-                                    reading the material provided below,
-                                    please contact us and we will respond by email, or set up a conference call:</p>
-
-                                <div class="policy-content-small-contact">
-                                    <p>General Office: <a href="enrollment@lisluanda.com">enrollment@lisluanda.com</a>
-                                    </p>
-                                    <p>Enrollment Manager: <a href="rjswart@lisluanda.com">rjswart@lisluanda.com</a></p>
-                                    <p>Enrollment Coordinator: <a href="lsabu@lisluanda.com">lsabu@lisluanda.com</a></p>
-                                </div>
-                            </div>
-                            <div class="policy-content-email">
-                                <p>The best way to learn about Luanda International School is to visit us. Tours are
-                                    given by appointment only. To schedule
-                                    a tour or ask a question, please send us an email.</p>
-                                <a class="default-button blue-button" href="contact.html">
-                                    <span>Send Email<iconify-icon
-                                            icon="ph:paper-plane-tilt-bold"></iconify-icon></span></a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <!-- Side Card Area Start -->
-                    <div class="col-lg-4">
-                        <div class="side-card-wrapper">
-                            <div class="video-card">
-                                <div class="video-card-image">
-                                    <a class='play-btn mfp-iframe'
-                                        href="assets/images/Website Video Final.mp4"><iconify-icon
-                                            icon="solar:play-bold"></iconify-icon></a>
-
-                                </div>
-                                <div class="video-card-text">
-                                    <h3><a href="">Luanda International School: Campus View</a></h3>
-                                    <a href="" class="default-button blue-button">Enrolement <iconify-icon
-                                            icon="heroicons:arrow-long-right"></iconify-icon></a>
-                                    <div class="video-card-social">
-                                        <h3>We are here:</h3>
-                                        <ul>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a>
-                                            </li>
-                                        </ul>
-                                        <p>For Any Details Our Hotline:<a href=""><iconify-icon icon="nimbus:telephone"
-                                                    rotate="90deg"></iconify-icon>+244 932
-                                                337 056 / 57</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-card">
-                                <div class="blog-card-image">
-                                    <img src="assets/images/sidecard/earth-day-blog-card.jpg" alt="blog-earth">
-                                </div>
-                                <div class="blog-card-text">
-                                    <span class="blog-date">
-                                        20 May<br>2022
-                                    </span>
-                                    <h3><a href="">Respect for ourselves and others, our environment, and our cultural
-                                            contexts
-                                            guides our thoughts, actions and
-                                            relationships.</a></h3>
-                                    <p>On Friday, 21 April 2017, LIS participated in World Earth Day. What an amazing
-                                        day it was! We focused our collective
-                                        efforts on this central idea: Together we can empower everyone with the
-                                        knowledge to inspire action in defense of the
-                                        environment.</p>
-                                    <p><a href="">Read More...</a></p>
-
-                                </div>
-                            </div>
-                            <div class="blog-card">
-                                <div class="blog-card-image">
-                                    <img src="assets/images/sidecard/2017.11.10-Angolan-ID-6_Cropped.jpg"
-                                        alt="blog-earth">
-                                </div>
-                                <div class="blog-card-text">
-                                    <span class="blog-date">
-                                        20 May<br>2022
-                                    </span>
-                                    <h3><a href="">A strong community is built on inclusion, participation,
-                                            communication, kindness
-                                            and mutual respect.</a></h3>
-                                    <p>Luanda International School celebrated Angolan Independence Day on 10 November
-                                        2017. The celebration assembly was a real
-                                        endorsement of our school mission and commitment to play a greater role here in
-                                        Angola.</p>
-                                    <p><a href="">Read More...</a></p>
-
-                                </div>
-                            </div>
-                            <div class="blog-card">
-                                <div class="blog-card-image">
-                                    <img src="assets/images/sidecard/dalene.jpg" alt="blog-earth">
-                                </div>
-                                <div class="blog-card-text">
-                                    <span class="blog-date">
-                                        20 May<br>2022
-                                    </span>
-                                    <h3><a href="">Respect for ourselves and others, our environment, and our cultural
-                                            contexts
-                                            guides our thoughts, actions and
-                                            relationships.</a></h3>
-                                    <p>George’s journey from Angola to the Republic of Congo did not have a happy
-                                        beginning. George, a chimpanzee, was stolen
-                                        from his forest home and family for the illegal pet trade. Thankfully, he was
-                                        found by Dr. Cristina of Casa dos Animais.
-                                    <p><a href="">Read More...</a></p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Side Card Area End -->
+                <div class="policy-content-small-contact">
+                  <p>
+                    General Office:
+                    <a href="enrollment@lisluanda.com"
+                      >enrollment@lisluanda.com</a
+                    >
+                  </p>
+                  <p>
+                    Enrollment Manager:
+                    <a href="rjswart@lisluanda.com">rjswart@lisluanda.com</a>
+                  </p>
+                  <p>
+                    Enrollment Coordinator:
+                    <a href="lsabu@lisluanda.com">lsabu@lisluanda.com</a>
+                  </p>
                 </div>
+              </div>
+              <div class="policy-content-email">
+                <p>
+                  The best way to learn about Luanda International School is to
+                  visit us. Tours are given by appointment only. To schedule a
+                  tour or ask a question, please send us an email.
+                </p>
+                <a class="default-button blue-button" href="contact.html">
+                  <span
+                    >Send Email<iconify-icon
+                      icon="ph:paper-plane-tilt-bold"
+                    ></iconify-icon></span
+                ></a>
+              </div>
             </div>
-        </div>
-        <!-- policy area End -->
-
-        <!-- Footer Area Start -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-logo-area">
-                            <a href="#"><img src="assets/images/white-logo.png" alt="logo"></a>
-                            <p>Luanda International School is a Preschool–12 private, co-educational international day
-                                school in
-                                Luanda, Angola. Established in October 1996 by five people interested in the creation of
-                                an
-                                English-medium international school in Angola</p>
-                            <div class="footer-social-icons">
-                                <ul>
-                                    <li><a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a></li>
-                                    <li><a href="#"><iconify-icon icon="ri:youtube-fill"></iconify-icon></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-links pl-70">
-                            <h3>Helpful Link</h3>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Directors</a></li>
-                                <li><a href="#">Mission & Vision</a></li>
-                                <li><a href="#">LIS News</a></li>
-                                <li><a href="#">Campus</a></li>
-                                <li><a href="#">Team Leadership</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-links">
-                            <h3>Explore</h3>
-                            <ul>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Apply Now</a></li>
-                                <li><a href="#">Sitemap</a></li>
-                                <li><a href="#">Employment</a></li>
-                                <li><a href="#">Calendar</a></li>
-                                <li><a href="#">Information for Universities</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-links footer-contact">
-                            <h3>Contact Us</h3>
-                            <ul>
-                                <li><iconify-icon icon="ion:call-outline"></iconify-icon> <a
-                                        href="tel:+24493233705657">+244 932 337 056
-                                        / 57</a></li>
-                                <li><iconify-icon icon="circum:mail"></iconify-icon> <a
-                                        href="mailto:lis@lisluanda.com">lis@lisluanda.com</a></li>
-                                <li><iconify-icon icon="carbon:location"></iconify-icon> <a
-                                        href="https://goo.gl/maps/H21TiMcM5TZE4NPd8" target="_blank">Via S6, Bairro da,
-                                        Av. Talatona, Luanda, Angola</a></li>
-                            </ul>
-                        </div>
-                    </div>
+          </div>
+          <!-- Side Card Area Start -->
+          <div class="col-lg-4">
+            <div class="side-card-wrapper">
+              <div class="video-card">
+                <div class="video-card-image">
+                  <a
+                    class="play-btn mfp-iframe"
+                    href="assets/images/Website Video Final.mp4"
+                    ><iconify-icon icon="solar:play-bold"></iconify-icon
+                  ></a>
                 </div>
-            </div>
-        </div>
-        <!-- Footer Area End -->
-
-        <!-- Copyright Area Start -->
-        <div class="copyright">
-            <div class="container">
-                <div class="copyright-content">
-                    <p> &copy;
-                        <script>document.write(new Date().getFullYear())</script> LIS. All rights reserved
+                <div class="video-card-text">
+                  <h3>
+                    <a href="">Luanda International School: Campus View</a>
+                  </h3>
+                  <a href="" class="default-button blue-button"
+                    >Enrolement
+                    <iconify-icon
+                      icon="heroicons:arrow-long-right"
+                    ></iconify-icon
+                  ></a>
+                  <div class="video-card-social">
+                    <h3>We are here:</h3>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                        ></a>
+                      </li>
+                    </ul>
+                    <p>
+                      For Any Details Our Hotline:<a href=""
+                        ><iconify-icon
+                          icon="nimbus:telephone"
+                          rotate="90deg"
+                        ></iconify-icon
+                        >+244 932 337 056 / 57</a
+                      >
                     </p>
-                    <p> Developed By <a href="#">Department of IT and Innovations</a> </p>
+                  </div>
                 </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-image">
+                  <img
+                    src="assets/images/sidecard/earth-day-blog-card.jpg"
+                    alt="blog-earth"
+                  />
+                </div>
+                <div class="blog-card-text">
+                  <span class="blog-date"> 20 May<br />2022 </span>
+                  <h3>
+                    <a href=""
+                      >Respect for ourselves and others, our environment, and
+                      our cultural contexts guides our thoughts, actions and
+                      relationships.</a
+                    >
+                  </h3>
+                  <p>
+                    On Friday, 21 April 2017, LIS participated in World Earth
+                    Day. What an amazing day it was! We focused our collective
+                    efforts on this central idea: Together we can empower
+                    everyone with the knowledge to inspire action in defense of
+                    the environment.
+                  </p>
+                  <p><a href="">Read More...</a></p>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-image">
+                  <img
+                    src="assets/images/sidecard/2017.11.10-Angolan-ID-6_Cropped.jpg"
+                    alt="blog-earth"
+                  />
+                </div>
+                <div class="blog-card-text">
+                  <span class="blog-date"> 20 May<br />2022 </span>
+                  <h3>
+                    <a href=""
+                      >A strong community is built on inclusion, participation,
+                      communication, kindness and mutual respect.</a
+                    >
+                  </h3>
+                  <p>
+                    Luanda International School celebrated Angolan Independence
+                    Day on 10 November 2017. The celebration assembly was a real
+                    endorsement of our school mission and commitment to play a
+                    greater role here in Angola.
+                  </p>
+                  <p><a href="">Read More...</a></p>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-image">
+                  <img
+                    src="assets/images/sidecard/dalene.jpg"
+                    alt="blog-earth"
+                  />
+                </div>
+                <div class="blog-card-text">
+                  <span class="blog-date"> 20 May<br />2022 </span>
+                  <h3>
+                    <a href=""
+                      >Respect for ourselves and others, our environment, and
+                      our cultural contexts guides our thoughts, actions and
+                      relationships.</a
+                    >
+                  </h3>
+                  <p>
+                    George’s journey from Angola to the Republic of Congo did
+                    not have a happy beginning. George, a chimpanzee, was stolen
+                    from his forest home and family for the illegal pet trade.
+                    Thankfully, he was found by Dr. Cristina of Casa dos
+                    Animais.
+                  </p>
+
+                  <p><a href="">Read More...</a></p>
+                </div>
+              </div>
             </div>
+          </div>
+          <!-- Side Card Area End -->
         </div>
-        <!-- Copyright Area End -->
+      </div>
+    </div>
+    <!-- policy area End -->
 
-        <script src="assets/js/jQuery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/iconify.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
-        <script src="assets/js/meanmenu.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-=======
->>>>>>> 9088957df29166a45934127611c281e6e171b47a
-=======
->>>>>>> 580adccc6a350761f5e98e65df723c8f771ae542
-        <script src="assets/js/custom.js"></script>
+    <!-- Footer Area Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-logo-area">
+              <a href="#"
+                ><img src="assets/images/white-logo.png" alt="logo"
+              /></a>
+              <p>
+                Luanda International School is a Preschool–12 private,
+                co-educational international day school in Luanda, Angola.
+                Established in October 1996 by five people interested in the
+                creation of an English-medium international school in Angola
+              </p>
+              <div class="footer-social-icons">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:youtube-fill"></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links pl-70">
+              <h3>Helpful Link</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Directors</a></li>
+                <li><a href="#">Mission & Vision</a></li>
+                <li><a href="#">LIS News</a></li>
+                <li><a href="#">Campus</a></li>
+                <li><a href="#">Team Leadership</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links">
+              <h3>Explore</h3>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Apply Now</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Employment</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Information for Universities</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links footer-contact">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>
+                  <iconify-icon icon="ion:call-outline"></iconify-icon>
+                  <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
+                </li>
+                <li>
+                  <iconify-icon icon="circum:mail"></iconify-icon>
+                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
+                </li>
+                <li>
+                  <iconify-icon icon="carbon:location"></iconify-icon>
+                  <a
+                    href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
+                    target="_blank"
+                    >Via S6, Bairro da, Av. Talatona, Luanda, Angola</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area End -->
 
-    </body>
+    <!-- Copyright Area Start -->
+    <div class="copyright">
+      <div class="container">
+        <div class="copyright-content">
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            LIS. All rights reserved
+          </p>
+          <p>Developed By <a href="#">Department of IT and Innovations</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright Area End -->
+
+    <script src="assets/js/jQuery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/iconify.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>

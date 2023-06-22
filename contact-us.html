@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LIS - School</title>
     <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
@@ -30,6 +30,17 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-4 col-12">
             <div class="topbar-leftside">
+              <div class="language">
+                <label htmlFor="language">Language:</label>
+                <select name="language" id="language">
+                  <option value="english">PT</option>
+                  <option value="english">EN</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
+            <div class="tobar-rightSide">
               <div class="topbar-social-links">
                 <span>Follow Us:</span>
                 <ul>
@@ -48,27 +59,22 @@
                       ><iconify-icon icon="ri:instagram-line"></iconify-icon
                     ></a>
                   </li>
+                  <li>
+                    <a href="quick-links.html"
+                      ><iconify-icon
+                        icon="dashicons:admin-links"
+                        alt="quick links"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="calender.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:calender"
+                      ></iconify-icon
+                    ></a>
+                  </li>
                 </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
-            <div class="tobar-rightSide">
-              <div class="topbar-rightSide-contact-card">
-                <iconify-icon icon="bx:support"></iconify-icon>
-                <div>
-                  <p>Call Now!</p>
-                  <a href="tel:+244932337056">+244932337056</a>
-                </div>
-              </div>
-              <div class="topbar-rightSide-contact-card">
-                <iconify-icon
-                  icon="fluent-emoji-high-contrast:e-mail"
-                ></iconify-icon>
-                <div>
-                  <p>Email Now!</p>
-                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                </div>
               </div>
             </div>
           </div>
@@ -114,6 +120,76 @@
                     >
                   </li>
                   <li class="nav-item">
+                    <a href="about.html" class="nav-link dropdown-toggle"
+                      >About Us
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="mission-values.html" class="nav-link"
+                          >Mission, Vision and Values</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="school-campus.html" class="nav-link"
+                          >School Campus</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="leadership.html" class="nav-link"
+                          >LIS Leadership Team</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="board-of-directors.html" class="nav-link"
+                          >Board of Directors</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="accreditation.html" class="nav-link">
+                          Accreditation</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Health and Safety</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="child-protection.html" class="nav-link"
+                              >Child Protection</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="commitment.html" class="nav-link"
+                              >Commitment to Well-being</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="community.html" class="nav-link">Comunity</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="lis-news.html" class="nav-link"
+                              >Lis News</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">Alumni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="parent-association.html" class="nav-link"
+                              >Parent Association</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
                     <a href="learn.html" class="nav-link dropdown-toggle"
                       >Learn
                       <iconify-icon
@@ -124,6 +200,11 @@
                       <li class="nav-item">
                         <a href="pyp.html" class="nav-link dropdown-toggle"
                           >Primary Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="myp.html" class="nav-link dropdown-toggle"
+                          >Middle Years Programme
                         </a>
                       </li>
                       <li class="nav-item">
@@ -142,29 +223,12 @@
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="commitment.html" class="nav-link"
-                          >Commitment to Well-being</a
-                        >
-                      </li>
-                      <li class="nav-item">
                         <a href="information.html" class="nav-link"
                           >School Profile: Information for Universities</a
                         >
                       </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="job-opening.html" class="nav-link dropdown-toggle"
-                      >Inspire
-                      <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"
-                      ></iconify-icon
-                    ></a>
-                    <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="job-opening.html" class="nav-link"
-                          >Job Openings</a
-                        >
+                        <a href="calender.html" class="nav-link">Calender</a>
                       </li>
                     </ul>
                   </li>
@@ -177,34 +241,53 @@
                     ></a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="policy.html" class="nav-link"
-                          >Policy And General Notes</a
-                        >
+                        <a
+                          href="enrollment.html"
+                          class="nav-link dropdown-toggle"
+                          >Enrollment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="policy.html"
+                              class="nav-link dropdown-toggle"
+                              >Policies and General Notes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="recruitment.html"
+                          class="nav-link dropdown-toggle"
+                          >Recruitment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="job-opening.html"
+                              class="nav-link dropdown-toggle"
+                              >Job Openings
+                            </a>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="social-media.html" class="nav-link dropdown-toggle"
+                      >Social Media
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="quick-links.html" class="nav-link dropdown-toggle"
+                      >Quick Links
+                    </a>
                   </li>
                   <li class="nav-item">
                     <a href="contact-us.html" class="nav-link dropdown-toggle"
-                      >Contact
-                      <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"
-                      ></iconify-icon
-                    ></a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="parent-association.html" class="nav-link"
-                          >Parents Teacher Associations (PTA)</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="accreditation.html" class="nav-link"
-                          >LIS Partnerships</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="enrollment.html" class="nav-link">Enrollment</a>
+                      >Contact Us
+                    </a>
                   </li>
                 </ul>
                 <div class="menu-sidebar">
@@ -563,13 +646,6 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
     <script src="assets/js/meanmenu.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-=======
->>>>>>> 9088957df29166a45934127611c281e6e171b47a
-=======
->>>>>>> 580adccc6a350761f5e98e65df723c8f771ae542
     <script src="assets/js/custom.js"></script>
   </body>
 </html>

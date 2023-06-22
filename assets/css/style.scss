@@ -713,12 +713,18 @@ img {
 }
 
 // Partner Area CSS
-.partner-logos {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  img {
-    max-width: 175px;
+.partner {
+  .section-heading {
+    margin-bottom: 50px !important;
+  }
+  .partner-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      max-width: 175px;
+    }
   }
 }
 
@@ -1395,10 +1401,12 @@ img {
   .logo-single-accreditation {
     padding-top: 100px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    img {
-      max-width: 150px;
+    .accreditation-image {
+      width: 100%;
+      img {
+        width: 100%;
+      }
     }
   }
 }

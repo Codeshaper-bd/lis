@@ -1,55 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LIS - School</title>
-    <link rel="icon" type="png/icon" href="assets/images/fav-icon.png">
+    <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
 
   <body>
     <div class="topbar">
       <div class="container">
-        <div class="row ">
+        <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-4 col-12">
             <div class="topbar-leftside">
-              <div class="topbar-social-links">
-                <span>Follow Us:</span>
-                <ul>
-                  <li><a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a></li>
-                  <li><a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a></li>
-                  <li><a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a></li>
-                </ul>
+              <div class="language">
+                <label htmlFor="language">Language:</label>
+                <select name="language" id="language">
+                  <option value="english">PT</option>
+                  <option value="english">EN</option>
+                </select>
               </div>
             </div>
-
           </div>
           <div class="col-lg-9 col-md-8 col-sm-8 col-12">
             <div class="tobar-rightSide">
-              <div class="topbar-rightSide-contact-card">
-                <iconify-icon icon="bx:support"></iconify-icon>
-                <div>
-                  <p>Call Now!</p>
-                  <a href="tel:+244932337056">+244932337056</a>
-                </div>
-              </div>
-              <div class="topbar-rightSide-contact-card">
-                <iconify-icon icon="fluent-emoji-high-contrast:e-mail"></iconify-icon>
-                <div>
-                  <p>Email Now!</p>
-                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                </div>
+              <div class="topbar-social-links">
+                <span>Follow Us:</span>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="quick-links.html"
+                      ><iconify-icon
+                        icon="dashicons:admin-links"
+                        alt="quick links"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="calender.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:calender"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -64,9 +89,14 @@
         <div class="main-responsive-nav">
           <div class="container">
             <div class="mobile-nav">
-              <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" /></a>
+              <a href="index.html" class="logo"
+                ><img src="assets/images/logo.png" alt="logo"
+              /></a>
               <ul class="menu-sidebar menu-small-device">
-                <li><button class="popup-button"><iconify-icon icon="iconamoon:search-thin"></iconify-icon></button>
+                <li>
+                  <button class="popup-button">
+                    <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
+                  </button>
                 </li>
               </ul>
             </div>
@@ -79,66 +109,210 @@
               <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="logo" />
               </a>
-              <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+              <div
+                class="collapse navbar-collapse mean-menu"
+                id="navbarSupportedContent"
+              >
                 <ul class="navbar-nav">
-                  <li class="nav-item ">
-                    <a href="index.html" class="nav-link dropdown-toggle active">Home</a>
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link dropdown-toggle active"
+                      >Home</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a href="learn.html" class="nav-link dropdown-toggle">Learn <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
+                    <a href="about.html" class="nav-link dropdown-toggle"
+                      >About Us
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
                     <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="pyp.html" class="nav-link dropdown-toggle">Primary Years Programme
+                      <li class="nav-item">
+                        <a href="mission-values.html" class="nav-link"
+                          >Mission, Vision and Values</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="school-campus.html" class="nav-link"
+                          >School Campus</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="leadership.html" class="nav-link"
+                          >LIS Leadership Team</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="board-of-directors.html" class="nav-link"
+                          >Board of Directors</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="accreditation.html" class="nav-link">
+                          Accreditation</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Health and Safety</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="child-protection.html" class="nav-link"
+                              >Child Protection</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="commitment.html" class="nav-link"
+                              >Commitment to Well-being</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="community.html" class="nav-link">Comunity</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="lis-news.html" class="nav-link"
+                              >Lis News</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">Alumni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="parent-association.html" class="nav-link"
+                              >Parent Association</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="learn.html" class="nav-link dropdown-toggle"
+                      >Learn
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="pyp.html" class="nav-link dropdown-toggle"
+                          >Primary Years Programme
                         </a>
                       </li>
-                      <li class="nav-item"><a href="diploma-programme.html" class="nav-link">Diploma Programme</a></li>
-                      <li class="nav-item"><a href="co-curricular.html" class="nav-link">Co-Curricular Programme</a>
+                      <li class="nav-item">
+                        <a href="myp.html" class="nav-link dropdown-toggle"
+                          >Middle Years Programme
+                        </a>
                       </li>
-                      <li class="nav-item"><a href="student-support.html" class="nav-link">Student Support Services</a>
+                      <li class="nav-item">
+                        <a href="diploma-programme.html" class="nav-link"
+                          >Diploma Programme</a
+                        >
                       </li>
-                      <li class="nav-item"><a href="commitment.html" class="nav-link">Commitment to Well-being</a></li>
-                      <li class="nav-item"><a href="information.html" class="nav-link">School Profile: Information for
-                          Universities</a></li>
+                      <li class="nav-item">
+                        <a href="co-curricular.html" class="nav-link"
+                          >Co-Curricular Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="student-support.html" class="nav-link"
+                          >Student Support Services</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="information.html" class="nav-link"
+                          >School Profile: Information for Universities</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="calender.html" class="nav-link">Calender</a>
+                      </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="job-opening.html" class="nav-link dropdown-toggle">Inspire <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
+                    <a href="join.html" class="nav-link dropdown-toggle"
+                      >Join
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
                     <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="job-opening.html" class="nav-link">Job Openings</a></li>
+                      <li class="nav-item">
+                        <a
+                          href="enrollment.html"
+                          class="nav-link dropdown-toggle"
+                          >Enrollment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="policy.html"
+                              class="nav-link dropdown-toggle"
+                              >Policies and General Notes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="recruitment.html"
+                          class="nav-link dropdown-toggle"
+                          >Recruitment
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a
+                              href="job-opening.html"
+                              class="nav-link dropdown-toggle"
+                              >Job Openings
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="join.html" class="nav-link dropdown-toggle">Join <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="policy.html" class="nav-link">Policy And General Notes</a></li>
-
-                    </ul>
+                    <a href="social-media.html" class="nav-link dropdown-toggle"
+                      >Social Media
+                    </a>
                   </li>
                   <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link dropdown-toggle">Contact <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="parent-association.html" class="nav-link">Parents Teacher
-                          Associations (PTA)</a></li>
-                      <li class="nav-item"><a href="accreditation.html" class="nav-link">LIS Partnerships</a></li>
-                    </ul>
+                    <a href="quick-links.html" class="nav-link dropdown-toggle"
+                      >Quick Links
+                    </a>
                   </li>
-                  <li class="nav-item"><a href="enrollment.html" class="nav-link">Enrollment</a></li>
+                  <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link dropdown-toggle"
+                      >Contact Us
+                    </a>
+                  </li>
                 </ul>
                 <div class="menu-sidebar">
                   <ul>
                     <li>
                       <button class="popup-button">
-                        <iconify-icon id="popupSearchButton" icon="iconamoon:search-thin"></iconify-icon>
+                        <iconify-icon
+                          id="popupSearchButton"
+                          icon="iconamoon:search-thin"
+                        ></iconify-icon>
                         <div class="popupSearchBar">
-                          <input type="text" class="form-control" placeholder="Search ...">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search ..."
+                          />
                         </div>
                       </button>
                     </li>
                     <li>
-                      <a class="default-button blue-button" href="contact-us.html"><span>Admission</span></a>
+                      <a
+                        class="default-button blue-button"
+                        href="contact-us.html"
+                        ><span>Admission</span></a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -174,65 +348,93 @@
         <div class="login-card-wrapper">
           <div class="login-card">
             <div class="login-card-image">
-              <img src="assets/images/sign.png" alt="image">
-
+              <img src="assets/images/sign.png" alt="image" />
             </div>
 
             <div class="login-card-form">
               <div class="login-card-lock-logo">
-                <img src="assets/images/padlock.png" alt="image">
+                <img src="assets/images/padlock.png" alt="image" />
               </div>
               <h3>Sign In Your Account</h3>
               <form>
                 <div class="form-group-wrapper">
                   <div class="form-group">
-                    <input type="email" class="form-control control" id="exampleInputEmail1"
-                      aria-describedby="emailHelp" placeholder="User name or Email">
+                    <input
+                      type="email"
+                      class="form-control control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="User name or Email"
+                    />
                   </div>
                   <div class="form-group">
                     <div class="show-pass">
-                      <input type="password" class="form-control control" id="password" aria-describedby="password"
-                        placeholder=" Enter your password">
-                      <iconify-icon icon="ph:eye-bold" id="icon" onclick="myFunction()"></iconify-icon>
+                      <input
+                        type="password"
+                        class="form-control control"
+                        id="password"
+                        aria-describedby="password"
+                        placeholder=" Enter your password"
+                      />
+                      <iconify-icon
+                        icon="ph:eye-bold"
+                        id="icon"
+                        onclick="myFunction()"
+                      ></iconify-icon>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-7">
                       <div class="form-group">
-                        <input type="number" class="form-control control" id="text" aria-describedby="emailHelp"
-                          placeholder="Security Code">
+                        <input
+                          type="number"
+                          class="form-control control"
+                          id="text"
+                          aria-describedby="emailHelp"
+                          placeholder="Security Code"
+                        />
                       </div>
                     </div>
                     <div class="col-md-5">
                       <div class="form-group">
                         <div class="image-capcha">
-                          <img src="assets/images/capcha.png" alt="image">
+                          <img src="assets/images/capcha.png" alt="image" />
                         </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="forget-pass">
-                    <div class="checkbox"><input type="checkbox" name="remember" id="remember"><span>Remember Me</span>
+                    <div class="checkbox">
+                      <input
+                        type="checkbox"
+                        name="remember"
+                        id="remember"
+                      /><span>Remember Me</span>
                     </div>
                     <p><a href="">Forget Password?</a></p>
                   </div>
 
-                  <a href="" type="submit" class="default-button blue-button">Sign In<iconify-icon
-                      icon="heroicons:arrow-long-right"></iconify-icon></a>
+                  <a href="" type="submit" class="default-button blue-button"
+                    >Sign In<iconify-icon
+                      icon="heroicons:arrow-long-right"
+                    ></iconify-icon
+                  ></a>
 
                   <p>Don’t have an account have yet? <a href="">Sign Up</a></p>
                 </div>
-
               </form>
-
             </div>
             <h4>Or Continue With</h4>
 
             <div class="button">
-              <a href="" class="default-button blue-button"><span><iconify-icon
-                    icon="flat-color-icons:google"></iconify-icon></span>Sign Up With
-                Google</a>
+              <a href="" class="default-button blue-button"
+                ><span
+                  ><iconify-icon
+                    icon="flat-color-icons:google"
+                  ></iconify-icon></span
+                >Sign Up With Google</a
+              >
             </div>
           </div>
         </div>
@@ -246,16 +448,37 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="footer-logo-area">
-              <a href="#"><img src="assets/images/white-logo.png" alt="logo"></a>
-              <p>Luanda International School is a Preschool–12 private, co-educational international day school in
-                Luanda, Angola. Established in October 1996 by five people interested in the creation of an
-                English-medium international school in Angola</p>
+              <a href="#"
+                ><img src="assets/images/white-logo.png" alt="logo"
+              /></a>
+              <p>
+                Luanda International School is a Preschool–12 private,
+                co-educational international day school in Luanda, Angola.
+                Established in October 1996 by five people interested in the
+                creation of an English-medium international school in Angola
+              </p>
               <div class="footer-social-icons">
                 <ul>
-                  <li><a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a></li>
-                  <li><a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a></li>
-                  <li><a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a></li>
-                  <li><a href="#"><iconify-icon icon="ri:youtube-fill"></iconify-icon></a></li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:youtube-fill"></iconify-icon
+                    ></a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -290,12 +513,22 @@
             <div class="footer-links footer-contact">
               <h3>Contact Us</h3>
               <ul>
-                <li><iconify-icon icon="ion:call-outline"></iconify-icon> <a href="tel:+24493233705657">+244 932 337 056
-                    / 57</a></li>
-                <li><iconify-icon icon="circum:mail"></iconify-icon> <a
-                    href="mailto:lis@lisluanda.com">lis@lisluanda.com</a></li>
-                <li><iconify-icon icon="carbon:location"></iconify-icon> <a href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
-                    target="_blank">Via S6, Bairro da, Av. Talatona, Luanda, Angola</a></li>
+                <li>
+                  <iconify-icon icon="ion:call-outline"></iconify-icon>
+                  <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
+                </li>
+                <li>
+                  <iconify-icon icon="circum:mail"></iconify-icon>
+                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
+                </li>
+                <li>
+                  <iconify-icon icon="carbon:location"></iconify-icon>
+                  <a
+                    href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
+                    target="_blank"
+                    >Via S6, Bairro da, Av. Talatona, Luanda, Angola</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -308,10 +541,14 @@
     <div class="copyright">
       <div class="container">
         <div class="copyright-content">
-          <p> &copy;
-            <script>document.write(new Date().getFullYear())</script> LIS. All rights reserved
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            LIS. All rights reserved
           </p>
-          <p> Developed By <a href="#">Department of IT and Innovations</a> </p>
+          <p>Developed By <a href="#">Department of IT and Innovations</a></p>
         </div>
       </div>
     </div>
@@ -324,14 +561,6 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
     <script src="assets/js/meanmenu.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-=======
->>>>>>> 9088957df29166a45934127611c281e6e171b47a
-=======
->>>>>>> 580adccc6a350761f5e98e65df723c8f771ae542
     <script src="assets/js/custom.js"></script>
-
   </body>
 </html>

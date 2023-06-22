@@ -61,6 +61,7 @@ function selectDate(date) {
   $('.booking-calender').updateCalendarOptions({
     date: date
   });
+  console.log(calendar.getSelectedDate());
 }
 
 var defaultConfig = {
@@ -72,6 +73,7 @@ var defaultConfig = {
 };
 
 var calendar = $('.booking-calender').calendar(defaultConfig);
+console.log(calendar.getSelectedDate());
 
 
 
