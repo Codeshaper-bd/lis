@@ -444,86 +444,64 @@ img {
 
 // Program Area CSS
 .program-card {
-  margin-top: 30px;
   transition: 0.5s ease-in-out;
-  background-color: var(--whiteColor);
+  text-align: center;
   overflow: hidden;
-  padding: 20px;
-  border-radius: 5px;
   position: relative;
-  &::before {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background-color: var(--yellowColor);
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  background: {
+    image: url("/assets/images/program/program1.jpg");
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+  }
+
+  .program-card-title {
+    width: 100%;
     transition: 0.5s ease-in-out;
-  }
-  .program-card-img {
-    border-radius: 5px;
-    overflow: hidden;
-    img {
-      transition: 0.5s ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: var(--headerColor);
+    font: {
+      size: 20px;
+      weight: 700;
+      family: var(--primaryFont);
     }
   }
+
   .program-card-text {
-    padding: {
-      left: 10px;
-      right: 10px;
-    }
+    padding: 30px 20px;
+    opacity: 0;
+    background-color: red;
+    transition: 0.5s ease-in-out;
+    position: relative;
+    top: 30px;
 
     h3 {
       a {
         color: var(--blueColor);
-        padding: {
-          top: 24px;
-          bottom: 5px;
-        }
         font: {
           size: 20px;
           weight: 700;
-          family: var(--blueColor);
+          family: var(--primaryFont);
         }
       }
-    }
-
-    p {
-      color: var(--blueColor);
-      font: {
-        size: 14px;
-        weight: 400;
-        family: var(--primaryFont);
-      }
-    }
-
-    .program-card-bottom-area {
-      padding-top: 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-top: 1px solid #29426950;
     }
   }
 
   &:hover {
-    box-shadow: 0px 0px 10px 5px #00000010;
-    .program-card-img {
-      img {
-        transform: scale(1.2);
-      }
+    .program-card-title {
+      top: 30px;
+      color: #fff;
+      opacity: 0;
     }
-    &::before {
-      width: 100%;
-    }
-
     .program-card-text {
-      .program-card-bottom-area {
-        img {
-          animation: swing 1s infinite linear;
-        }
+      opacity: 0.9;
+      top: 0;
+      h3 a,
+      p {
+        color: #ffffff;
       }
     }
   }

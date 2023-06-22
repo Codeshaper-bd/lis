@@ -3940,68 +3940,53 @@ img {
 }
 
 .program-card {
-  margin-top: 30px;
   transition: 0.5s ease-in-out;
-  background-color: var(--whiteColor);
+  text-align: center;
   overflow: hidden;
-  padding: 20px;
-  border-radius: 5px;
   position: relative;
+  background-image: url("/assets/images/program/program1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.program-card::before {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background-color: var(--yellowColor);
+.program-card .program-card-title {
+  width: 100%;
+  transition: 0.5s ease-in-out;
   position: absolute;
-  bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
-  transition: 0.5s ease-in-out;
-}
-.program-card .program-card-img {
-  border-radius: 5px;
-  overflow: hidden;
-}
-.program-card .program-card-img img {
-  transition: 0.5s ease-in-out;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  color: var(--headerColor);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
 }
 .program-card .program-card-text {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 30px 20px;
+  opacity: 0;
+  background-color: red;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  top: 30px;
 }
 .program-card .program-card-text h3 a {
   color: var(--blueColor);
-  padding-top: 24px;
-  padding-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
-  font-family: var(--blueColor);
-}
-.program-card .program-card-text p {
-  color: var(--blueColor);
-  font-size: 14px;
-  font-weight: 400;
   font-family: var(--primaryFont);
 }
-.program-card .program-card-text .program-card-bottom-area {
-  padding-top: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid rgba(41, 66, 105, 0.3137254902);
+.program-card:hover .program-card-title {
+  top: 30px;
+  color: #fff;
+  opacity: 0;
 }
-.program-card:hover {
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.062745098);
+.program-card:hover .program-card-text {
+  opacity: 0.9;
+  top: 0;
 }
-.program-card:hover .program-card-img img {
-  transform: scale(1.2);
-}
-.program-card:hover::before {
-  width: 100%;
-}
-.program-card:hover .program-card-text .program-card-bottom-area img {
-  animation: swing 1s infinite linear;
+.program-card:hover .program-card-text h3 a,
+.program-card:hover .program-card-text p {
+  color: #ffffff;
 }
 
 .features {
