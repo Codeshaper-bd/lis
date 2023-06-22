@@ -3433,7 +3433,7 @@ Header Responsive Area CSS
   padding-top: 20px;
 }
 .video-banner-image .video-banner {
-  background: url(/assets/images/programme/pyp.jpg);
+  background: url(/../assets/images/programme/pyp.jpg);
   background-size: cover;
   width: 100%;
   height: 525px;
