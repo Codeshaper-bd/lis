@@ -4668,6 +4668,9 @@ img {
   padding-top: 48px;
   width: 100%;
 }
+.school .our-campus .school-image iframe {
+  border-radius: 15px;
+}
 .school .experience-campus {
   padding-top: 70px;
 }
@@ -4678,6 +4681,14 @@ img {
 .school .map-campus {
   width: 100%;
   max-height: 550px;
+}
+.school .accridation-campus h3 {
+  text-align: center;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
 }
 .school .accridation-campus .campus-single-accridation {
   display: flex;

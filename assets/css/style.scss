@@ -1343,6 +1343,9 @@ img {
   }
   .our-campus {
     .school-image {
+      iframe {
+        border-radius: 15px;
+      }
       padding: {
         top: 48px;
       }
@@ -1363,6 +1366,16 @@ img {
     max-height: 550px;
   }
   .accridation-campus {
+     h3 {
+      text-align: center;
+    color: var(--headerColor);
+    font: {
+      family: var(--primaryFont);
+      size: 36px;
+      weight: 700;
+    }
+    line-height: 43.2px;
+  }
     .campus-single-accridation {
       display: flex;
       justify-content: space-between;
