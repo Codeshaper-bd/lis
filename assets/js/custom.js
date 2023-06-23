@@ -11,6 +11,7 @@
     $(".popupSearchBar").toggle();
   });
 
+  //searchbar
   $(document).on("click", function (event) {
     var $div = $("#popupSearchButton");
     var $target = $(event.target);
@@ -27,6 +28,25 @@
   $(".play-btn").magnificPopup({
     type: "video",
     // mainClass: 'mfp-fade'
+  });
+
+  //image-gallery-school
+  $(document).ready(function () {
+
+    $('a.btn-gallery').on('click', function (event) {
+      event.preventDefault();
+
+      var gallery = $(this).attr('href');
+
+      $(gallery).magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+          enabled: true
+        }
+      }).magnificPopup('open');
+    });
+
   });
 
 

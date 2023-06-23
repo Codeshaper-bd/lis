@@ -766,8 +766,129 @@ img {
 
 // Virtual Map Area CSS
 .virtual-map {
-  .mini-map {
-    margin-top: 30px;
+  .section-content {
+    //redwan vai code start
+    .school-map {
+      position: relative;
+      ul {
+        list-style: none;
+        margin: 0;
+      }
+      .hidden {
+        overflow: hidden;
+        display: none;
+        visibility: hidden;
+      }
+
+      .btn-gallery {
+        width: 45px;
+        height: 45px;
+        // img {
+        //   display: none;
+        // }
+      }
+      .btn-gallery {
+        position: absolute;
+        opacity: 1;
+      }
+      .btn-gallery-1 {
+        left: 10.5%;
+        bottom: 22%;
+      }
+      .btn-gallery-2 {
+        left: 22.5%;
+        bottom: 44%;
+      }
+      .btn-gallery-3 {
+        left: 28.5%;
+        top: 39%;
+      }
+      .btn-gallery-4 {
+        left: 33.5%;
+        top: 27%;
+      }
+      .btn-gallery-5 {
+        left: 34.5%;
+        top: 18%;
+      }
+      .btn-gallery-6 {
+        left: 39%;
+        top: 24%;
+      }
+      .btn-gallery-7 {
+        left: 40%;
+        top: 16%;
+      }
+      .btn-gallery-8 {
+        left: 43%;
+        top: 8%;
+      }
+      .btn-gallery-9 {
+        left: 48%;
+        top: 53px;
+      }
+      .btn-gallery-10 {
+        left: 52%;
+        top: 23%;
+      }
+      .btn-gallery-11 {
+        left: 56%;
+        top: 10%;
+      }
+      .btn-gallery-12 {
+        left: 67%;
+        top: 10%;
+      }
+      .btn-gallery-13 {
+        left: 60%;
+        top: 33%;
+      }
+      .btn-gallery-14 {
+        left: 73%;
+        top: 35%;
+      }
+      .btn-gallery-15 {
+        left: 83%;
+        top: 40%;
+      }
+      .btn-gallery-16 {
+        left: 82%;
+        bottom: 35%;
+      }
+      .btn-gallery-17 {
+        left: 42%;
+        bottom: 23%;
+      }
+      .btn-gallery-18 {
+        left: 30%;
+        bottom: 18%;
+      }
+      .btn-gallery-19 {
+        left: 22%;
+        bottom: 17%;
+      }
+      .btn-gallery-20 {
+        left: 38%;
+        bottom: 43%;
+      }
+      .btn-gallery-21 {
+        left: 41%;
+        top: 43%;
+      }
+      .btn-gallery-22 {
+        left: 42%;
+        top: 31%;
+      }
+      .btn-gallery-23 {
+        left: 44%;
+        top: 36%;
+      }
+      .btn-gallery-24 {
+        left: 49%;
+        top: 36%;
+      }
+    }
+    //redwan vai code end
   }
 }
 
