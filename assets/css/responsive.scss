@@ -457,50 +457,6 @@
       }
     }
   }
-
-  //School-Campus
-  .school {
-    h3 {
-      font-size: 26px;
-      line-height: 30px;
-    }
-    p {
-      padding-top: 14px;
-
-      font-size: 14px;
-
-      line-height: 22px;
-    }
-    .our-campus {
-      .school-image {
-        padding-top: 25px;
-        width: 100%;
-      }
-    }
-    .experience-campus {
-      padding-top: 40px;
-      .school-image {
-        width: 100%;
-        padding-top: 28px;
-      }
-    }
-    .map-campus {
-      width: 100%;
-      max-height: 550px;
-    }
-    .accridation-campus {
-      .campus-single-accridation {
-        display: flex;
-        justify-content: space-between;
-        .accridation-image {
-          width: 100%;
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -515,6 +471,19 @@
 
     .tobar-rightSide {
       justify-content: end;
+    }
+  }
+
+  // school-campus
+  .school {
+    .our-campus {
+      .school-image {
+        .school-video {
+          border-radius: 15px;
+          width: 100%;
+          height: 400px;
+        }
+      }
     }
   }
 }
@@ -621,6 +590,19 @@
   .footer {
     .pl-70 {
       margin-top: 0;
+    }
+  }
+
+  // school-campus
+  .school {
+    .our-campus {
+      .school-image {
+        .school-video {
+          border-radius: 15px;
+          width: 100%;
+          height: 400px;
+        }
+      }
     }
   }
 
@@ -807,4 +789,54 @@
 }
 
 @media only screen and (min-width: 1500px) {
+}
+@media only screen and (max-width: 576px) {
+  //School-Campus
+  .school {
+    h3 {
+      font-size: 26px;
+      line-height: 30px;
+    }
+    p {
+      padding-top: 14px;
+
+      font-size: 14px;
+
+      line-height: 22px;
+    }
+    .our-campus {
+      .school-image {
+        padding-top: 25px;
+        width: 100%;
+        .school-video {
+          border-radius: 15px;
+          width: 100%;
+          height: 240px;
+        }
+      }
+    }
+    .experience-campus {
+      padding-top: 40px;
+      .school-image {
+        width: 100%;
+        padding-top: 28px;
+      }
+    }
+    .map-campus {
+      width: 100%;
+      max-height: 550px;
+    }
+    .accridation-campus {
+      .campus-single-accridation {
+        display: flex;
+        justify-content: space-between;
+        .accridation-image {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
