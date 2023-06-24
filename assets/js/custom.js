@@ -25,11 +25,12 @@
   });
 
   // sidebar Video Player
-  $(".play-btn").magnificPopup({
+  $(".play-btn, .about-video-popup").magnificPopup({
     type: "video",
     // mainClass: 'mfp-fade'
   });
 
+  
   //image-gallery-school
   $(document).ready(function () {
 
