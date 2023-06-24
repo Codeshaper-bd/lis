@@ -530,6 +530,7 @@ img {
     transform: translate(50%, 50%);
   }
   .program-card-text {
+    height: 100%;
     padding: 11px 10px;
     opacity: 0;
     background-color: #707070;
@@ -555,9 +556,14 @@ img {
       opacity: 0;
     }
     .program-card-text {
+      padding: 20px;
       opacity: 0.9;
       top: 0;
-      h3 a,
+      h3 {
+        a {
+          color: var(--whiteColor);
+        }
+      }
       p {
         color: #ffffff;
       }

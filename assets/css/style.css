@@ -3961,6 +3961,7 @@ img {
   transform: translate(50%, 50%);
 }
 .program-card .program-card-text {
+  height: 100%;
   padding: 11px 10px;
   opacity: 0;
   background-color: #707070;
@@ -3979,10 +3980,13 @@ img {
   opacity: 0;
 }
 .program-card:hover .program-card-text {
+  padding: 20px;
   opacity: 0.9;
   top: 0;
 }
-.program-card:hover .program-card-text h3 a,
+.program-card:hover .program-card-text h3 a {
+  color: var(--whiteColor);
+}
 .program-card:hover .program-card-text p {
   color: #ffffff;
 }

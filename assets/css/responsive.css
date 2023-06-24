@@ -343,6 +343,64 @@
   .topbar .tobar-rightSide {
     justify-content: end;
   }
+  .program-card {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .program-card img {
+    width: 100%;
+  }
+  .program-card .program-card-title {
+    position: absolute;
+    top: 100px;
+    opacity: 1;
+    color: var(--whiteColor);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  .program-card .program-card-text {
+    height: 100%;
+    padding: 11px 10px;
+    opacity: 0;
+    background-color: #707070;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+  }
+  .program-card .program-card-text h3 a {
+    color: var(--blueColor);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+  }
+  .program-card .program-card-text p {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--primaryFont);
+  }
+  .program-card:hover .program-card-title {
+    top: 100px;
+    color: #fff;
+    opacity: 0;
+  }
+  .program-card:hover .program-card-text {
+    opacity: 0.9;
+  }
+  .program-card:hover .program-card-text h3 {
+    padding-top: 70px;
+  }
+  .program-card:hover .program-card-text h3 a {
+    color: var(--whiteColor);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+  }
+  .program-card:hover .program-card-text p {
+    top: 100px;
+    color: #ffffff;
+  }
   .school .our-campus .school-image .school-video {
     border-radius: 15px;
     width: 100%;
@@ -412,6 +470,55 @@
   .footer .pl-70 {
     margin-top: 0;
   }
+  .program-card {
+    border-radius: 5px;
+  }
+  .program-card img {
+    width: 100%;
+  }
+  .program-card .program-card-title {
+    position: absolute;
+    top: 50px;
+    opacity: 1;
+    color: var(--whiteColor);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  .program-card .program-card-text {
+    height: 100%;
+    padding: 11px 10px;
+    opacity: 0;
+    background-color: #707070;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+  }
+  .program-card .program-card-text h3 a {
+    color: var(--blueColor);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+  }
+  .program-card .program-card-text p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: var(--primaryFont);
+  }
+  .program-card:hover .program-card-title {
+    top: 50px;
+    color: #fff;
+    opacity: 0;
+  }
+  .program-card:hover .program-card-text {
+    opacity: 0.9;
+    top: 0;
+  }
+  .program-card:hover .program-card-text h3 a,
+  .program-card:hover .program-card-text p {
+    color: #ffffff;
+  }
   .school .our-campus .school-image .school-video {
     border-radius: 15px;
     width: 100%;
@@ -457,16 +564,53 @@
     font-size: 14px;
   }
   .program-card {
-    padding: 10px;
+    border-radius: 5px;
+  }
+  .program-card img {
+    width: 100%;
+  }
+  .program-card .program-card-title {
+    position: absolute;
+    top: 50px;
+    opacity: 1;
+    color: var(--whiteColor);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  .program-card .program-card-text {
+    height: 100%;
+    padding: 11px 10px;
+    opacity: 0;
+    background-color: #707070;
+    transition: 0.5s ease-in-out;
+    position: absolute;
   }
   .program-card .program-card-text h3 a {
-    font-size: 18px;
+    color: var(--blueColor);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
   }
   .program-card .program-card-text p {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: var(--primaryFont);
   }
-  .program-card .program-card-text .program-card-bottom-area img {
-    width: 35px;
+  .program-card:hover .program-card-title {
+    top: 50px;
+    color: #fff;
+    opacity: 0;
+  }
+  .program-card:hover .program-card-text {
+    opacity: 0.9;
+    top: 0;
+  }
+  .program-card:hover .program-card-text h3 a,
+  .program-card:hover .program-card-text p {
+    color: #ffffff;
   }
   .features-card {
     padding-left: 15px;
@@ -524,6 +668,55 @@
   .article-card .article-text-area h3 a {
     font-size: 20px;
   }
+  .program-card {
+    border-radius: 5px;
+  }
+  .program-card img {
+    width: 100%;
+  }
+  .program-card .program-card-title {
+    position: absolute;
+    top: 50px;
+    opacity: 1;
+    color: var(--whiteColor);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  .program-card .program-card-text {
+    height: 100%;
+    padding: 11px 10px;
+    opacity: 0;
+    background-color: #707070;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+  }
+  .program-card .program-card-text h3 a {
+    color: var(--blueColor);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+  }
+  .program-card .program-card-text p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: var(--primaryFont);
+  }
+  .program-card:hover .program-card-title {
+    top: 50px;
+    color: #fff;
+    opacity: 0;
+  }
+  .program-card:hover .program-card-text {
+    opacity: 0.9;
+    top: 0;
+  }
+  .program-card:hover .program-card-text h3 a,
+  .program-card:hover .program-card-text p {
+    color: #ffffff;
+  }
   .about-details-text p {
     font-size: 14px;
   }
@@ -533,6 +726,57 @@
   }
 }
 @media only screen and (max-width: 576px) {
+  .program-card {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .program-card img {
+    width: 100%;
+  }
+  .program-card .program-card-title {
+    position: absolute;
+    top: 50px;
+    opacity: 1;
+    color: var(--whiteColor);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  .program-card .program-card-text {
+    height: 100%;
+    padding: 11px 10px;
+    opacity: 0;
+    background-color: #707070;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+  }
+  .program-card .program-card-text h3 a {
+    color: var(--blueColor);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primaryFont);
+  }
+  .program-card .program-card-text p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: var(--primaryFont);
+  }
+  .program-card:hover .program-card-title {
+    top: 50px;
+    color: #fff;
+    opacity: 0;
+  }
+  .program-card:hover .program-card-text {
+    padding: 10px;
+    opacity: 0.9;
+    top: 0;
+  }
+  .program-card:hover .program-card-text h3 a,
+  .program-card:hover .program-card-text p {
+    color: #ffffff;
+  }
   .school h3 {
     font-size: 26px;
     line-height: 30px;
