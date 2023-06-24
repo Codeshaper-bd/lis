@@ -418,6 +418,13 @@ a.meanmenu-reveal {
   font-family: var(--primaryFont);
 }
 
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a iconify-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /*================================================
 Header Responsive Area CSS
 =================================================*/
