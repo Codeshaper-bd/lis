@@ -352,7 +352,6 @@
   }
   .program-card .program-card-title {
     position: absolute;
-    top: 100px;
     opacity: 1;
     color: var(--whiteColor);
     font-size: 26px;
@@ -478,7 +477,6 @@
   }
   .program-card .program-card-title {
     position: absolute;
-    top: 50px;
     opacity: 1;
     color: var(--whiteColor);
     font-size: 22px;
@@ -571,7 +569,6 @@
   }
   .program-card .program-card-title {
     position: absolute;
-    top: 50px;
     opacity: 1;
     color: var(--whiteColor);
     font-size: 22px;
@@ -676,7 +673,6 @@
   }
   .program-card .program-card-title {
     position: absolute;
-    top: 50px;
     opacity: 1;
     color: var(--whiteColor);
     font-size: 22px;
@@ -735,7 +731,6 @@
   }
   .program-card .program-card-title {
     position: absolute;
-    top: 50px;
     opacity: 1;
     color: var(--whiteColor);
     font-size: 22px;

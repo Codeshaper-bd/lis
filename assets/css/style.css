@@ -3957,15 +3957,16 @@ img {
   width: 100%;
 }
 .program-card .program-card-title {
-  position: absolute;
-  top: 50px;
   opacity: 1;
+  width: 100%;
   color: var(--whiteColor);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
   font-size: 26px;
   font-weight: 700;
   font-family: var(--primaryFont);
-  right: 50%;
-  transform: translate(50%, 50%);
 }
 .program-card .program-card-text {
   height: 100%;
