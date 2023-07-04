@@ -721,7 +721,7 @@ Header Responsive Area CSS
   border-radius: 4px;
 }
 .side-card-wrapper .video-card .video-card-image {
-  background: url(/../assets/images/sidecard/video-bg-solar-card.jpg);
+  background: url(/..assets/images/sidecard/video-bg-solar-card.jpg);
   background-size: cover;
   height: 220px;
   position: relative;
@@ -1677,7 +1677,7 @@ Header Responsive Area CSS
   color: var(--blueColor) !important;
 }
 .policy .policy-image {
-  background: url(/assets/images/policy.jpg);
+  background: url(assets/images/policy.jpg);
   background-size: cover;
   width: 100%;
   height: 525px;
@@ -3440,7 +3440,7 @@ Header Responsive Area CSS
   padding-top: 20px;
 }
 .video-banner-image .video-banner {
-  background: url(/../assets/images/programme/pyp.jpg);
+  background: url(/..assets/images/programme/pyp.jpg);
   background-size: cover;
   width: 100%;
   height: 525px;
@@ -4742,7 +4742,7 @@ img {
   border-radius: 8px;
   position: relative;
   height: 100%;
-  background-image: url("/assets/images/learn/learn.png");
+  background-image: url("assets/images/learn/learn.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;

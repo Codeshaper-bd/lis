@@ -13,8 +13,8 @@
 
   //searchbar
   $(document).on("click", function (event) {
-    var $div = $("#popupSearchButton");
-    var $target = $(event.target);
+    let $div = $("#popupSearchButton");
+    let $target = $(event.target);
     if (
       !$div.is($target) &&
       !$div.has($target).length &&
@@ -32,22 +32,18 @@
 
   
   //image-gallery-school
-  $(document).ready(function () {
+  $('a.btn-gallery').on('click', function (event) {
+    event.preventDefault();
 
-    $('a.btn-gallery').on('click', function (event) {
-      event.preventDefault();
+    let gallery = $(this).attr('href');
 
-      var gallery = $(this).attr('href');
-
-      $(gallery).magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-          enabled: true
-        }
-      }).magnificPopup('open');
-    });
-
+    $(gallery).magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+    }).magnificPopup('open');
   });
 
 
@@ -71,21 +67,14 @@
     },
   });
 
-
-
-
-
-})(jQuery);
-
-//calendar
+  //calendar
 function selectDate(date) {
   $('.booking-calender').updateCalendarOptions({
     date: date
   });
-  console.log(calendar.getSelectedDate());
 }
 
-var defaultConfig = {
+let defaultConfig = {
   weekDayLength: 1,
   date: '08/05/2021',
   onClickDate: selectDate,
@@ -93,17 +82,25 @@ var defaultConfig = {
   startOnMonday: false,
 };
 
-var calendar = $('.booking-calender').calendar(defaultConfig);
-console.log(calendar.getSelectedDate());
+let calendar = $('.booking-calender').calendar(defaultConfig);
+
+
+  $('.form-group #icon').on('click', function() {
+
+    let x = $(this).prev(".form-group input");
+    if (x.attr("type") === "password") {
+      x.attr("type", "text");
+    } else {
+      x.attr("type", "password");
+    }
+  })
 
 
 
-//pass hide icon
-function myFunction() {
-  var x = document.getElementById("password");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
+
+})(jQuery);
+
+
+
+
+
