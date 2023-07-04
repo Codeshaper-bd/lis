@@ -9,55 +9,72 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.min.css" />
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
-
   </head>
 
   <body>
     <div class="topbar">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
             <div class="topbar-leftside">
+              <div class="language">
+                <label htmlFor="language">Language:</label>
+                <select name="language" id="language">
+                  <option value="english">PT</option>
+                  <option value="english">EN</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
+            <div class="tobar-rightSide">
               <div class="topbar-social-links">
                 <span>Follow Us:</span>
                 <ul>
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:twitter-fill"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
                   </li>
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:facebook-fill"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
                   </li>
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:instagram-line"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="quick-links.html"
+                      ><iconify-icon
+                        icon="dashicons:admin-links"
+                        alt="quick links"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="calender.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:calender"
+                      ></iconify-icon
+                    ></a>
                   </li>
                 </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9">
-            <div class="tobar-rightSide">
-              <div class="topbar-rightSide-contact-card">
-                <iconify-icon icon="bx:support"></iconify-icon>
-                <div>
-                  <p>Call Now!</p>
-                  <a href="tel:+244932337056">+244932337056</a>
-                </div>
-              </div>
-              <div class="topbar-rightSide-contact-card">
-                <iconify-icon icon="fluent-emoji-high-contrast:e-mail"></iconify-icon>
-                <div>
-                  <p>Email Now!</p>
-                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                </div>
               </div>
             </div>
           </div>
@@ -72,19 +89,14 @@
         <div class="main-responsive-nav">
           <div class="container">
             <div class="mobile-nav">
-              <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" /></a>
+              <a href="index.html" class="logo"
+                ><img src="assets/images/logo.png" alt="logo"
+              /></a>
               <ul class="menu-sidebar menu-small-device">
                 <li>
                   <button class="popup-button">
-                    <iconify-icon id="popupSearchButton" icon="iconamoon:search-thin"></iconify-icon>
-                    <div class="popupSearchBar">
-                      <input type="text" class="form-control" placeholder="Search ...">
-                    </div>
+                    <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
                   </button>
-                </li>
-                <li>
-                  <a class="default-button blue-button" href="contact.html">
-                    <span>Admission</span></a>
                 </li>
               </ul>
             </div>
@@ -97,114 +109,256 @@
               <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="logo" />
               </a>
-              <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+              <div
+                class="collapse navbar-collapse mean-menu"
+                id="navbarSupportedContent"
+              >
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle active">Home</a>
+                    <a href="index.html" class="nav-link dropdown-toggle"
+                      >Home</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">Learn
-                      <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                    </a>
+                    <a
+                      href="javascript:void()"
+                      class="nav-link dropdown-toggle active"
+                      >About Us
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="#" class="nav-link dropdown-toggle">Services
-                          <i class="fas fa-angle-right"></i>
-                        </a>
+                        <a href="about.html" class="nav-link">Who We Are</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="mission-values.html" class="nav-link"
+                          >Mission, Vision and Values</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="school-campus.html" class="nav-link active"
+                          >School Campus</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="leadership.html" class="nav-link"
+                          >LIS Leadership Team</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="board-of-directors.html" class="nav-link"
+                          >Board of Directors</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="accreditation.html" class="nav-link">
+                          Accreditation</a
+                        >
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="javascript:void()" class="nav-link"
+                          >Health and Safety
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon
+                        ></a>
                         <ul class="dropdown-menu">
                           <li class="nav-item">
-                            <a href="services.html" class="nav-link">Services 01</a>
+                            <a href="student-support.html" class="nav-link"
+                              >Student Support</a
+                            >
                           </li>
                           <li class="nav-item">
-                            <a href="services-2.html" class="nav-link">Services 02</a>
+                            <a href="child-protection.html" class="nav-link"
+                              >Child Protection</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="commitment.html" class="nav-link"
+                              >Commitment to Well-being</a
+                            >
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a href="service-details.html" class="nav-link">Service Details</a>
+                        <a href="javascript:void()" class="nav-link"
+                          >Comunity
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon
+                        ></a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="community.html" class="nav-link"
+                              >Comunity</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="lis-news.html" class="nav-link"
+                              >Lis News</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">Alumni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="parent-association.html" class="nav-link"
+                              >Parent Association</a
+                            >
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">Inspire
-                      <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                    </a>
+                    <a href="javascript:void()" class="nav-link dropdown-toggle"
+                      >Curriculam
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="about.html" class="nav-link">About Us</a>
+                        <a href="learn.html" class="nav-link dropdown-toggle"
+                          >Learn
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a href="faq.html" class="nav-link">FAQ</a>
+                        <a href="pyp.html" class="nav-link dropdown-toggle"
+                          >Primary Years Programme
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a href="team.html" class="nav-link">Our Team</a>
+                        <a href="myp.html" class="nav-link dropdown-toggle"
+                          >Middle Years Programme
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">Gallery</a>
+                        <a href="diploma-programme.html" class="nav-link"
+                          >Diploma Programme</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="pricing.html" class="nav-link">Pricing Plan</a>
+                        <a href="co-curricular.html" class="nav-link"
+                          >Co-Curricular Programme</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="profile-authentication.html" class="nav-link">My Account</a>
+                        <a href="information.html" class="nav-link"
+                          >School Profile: Information for Universities</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="error.html" class="nav-link">404 Error</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="testimonial.html" class="nav-link">Testimonials</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="privacy.html" class="nav-link">Privacy Policy</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="terms.html" class="nav-link">Terms & Conditions</a>
+                        <a href="calender.html" class="nav-link">Calender</a>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">Join
-                      <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                    </a>
+                    <a href="javascript:void()" class="nav-link dropdown-toggle"
+                      >Join
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="blog.html" class="nav-link">Blog Grid</a>
+                        <a href="join.html" class="nav-link dropdown-toggle"
+                          >Join</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="blog-details.html" class="nav-link">Blog Details</a>
+                        <a
+                          href="javascript:void()"
+                          class="nav-link dropdown-toggle"
+                          >Enrollment
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon
+                        ></a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="enrollment.html" class="nav-link"
+                              >Enrollment
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a
+                              href="policy.html"
+                              class="nav-link dropdown-toggle"
+                              >Policies and General Notes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="javascript:void()"
+                          class="nav-link dropdown-toggle"
+                          >Recruitment
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="recruitment.html" class="nav-link"
+                              >Recruitment
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a
+                              href="job-opening.html"
+                              class="nav-link dropdown-toggle"
+                              >Job Openings
+                            </a>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link dropdown-toggle">Contact
-                      <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
+                    <a href="social-media.html" class="nav-link dropdown-toggle"
+                      >Social Media
                     </a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="blog.html" class="nav-link">Blog Grid</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="blog-details.html" class="nav-link">Blog Details</a>
-                      </li>
-                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Enrollment</a>
+                    <a href="quick-links.html" class="nav-link dropdown-toggle"
+                      >Quick Links
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link dropdown-toggle"
+                      >Contact Us
+                    </a>
                   </li>
                 </ul>
                 <div class="menu-sidebar">
                   <ul>
                     <li>
                       <button class="popup-button">
-                        <iconify-icon id="popupSearchButton" icon="iconamoon:search-thin"></iconify-icon>
+                        <iconify-icon
+                          id="popupSearchButton"
+                          icon="iconamoon:search-thin"
+                        ></iconify-icon>
                         <div class="popupSearchBar">
-                          <input type="text" class="form-control" placeholder="Search ...">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search ..."
+                          />
                         </div>
                       </button>
                     </li>
                     <li>
-                      <a class="default-button blue-button" href="contact.html">
-                        <span>Admission</span></a>
+                      <a
+                        class="default-button blue-button"
+                        href="contact-us.html"
+                        ><span>Admission</span></a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -221,183 +375,517 @@
       <div class="container">
         <div class="banner-content">
           <h1>School Campus</h1>
-          <div class="banner-subtitle">
+          <!-- <div class="banner-subtitle">
             <ul>
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>Campus</li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
     <!-- Inner Pages Banner Area End -->
-    <!-- Commitment Area Start -->
+
+    <!-- school Area Start -->
     <div class="school ptb-140">
       <div class="container">
         <div class="our-campus">
           <h3>Our Campus</h3>
-          <p>Our campus is modern, colorful and functional, allowing students to fully embrace the LIS learning
-            experience. The
-            decoration of some elements reflects the national culture of which we are proud. It offers green,
-            landscaped, leisure
-            areas for students to rest between classes, and also allows them to have fun or explore the elements of
-            nature during
-            class.</p>
+          <p>
+            Our campus is modern, colorful and functional, allowing students to
+            fully embrace the LIS learning experience. The decoration of some
+            elements reflects the national culture of which we are proud. It
+            offers green, landscaped, leisure areas for students to rest between
+            classes, and also allows them to have fun or explore the elements of
+            nature during class.
+          </p>
           <div class="school-image">
-            <img src="./assets/images/School/campus.png" alt="">
+            <iframe
+              class="school-video"
+              src="assets/images/Website Video Final.mp4"
+              title="W3Schools Free Online Web Tutorials"
+            ></iframe>
+            <!-- <img src=".assets/images/School/campus.png" alt="image" /> -->
           </div>
         </div>
         <div class="experience-campus">
           <h3>Experience Our Campus</h3>
-          <p>LIS has Primary and Secondary School levels. Primary is further divided into our Early Years Center for
-            younger students and Years 1 - 6 for older Primary students. The schools are situated on one campus with 16
-            buildings directly related to classroom learning and 9 buildings related to support services, providing safe
-            learning-centered environments for each of the school sections. Our campus features:</p>
-          <ul>
-            <li>2 well-resourced libraries. (Primary and Secondary sections)</li>
+          <p>
+            LIS has Primary and Secondary School levels. Primary is further
+            divided into our Early Years Center for younger students and Years 1
+            - 6 for older Primary students. The schools are situated on one
+            campus with 16 buildings directly related to classroom learning and
+            9 buildings related to support services, providing safe
+            learning-centered environments for each of the school sections. Our
+            campus features:
+          </p>
+          <ul class="list-style">
+            <li>
+              2 well-resourced libraries. (Primary and Secondary sections)
+            </li>
             <li>Design Technology rooms.</li>
             <li>Science labs.</li>
             <li>Specialist classrooms for languages.</li>
             <li>Music studios.</li>
             <li>Visual and Art studios.</li>
-            <li>Sustainable thinking and critical to dicission making and actions.</li>
+            <li>
+              Sustainable thinking and critical to dicission making and actions.
+            </li>
             <li>IT Center</li>
             <li>1 Theater.</li>
-            <li>Outdoor swimming pools, 1 half olympic size and 1 for Early Year students.</li>
-            <li>A large double gymnasium with a fitness centre and a smaller gymnasium for PYP.</li>
+            <li>
+              Outdoor swimming pools, 1 half olympic size and 1 for Early Year
+              students.
+            </li>
+            <li>
+              A large double gymnasium with a fitness centre and a smaller
+              gymnasium for PYP.
+            </li>
             <li>Double Outdoor Basketball court.</li>
             <li>Full-length football field.</li>
             <li>Cafeteria and dining room.</li>
             <li>Indoor and outdoor Lounges.</li>
           </ul>
-          <p>Maintenance of our facilities, as well as campus growth projects, are focused on making the school even
-            more environmentally friendly, reflected in the high quality of teaching by our faculty and learning by our
-            students.</p>
+          <p>
+            Maintenance of our facilities, as well as campus growth projects,
+            are focused on making the school even more environmentally friendly,
+            reflected in the high quality of teaching by our faculty and
+            learning by our students.
+          </p>
           <div class="school-image">
-            <img src="./assets/images/School/campus.png" alt="">
+            <img src="assets/images/School/campus.png" alt="image" />
           </div>
-          <p>LIS has 2300 solar panels that work as our main source of energy. The solar photovoltaic system works in
-            parallel with the national energy supply. The system is able to produce more energy than is needed for the
-            school</p>
-        </div>
-
-      </div>
-      <iframe class="map-campus pt-140"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12679.592882069071!2d13.192050992410428!3d-8.914238277122246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f52416ae7a53%3A0xdefb7415ea1a4209!2sLuanda%20International%20School!5e0!3m2!1sen!2sbd!4v1685605736542!5m2!1sen!2sbd"
-        height="550" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="container pt-140">
-        <div class="accridation-campus">
-          <div class="campus-single-accridation">
-            <div class="accridation-image">
-              <img src="/assets/images/School/accridation/school-accridation (1).png" alt="">
-            </div>
-            <div class="accridation-image">
-              <img src="/assets/images/School/accridation/school-accridation (2).png" alt="">
-            </div>
-            <div class="accridation-image">
-              <img src="/assets/images/School/accridation/school-accridation (3).png" alt="">
-            </div>
-            <div class="accridation-image">
-              <img src="/assets/images/School/accridation/school-accridation (4).png" alt="">
-            </div>
-          </div>
+          <p>
+            LIS has 2300 solar panels that work as our main source of energy.
+            The solar photovoltaic system works in parallel with the national
+            energy supply. The system is able to produce more energy than is
+            needed for the school
+          </p>
         </div>
       </div>
     </div>
-    <!-- Commitment area End -->
+
+    <!-- Virtual Tour Area Start -->
+    <div class="virtual-map">
+      <div class="container">
+        <div class="section-heading">
+          <h6>Map</h6>
+          <h3>Virtual Tour</h3>
+        </div>
+        <div class="section-content">
+          <!-- redwan vai code start-->
+          <div class="school-map">
+            <div class="shcool-img">
+              <img src="assets/images/mini-map-marker.png" alt="" />
+
+              <ul>
+                <li>
+                  <a href="#gallery-1" class="btn-gallery btn-gallery-1"></a>
+                </li>
+                <li>
+                  <a href="#gallery-2" class="btn-gallery btn-gallery-2"></a>
+                </li>
+                <li>
+                  <a href="#gallery-3" class="btn-gallery btn-gallery-3"></a>
+                </li>
+                <li>
+                  <a href="#gallery-4" class="btn-gallery btn-gallery-4"></a>
+                </li>
+                <li>
+                  <a href="#gallery-5" class="btn-gallery btn-gallery-5"></a>
+                </li>
+                <li>
+                  <a href="#gallery-6" class="btn-gallery btn-gallery-6"></a>
+                </li>
+                <li>
+                  <a href="#gallery-7" class="btn-gallery btn-gallery-7"></a>
+                </li>
+                <li>
+                  <a href="#gallery-8" class="btn-gallery btn-gallery-8"></a>
+                </li>
+                <li>
+                  <a href="#gallery-9" class="btn-gallery btn-gallery-9"></a>
+                </li>
+                <li>
+                  <a href="#gallery-10" class="btn-gallery btn-gallery-10"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-11" class="btn-gallery btn-gallery-11"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-12" class="btn-gallery btn-gallery-12"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-13" class="btn-gallery btn-gallery-13"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-14" class="btn-gallery btn-gallery-14"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-15" class="btn-gallery btn-gallery-15"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-16" class="btn-gallery btn-gallery-16"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-17" class="btn-gallery btn-gallery-17"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-18" class="btn-gallery btn-gallery-18"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-19" class="btn-gallery btn-gallery-19"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-20" class="btn-gallery btn-gallery-20"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-21" class="btn-gallery btn-gallery-21"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-22" class="btn-gallery btn-gallery-22"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-23" class="btn-gallery btn-gallery-23"> </a>
+                </li>
+                <li>
+                  <a href="#gallery-24" class="btn-gallery btn-gallery-24"> </a>
+                </li>
+              </ul>
+
+              <div id="gallery-1" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/1/27.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/1/28.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/1/29.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-2" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/2/1.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/2/2.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/2/3.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-3" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/3/4.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/3/5.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/3/6.jpg"
+                  >Image 3</a
+                >
+                <a href="assets/images/School/Photos By Numbers/3/7.jpg"
+                  >Image 4</a
+                >
+              </div>
+              <div id="gallery-4" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/4/8.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/4/9.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/4/10.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-5" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/5/11.jpg"
+                  >Image 1</a
+                >
+              </div>
+              <div id="gallery-6" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/6/12.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/6/13.jpg"
+                  >Image 1</a
+                >
+              </div>
+              <div id="gallery-7" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/7/14.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/7/15.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/7/16.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-8" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/8/56.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/8/57.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/8/58.jpg"
+                  >Image 3</a
+                >
+                <a href="assets/images/School/Photos By Numbers/8/59.jpg"
+                  >Image 4</a
+                >
+                <a href="assets/images/School/Photos By Numbers/8/60.jpg"
+                  >Image 5</a
+                >
+                <a href="assets/images/School/Photos By Numbers/8/61.jpg"
+                  >Image 6</a
+                >
+              </div>
+              <div id="gallery-9" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/9/17.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/9/18.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/9/19.jpg"
+                  >Image 3</a
+                >
+                <a href="assets/images/School/Photos By Numbers/9/20.jpg"
+                  >Image 4</a
+                >
+              </div>
+              <div id="gallery-10" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/10/42.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/10/43.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/10/44.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-11" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/11/21.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/11/22.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/11/23.jpg"
+                  >Image 3</a
+                >
+                <a href="assets/images/School/Photos By Numbers/11/24.jpg"
+                  >Image 4</a
+                >
+              </div>
+              <div id="gallery-12" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/12/51.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/12/52.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/12/53.jpg"
+                  >Image 3</a
+                >
+                <a href="assets/images/School/Photos By Numbers/12/54.jpg"
+                  >Image 4</a
+                >
+              </div>
+              <div id="gallery-13" class="hidden">
+                <a
+                  href="https://images.unsplash.com/photo-1462774603919-1d8087e62cad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0ebd884b4d6ac379f42146a2b26fbf2e"
+                  >Image 1</a
+                >
+                <a
+                  href="https://images.unsplash.com/photo-1460499593944-39e14f96a8c6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d8bc3d45d5eeaaf4f576665707f4fddb"
+                  >Image 2</a
+                >
+                <a
+                  href="https://images.unsplash.com/photo-1434434319959-1f886517e1fe?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=218dfdd2c0735dbd6ca0f718064a748b"
+                  >Image 3</a
+                >
+                <a
+                  href="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a0941b28175909ca62f096eb533b0c97"
+                  >Image 4</a
+                >
+              </div>
+              <div id="gallery-14" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/14/25.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/14/26.jpg"
+                  >Image 2</a
+                >
+              </div>
+              <div id="gallery-15" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/15/40.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/15/41.jpg"
+                  >Image 2</a
+                >
+              </div>
+              <div id="gallery-16" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/16/35.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/16/36.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/16/37.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-17" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/17/30.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/17/31.jpg"
+                  >Image 2</a
+                >
+              </div>
+              <div id="gallery-18" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/18/32.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/18/33.jpg"
+                  >Image 2</a
+                >
+              </div>
+              <div id="gallery-19" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/19/34.jpg"
+                  >Image 1</a
+                >
+              </div>
+              <div id="gallery-20" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/20/38.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/20/39.jpg"
+                  >Image 2</a
+                >
+              </div>
+              <div id="gallery-21" class="hidden">
+                <a
+                  href="https://images.unsplash.com/photo-1462774603919-1d8087e62cad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0ebd884b4d6ac379f42146a2b26fbf2e"
+                  >Image 1</a
+                >
+                <a
+                  href="https://images.unsplash.com/photo-1460499593944-39e14f96a8c6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d8bc3d45d5eeaaf4f576665707f4fddb"
+                  >Image 2</a
+                >
+                <a
+                  href="https://images.unsplash.com/photo-1434434319959-1f886517e1fe?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=218dfdd2c0735dbd6ca0f718064a748b"
+                  >Image 3</a
+                >
+                <a
+                  href="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a0941b28175909ca62f096eb533b0c97"
+                  >Image 4</a
+                >
+              </div>
+              <div id="gallery-22" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/22/55.jpg"
+                  >Image 1</a
+                >
+              </div>
+              <div id="gallery-23" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/23/45.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/23/46.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/23/47.jpg"
+                  >Image 3</a
+                >
+              </div>
+              <div id="gallery-24" class="hidden">
+                <a href="assets/images/School/Photos By Numbers/24/48.jpg"
+                  >Image 1</a
+                >
+                <a href="assets/images/School/Photos By Numbers/24/49.jpg"
+                  >Image 2</a
+                >
+                <a href="assets/images/School/Photos By Numbers/24/50.jpg"
+                  >Image 3</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- redwan vai code end-->
+        </div>
+      </div>
+    </div>
+    <!-- Virtual Tour Area End -->
+    <!-- school area End -->
 
     <!-- Footer Area Start -->
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="footer-logo-area">
-              <a href="#"><img src="assets/images/white-logo.png" alt="logo" /></a>
-              <p>
-                Luanda International School is a Preschool–12 private, co-educational international day
-                school in Luanda, Angola. Established in October 1996 by five people interested in the
-                creation of an English-medium international school in Angola
-              </p>
-              <div class="footer-social-icons">
+              <a href="#"
+                ><img src="assets/images/white-logo.png" alt="logo"
+              /></a>
+              <div class="footer-social-icons mt-3">
                 <ul>
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:facebook-fill"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
                   </li>
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:linkedin-fill"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
                   </li>
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:twitter-fill"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                    ></a>
                   </li>
+
                   <li>
-                    <a href="#">
-                      <iconify-icon icon="ri:youtube-fill"></iconify-icon>
-                    </a>
+                    <a href="#"
+                      ><iconify-icon icon="ri:youtube-fill"></iconify-icon
+                    ></a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="footer-links pl-70">
               <h3>Helpful Link</h3>
               <ul>
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Directors</a>
-                </li>
-                <li>
-                  <a href="#">Mission & Vision</a>
-                </li>
-                <li>
-                  <a href="#">LIS News</a>
-                </li>
-                <li>
-                  <a href="#">Campus</a>
-                </li>
-                <li>
-                  <a href="#">Team Leadership</a>
-                </li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="site-map.html">Site Map</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="footer-links">
               <h3>Explore</h3>
               <ul>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-                <li>
-                  <a href="#">Apply Now</a>
-                </li>
-                <li>
-                  <a href="#">Sitemap</a>
-                </li>
-                <li>
-                  <a href="#">Employment</a>
-                </li>
-                <li>
-                  <a href="#">Calendar</a>
-                </li>
-                <li>
-                  <a href="#">Information for Universities</a>
-                </li>
+                <li><a href="about.html">Who We Are</a></li>
+                <li><a href="learn.html">Curriculum</a></li>
+                <li><a href="school-campus.html">Campus</a></li>
+                <li><a href="lis-news.html">LIS News</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="footer-links footer-contact">
               <h3>Contact Us</h3>
               <ul>
@@ -411,8 +899,11 @@
                 </li>
                 <li>
                   <iconify-icon icon="carbon:location"></iconify-icon>
-                  <a href="https://goo.gl/maps/H21TiMcM5TZE4NPd8" target="_blank">Via S6, Bairro da,
-                    Av. Talatona, Luanda, Angola</a>
+                  <a
+                    href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
+                    target="_blank"
+                    >Via S6, Bairro de Talatona, Belas, Luanda, Angola</a
+                  >
                 </li>
               </ul>
             </div>
@@ -433,9 +924,7 @@
             </script>
             LIS. All rights reserved
           </p>
-          <p>Developed By
-            <a href="#">Department of IT and Innovations</a>
-          </p>
+          <p>Developed By <a href="#">Department of IT and Innovations</a></p>
         </div>
       </div>
     </div>
@@ -444,9 +933,10 @@
     <script src="assets/js/jQuery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/iconify.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
     <script src="assets/js/meanmenu.js"></script>
-    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/custom.js"></script>
-
   </body>
 </html>

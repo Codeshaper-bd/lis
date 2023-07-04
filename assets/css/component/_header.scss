@@ -83,9 +83,6 @@ a.meanmenu-reveal {
             background: var(--whiteColor);
           }
         }
-        a.active {
-          color: var(--whiteColor);
-        }
         li {
           a {
             width: 80%;
@@ -189,7 +186,7 @@ a.meanmenu-reveal {
     ul {
       li {
         a.active {
-          color: var(--blueColor);
+          color: var(--yellowColor);
         }
       }
     }
@@ -245,12 +242,12 @@ a.meanmenu-reveal {
           }
         }
         a.active {
-          color: var(--blueColor);
+          color: var(--yellowColor);
           transition: 0.5s;
         }
         &:hover {
           a {
-            color: var(--blueColor);
+            color: var(--yellowColor);
           }
           ul {
             opacity: 1;
@@ -263,7 +260,7 @@ a.meanmenu-reveal {
           top: 81px;
           opacity: 0;
           z-index: 99;
-          width: 200px;
+          width: 340px;
           border: none;
           display: block;
           border-radius: 0px;
@@ -465,6 +462,13 @@ a.meanmenu-reveal {
       }
     }
   }
+}
+
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a iconify-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /*================================================

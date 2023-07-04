@@ -21,7 +21,7 @@
         font: {
             weight: 700;
             size: 36px;
-            font: var(--primaryFont);
+            family: var(--primaryFont);
         }
         line-height: 43.2px;
     }
@@ -55,67 +55,14 @@
                 }
                 line-height: 32px;
             }
-            ul {
-                list-style-type: none;
-                padding-top: 15px;
-
-                li {
-                    position: relative;
-                    padding-left: 30px;
-                    margin-top: 6px;
-                    line-height: 27px;
-                    color: var(--blueColor);
-                    font: {
-                        size: 18px;
-                        weight: 400;
-                        family: var(--primaryFont);
-                    }
-                    a {
-                        color: var(--yellowColor);
-                    }
-                    &:hover {
-                        a {
-                            color: var(--yellowColor);
-                            text-decoration: underline;
-                            line-height: 30px;
-                        }
-                    }
-
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        top: 12px;
-                        left: 0;
-                        border-radius: 1px;
-                        width: 10px;
-                        height: 10px;
-                        background-color: var(--blueColor);
-                        outline-offset: 3px;
-                        outline: 1px solid var(--blueColor);
-                    }
-                }
-            }
         }
         .enrollment-content-small {
             margin-top: 20px;
 
-            p {
-                padding: 0;
-                margin: 0;
-                color: var(--textColor);
-                font: {
-                    size: 18px;
-                    family: var(--primaryFont);
-                }
-
-                line-height: 27px;
-                a {
-                    color: var(--yellowColor);
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
+            .blue-button {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: 1px solid gray !important;
             }
             h6 {
                 color: var(--headerColor);
@@ -152,4 +99,60 @@
             }
         }
     }
+}
+
+//responsive
+@media only screen and (max-width: 767px) {
+    .enrollment {
+        h3 {
+            font: {
+                size: 30px;
+            }
+            line-height: 30px;
+        }
+        P {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .enrollment-content-wrapper {
+            .enrollment-content-single {
+                margin-top: 30px;
+                h4 {
+                    font-size: 24px;
+                    line-height: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+            .enrollment-content-small {
+                p {
+                    font-size: 14px;
+                    font-family: var(--primaryFont);
+                    line-height: 24px;
+                    a {
+                        color: var(--yellowColor);
+                    }
+                }
+            }
+            .enrollment-content-email {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media only screen and (min-width: 1500px) {
 }

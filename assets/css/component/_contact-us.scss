@@ -12,7 +12,7 @@
                 font: {
                     weight: 700;
                     size: 48px;
-                    font: var(--primaryFont);
+                    family: var(--primaryFont);
                 }
                 line-height: 57.6px;
                 text-align: left;
@@ -147,72 +147,158 @@
 }
 
 //responsive
-
 @media only screen and (max-width: 767px) {
-    .address-card-wrapper {
-        margin-top: 50px;
-        .address-card {
-            position: unset !important;
-        }
-    }
-    .office-time-wrapper {
-        padding-bottom: 50px;
-        background-color: #ffffff;
-        &::before {
-            content: "";
-            width: 100%;
-            height: 150px;
-            background-color: #f1f5f9;
-            top: 0;
-            left: 0;
-            z-index: 0;
-        }
-
-        .office-time {
-            z-index: 1;
-            .office-time-group {
-                .office-time-single {
-                    margin-top: 30px;
-                    background-color: #ffffff;
-                    border-radius: 8px;
-                    max-width: 400px;
-                    border: 1px solid var(--blueColor);
+    .contact-us {
+        padding-top: 50px;
+        .contact-form-section {
+            .address-card-wrapper {
+                margin-top: 50px;
+                .address-card {
+                    position: unset !important;
+                    .address-card-text {
+                        ul {
+                            li {
+                                .text {
+                                    h6 {
+                                        font-size: 18px;
+                                    }
+                                    p {
+                                        line-height: 22px;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .contact-form {
+                h3 {
+                    padding-top: 50px;
+                    margin-bottom: 30px;
+                    font-size: 30px;
+                    line-height: 20px;
                     text-align: center;
-                    padding: {
-                        top: 48px;
-                        bottom: 48px;
-                    }
-                    h4 {
-                        color: var(--headerColor);
-                        line-height: 39px;
-                        font: {
-                            weight: 700;
-                            family: var(--primaryFont);
-                            size: 30px;
-                        }
-                    }
-
-                    p {
-                        line-height: 27px;
-                        color: var(--textColor);
-                        font: {
-                            size: 18px;
-                            weight: 400;
-                            family: var(--primaryFont);
-                        }
-                    }
-
-                    h6 {
-                        color: var(--headerColor);
-                        line-height: 27px;
-                        font: {
-                            weight: 700;
-                            family: var(--primaryFont);
-                            size: 18px;
+                }
+                form {
+                    .default-button {
+                        display: block;
+                        text-align: center;
+                        iconify-icon {
+                            top: 5px;
                         }
                     }
                 }
             }
         }
+        .office-time-wrapper {
+            padding-bottom: 50px;
+            background-color: #ffffff;
+            &::before {
+                content: "";
+                width: 100%;
+                height: 150px;
+                background-color: #f1f5f9;
+                top: 0;
+                left: 0;
+                z-index: 0;
+            }
+
+            .office-time {
+                z-index: 1;
+                .office-time-group {
+                    .office-time-single {
+                        margin-top: 30px;
+                        background-color: #ffffff;
+                        border-radius: 8px;
+                        width: 100%;
+                        border: 1px solid var(--blueColor);
+                        text-align: center;
+                        padding: {
+                            top: 20px;
+                            bottom: 25px;
+                        }
+                        h4 {
+                            color: var(--headerColor);
+                            line-height: 28px;
+                            font: {
+                                weight: 700;
+                                family: var(--primaryFont);
+                                size: 26px;
+                            }
+                        }
+
+                        p {
+                            line-height: 22px;
+                            font-size: 16px;
+                        }
+
+                        h6 {
+                            color: var(--headerColor);
+                            line-height: 22px;
+                            font: {
+                                size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .accridation-campus {
+            .accridation-image {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-us {
+        padding-top: 150px;
+        .contact-form-section {
+            .address-card-wrapper {
+                .address-card {
+                    max-width: 100%;
+                    position: absolute;
+                    top: -35px;
+                    .address-card-text {
+                        ul {
+                            li {
+                                .text {
+                                    h6 {
+                                        font-size: 18px;
+                                    }
+                                    p {
+                                        line-height: 22px;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .contact-form {
+                h3 {
+                    padding-top: 30px;
+                    margin-bottom: 20px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media only screen and (min-width: 1500px) {
 }

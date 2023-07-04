@@ -1,106 +1,108 @@
-.diploma-wrapper-groups {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    p {
-        color: var(--textColor);
-        font: {
-            size: 18px;
-            family: var(--primaryFont);
-        }
-
-        line-height: 27px;
-        a {
-            color: var(--yellowColor);
+.diploma {
+    .diploma-wrapper-groups {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        p {
+            color: var(--textColor);
             font: {
                 size: 18px;
                 family: var(--primaryFont);
             }
-        }
-        &:nth-child(2) {
-            margin-top: 30px;
-        }
-    }
-    .groups-single {
-        border: 1px solid var(--blueColor);
-        border-radius: 8px;
-        height: 100%;
 
-        .header {
-            padding-top: 16px;
-            text-align: center;
-            h6 {
-                margin: 0;
+            line-height: 27px;
+            a {
+                color: var(--yellowColor);
                 font: {
-                    size: 20px;
-                    weight: 600;
+                    size: 18px;
                     family: var(--primaryFont);
                 }
-                line-height: 30px;
+            }
+            &:nth-child(2) {
+                margin-top: 30px;
+            }
+        }
+        .groups-single {
+            border: 1px solid var(--blueColor);
+            border-radius: 8px;
+            height: 100%;
+
+            .header {
+                padding-top: 16px;
+                text-align: center;
+                h6 {
+                    margin: 0;
+                    font: {
+                        size: 20px;
+                        weight: 600;
+                        family: var(--primaryFont);
+                    }
+                    line-height: 30px;
+                }
+                p {
+                    margin: 0;
+                    color: var(--textColor);
+                    font: {
+                        size: 16px;
+                        family: var(--primaryFont);
+                    }
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .co-curricular-wrapper-text {
+        padding-top: 20px;
+    }
+    .caption {
+        padding-top: 32px;
+        h6 {
+            font: {
+                size: 20px;
+                weight: 600;
+                family: var(--primaryFont);
+            }
+            line-height: 30px;
+        }
+    }
+}
+
+//responsive
+@media only screen and (max-width: 767px) {
+    .diploma {
+        .co-curricular-wrapper-text {
+            padding-top: 20px;
+            h5 {
             }
             p {
-                margin: 0;
-                color: var(--textColor);
-                font: {
-                    size: 16px;
-                    family: var(--primaryFont);
-                }
-                line-height: 24px;
+                line-height: 22px;
+                font-size: 14px;
             }
         }
-        ul {
-            list-style-type: none;
-            padding-top: 15px;
-
-            li {
-                position: relative;
-                padding-left: 30px;
-                margin-top: 6px;
-                line-height: 24px;
-                color: var(--blueColor);
-                font: {
-                    size: 16px;
-                    weight: 400;
-                    family: var(--primaryFont);
-                }
+        .diploma-wrapper-groups {
+            p {
+                font-size: 14px;
+                line-height: 22px;
                 a {
-                    text-decoration: underline;
-                }
-                &:hover {
-                    a {
-                        color: var(--yellowColor);
-                        text-decoration: underline;
-                        line-height: 30px;
-                    }
-                }
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 12px;
-                    left: 0;
-                    border-radius: 1px;
-                    width: 10px;
-                    height: 10px;
-                    background-color: var(--blueColor);
-                    outline-offset: 3px;
-                    outline: 1px solid var(--blueColor);
+                    font-size: 14px;
+                    line-height: 22px;
                 }
             }
         }
     }
 }
 
-.co-curricular-wrapper-text {
-    padding-top: 20px;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
 }
-.caption {
-    padding-top: 32px;
-    h6 {
-        font: {
-            size: 20px;
-            weight: 600;
-            family: var(--primaryFont);
-        }
-        line-height: 30px;
-    }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media only screen and (min-width: 1500px) {
 }

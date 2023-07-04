@@ -1,696 +1,848 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>LIS - School</title>
-        <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIS - School</title>
+    <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/animate.min.css" />
-        <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
 
-    </head>
-
-    <body>
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="topbar-leftside">
-                            <div class="topbar-social-links">
-                                <span>Follow Us:</span>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:twitter-fill"></iconify-icon>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:facebook-fill"></iconify-icon>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:instagram-line"></iconify-icon>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="tobar-rightSide">
-                            <div class="topbar-rightSide-contact-card">
-                                <iconify-icon icon="bx:support"></iconify-icon>
-                                <div>
-                                    <p>Call Now!</p>
-                                    <a href="tel:+244932337056">+244932337056</a>
-                                </div>
-                            </div>
-                            <div class="topbar-rightSide-contact-card">
-                                <iconify-icon icon="fluent-emoji-high-contrast:e-mail"></iconify-icon>
-                                <div>
-                                    <p>Email Now!</p>
-                                    <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+            <div class="topbar-leftside">
+              <div class="language">
+                <label htmlFor="language">Language:</label>
+                <select name="language" id="language">
+                  <option value="english">PT</option>
+                  <option value="english">EN</option>
+                </select>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
+            <div class="tobar-rightSide">
+              <div class="topbar-social-links">
+                <span>Follow Us:</span>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="quick-links.html"
+                      ><iconify-icon
+                        icon="dashicons:admin-links"
+                        alt="quick links"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="calender.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:calender"
+                      ></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <!-- navigation bar area start -->
-        <div class="header-area">
-            <div class="navbar-area">
-                <!-- Menu For Mobile Device -->
-                <div class="main-responsive-nav">
-                    <div class="container">
-                        <div class="mobile-nav">
-                            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" /></a>
-                            <ul class="menu-sidebar menu-small-device">
-                                <li>
-                                    <button class="popup-button">
-                                        <iconify-icon id="popupSearchButton"
-                                            icon="iconamoon:search-thin"></iconify-icon>
-                                        <div class="popupSearchBar">
-                                            <input type="text" class="form-control" placeholder="Search ...">
-                                        </div>
-                                    </button>
-                                </li>
-                                <li>
-                                    <a class="default-button blue-button" href="contact.html">
-                                        <span>Admission</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Menu For Desktop Device -->
-                <div class="main-nav">
-                    <div class="container">
-                        <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo.png" alt="logo" />
+    <!-- navigation bar area start -->
+    <div class="header-area">
+      <div class="navbar-area">
+        <!-- Menu For Mobile Device -->
+        <div class="main-responsive-nav">
+          <div class="container">
+            <div class="mobile-nav">
+              <a href="index.html" class="logo"
+                ><img src="assets/images/logo.png" alt="logo"
+              /></a>
+              <ul class="menu-sidebar menu-small-device">
+                <li>
+                  <button class="popup-button">
+                    <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Menu For Desktop Device -->
+        <div class="main-nav">
+          <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="logo" />
+              </a>
+              <div
+                class="collapse navbar-collapse mean-menu"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link dropdown-toggle"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:void()" class="nav-link dropdown-toggle"
+                      >About Us
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="about.html" class="nav-link">Who We Are</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="mission-values.html" class="nav-link"
+                          >Mission, Vision and Values</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="school-campus.html" class="nav-link"
+                          >School Campus</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="leadership.html" class="nav-link"
+                          >LIS Leadership Team</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="board-of-directors.html" class="nav-link"
+                          >Board of Directors</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="accreditation.html" class="nav-link">
+                          Accreditation</a
+                        >
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="javascript:void()" class="nav-link active"
+                          >Health and Safety
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon
+                        ></a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="student-support.html" class="nav-link"
+                              >Student Support</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="child-protection.html" class="nav-link"
+                              >Child Protection</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="commitment.html" class="nav-link"
+                              >Commitment to Well-being</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="javascript:void()" class="nav-link"
+                          >Comunity
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon
+                        ></a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="community.html" class="nav-link"
+                              >Comunity</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="lis-news.html" class="nav-link"
+                              >Lis News</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">Alumni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="parent-association.html" class="nav-link"
+                              >Parent Association</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="javascript:void()"
+                      class="nav-link dropdown-toggle active"
+                      >Curriculam
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="learn.html" class="nav-link dropdown-toggle"
+                          >Learn
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="pyp.html" class="nav-link dropdown-toggle"
+                          >Primary Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="myp.html" class="nav-link dropdown-toggle"
+                          >Middle Years Programme
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="diploma-programme.html" class="nav-link"
+                          >Diploma Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="co-curricular.html" class="nav-link"
+                          >Co-Curricular Programme</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="information.html" class="nav-link active"
+                          >School Profile: Information for Universities</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="calender.html" class="nav-link">Calender</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:void()" class="nav-link dropdown-toggle"
+                      >Join
+                      <iconify-icon
+                        icon="ic:round-keyboard-arrow-down"
+                      ></iconify-icon
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="join.html" class="nav-link dropdown-toggle"
+                          >Join</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="javascript:void()"
+                          class="nav-link dropdown-toggle"
+                          >Enrollment
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon
+                        ></a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="enrollment.html" class="nav-link"
+                              >Enrollment
                             </a>
-                            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle active">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Learn
-                                            <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link dropdown-toggle">Services
-                                                    <i class="fas fa-angle-right"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li class="nav-item">
-                                                        <a href="services.html" class="nav-link">Services 01</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="services-2.html" class="nav-link">Services 02</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="service-details.html" class="nav-link">Service Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Inspire
-                                            <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="about.html" class="nav-link">About Us</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="faq.html" class="nav-link">FAQ</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="team.html" class="nav-link">Our Team</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="gallery.html" class="nav-link">Gallery</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="pricing.html" class="nav-link">Pricing Plan</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="profile-authentication.html" class="nav-link">My Account</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="error.html" class="nav-link">404 Error</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="testimonial.html" class="nav-link">Testimonials</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="privacy.html" class="nav-link">Privacy Policy</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="terms.html" class="nav-link">Terms & Conditions</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Join
-                                            <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="blog.html" class="nav-link">Blog Grid</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="blog-details.html" class="nav-link">Blog Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Contact
-                                            <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="blog.html" class="nav-link">Blog Grid</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="blog-details.html" class="nav-link">Blog Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact.html" class="nav-link">Enrollment</a>
-                                    </li>
-                                </ul>
-                                <div class="menu-sidebar">
-                                    <ul>
-                                        <li>
-                                            <button class="popup-button">
-                                                <iconify-icon id="popupSearchButton"
-                                                    icon="iconamoon:search-thin"></iconify-icon>
-                                                <div class="popupSearchBar">
-                                                    <input type="text" class="form-control" placeholder="Search ...">
-                                                </div>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <a class="default-button blue-button" href="contact.html">
-                                                <span>Admission</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
+                          </li>
+                          <li class="nav-item">
+                            <a
+                              href="policy.html"
+                              class="nav-link dropdown-toggle"
+                              >Policies and General Notes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="javascript:void()"
+                          class="nav-link dropdown-toggle"
+                          >Recruitment
+                          <iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone"
+                          ></iconify-icon>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a href="recruitment.html" class="nav-link"
+                              >Recruitment
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a
+                              href="job-opening.html"
+                              class="nav-link dropdown-toggle"
+                              >Job Openings
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="social-media.html" class="nav-link dropdown-toggle"
+                      >Social Media
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="quick-links.html" class="nav-link dropdown-toggle"
+                      >Quick Links
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link dropdown-toggle"
+                      >Contact Us
+                    </a>
+                  </li>
+                </ul>
+                <div class="menu-sidebar">
+                  <ul>
+                    <li>
+                      <button class="popup-button">
+                        <iconify-icon
+                          id="popupSearchButton"
+                          icon="iconamoon:search-thin"
+                        ></iconify-icon>
+                        <div class="popupSearchBar">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search ..."
+                          />
+                        </div>
+                      </button>
+                    </li>
+                    <li>
+                      <a
+                        class="default-button blue-button"
+                        href="contact-us.html"
+                        ><span>Admission</span></a
+                      >
+                    </li>
+                  </ul>
                 </div>
-            </div>
+              </div>
+            </nav>
+          </div>
         </div>
-        <!-- navigation bar area end -->
+      </div>
+    </div>
+    <!-- navigation bar area end -->
 
-        <!-- Inner Pages Banner Area Start -->
-        <div class="inner-page-banner">
-            <div class="container">
-                <div class="banner-content">
-                    <h1>School Profile: Information for Universities</h1>
-                    <div class="banner-subtitle">
+    <!-- Inner Pages Banner Area Start -->
+    <div class="inner-page-banner">
+      <div class="container">
+        <div class="banner-content">
+          <h1>School Profile: Information for Universities</h1>
+          <!-- <div class="banner-subtitle">
                         <ul>
                             <li>
                                 <a href="index.html">Home</a>
                             </li>
                             <li>Information</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
+                    </div> -->
         </div>
-        <!-- Inner Pages Banner Area End -->
+      </div>
+    </div>
+    <!-- Inner Pages Banner Area End -->
 
-        <!-- co-curricular Start -->
-        <div class="information ptb-140">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="school-info">
-                            <h6>2022 – 2023</h6>
-                            <h6>IB Code: <span>001903</span></h6>
-                            <h6>CEEB Code:: <span>600000</span></h6>
-                            <h6>LIS Mission</h6>
-                            <p>A diverse community of learners, committed to fostering compassionate, confident and
-                                socially responsible individuals
-                                who thrive in the world.</p>
-                        </div>
-                        <div class="designation-info-wrapper">
-                            <div class="designation-info">
-                                <h6>Director</h6>
-                                <p>Dylan Hughes</p>
-                                <a href="lisdirector@lisluanda.com">lisdirector@lisluanda.com</a>
-                            </div>
-                            <div class="designation-info">
-                                <h6>Secondary School Principal</h6>
-                                <p>Grant Rogers</p>
-                                <a href="secprincipal@lisluanda.com">secprincipal@lisluanda.com</a>
-                            </div>
-                            <div class="designation-info">
-                                <h6>University Counselor</h6>
-                                <p>Kristen Belka Rosenfield</p>
-                                <a href="krosenfield@lisluanda.com">krosenfield@lisluanda.com</a>
-                            </div>
-                            <div class="designation-info">
-                                <h6>IB Diploma Coordinator</h6>
-                                <p>Rene Bradford</p>
-                                <a href="rbradford@lisluanda.com">rbradford@lisluanda.com</a>
-                            </div>
-
-                        </div>
-                        <div class="accridation">
-                            <h6>Accreditations</h6>
-                            <p><a href="">Council of International Schools (CIS)</a></p>
-                            <p><a href="">International Baccalaureate
-                                    (IB)</a></p></a></p>
-                            <p><a href="">New England Association of Schools and Colleges (NEASC)</a></p>
-                        </div>
-                        <div class="diploma-subject">
-                            <h5>IB Diploma Subjects offered to the LIS Class of 2023:</h5>
-                            <div class="diploma-subject-single">
-                                <h6>Group 1</h6>
-                                <p>English Language & Literature HL/SL</p>
-                                <p>Portuguese Language & Literature HL/SL</p>
-                                <p>Self-taught Literature SL</p>
-                            </div>
-                            <div class="diploma-subject-single">
-                                <h6>Group 2 </h6>
-                                <p>Portuguese B HL/SL</p>
-                                <p>Spanish B HL/SL</p>
-                                <p>Spanish ab Initio SL</p>
-                                <p>English B HL</p>
-                            </div>
-                            <div class="diploma-subject-single">
-                                <h6>Group 3</h6>
-                                <p>Economics HL/SL</p>
-                                <p>History HL/SL</p>
-                                <p>Geography HL/SL</p>
-                                <p>Environmental Systems & Societies SL</p>
-                            </div>
-                            <div class="diploma-subject-single">
-                                <h6>Group 4</h6>
-                                <p>Biology HL/SL</p>
-                                <p>Chemistry HL/SL</p>
-                                <p>Physics HL/SL</p>
-                                <p>Design Technology HL/SL</p>
-                                <p>Environmental Systems & Societies SL</p>
-                                <p>Sports, Exercise & Health Science HL/SL</p>
-                            </div>
-                            <div class="diploma-subject-single">
-                                <h6>Group 5</h6>
-                                <P>Mathematics: Analysis & Approaches HL/SL</P>
-                                <p>Mathematics: Applications & Interpretation HL/SL</p>
-                            </div>
-                            <div class="diploma-subject-single">
-                                <h6>Group 6</h6>
-                                <p>Music HL/SL</p>
-                                <P>Theatre HL/SL</P>
-                                <P>Visual Arts HL/SL</P>
-                            </div>
-                        </div>
-                        <div class="info-image">
-                            <img src="/assets/images/info-image.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="co-curricular-wrapper">
-                            <h3>School Profile: Information for Universities</h3>
-                            <h3>Luanda International School</h3>
-
-                            <div class="co-curricular-wrapper-text">
-                                <h5>School & Community</h5>
-                                <p>Luanda International School (LIS) was founded in 1998 with funding from six oil
-                                    companies as an    international,
-                                    non-profit, independent day school serving the expatriate and local community in
-                                    Luanda, Angola. Enrollment from Early
-                                    Years to Year 13 (grade 12) is approximately 523 students from 44 countries. The LIS
-                                    Class of 2023 is comprised of 18
-                                    students.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Students</h5>
-                                <p>IThere are 106 students in the high school (Years 10-13) from 25 countries with the
-                                    largest numbers from Angola, the
-                                    United Kingdom, United States, Brazil, and Portugal. Most LIS students are bilingual
-                                    and many hold two passports.
-                                    Additional nationalities within the high school: Argentina, Australia, Canada,
-                                    France, India, Indonesia, Italy,
-                                    Kazakhstan, Lebanon, Netherlands, Norway, Philippines, Romania, Singapore, South
-                                    Africa, South Korea, Spain, Trinidad
-                                    and Tobago, Venezuela and Zimbabwe.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Faculty</h5>
-                                <p>LIS is fortunate to recruit and retain an experienced and committed international
-                                    faculty. There are 46 members of the
-                                    high school faculty, 38 of whom hold a graduate degree or postgraduate diploma. A
-                                    number of teachers serve as IB
-                                    workshop leaders and/or examiners. Nationalities represented by secondary faculty:
-                                    Australia, Canada, France, Ghana,
-                                    Hong Kong, Indonesia, Ireland, Kenya, New Zealand, Poland, Portugal, South Africa,
-                                    the United Kingdom, and the United
-                                    States.</p>
-
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Impact of COVID-19</h5>
-                                <p>On March 18, 2020, LIS switched to online, asynchronous learning which lasted through
-                                    December. From January to June
-                                    2021, the Angolan government permitted a maximum of four hours of face-to-face
-                                    instruction per day and in August, this
-                                    increased to six hours, with additional lessons for IB HL classes taught online. The
-                                    2022-2023 school year commenced
-                                    with a normal school schedule and the much-anticipated return of on-campus
-                                    co-curricular activities. The country-wide
-                                    indoor mask mandate was lifted on October 10, 2022.</p>
-
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Curriculum & Calendar</h5>
-                                <p>LIS is an International Baccalaureate (IB) World School and offers the three
-                                    International Baccalaureate programmes:
-                                    Primary Years Programme (PYP), Middle Years Programme (MYP) and the Diploma
-                                    Programme (DP), with English as the language
-                                    of instruction across all grade levels. The school year is divided into two
-                                    semesters beginning mid-August and
-                                    mid-January respectively. All students must successfully complete Creativity,
-                                    activity, service (CAS) and Theory of
-                                    Knowledge (TOK) to fulfill graduation requirements. A robust wellbeing curriculum is
-                                    incorporated into the school day
-                                    through which students explore topics such as time management, relationships,
-                                    identity & inclusion, mental health,
-                                    career pathways, and transition to university.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Grading Scale & Reporting</h5>
-                                <p>LIS reports academic achievement on a 1–7 scale, with 7 being the highest level. TOK
-                                    is graded Pass/Fail. Grades are
-                                    progressive over the course of the year and thus, grades on mid-year reports are to
-                                    be considered “interim” with June
-                                    marks reflecting a student’s overall (“final”) level of achievement. Achievement
-                                    levels on June reports for Year 13
-                                    students reflect predicted grades submitted to the IB in April.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Policy on Class Rank and GPA</h5>
-                                <p>Due to small class size and the academic, linguistic, and educational diversity of
-                                    our transient and international
-                                    student body, LIS does not rank students or calculate GPA.</p>
-                            </div>
-                            <div class="co-curricular-wrapper-text">
-                                <h5>Class of 2022 IB Diploma Results (25 students)</h5>
-                                <p>Luanda International School has an inclusive, open enrollment policy with regard to
-                                    the IB Diploma Programme. Of the
-                                    twenty-five May 2022 graduates, 21 were candidates for the Diploma and all passed -
-                                    with 12 earning Bilingual IB
-                                    Diplomas. The average total score was 34 points and the highest score - achieved by
-                                    two students in the cohort - was 42.</p>
-                            </div>
-                        </div>
-
-                        <div class="offer-admission">
-                            <h3>School Profile: Information for Universities</h3>
-                            <h6><span>Bold</span> indicates one or more LIS student matriculating.</h6>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="offer-admission-card">
-                                        <h6>UNITED KINGDOM</h6>
-                                        <ul>
-                                            <li>Anglia Ruskin University</li>
-                                            <li>Aston University</li>
-                                            <li>Bath Spa University</li>
-                                            <li>Birmingham City University</li>
-                                            <li>Brunel University</li>
-                                            <li>Canterbury Christ Church University</li>
-                                            <li>Cardiff University</li>
-                                            <li>City University of London</li>
-                                            <li>Coventry University</li>
-                                            <li>DeMontfort University</li>
-                                            <li>Durham University</li>
-                                            <li>King’s College London</li>
-                                            <li>Kingston University</li>
-                                            <li>Lancaster University</li>
-                                            <li>Leeds Beckett University</li>
-                                            <li>London Metropolitan University</li>
-                                            <li>Loughborough University</li>
-                                            <li>Nottingham Trent University</li>
-                                            <li>Oxford Brookes University</li>
-                                            <li>Royal Holloway, University of London</li>
-                                            <li>University of the Creative Arts at Farnham</li>
-                                            <li>University of Bath</li>
-                                            <li>University of Bristol</li>
-                                            <li>University of Buckingham</li>
-                                            <li>University of East Anglia</li>
-                                            <li>University of Exeter</li>
-                                            <li>University of Glasgow</li>
-                                            <li>University of Greenwich</li>
-                                            <li>University of Huddersfield</li>
-                                            <li>University of Leeds</li>
-                                            <li>University of Leicester</li>
-                                            <li>University of Manchester</li>
-                                            <li>University of Reading</li>
-                                            <li>University of Sheffield</li>
-                                            <li>University of Southampton</li>
-                                            <li>University of Strathclyde</li>
-                                            <li>University of Surrey</li>
-                                            <li>University of the Arts in London</li>
-                                            <li>University of Warwick</li>
-                                            <li>University of Westminster</li>
-                                            <li>University of Winchester</li>
-                                            <li>University of York</li>
-                                        </ul>
-                                    </div>
-                                    <div class="offer-admission-card">
-                                        <h6>Additional Destinations:</h6>
-                                        <ul>
-                                            <li>University of New South Wales, Australia</li>
-                                            <li>Charles University, Czech Republic</li>
-                                            <li>EU Business School, Spain</li>
-                                            <li>Middlesex University, Dubai</li>
-                                            <li>IADE Faculdade de Design Tecnologia, Portugal</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="offer-admission-card">
-                                        <h6>NETHERLANDS</h6>
-                                        <ul>
-                                            <li>Amsterdam University College</li>
-                                            <li>Eindhoven University of Technology</li>
-                                            <li>Erasmus University Rotterdam</li>
-                                            <li>Leiden University</li>
-                                            <li>Technical University (TU) Delft</li>
-                                            <li>Tilburg University</li>
-                                            <li>University College Maastricht</li>
-                                            <li>University College Roosevelt</li>
-                                            <li>University of Twente</li>
-                                            <li>Utrecht University</li>
-                                            <li>Vrije University</li>
-                                        </ul>
-                                    </div>
-                                    <div class="offer-admission-card">
-                                        <h6>UNITED STATES</h6>
-                                        <ul>
-                                            <li>American University</li>
-                                            <li>Auburn University</li>
-                                            <li>Baylor University</li>
-                                            <li>Brown University</li>
-                                            <li>Colorado School of Mines</li>
-                                            <li>Colorado State University</li>
-                                            <li>Duke University</li>
-                                            <li>George Washington University</li>
-                                            <li>Howard University</li>
-                                            <li>Louisiana State University</li>
-                                            <li>Northern Arizona University</li>
-                                            <li>Pepperdine University</li>
-                                            <li>Scripps College</li>
-                                            <li>Smith College</li>
-                                            <li>Spelman College</li>
-                                            <li>Stanford University</li>
-                                            <li>SUNY Purchase College</li>
-                                            <li>University of Alabama</li>
-                                            <li>University of Alabama at Birmingham</li>
-                                            <li>University of California, Irvine</li>
-                                            <li>University of Colorado, Boulder</li>
-                                            <li>University of Connecticut</li>
-                                            <li>University of San Diego</li>
-                                            <li>Wake Forest University</li>
-                                            <li>Whitman College</li>
-                                        </ul>
-                                    </div>
-                                    <div class="offer-admission-card">
-                                        <h6>CANADA</h6>
-                                        <ul>
-                                            <li>Concordia University</li>
-                                            <li>University of British Columbia</li>
-                                            <li>University of Alberta</li>
-                                            <li>University of Toronto Mississauga</li>
-                                            <li>University of Waterloo</li>
-                                            <li>York University</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- information Start -->
+    <div class="information ptb-140">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="school-info">
+              <h6>2022 – 2023</h6>
+              <h6>IB Code: <span>001903</span></h6>
+              <h6>CEEB Code:: <span>600000</span></h6>
+              <h6>LIS Mission</h6>
+              <p>
+                A diverse community of learners, committed to fostering
+                compassionate, confident and socially responsible individuals
+                who thrive in the world.
+              </p>
             </div>
-        </div>
-        <!-- co-curricular End -->
-
-        <!-- Footer Area Start -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-logo-area">
-                            <a href="#"><img src="assets/images/white-logo.png" alt="logo" /></a>
-                            <p>
-                                Luanda International School is a Preschool–12 private, co-educational international day
-                                school in Luanda, Angola. Established in October 1996 by five people interested in the
-                                creation of an English-medium international school in Angola
-                            </p>
-                            <div class="footer-social-icons">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:facebook-fill"></iconify-icon>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:linkedin-fill"></iconify-icon>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:twitter-fill"></iconify-icon>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <iconify-icon icon="ri:youtube-fill"></iconify-icon>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="footer-links pl-70">
-                            <h3>Helpful Link</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Directors</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mission & Vision</a>
-                                </li>
-                                <li>
-                                    <a href="#">LIS News</a>
-                                </li>
-                                <li>
-                                    <a href="#">Campus</a>
-                                </li>
-                                <li>
-                                    <a href="#">Team Leadership</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="footer-links">
-                            <h3>Explore</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Apply Now</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemap</a>
-                                </li>
-                                <li>
-                                    <a href="#">Employment</a>
-                                </li>
-                                <li>
-                                    <a href="#">Calendar</a>
-                                </li>
-                                <li>
-                                    <a href="#">Information for Universities</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="footer-links footer-contact">
-                            <h3>Contact Us</h3>
-                            <ul>
-                                <li>
-                                    <iconify-icon icon="ion:call-outline"></iconify-icon>
-                                    <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
-                                </li>
-                                <li>
-                                    <iconify-icon icon="circum:mail"></iconify-icon>
-                                    <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
-                                </li>
-                                <li>
-                                    <iconify-icon icon="carbon:location"></iconify-icon>
-                                    <a href="https://goo.gl/maps/H21TiMcM5TZE4NPd8" target="_blank">Via S6, Bairro da,
-                                        Av. Talatona, Luanda, Angola</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="designation-info-wrapper">
+              <div class="designation-info">
+                <h6>Director</h6>
+                <p>Dylan Hughes</p>
+                <a href="lisdirector@lisluanda.com"
+                  >lisdirector@lisluanda.com</a
+                >
+              </div>
+              <div class="designation-info">
+                <h6>Secondary School Principal</h6>
+                <p>Grant Rogers</p>
+                <a href="secprincipal@lisluanda.com"
+                  >secprincipal@lisluanda.com</a
+                >
+              </div>
+              <div class="designation-info">
+                <h6>University Counselor</h6>
+                <p>Kristen Belka Rosenfield</p>
+                <a href="krosenfield@lisluanda.com"
+                  >krosenfield@lisluanda.com</a
+                >
+              </div>
+              <div class="designation-info">
+                <h6>IB Diploma Coordinator</h6>
+                <p>Rene Bradford</p>
+                <a href="rbradford@lisluanda.com">rbradford@lisluanda.com</a>
+              </div>
             </div>
-        </div>
-        <!-- Footer Area End -->
-
-        <!-- Copyright Area Start -->
-        <div class="copyright">
-            <div class="container">
-                <div class="copyright-content">
-                    <p>
-                        &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>
-                        LIS. All rights reserved
-                    </p>
-                    <p>Developed By
-                        <a href="#">Department of IT and Innovations</a>
-                    </p>
-                </div>
+            <div class="accridation">
+              <h6>Accreditations</h6>
+              <p><a href="">Council of International Schools (CIS)</a></p>
+              <p><a href="">International Baccalaureate (IB)</a></p>
+              <p>
+                <a href=""
+                  >New England Association of Schools and Colleges (NEASC)</a
+                >
+              </p>
             </div>
+            <div class="diploma-subject">
+              <h5>IB Diploma Subjects offered to the LIS Class of 2023:</h5>
+              <div class="diploma-subject-single">
+                <h6>Group 1</h6>
+                <p>English Language & Literature HL/SL</p>
+                <p>Portuguese Language & Literature HL/SL</p>
+                <p>Self-taught Literature SL</p>
+              </div>
+              <div class="diploma-subject-single">
+                <h6>Group 2</h6>
+                <p>Portuguese B HL/SL</p>
+                <p>Spanish B HL/SL</p>
+                <p>Spanish ab Initio SL</p>
+                <p>English B HL</p>
+              </div>
+              <div class="diploma-subject-single">
+                <h6>Group 3</h6>
+                <p>Economics HL/SL</p>
+                <p>History HL/SL</p>
+                <p>Geography HL/SL</p>
+                <p>Environmental Systems & Societies SL</p>
+              </div>
+              <div class="diploma-subject-single">
+                <h6>Group 4</h6>
+                <p>Biology HL/SL</p>
+                <p>Chemistry HL/SL</p>
+                <p>Physics HL/SL</p>
+                <p>Design Technology HL/SL</p>
+                <p>Environmental Systems & Societies SL</p>
+                <p>Sports, Exercise & Health Science HL/SL</p>
+              </div>
+              <div class="diploma-subject-single">
+                <h6>Group 5</h6>
+                <p>Mathematics: Analysis & Approaches HL/SL</p>
+                <p>Mathematics: Applications & Interpretation HL/SL</p>
+              </div>
+              <div class="diploma-subject-single">
+                <h6>Group 6</h6>
+                <p>Music HL/SL</p>
+                <p>Theatre HL/SL</p>
+                <p>Visual Arts HL/SL</p>
+              </div>
+            </div>
+            <div class="info-image">
+              <img src="assets/images/info-image.png" alt="image" />
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="co-curricular-wrapper">
+              <h3>School Profile: Information for Universities</h3>
+              <h3>Luanda International School</h3>
+
+              <div class="co-curricular-wrapper-text">
+                <h5>School & Community</h5>
+                <p>
+                  Luanda International School (LIS) was founded in 1998 with
+                  funding from six oil companies as an    international,
+                  non-profit, independent day school serving the expatriate and
+                  local community in Luanda, Angola. Enrollment from Early Years
+                  to Year 13 (grade 12) is approximately 523 students from 44
+                  countries. The LIS Class of 2023 is comprised of 18 students.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Students</h5>
+                <p>
+                  IThere are 106 students in the high school (Years 10-13) from
+                  25 countries with the largest numbers from Angola, the United
+                  Kingdom, United States, Brazil, and Portugal. Most LIS
+                  students are bilingual and many hold two passports. Additional
+                  nationalities within the high school: Argentina, Australia,
+                  Canada, France, India, Indonesia, Italy, Kazakhstan, Lebanon,
+                  Netherlands, Norway, Philippines, Romania, Singapore, South
+                  Africa, South Korea, Spain, Trinidad and Tobago, Venezuela and
+                  Zimbabwe.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Faculty</h5>
+                <p>
+                  LIS is fortunate to recruit and retain an experienced and
+                  committed international faculty. There are 46 members of the
+                  high school faculty, 38 of whom hold a graduate degree or
+                  postgraduate diploma. A number of teachers serve as IB
+                  workshop leaders and/or examiners. Nationalities represented
+                  by secondary faculty: Australia, Canada, France, Ghana, Hong
+                  Kong, Indonesia, Ireland, Kenya, New Zealand, Poland,
+                  Portugal, South Africa, the United Kingdom, and the United
+                  States.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Impact of COVID-19</h5>
+                <p>
+                  On March 18, 2020, LIS switched to online, asynchronous
+                  learning which lasted through December. From January to June
+                  2021, the Angolan government permitted a maximum of four hours
+                  of face-to-face instruction per day and in August, this
+                  increased to six hours, with additional lessons for IB HL
+                  classes taught online. The 2022-2023 school year commenced
+                  with a normal school schedule and the much-anticipated return
+                  of on-campus co-curricular activities. The country-wide indoor
+                  mask mandate was lifted on October 10, 2022.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Curriculum & Calendar</h5>
+                <p>
+                  LIS is an International Baccalaureate (IB) World School and
+                  offers the three International Baccalaureate programmes:
+                  Primary Years Programme (PYP), Middle Years Programme (MYP)
+                  and the Diploma Programme (DP), with English as the language
+                  of instruction across all grade levels. The school year is
+                  divided into two semesters beginning mid-August and
+                  mid-January respectively. All students must successfully
+                  complete Creativity, activity, service (CAS) and Theory of
+                  Knowledge (TOK) to fulfill graduation requirements. A robust
+                  wellbeing curriculum is incorporated into the school day
+                  through which students explore topics such as time management,
+                  relationships, identity & inclusion, mental health, career
+                  pathways, and transition to university.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Grading Scale & Reporting</h5>
+                <p>
+                  LIS reports academic achievement on a 1–7 scale, with 7 being
+                  the highest level. TOK is graded Pass/Fail. Grades are
+                  progressive over the course of the year and thus, grades on
+                  mid-year reports are to be considered “interim” with June
+                  marks reflecting a student’s overall (“final”) level of
+                  achievement. Achievement levels on June reports for Year 13
+                  students reflect predicted grades submitted to the IB in
+                  April.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Policy on Class Rank and GPA</h5>
+                <p>
+                  Due to small class size and the academic, linguistic, and
+                  educational diversity of our transient and international
+                  student body, LIS does not rank students or calculate GPA.
+                </p>
+              </div>
+              <div class="co-curricular-wrapper-text">
+                <h5>Class of 2022 IB Diploma Results (25 students)</h5>
+                <p>
+                  Luanda International School has an inclusive, open enrollment
+                  policy with regard to the IB Diploma Programme. Of the
+                  twenty-five May 2022 graduates, 21 were candidates for the
+                  Diploma and all passed - with 12 earning Bilingual IB
+                  Diplomas. The average total score was 34 points and the
+                  highest score - achieved by two students in the cohort - was
+                  42.
+                </p>
+              </div>
+            </div>
+
+            <div class="offer-admission">
+              <h3>School Profile: Information for Universities</h3>
+              <h6>
+                <span>Bold</span> indicates one or more LIS student
+                matriculating.
+              </h6>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="offer-admission-card">
+                    <h6>UNITED KINGDOM</h6>
+                    <ul class="list-style">
+                      <li>Anglia Ruskin University</li>
+                      <li>Aston University</li>
+                      <li>Bath Spa University</li>
+                      <li>Birmingham City University</li>
+                      <li>Brunel University</li>
+                      <li>Canterbury Christ Church University</li>
+                      <li>Cardiff University</li>
+                      <li>City University of London</li>
+                      <li>Coventry University</li>
+                      <li>DeMontfort University</li>
+                      <li>Durham University</li>
+                      <li>King’s College London</li>
+                      <li>Kingston University</li>
+                      <li>Lancaster University</li>
+                      <li>Leeds Beckett University</li>
+                      <li>London Metropolitan University</li>
+                      <li>Loughborough University</li>
+                      <li>Nottingham Trent University</li>
+                      <li>Oxford Brookes University</li>
+                      <li>Royal Holloway, University of London</li>
+                      <li>University of the Creative Arts at Farnham</li>
+                      <li>University of Bath</li>
+                      <li>University of Bristol</li>
+                      <li>University of Buckingham</li>
+                      <li>University of East Anglia</li>
+                      <li>University of Exeter</li>
+                      <li>University of Glasgow</li>
+                      <li>University of Greenwich</li>
+                      <li>University of Huddersfield</li>
+                      <li>University of Leeds</li>
+                      <li>University of Leicester</li>
+                      <li>University of Manchester</li>
+                      <li>University of Reading</li>
+                      <li>University of Sheffield</li>
+                      <li>University of Southampton</li>
+                      <li>University of Strathclyde</li>
+                      <li>University of Surrey</li>
+                      <li>University of the Arts in London</li>
+                      <li>University of Warwick</li>
+                      <li>University of Westminster</li>
+                      <li>University of Winchester</li>
+                      <li>University of York</li>
+                    </ul>
+                  </div>
+                  <div class="offer-admission-card">
+                    <h6>Additional Destinations:</h6>
+                    <ul class="list-style">
+                      <li>University of New South Wales, Australia</li>
+                      <li>Charles University, Czech Republic</li>
+                      <li>EU Business School, Spain</li>
+                      <li>Middlesex University, Dubai</li>
+                      <li>IADE Faculdade de Design Tecnologia, Portugal</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="offer-admission-card">
+                    <h6>NETHERLANDS</h6>
+                    <ul class="list-style">
+                      <li>Amsterdam University College</li>
+                      <li>Eindhoven University of Technology</li>
+                      <li>Erasmus University Rotterdam</li>
+                      <li>Leiden University</li>
+                      <li>Technical University (TU) Delft</li>
+                      <li>Tilburg University</li>
+                      <li>University College Maastricht</li>
+                      <li>University College Roosevelt</li>
+                      <li>University of Twente</li>
+                      <li>Utrecht University</li>
+                      <li>Vrije University</li>
+                    </ul>
+                  </div>
+                  <div class="offer-admission-card">
+                    <h6>UNITED STATES</h6>
+                    <ul class="list-style">
+                      <li>American University</li>
+                      <li>Auburn University</li>
+                      <li>Baylor University</li>
+                      <li>Brown University</li>
+                      <li>Colorado School of Mines</li>
+                      <li>Colorado State University</li>
+                      <li>Duke University</li>
+                      <li>George Washington University</li>
+                      <li>Howard University</li>
+                      <li>Louisiana State University</li>
+                      <li>Northern Arizona University</li>
+                      <li>Pepperdine University</li>
+                      <li>Scripps College</li>
+                      <li>Smith College</li>
+                      <li>Spelman College</li>
+                      <li>Stanford University</li>
+                      <li>SUNY Purchase College</li>
+                      <li>University of Alabama</li>
+                      <li>University of Alabama at Birmingham</li>
+                      <li>University of California, Irvine</li>
+                      <li>University of Colorado, Boulder</li>
+                      <li>University of Connecticut</li>
+                      <li>University of San Diego</li>
+                      <li>Wake Forest University</li>
+                      <li>Whitman College</li>
+                    </ul>
+                  </div>
+                  <div class="offer-admission-card">
+                    <h6>CANADA</h6>
+                    <ul class="list-style">
+                      <li>Concordia University</li>
+                      <li>University of British Columbia</li>
+                      <li>University of Alberta</li>
+                      <li>University of Toronto Mississauga</li>
+                      <li>University of Waterloo</li>
+                      <li>York University</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Copyright Area End -->
+      </div>
+    </div>
+    <!-- information End -->
 
-        <script src="assets/js/jQuery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/iconify.js"></script>
-        <script src="assets/js/meanmenu.js"></script>
-        <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+    <!-- Footer Area Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-logo-area">
+              <a href="#"
+                ><img src="assets/images/white-logo.png" alt="logo"
+              /></a>
+              <div class="footer-social-icons mt-3">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
+                    ></a>
+                  </li>
 
-    </body>
+                  <li>
+                    <a href="#"
+                      ><iconify-icon icon="ri:youtube-fill"></iconify-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links pl-70">
+              <h3>Helpful Link</h3>
+              <ul>
+                <li><a href="enrollment.html">Enrollment</a></li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="site-map.html">Site Map</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links">
+              <h3>Explore</h3>
+              <ul>
+                <li><a href="about.html">Who We Are</a></li>
+                <li><a href="learn.html">Curriculum</a></li>
+                <li><a href="school-campus.html">Campus</a></li>
+                <li><a href="lis-news.html">LIS News</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-links footer-contact">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>
+                  <iconify-icon icon="ion:call-outline"></iconify-icon>
+                  <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
+                </li>
+                <li>
+                  <iconify-icon icon="circum:mail"></iconify-icon>
+                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
+                </li>
+                <li>
+                  <iconify-icon icon="carbon:location"></iconify-icon>
+                  <a
+                    href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
+                    target="_blank"
+                    >Via S6, Bairro de Talatona, Belas, Luanda, Angola</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area End -->
+
+    <!-- Copyright Area Start -->
+    <div class="copyright">
+      <div class="container">
+        <div class="copyright-content">
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            LIS. All rights reserved
+          </p>
+          <p>Developed By <a href="#">Department of IT and Innovations</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright Area End -->
+
+    <script src="assets/js/jQuery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/iconify.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
