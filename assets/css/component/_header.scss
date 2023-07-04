@@ -83,9 +83,6 @@ a.meanmenu-reveal {
             background: var(--whiteColor);
           }
         }
-        a.active {
-          color: var(--whiteColor);
-        }
         li {
           a {
             width: 80%;
@@ -189,7 +186,7 @@ a.meanmenu-reveal {
     ul {
       li {
         a.active {
-          color: var(--blueColor);
+          color: var(--yellowColor);
         }
       }
     }
@@ -245,12 +242,12 @@ a.meanmenu-reveal {
           }
         }
         a.active {
-          color: var(--blueColor);
+          color: var(--yellowColor);
           transition: 0.5s;
         }
         &:hover {
           a {
-            color: var(--blueColor);
+            color: var(--yellowColor);
           }
           ul {
             opacity: 1;

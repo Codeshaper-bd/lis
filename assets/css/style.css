@@ -89,9 +89,6 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li a:hover {
   background: var(--whiteColor);
 }
-.mean-container .mean-nav ul li a.active {
-  color: var(--whiteColor);
-}
 .mean-container .mean-nav ul li li a {
   width: 80%;
   padding: 1em 10%;
@@ -179,7 +176,7 @@ a.meanmenu-reveal {
 }
 
 .mobile-nav.mean-container .mean-nav ul li a.active {
-  color: var(--blueColor);
+  color: var(--yellowColor);
 }
 
 /* Fix for box sizing on Foundation Framework etc. */
@@ -227,11 +224,11 @@ a.meanmenu-reveal {
   padding-right: 13px;
 }
 .main-nav nav .navbar-nav .nav-item a.active {
-  color: var(--blueColor);
+  color: var(--yellowColor);
   transition: 0.5s;
 }
 .main-nav nav .navbar-nav .nav-item:hover a {
-  color: var(--blueColor);
+  color: var(--yellowColor);
 }
 .main-nav nav .navbar-nav .nav-item:hover ul {
   opacity: 1;
