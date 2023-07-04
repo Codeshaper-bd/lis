@@ -418,6 +418,13 @@ a.meanmenu-reveal {
   font-family: var(--primaryFont);
 }
 
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a iconify-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /*================================================
 Header Responsive Area CSS
 =================================================*/
@@ -2826,7 +2833,7 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
 }
 .leadership .card-group-wrapper .card-text {
-  margin-top: 3px;
+  margin-top: 20px;
   position: relative;
   transition: 0.5s ease-in-out;
   border: 1px solid rgba(41, 66, 105, 0.3);
@@ -3940,68 +3947,56 @@ img {
 }
 
 .program-card {
-  margin-top: 30px;
   transition: 0.5s ease-in-out;
-  background-color: var(--whiteColor);
+  text-align: center;
   overflow: hidden;
-  padding: 20px;
-  border-radius: 5px;
   position: relative;
-}
-.program-card::before {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background-color: var(--yellowColor);
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: 0.5s ease-in-out;
-}
-.program-card .program-card-img {
   border-radius: 5px;
-  overflow: hidden;
 }
-.program-card .program-card-img img {
-  transition: 0.5s ease-in-out;
+.program-card img {
+  width: 100%;
+}
+.program-card .program-card-title {
+  opacity: 1;
+  width: 100%;
+  color: var(--whiteColor);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--primaryFont);
 }
 .program-card .program-card-text {
-  padding-left: 10px;
-  padding-right: 10px;
+  height: 100%;
+  padding: 11px 10px;
+  opacity: 0;
+  background-color: #707070;
+  transition: 0.5s ease-in-out;
+  position: absolute;
 }
 .program-card .program-card-text h3 a {
   color: var(--blueColor);
-  padding-top: 24px;
-  padding-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
-  font-family: var(--blueColor);
-}
-.program-card .program-card-text p {
-  color: var(--blueColor);
-  font-size: 14px;
-  font-weight: 400;
   font-family: var(--primaryFont);
 }
-.program-card .program-card-text .program-card-bottom-area {
-  padding-top: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid rgba(41, 66, 105, 0.3137254902);
+.program-card:hover .program-card-title {
+  top: 30px;
+  color: #fff;
+  opacity: 0;
 }
-.program-card:hover {
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.062745098);
+.program-card:hover .program-card-text {
+  padding: 20px;
+  opacity: 0.9;
+  top: 0;
 }
-.program-card:hover .program-card-img img {
-  transform: scale(1.2);
+.program-card:hover .program-card-text h3 a {
+  color: var(--whiteColor);
 }
-.program-card:hover::before {
-  width: 100%;
-}
-.program-card:hover .program-card-text .program-card-bottom-area img {
-  animation: swing 1s infinite linear;
+.program-card:hover .program-card-text p {
+  color: #ffffff;
 }
 
 .features {
@@ -4174,14 +4169,127 @@ img {
   max-width: 175px;
 }
 
-.virtual-map .mini-map {
-  margin-top: 30px;
+.virtual-map .section-content .school-map {
+  position: relative;
+}
+.virtual-map .section-content .school-map ul {
+  list-style: none;
+  margin: 0;
+}
+.virtual-map .section-content .school-map .hidden {
+  overflow: hidden;
+  display: none;
+  visibility: hidden;
+}
+.virtual-map .section-content .school-map .btn-gallery {
+  width: 45px;
+  height: 45px;
+}
+.virtual-map .section-content .school-map .btn-gallery {
+  position: absolute;
+  opacity: 1;
+}
+.virtual-map .section-content .school-map .btn-gallery-1 {
+  left: 10.5%;
+  bottom: 22%;
+}
+.virtual-map .section-content .school-map .btn-gallery-2 {
+  left: 22.5%;
+  bottom: 44%;
+}
+.virtual-map .section-content .school-map .btn-gallery-3 {
+  left: 28.5%;
+  top: 39%;
+}
+.virtual-map .section-content .school-map .btn-gallery-4 {
+  left: 33.5%;
+  top: 27%;
+}
+.virtual-map .section-content .school-map .btn-gallery-5 {
+  left: 34.5%;
+  top: 18%;
+}
+.virtual-map .section-content .school-map .btn-gallery-6 {
+  left: 39%;
+  top: 24%;
+}
+.virtual-map .section-content .school-map .btn-gallery-7 {
+  left: 40%;
+  top: 16%;
+}
+.virtual-map .section-content .school-map .btn-gallery-8 {
+  left: 43%;
+  top: 8%;
+}
+.virtual-map .section-content .school-map .btn-gallery-9 {
+  left: 48%;
+  top: 53px;
+}
+.virtual-map .section-content .school-map .btn-gallery-10 {
+  left: 52%;
+  top: 23%;
+}
+.virtual-map .section-content .school-map .btn-gallery-11 {
+  left: 56%;
+  top: 10%;
+}
+.virtual-map .section-content .school-map .btn-gallery-12 {
+  left: 67%;
+  top: 10%;
+}
+.virtual-map .section-content .school-map .btn-gallery-13 {
+  left: 60%;
+  top: 33%;
+}
+.virtual-map .section-content .school-map .btn-gallery-14 {
+  left: 73%;
+  top: 35%;
+}
+.virtual-map .section-content .school-map .btn-gallery-15 {
+  left: 83%;
+  top: 40%;
+}
+.virtual-map .section-content .school-map .btn-gallery-16 {
+  left: 82%;
+  bottom: 35%;
+}
+.virtual-map .section-content .school-map .btn-gallery-17 {
+  left: 42%;
+  bottom: 23%;
+}
+.virtual-map .section-content .school-map .btn-gallery-18 {
+  left: 30%;
+  bottom: 18%;
+}
+.virtual-map .section-content .school-map .btn-gallery-19 {
+  left: 22%;
+  bottom: 17%;
+}
+.virtual-map .section-content .school-map .btn-gallery-20 {
+  left: 38%;
+  bottom: 43%;
+}
+.virtual-map .section-content .school-map .btn-gallery-21 {
+  left: 41%;
+  top: 43%;
+}
+.virtual-map .section-content .school-map .btn-gallery-22 {
+  left: 42%;
+  top: 31%;
+}
+.virtual-map .section-content .school-map .btn-gallery-23 {
+  left: 44%;
+  top: 36%;
+}
+.virtual-map .section-content .school-map .btn-gallery-24 {
+  left: 49%;
+  top: 36%;
 }
 
 .footer {
   position: relative;
-  padding-top: 220px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 60px;
 }
 .footer .container {
   position: relative;
@@ -4397,6 +4505,9 @@ img {
   position: relative;
   padding-left: 80px;
   margin-top: 30px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
 }
 .inner-about-card span {
   width: 56px;
@@ -4416,7 +4527,7 @@ img {
 }
 .inner-about-card h3 {
   color: var(--blueColor);
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 24px;
   font-weight: 400;
   font-family: var(--primaryFont);
@@ -4668,6 +4779,11 @@ img {
   padding-top: 48px;
   width: 100%;
 }
+.school .our-campus .school-image .school-video {
+  border-radius: 15px;
+  width: 100%;
+  height: 628px;
+}
 .school .experience-campus {
   padding-top: 70px;
 }
@@ -4678,6 +4794,14 @@ img {
 .school .map-campus {
   width: 100%;
   max-height: 550px;
+}
+.school .accridation-campus h3 {
+  text-align: center;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
 }
 .school .accridation-campus .campus-single-accridation {
   display: flex;
