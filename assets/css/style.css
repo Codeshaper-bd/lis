@@ -721,7 +721,7 @@ Header Responsive Area CSS
   border-radius: 4px;
 }
 .side-card-wrapper .video-card .video-card-image {
-  background: url(/..assets/images/sidecard/video-bg-solar-card.jpg);
+  background: url(../images/sidecard/video-bg-solar-card.jpg);
   background-size: cover;
   height: 220px;
   position: relative;
@@ -3440,7 +3440,7 @@ Header Responsive Area CSS
   padding-top: 20px;
 }
 .video-banner-image .video-banner {
-  background: url(/..assets/images/programme/pyp.jpg);
+  background: url("../images/programme/pyp.jpg");
   background-size: cover;
   width: 100%;
   height: 525px;
