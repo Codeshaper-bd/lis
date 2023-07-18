@@ -1,388 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIS - School</title>
-    <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIS - School</title>
+  <link rel="icon" type="png/icon" href="assets/images/fav-icon.png" />
 
-  <body>
-    <div class="topbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <div class="topbar-leftside">
-              <div class="language">
-                <label htmlFor="language">Language:</label>
-                <select name="language" id="language">
-                  <option value="english">PT</option>
-                  <option value="english">EN</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9 col-md-8 col-sm-8 col-12">
-            <div class="tobar-rightSide">
-              <div class="topbar-social-links">
-                <span>Follow Us:</span>
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:twitter-fill"></iconify-icon
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="quick-links.html"
-                      ><iconify-icon
-                        icon="dashicons:admin-links"
-                        alt="quick links"
-                      ></iconify-icon
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="calender.html"
-                      ><iconify-icon
-                        icon="simple-line-icons:calender"
-                      ></iconify-icon
-                    ></a>
-                  </li>
-                </ul>
-              </div>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/theme.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+          <div class="topbar-leftside">
+            <div class="language">
+              <label htmlFor="language">Language:</label>
+              <select name="language" id="language">
+                <option value="english">PT</option>
+                <option value="english">EN</option>
+              </select>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- navigation bar area start -->
-    <div class="header-area">
-      <div class="navbar-area">
-        <!-- Menu For Mobile Device -->
-        <div class="main-responsive-nav">
-          <div class="container">
-            <div class="mobile-nav">
-              <a href="index.html" class="logo"
-                ><img src="assets/images/logo.png" alt="logo"
-              /></a>
-              <ul class="menu-sidebar menu-small-device">
+        <div class="col-lg-9 col-md-8 col-sm-8 col-12">
+          <div class="tobar-rightSide">
+            <div class="topbar-social-links">
+              <span>Follow Us:</span>
+              <ul>
                 <li>
-                  <button class="popup-button">
-                    <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
-                  </button>
+                  <a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a>
+                </li>
+                <li>
+                  <a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a>
+                </li>
+                <li>
+                  <a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a>
+                </li>
+                <li>
+                  <a href="quick-links.html"><iconify-icon icon="dashicons:admin-links"
+                      alt="quick links"></iconify-icon></a>
+                </li>
+                <li>
+                  <a href="calender.html"><iconify-icon icon="simple-line-icons:calender"></iconify-icon></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- Menu For Desktop Device -->
-        <div class="main-nav">
-          <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light">
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" alt="logo" />
-              </a>
-              <div
-                class="collapse navbar-collapse mean-menu"
-                id="navbarSupportedContent"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link dropdown-toggle"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a href="javascript:void()" class="nav-link dropdown-toggle"
-                      >About Us
-                      <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"
-                      ></iconify-icon
-                    ></a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="about.html" class="nav-link">Who We Are</a>
-                      </li>
+      </div>
+    </div>
+  </div>
 
-                      <li class="nav-item">
-                        <a href="mission-values.html" class="nav-link"
-                          >Mission, Vision and Values</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="school-campus.html" class="nav-link"
-                          >School Campus</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="leadership.html" class="nav-link"
-                          >LIS Leadership Team</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="board-of-directors.html" class="nav-link"
-                          >Board of Directors</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="accreditation.html" class="nav-link">
-                          Accreditation</a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="javascript:void()" class="nav-link"
-                          >Health and Safety
-                          <iconify-icon
-                            icon="iconamoon:arrow-right-2-duotone"
-                          ></iconify-icon
-                        ></a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="student-support.html" class="nav-link"
-                              >Student Support</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="child-protection.html" class="nav-link"
-                              >Child Protection</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="commitment.html" class="nav-link"
-                              >Commitment to Well-being</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a href="javascript:void()" class="nav-link"
-                          >Comunity
-                          <iconify-icon
-                            icon="iconamoon:arrow-right-2-duotone"
-                          ></iconify-icon
-                        ></a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="community.html" class="nav-link"
-                              >Comunity</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="lis-news.html" class="nav-link"
-                              >Lis News</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="alumni.html" class="nav-link">Alumni</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="parent-association.html" class="nav-link"
-                              >Parent Association</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="javascript:void()"
-                      class="nav-link dropdown-toggle active"
-                      >Curriculam
-                      <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"
-                      ></iconify-icon
-                    ></a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="learn.html" class="nav-link dropdown-toggle"
-                          >Learn
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="pyp.html"
-                          class="nav-link dropdown-toggle active"
-                          >Primary Years Programme
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="myp.html" class="nav-link dropdown-toggle"
-                          >Middle Years Programme
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="diploma-programme.html" class="nav-link"
-                          >Diploma Programme</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="co-curricular.html" class="nav-link"
-                          >Co-Curricular Programme</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="information.html" class="nav-link"
-                          >School Profile: Information for Universities</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="calender.html" class="nav-link">Calender</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="javascript:void()" class="nav-link dropdown-toggle"
-                      >Join
-                      <iconify-icon
-                        icon="ic:round-keyboard-arrow-down"
-                      ></iconify-icon
-                    ></a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a href="join.html" class="nav-link dropdown-toggle"
-                          >Join</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="javascript:void()"
-                          class="nav-link dropdown-toggle"
-                          >Enrollment
-                          <iconify-icon
-                            icon="iconamoon:arrow-right-2-duotone"
-                          ></iconify-icon
-                        ></a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="enrollment.html" class="nav-link"
-                              >Enrollment
-                            </a>
-                          </li>
-                          <li class="nav-item">
-                            <a
-                              href="policy.html"
-                              class="nav-link dropdown-toggle"
-                              >Policies and General Notes
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="javascript:void()"
-                          class="nav-link dropdown-toggle"
-                          >Recruitment
-                          <iconify-icon
-                            icon="iconamoon:arrow-right-2-duotone"
-                          ></iconify-icon>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="recruitment.html" class="nav-link"
-                              >Recruitment
-                            </a>
-                          </li>
-                          <li class="nav-item">
-                            <a
-                              href="job-opening.html"
-                              class="nav-link dropdown-toggle"
-                              >Job Openings
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="social-media.html" class="nav-link dropdown-toggle"
-                      >Social Media
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="quick-links.html" class="nav-link dropdown-toggle"
-                      >Quick Links
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link dropdown-toggle"
-                      >Contact Us
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link dropdown-toggle"
-                      >Store
-                    </a>
-                  </li>
-                </ul>
-                <div class="menu-sidebar">
-                  <ul>
-                    <li>
-                      <button class="popup-button">
-                        <iconify-icon
-                          id="popupSearchButton"
-                          icon="iconamoon:search-thin"
-                        ></iconify-icon>
-                        <div class="popupSearchBar">
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Search ..."
-                          />
-                        </div>
-                      </button>
-                    </li>
-                    <li>
-                      <a
-                        class="default-button blue-button"
-                        href="contact-us.html"
-                        ><span>Admission</span></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+  <!-- navigation bar area start -->
+  <div class="header-area">
+    <div class="navbar-area">
+      <!-- Menu For Mobile Device -->
+      <div class="main-responsive-nav">
+        <div class="container">
+          <div class="mobile-nav">
+            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" /></a>
+            <ul class="menu-sidebar menu-small-device">
+              <li>
+                <button class="popup-button">
+                  <iconify-icon icon="iconamoon:search-thin"></iconify-icon>
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-    <!-- navigation bar area end -->
+      <!-- Menu For Desktop Device -->
+      <div class="main-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/logo.png" alt="logo" />
+            </a>
+            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link dropdown-toggle">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript:void()" class="nav-link dropdown-toggle">About Us
+                    <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="about.html" class="nav-link">Who We Are</a>
+                    </li>
 
-    <!-- Inner Pages Banner Area Start -->
-    <div class="inner-page-banner">
-      <div class="container">
-        <div class="banner-content">
-          <h1>Primary Years Programme</h1>
-          <!-- <div class="banner-subtitle">
+                    <li class="nav-item">
+                      <a href="mission-values.html" class="nav-link">Mission, Vision and Values</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="school-campus.html" class="nav-link">School Campus</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="leadership.html" class="nav-link">LIS Leadership Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="board-of-directors.html" class="nav-link">Board of Directors</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="accreditation.html" class="nav-link">
+                        Accreditation</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="javascript:void()" class="nav-link">Health and Safety
+                        <iconify-icon icon="iconamoon:arrow-right-2-duotone"></iconify-icon></a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="student-support.html" class="nav-link">Student Support</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="child-protection.html" class="nav-link">Child Protection</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="commitment.html" class="nav-link">Commitment to Well-being</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="javascript:void()" class="nav-link">Comunity
+                        <iconify-icon icon="iconamoon:arrow-right-2-duotone"></iconify-icon></a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="community.html" class="nav-link">Comunity</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="lis-news.html" class="nav-link">Lis News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="alumni.html" class="nav-link">Alumni</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="parent-association.html" class="nav-link">Parent Association</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript:void()" class="nav-link dropdown-toggle active">Curriculam
+                    <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="learn.html" class="nav-link dropdown-toggle">Learn
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="pyp.html" class="nav-link dropdown-toggle active">Primary Years Programme
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="myp.html" class="nav-link dropdown-toggle">Middle Years Programme
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="diploma-programme.html" class="nav-link">Diploma Programme</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="co-curricular.html" class="nav-link">Co-Curricular Programme</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="information.html" class="nav-link">School Profile: Information for Universities</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="calender.html" class="nav-link">Calender</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript:void()" class="nav-link dropdown-toggle">Join
+                    <iconify-icon icon="ic:round-keyboard-arrow-down"></iconify-icon></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="join.html" class="nav-link dropdown-toggle">Join</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="javascript:void()" class="nav-link dropdown-toggle">Enrollment
+                        <iconify-icon icon="iconamoon:arrow-right-2-duotone"></iconify-icon></a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="enrollment.html" class="nav-link">Enrollment
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="policy.html" class="nav-link dropdown-toggle">Policies and General Notes
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="javascript:void()" class="nav-link dropdown-toggle">Recruitment
+                        <iconify-icon icon="iconamoon:arrow-right-2-duotone"></iconify-icon>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="recruitment.html" class="nav-link">Recruitment
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="job-opening.html" class="nav-link dropdown-toggle">Job Openings
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="social-media.html" class="nav-link dropdown-toggle">Social Media
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="quick-links.html" class="nav-link dropdown-toggle">Quick Links
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact-us.html" class="nav-link dropdown-toggle">Contact Us
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact-us.html" class="nav-link dropdown-toggle">Store
+                  </a>
+                </li>
+              </ul>
+              <div class="menu-sidebar">
+                <ul>
+                  <li>
+                    <button class="popup-button">
+                      <iconify-icon id="popupSearchButton" icon="iconamoon:search-thin"></iconify-icon>
+                      <div class="popupSearchBar">
+                        <input type="text" class="form-control" placeholder="Search ..." />
+                      </div>
+                    </button>
+                  </li>
+                  <li>
+                    <a class="default-button blue-button" href="contact-us.html"><span>Admission</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navigation bar area end -->
+
+  <!-- Inner Pages Banner Area Start -->
+  <div class="inner-page-banner">
+    <div class="container">
+      <div class="banner-content">
+        <h1>Primary Years Programme</h1>
+        <!-- <div class="banner-subtitle">
             <ul>
               <li>
                 <a href="index.html">Home</a>
@@ -390,380 +274,320 @@
               <li>PYP</li>
             </ul>
           </div> -->
-        </div>
       </div>
     </div>
-    <!-- Inner Pages Banner Area End -->
+  </div>
+  <!-- Inner Pages Banner Area End -->
 
-    <!-- pyp Start -->
-    <div class="pyp ptb-140">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="pyp-wrapper">
-              <h3>Primary Years Programme</h3>
-              <div class="pyp-wrapper-text">
-                <h5>
-                  Primary Years Programme at LIS: Early Years through Year 6
-                </h5>
-                <p>
-                  Luanda International School (LIS) has been authorized to teach
-                  the Primary Years Programme (PYP) of the International
-                  Baccalaureate (IB) since June 2001. The PYP is designed for
-                  students aged 3 to 12. It provides a curriculum framework for
-                  an international education where students are engaged in
-                  learning that is authentic and connected to real-world
-                  context. The PYP is a concept-based, transdisciplinary
-                  programme where learning transcends the boundaries between
-                  traditional subject areas. PYP students learn about and use
-                  knowledge, concepts and skills from a variety of subjects to
-                  explore six transdisciplinary themes of global significance.
-                  These themes unify the curriculum in all PYP schools around
-                  the world.
-                </p>
-                <p>
-                  The students in the Early Learning Centre (ELC) also learn
-                  through the IB Primary Years Programme. Teachers in the ELC
-                  subscribe to the Reggio Emilia approach which complements the
-                  IB Philosophy. At its core, the Reggio Emilia approach views
-                  children as competent, rich in potential, strong and as active
-                  participants in their own learning. This learning is hands-on,
-                  interactive, play-based, inquiry-driven, and children are
-                  encouraged to explore, wonder, challenge and question their
-                  world.
-                </p>
+  <!-- pyp Start -->
+  <div class="pyp ptb-140">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="pyp-wrapper">
+            <h3>Primary Years Programme</h3>
+            <div class="pyp-wrapper-text">
+              <h5>
+                Primary Years Programme at LIS: Early Years through Year 6
+              </h5>
+              <p>
+                Luanda International School (LIS) has been authorized to teach
+                the Primary Years Programme (PYP) of the International
+                Baccalaureate (IB) since June 2001. The PYP is designed for
+                students aged 3 to 12. It provides a curriculum framework for
+                an international education where students are engaged in
+                learning that is authentic and connected to real-world
+                context. The PYP is a concept-based, transdisciplinary
+                programme where learning transcends the boundaries between
+                traditional subject areas. PYP students learn about and use
+                knowledge, concepts and skills from a variety of subjects to
+                explore six transdisciplinary themes of global significance.
+                These themes unify the curriculum in all PYP schools around
+                the world.
+              </p>
+              <p>
+                The students in the Early Learning Centre (ELC) also learn
+                through the IB Primary Years Programme. Teachers in the ELC
+                subscribe to the Reggio Emilia approach which complements the
+                IB Philosophy. At its core, the Reggio Emilia approach views
+                children as competent, rich in potential, strong and as active
+                participants in their own learning. This learning is hands-on,
+                interactive, play-based, inquiry-driven, and children are
+                encouraged to explore, wonder, challenge and question their
+                world.
+              </p>
+            </div>
+            <div class="pyp-wrapper-text">
+              <h5>Inquiry Approach to Teaching and Learning</h5>
+              <p>
+                Inquiry is the pedagogical approach to learning and teaching
+                in all PYP schools. The PYP frames units of inquiry around
+                concepts that engage the students in real-world questions and
+                problems through authentic contexts, at both local and global
+                levels. Through inquiry, students are able to develop and
+                strengthen transferable approaches to learning such as
+                thinking, research, communication, social and self-management
+                skills. An inquiry approach to teaching and learning also
+                helps to develop students’ agency. Our students are actively
+                involved in the learning process where independence and
+                responsibility are nurtured by giving students choice and
+                voice in our learning environments.  As active agents in their
+                learning, students are able to construct meaning about
+                themselves and the world around them, using effective
+                questioning strategies, critical thinking and problem-solving
+                skills.
+              </p>
+            </div>
+            <div class="pyp-wrapper-text">
+              <h5>International-mindedness</h5>
+              <p>
+                As an IB World School, we encourage students to become
+                compassionate, life-long learners. This is developed
+                throughout their learning with a focus on the attributes of
+                the IB Learner Profile where learners strive to be inquirers,
+                knowledgeable, thinkers, communicators, principled,
+                open-minded, caring, risk-takers, balanced and reflective.
+                International-mindedness is further developed through the
+                learning of an additional language. As part of our school’s
+                core values, we respect the language of our host country,
+                Portuguese, and aim for all students to be able to function
+                linguistically in the environment in which they live.
+              </p>
+            </div>
+            <div class="pyp-wrapper-list">
+              <h6>More information about the IB Primary Years Programme</h6>
+              <ul class="list-style">
+                <li>
+                  <a href="http://lisluanda.com/home/learn/pyp-programme/">Primary Years Programme (PYP)</a>
+                </li>
+                <li>
+                  <a href="http://lisluanda.com/home/learn/middle-years-programme/">Middle Years Programme (MYP)</a>
+                </li>
+                <li>
+                  <a href="http://lisluanda.com/home/learn/diploma-programme/">Diploma Programme (DM)</a>
+                </li>
+                <li>
+                  <a href="http://lisluanda.com/home/learn/co-curricular-programme">Co-Curricular Programme</a>
+                </li>
+              </ul>
+            </div>
+            <div class="video-banner-image">
+              <div class="video-banner">
+                <a class="play-btn mfp-iframe" href="assets/images/Website Video Final.mp4"><iconify-icon
+                    icon="solar:play-bold"></iconify-icon></a>
               </div>
-              <div class="pyp-wrapper-text">
-                <h5>Inquiry Approach to Teaching and Learning</h5>
-                <p>
-                  Inquiry is the pedagogical approach to learning and teaching
-                  in all PYP schools. The PYP frames units of inquiry around
-                  concepts that engage the students in real-world questions and
-                  problems through authentic contexts, at both local and global
-                  levels. Through inquiry, students are able to develop and
-                  strengthen transferable approaches to learning such as
-                  thinking, research, communication, social and self-management
-                  skills. An inquiry approach to teaching and learning also
-                  helps to develop students’ agency. Our students are actively
-                  involved in the learning process where independence and
-                  responsibility are nurtured by giving students choice and
-                  voice in our learning environments.  As active agents in their
-                  learning, students are able to construct meaning about
-                  themselves and the world around them, using effective
-                  questioning strategies, critical thinking and problem-solving
-                  skills.
-                </p>
-              </div>
-              <div class="pyp-wrapper-text">
-                <h5>International-mindedness</h5>
-                <p>
-                  As an IB World School, we encourage students to become
-                  compassionate, life-long learners. This is developed
-                  throughout their learning with a focus on the attributes of
-                  the IB Learner Profile where learners strive to be inquirers,
-                  knowledgeable, thinkers, communicators, principled,
-                  open-minded, caring, risk-takers, balanced and reflective.
-                  International-mindedness is further developed through the
-                  learning of an additional language. As part of our school’s
-                  core values, we respect the language of our host country,
-                  Portuguese, and aim for all students to be able to function
-                  linguistically in the environment in which they live.
-                </p>
-              </div>
-              <div class="pyp-wrapper-list">
-                <h6>More information about the IB Primary Years Programme</h6>
-                <ul class="list-style">
-                  <li>
-                    <a href="http://lisluanda.com/home/learn/pyp-programme/"
-                      >Primary Years Programme (PYP)</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="http://lisluanda.com/home/learn/middle-years-programme/"
-                      >Middle Years Programme (MYP)</a
-                    >
-                  </li>
-                  <li>
-                    <a href="http://lisluanda.com/home/learn/diploma-programme/"
-                      >Diploma Programme (DM)</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="http://lisluanda.com/home/learn/co-curricular-programme"
-                      >Co-Curricular Programme</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="video-banner-image">
-                <div class="video-banner">
-                  <a
-                    class="play-btn mfp-iframe"
-                    href="assets/images/Website Video Final.mp4"
-                    ><iconify-icon icon="solar:play-bold"></iconify-icon
-                  ></a>
-                </div>
-                <div class="caption">
-                  <h6>PYP Programme</h6>
-                  <p>by Gretel Marín Palacio</p>
-                </div>
+              <div class="caption">
+                <h6>PYP Programme</h6>
+                <p>by Gretel Marín Palacio</p>
               </div>
             </div>
           </div>
-          <!-- Side Card Area Start -->
-          <div class="col-lg-4">
-            <div class="side-card-wrapper">
-              <div class="video-card">
-                <div class="video-card-image">
-                  <a
-                    class="play-btn mfp-iframe"
-                    href="assets/images/Website Video Final.mp4"
-                    ><iconify-icon icon="solar:play-bold"></iconify-icon
-                  ></a>
-                </div>
-                <div class="video-card-text">
-                  <h3>
-                    <a href="">Luanda International School: Campus View</a>
-                  </h3>
-                  <a href="" class="default-button blue-button"
-                    >Enrolement
-                    <iconify-icon
-                      icon="heroicons:arrow-long-right"
-                    ></iconify-icon
-                  ></a>
-                  <div class="video-card-social">
-                    <h3>We are here:</h3>
-                    <ul>
-                      <li>
-                        <a href="#"
-                          ><iconify-icon icon="ri:facebook-fill"></iconify-icon
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><iconify-icon icon="ri:twitter-fill"></iconify-icon
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><iconify-icon icon="ri:instagram-line"></iconify-icon
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
-                        ></a>
-                      </li>
-                    </ul>
-                    <p>
-                      For Any Details Our Hotline:<a href=""
-                        ><iconify-icon
-                          icon="nimbus:telephone"
-                          rotate="90deg"
-                        ></iconify-icon
-                        >+244 932 337 056 / 57</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-card">
-                <div class="blog-card-image">
-                  <img
-                    src="assets/images/sidecard/earth-day-blog-card.jpg"
-                    alt="blog-earth"
-                  />
-                </div>
-                <div class="blog-card-text">
-                  <span class="blog-date"> 20 May<br />2022 </span>
-                  <h3>
-                    <a href=""
-                      >Respect for ourselves and others, our environment, and
-                      our cultural contexts guides our thoughts, actions and
-                      relationships.</a
-                    >
-                  </h3>
-                  <p>
-                    On Friday, 21 April 2017, LIS participated in World Earth
-                    Day. What an amazing day it was! We focused our collective
-                    efforts on this central idea: Together we can empower
-                    everyone with the knowledge to inspire action in defense of
-                    the environment.
-                  </p>
-                  <p><a href="">Read More...</a></p>
-                </div>
-              </div>
-              <div class="blog-card">
-                <div class="blog-card-image">
-                  <img
-                    src="assets/images/sidecard/2017.11.10-Angolan-ID-6_Cropped.jpg"
-                    alt="blog-earth"
-                  />
-                </div>
-                <div class="blog-card-text">
-                  <span class="blog-date"> 20 May<br />2022 </span>
-                  <h3>
-                    <a href=""
-                      >A strong community is built on inclusion, participation,
-                      communication, kindness and mutual respect.</a
-                    >
-                  </h3>
-                  <p>
-                    Luanda International School celebrated Angolan Independence
-                    Day on 10 November 2017. The celebration assembly was a real
-                    endorsement of our school mission and commitment to play a
-                    greater role here in Angola.
-                  </p>
-                  <p><a href="">Read More...</a></p>
-                </div>
-              </div>
-              <div class="blog-card">
-                <div class="blog-card-image">
-                  <img
-                    src="assets/images/sidecard/dalene.jpg"
-                    alt="blog-earth"
-                  />
-                </div>
-                <div class="blog-card-text">
-                  <span class="blog-date"> 20 May<br />2022 </span>
-                  <h3>
-                    <a href=""
-                      >Respect for ourselves and others, our environment, and
-                      our cultural contexts guides our thoughts, actions and
-                      relationships.</a
-                    >
-                  </h3>
-                  <p>
-                    George’s journey from Angola to the Republic of Congo did
-                    not have a happy beginning. George, a chimpanzee, was stolen
-                    from his forest home and family for the illegal pet trade.
-                    Thankfully, he was found by Dr. Cristina of Casa dos
-                    Animais.
-                  </p>
-
-                  <p><a href="">Read More...</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Side Card Area End -->
         </div>
+        <!-- Side Card Area Start -->
+        <div class="col-lg-4">
+          <div class="side-card-wrapper">
+            <div class="video-card">
+              <div class="video-card-image">
+                <a class="play-btn mfp-iframe" href="assets/images/Website Video Final.mp4"><iconify-icon
+                    icon="solar:play-bold"></iconify-icon></a>
+              </div>
+              <div class="video-card-text">
+                <h3>
+                  <a href="">Luanda International School: Campus View</a>
+                </h3>
+                <a href="" class="default-button blue-button">Enrolement
+                  <iconify-icon icon="heroicons:arrow-long-right"></iconify-icon></a>
+                <div class="video-card-social">
+                  <h3>We are here:</h3>
+                  <ul>
+                    <li>
+                      <a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a>
+                    </li>
+                    <li>
+                      <a href="#"><iconify-icon icon="ri:twitter-fill"></iconify-icon></a>
+                    </li>
+                    <li>
+                      <a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a>
+                    </li>
+                    <li>
+                      <a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a>
+                    </li>
+                  </ul>
+                  <p>
+                    For Any Details Our Hotline:<a href=""><iconify-icon icon="nimbus:telephone"
+                        rotate="90deg"></iconify-icon>+244 932 337 056 / 57</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div class="blog-card-image">
+                <img src="assets/images/sidecard/earth-day-blog-card.jpg" alt="blog-earth" />
+              </div>
+              <div class="blog-card-text">
+                <span class="blog-date"> 20 May<br />2022 </span>
+                <h3>
+                  <a href="">Respect for ourselves and others, our environment, and
+                    our cultural contexts guides our thoughts, actions and
+                    relationships.</a>
+                </h3>
+                <p>
+                  On Friday, 21 April 2017, LIS participated in World Earth
+                  Day. What an amazing day it was! We focused our collective
+                  efforts on this central idea: Together we can empower
+                  everyone with the knowledge to inspire action in defense of
+                  the environment.
+                </p>
+                <p><a href="">Read More...</a></p>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div class="blog-card-image">
+                <img src="assets/images/sidecard/2017.11.10-Angolan-ID-6_Cropped.jpg" alt="blog-earth" />
+              </div>
+              <div class="blog-card-text">
+                <span class="blog-date"> 20 May<br />2022 </span>
+                <h3>
+                  <a href="">A strong community is built on inclusion, participation,
+                    communication, kindness and mutual respect.</a>
+                </h3>
+                <p>
+                  Luanda International School celebrated Angolan Independence
+                  Day on 10 November 2017. The celebration assembly was a real
+                  endorsement of our school mission and commitment to play a
+                  greater role here in Angola.
+                </p>
+                <p><a href="">Read More...</a></p>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div class="blog-card-image">
+                <img src="assets/images/sidecard/dalene.jpg" alt="blog-earth" />
+              </div>
+              <div class="blog-card-text">
+                <span class="blog-date"> 20 May<br />2022 </span>
+                <h3>
+                  <a href="">Respect for ourselves and others, our environment, and
+                    our cultural contexts guides our thoughts, actions and
+                    relationships.</a>
+                </h3>
+                <p>
+                  George’s journey from Angola to the Republic of Congo did
+                  not have a happy beginning. George, a chimpanzee, was stolen
+                  from his forest home and family for the illegal pet trade.
+                  Thankfully, he was found by Dr. Cristina of Casa dos
+                  Animais.
+                </p>
+
+                <p><a href="">Read More...</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Side Card Area End -->
       </div>
     </div>
-    <!-- pyp End -->
+  </div>
+  <!-- pyp End -->
 
-    <!-- Footer Area Start -->
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <div class="footer-logo-area">
-              <a href="#"
-                ><img src="assets/images/white-logo.png" alt="logo"
-              /></a>
-              <div class="footer-social-icons mt-3">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:facebook-fill"></iconify-icon
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:instagram-line"></iconify-icon
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:linkedin-fill"></iconify-icon
-                    ></a>
-                  </li>
-
-                  <li>
-                    <a href="#"
-                      ><iconify-icon icon="ri:youtube-fill"></iconify-icon
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <div class="footer-links pl-70">
-              <h3>Helpful Link</h3>
-              <ul>
-                <li><a href="enrollment.html">Enrollment</a></li>
-                <li><a href="recruitment.html">Recruitment</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="site-map.html">Site Map</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <div class="footer-links">
-              <h3>Explore</h3>
-              <ul>
-                <li><a href="about.html">Who We Are</a></li>
-                <li><a href="learn.html">Curriculum</a></li>
-                <li><a href="school-campus.html">Campus</a></li>
-                <li><a href="lis-news.html">LIS News</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <div class="footer-links footer-contact">
-              <h3>Contact Us</h3>
+  <!-- Footer Area Start -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="footer-logo-area">
+            <a href="#"><img src="assets/images/white-logo.png" alt="logo" /></a>
+            <div class="footer-social-icons mt-3">
               <ul>
                 <li>
-                  <iconify-icon icon="ion:call-outline"></iconify-icon>
-                  <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
+                  <a href="#"><iconify-icon icon="ri:facebook-fill"></iconify-icon></a>
                 </li>
                 <li>
-                  <iconify-icon icon="circum:mail"></iconify-icon>
-                  <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
+                  <a href="#"><iconify-icon icon="ri:instagram-line"></iconify-icon></a>
                 </li>
                 <li>
-                  <iconify-icon icon="carbon:location"></iconify-icon>
-                  <a
-                    href="https://goo.gl/maps/H21TiMcM5TZE4NPd8"
-                    target="_blank"
-                    >Via S6, Bairro de Talatona, Belas, Luanda, Angola</a
-                  >
+                  <a href="#"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a>
+                </li>
+
+                <li>
+                  <a href="#"><iconify-icon icon="ri:youtube-fill"></iconify-icon></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- Footer Area End -->
-
-    <!-- Copyright Area Start -->
-    <div class="copyright">
-      <div class="container">
-        <div class="copyright-content">
-          <p>
-            &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            LIS. All rights reserved
-          </p>
-          <p>Developed By <a href="#">Department of IT and Innovations</a></p>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="footer-links pl-70">
+            <h3>Helpful Link</h3>
+            <ul>
+              <li><a href="enrollment.html">Enrollment</a></li>
+              <li><a href="recruitment.html">Recruitment</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="site-map.html">Site Map</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="footer-links">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="about.html">Who We Are</a></li>
+              <li><a href="learn.html">Curriculum</a></li>
+              <li><a href="school-campus.html">Campus</a></li>
+              <li><a href="lis-news.html">LIS News</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="footer-links footer-contact">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <iconify-icon icon="ion:call-outline"></iconify-icon>
+                <a href="tel:+24493233705657">+244 932 337 056 / 57</a>
+              </li>
+              <li>
+                <iconify-icon icon="circum:mail"></iconify-icon>
+                <a href="mailto:lis@lisluanda.com">lis@lisluanda.com</a>
+              </li>
+              <li>
+                <iconify-icon icon="carbon:location"></iconify-icon>
+                <a href="https://goo.gl/maps/H21TiMcM5TZE4NPd8" target="_blank">Via S6, Bairro de Talatona, Belas,
+                  Luanda, Angola</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Copyright Area End -->
+  </div>
+  <!-- Footer Area End -->
 
-    <script src="assets/js/jQuery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/iconify.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
-    <script src="assets/js/meanmenu.js"></script>
-    <script src="assets/js/custom.js"></script>
-  </body>
+  <!-- Copyright Area Start -->
+  <div class="copyright">
+    <div class="container">
+      <div class="copyright-content">
+        <p>
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          LIS. All rights reserved
+        </p>
+        <!-- <p>Developed By <a href="#">Department of IT and Innovations</a></p> -->
+      </div>
+    </div>
+  </div>
+  <!-- Copyright Area End -->
+
+  <script src="assets/js/jQuery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/iconify.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wrick17/calendar-plugin@master/calendar.min.js"></script>
+  <script src="assets/js/meanmenu.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
 </html>
