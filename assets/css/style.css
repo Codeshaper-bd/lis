@@ -3963,6 +3963,10 @@ img {
   font-size: 26px;
   font-weight: 700;
   font-family: var(--primaryFont);
+  text-shadow: 5px 5px 8px var(--headerColor);
+  width: 90%;
+  transition: 0.4s ease-in-out;
+  border-radius: 10px;
 }
 .program-card .program-card-text {
   height: 100%;
