@@ -2205,10 +2205,20 @@ Header Responsive Area CSS
   width: 100%;
   max-height: 760px;
 }
-.contact-us .accridation-campus {
-  text-align: center;
+.contact-us .logo-single-accreditation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
 }
-.contact-us .accridation-campus .accridation-image {
+.contact-us .logo-single-accreditation .accridation-image {
+  max-width: 150px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.contact-us .logo-single-accreditation .accridation-image img {
   width: 100%;
 }
 
@@ -2285,10 +2295,21 @@ Header Responsive Area CSS
     line-height: 22px;
     font-size: 16px;
   }
-  .contact-us .accridation-campus .accridation-image {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  .contact-us .logo-single-accreditation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .contact-us .logo-single-accreditation .accridation-image {
+    max-width: 150px;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  .contact-us .logo-single-accreditation .accridation-image img {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
