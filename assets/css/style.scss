@@ -627,6 +627,11 @@ img {
     border-color: var(--yellowColor);
     background-color: var(--yellowColor);
     top: 23px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      background-color: var(--whiteColor) !important ;
+      color: var(--yellowColor) !important;
+    }
   }
 }
 .features-card-image {
@@ -641,6 +646,11 @@ img {
     border-color: var(--yellowColor);
     background-color: var(--yellowColor);
     top: -25px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      background-color: var(--whiteColor) !important ;
+      color: var(--yellowColor) !important;
+    }
   }
 }
 
