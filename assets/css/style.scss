@@ -608,6 +608,7 @@ img {
   h3 {
     color: var(--whiteColor);
     margin-bottom: 12px;
+
     font: {
       size: 36px;
       weight: 700;
@@ -626,6 +627,20 @@ img {
     border-color: var(--yellowColor);
     background-color: var(--yellowColor);
     top: 23px;
+  }
+}
+.features-card-image {
+  text-align: center;
+  img {
+    width: 100%;
+  }
+
+  .default-button {
+    position: relative;
+    color: var(--whiteColor);
+    border-color: var(--yellowColor);
+    background-color: var(--yellowColor);
+    top: -25px;
   }
 }
 
