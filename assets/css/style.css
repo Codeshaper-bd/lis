@@ -2167,7 +2167,10 @@ Header Responsive Area CSS
   position: relative;
   z-index: 1;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single {
+.contact-us .office-time-wrapper .office-time .office-time-group a {
+  width: 100%;
+}
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single {
   margin-top: 30px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -2177,21 +2180,21 @@ Header Responsive Area CSS
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h4 {
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single h4 {
   color: var(--headerColor);
   line-height: 39px;
   font-weight: 700;
   font-family: var(--primaryFont);
   font-size: 30px;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single p {
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single p {
   line-height: 27px;
   color: var(--textColor);
   font-size: 18px;
   font-weight: 400;
   font-family: var(--primaryFont);
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h6 {
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single h6 {
   color: var(--headerColor);
   line-height: 27px;
   font-weight: 700;
