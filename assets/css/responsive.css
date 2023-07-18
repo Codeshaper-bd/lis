@@ -356,7 +356,6 @@
   }
   .program-card {
     margin-top: 20px;
-    border-radius: 5px;
   }
   .program-card img {
     width: 100%;
@@ -486,9 +485,6 @@
   .footer .pl-70 {
     margin-top: 0;
   }
-  .program-card {
-    border-radius: 5px;
-  }
   .program-card img {
     width: 100%;
   }
@@ -577,9 +573,6 @@
   .default-button {
     padding: 8px 12px;
     font-size: 14px;
-  }
-  .program-card {
-    border-radius: 5px;
   }
   .program-card img {
     width: 100%;
@@ -690,9 +683,6 @@
   .article-card .article-text-area h3 a {
     font-size: 20px;
   }
-  .program-card {
-    border-radius: 5px;
-  }
   .program-card img {
     width: 100%;
   }
@@ -789,7 +779,6 @@
 @media only screen and (max-width: 576px) {
   .program-card {
     margin-top: 20px;
-    border-radius: 5px;
   }
   .program-card img {
     width: 100%;
