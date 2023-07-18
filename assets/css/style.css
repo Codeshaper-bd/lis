@@ -2833,9 +2833,9 @@ Header Responsive Area CSS
 .leadership .card-group-wrapper .card-image::before {
   content: "";
   width: 100%;
-  height: 0%;
   transition: 0.5s ease-in-out;
   background-image: linear-gradient(180.5deg, rgba(41, 66, 105, 0), rgba(41, 66, 105, 0), rgba(41, 66, 105, 0.411), #294269);
+  height: 50%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -2847,7 +2847,7 @@ Header Responsive Area CSS
   position: absolute;
   bottom: 0;
   z-index: 1;
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s ease-in-out;
   padding-left: 24px;
   padding-bottom: 20px;
@@ -2874,18 +2874,12 @@ Header Responsive Area CSS
   padding: 24px;
 }
 .leadership .card-group-wrapper .card-text p {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   font-family: var(--primaryFont);
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-}
-.leadership .card-group-wrapper:hover .card-image::before {
-  height: 100%;
-}
-.leadership .card-group-wrapper:hover .card-image .team-intro {
-  opacity: 1;
 }
 .leadership .card-group-wrapper:hover .card-text {
   border-color: var(--blueColor);
@@ -2905,7 +2899,7 @@ Header Responsive Area CSS
     margin-bottom: 20px;
   }
   .leadership .card-group-wrapper .card-image::before {
-    height: 100%;
+    height: 50%;
   }
   .leadership .card-group-wrapper .card-image .team-intro {
     opacity: 1;
@@ -2939,7 +2933,7 @@ Header Responsive Area CSS
     margin-bottom: 20px;
   }
   .leadership .card-group-wrapper .card-image::before {
-    height: 100%;
+    height: 50%;
   }
   .leadership .card-group-wrapper .card-image .team-intro {
     opacity: 1;
