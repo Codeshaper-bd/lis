@@ -1972,11 +1972,20 @@ Header Responsive Area CSS
   line-height: 32px;
 }
 .social-media .social-media-frame {
+  height: 50vh;
+  width: 100%;
+  background-color: var(--blueColor);
   border: 1px solid gray;
   border-radius: 20px;
   overflow: hidden;
   margin-top: 45px;
   margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media .social-media-frame p {
+  color: #f1f5f9;
 }
 .social-media .social-media-frame .twitter-timeline {
   width: 100%;
