@@ -927,6 +927,50 @@ img {
   }
 }
 
+.place-list-area {
+  margin-bottom: 50px;
+  ul {
+    padding-left: 5px;
+    list-style: none;
+    li {
+      font-size: 16px;
+      line-height: 27px;
+      font-weight: 500;
+      color: var(--blueColor);
+      margin-top: 10px;
+
+      a {
+        display: inline-flex;
+        text-decoration: none;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        span {
+          margin-right: 5px;
+          background-color: var(--blueColor);
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--whiteColor);
+          transition: 0.4s ease-in-out;
+        }
+
+        &:hover {
+          color: var(--blueColor);
+          span {
+            border: 1px solid var(--blueColor);
+            background-color: #cbd5e1;
+            color: var(--blueColor);
+          }
+        }
+      }
+    }
+  }
+}
+
 // Footer Area CSS
 .footer {
   position: relative;

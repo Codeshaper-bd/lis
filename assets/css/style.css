@@ -4340,6 +4340,48 @@ img {
   top: 36%;
 }
 
+.place-list-area {
+  margin-bottom: 50px;
+}
+.place-list-area ul {
+  padding-left: 5px;
+  list-style: none;
+}
+.place-list-area ul li {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 500;
+  color: var(--blueColor);
+  margin-top: 10px;
+}
+.place-list-area ul li a {
+  display: inline-flex;
+  text-decoration: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.place-list-area ul li a span {
+  margin-right: 5px;
+  background-color: var(--blueColor);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--whiteColor);
+  transition: 0.4s ease-in-out;
+}
+.place-list-area ul li a:hover {
+  color: var(--blueColor);
+}
+.place-list-area ul li a:hover span {
+  border: 1px solid var(--blueColor);
+  background-color: #cbd5e1;
+  color: var(--blueColor);
+}
+
 .footer {
   position: relative;
   padding-top: 150px;
