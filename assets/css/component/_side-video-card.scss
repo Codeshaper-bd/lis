@@ -5,7 +5,7 @@
         border-radius: 4px;
 
         .video-card-image {
-            background: url(../images/sidecard/video-bg-solar-card.jpg);
+            background: url("../images/sidecard/video-bg-solar-card.jpg");
             background-size: cover;
             height: 220px;
             position: relative;
@@ -79,7 +79,7 @@
                 font: {
                     size: 22px;
                     weight: 700;
-                    font-family: var(--primaryFont);
+                    family: var(--primaryFont);
                 }
                 a {
                     color: var(--headerColor);

@@ -721,7 +721,7 @@ Header Responsive Area CSS
   border-radius: 4px;
 }
 .side-card-wrapper .video-card .video-card-image {
-  background: url(../images/sidecard/video-bg-solar-card.jpg);
+  background: url("../images/sidecard/video-bg-solar-card.jpg");
   background-size: cover;
   height: 220px;
   position: relative;
@@ -792,7 +792,7 @@ Header Responsive Area CSS
   line-height: 32px;
   font-size: 22px;
   font-weight: 700;
-  font-font-family: var(--primaryFont);
+  font-family: var(--primaryFont);
 }
 .side-card-wrapper .video-card .video-card-text h3 a {
   color: var(--headerColor);
@@ -1677,7 +1677,7 @@ Header Responsive Area CSS
   color: var(--blueColor) !important;
 }
 .policy .policy-image {
-  background: url(assets/images/policy.jpg);
+  background: url("../images/policy.jpg");
   background-size: cover;
   width: 100%;
   height: 525px;
@@ -1975,11 +1975,20 @@ Header Responsive Area CSS
   line-height: 32px;
 }
 .social-media .social-media-frame {
+  height: 50vh;
+  width: 100%;
+  background-color: var(--blueColor);
   border: 1px solid gray;
   border-radius: 20px;
   overflow: hidden;
   margin-top: 45px;
   margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media .social-media-frame p {
+  color: #f1f5f9;
 }
 .social-media .social-media-frame .twitter-timeline {
   width: 100%;
@@ -2161,7 +2170,10 @@ Header Responsive Area CSS
   position: relative;
   z-index: 1;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single {
+.contact-us .office-time-wrapper .office-time .office-time-group a {
+  width: 100%;
+}
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single {
   margin-top: 30px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -2171,21 +2183,21 @@ Header Responsive Area CSS
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h4 {
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single h4 {
   color: var(--headerColor);
   line-height: 39px;
   font-weight: 700;
   font-family: var(--primaryFont);
   font-size: 30px;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single p {
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single p {
   line-height: 27px;
   color: var(--textColor);
   font-size: 18px;
   font-weight: 400;
   font-family: var(--primaryFont);
 }
-.contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h6 {
+.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single h6 {
   color: var(--headerColor);
   line-height: 27px;
   font-weight: 700;
@@ -2196,7 +2208,20 @@ Header Responsive Area CSS
   width: 100%;
   max-height: 760px;
 }
-.contact-us .accridation-campus .accridation-image {
+.contact-us .logo-single-accreditation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.contact-us .logo-single-accreditation .accridation-image {
+  max-width: 150px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.contact-us .logo-single-accreditation .accridation-image img {
   width: 100%;
 }
 
@@ -2273,10 +2298,21 @@ Header Responsive Area CSS
     line-height: 22px;
     font-size: 16px;
   }
-  .contact-us .accridation-campus .accridation-image {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  .contact-us .logo-single-accreditation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .contact-us .logo-single-accreditation .accridation-image {
+    max-width: 150px;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  .contact-us .logo-single-accreditation .accridation-image img {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2800,9 +2836,9 @@ Header Responsive Area CSS
 .leadership .card-group-wrapper .card-image::before {
   content: "";
   width: 100%;
-  height: 0%;
   transition: 0.5s ease-in-out;
   background-image: linear-gradient(180.5deg, rgba(41, 66, 105, 0), rgba(41, 66, 105, 0), rgba(41, 66, 105, 0.411), #294269);
+  height: 50%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -2814,7 +2850,7 @@ Header Responsive Area CSS
   position: absolute;
   bottom: 0;
   z-index: 1;
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s ease-in-out;
   padding-left: 24px;
   padding-bottom: 20px;
@@ -2841,18 +2877,12 @@ Header Responsive Area CSS
   padding: 24px;
 }
 .leadership .card-group-wrapper .card-text p {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   font-family: var(--primaryFont);
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-}
-.leadership .card-group-wrapper:hover .card-image::before {
-  height: 100%;
-}
-.leadership .card-group-wrapper:hover .card-image .team-intro {
-  opacity: 1;
 }
 .leadership .card-group-wrapper:hover .card-text {
   border-color: var(--blueColor);
@@ -2872,7 +2902,7 @@ Header Responsive Area CSS
     margin-bottom: 20px;
   }
   .leadership .card-group-wrapper .card-image::before {
-    height: 100%;
+    height: 50%;
   }
   .leadership .card-group-wrapper .card-image .team-intro {
     opacity: 1;
@@ -2906,7 +2936,7 @@ Header Responsive Area CSS
     margin-bottom: 20px;
   }
   .leadership .card-group-wrapper .card-image::before {
-    height: 100%;
+    height: 50%;
   }
   .leadership .card-group-wrapper .card-image .team-intro {
     opacity: 1;
@@ -3951,7 +3981,6 @@ img {
   text-align: center;
   overflow: hidden;
   position: relative;
-  border-radius: 5px;
 }
 .program-card img {
   width: 100%;
@@ -3967,6 +3996,10 @@ img {
   font-size: 26px;
   font-weight: 700;
   font-family: var(--primaryFont);
+  text-shadow: 5px 5px 8px var(--headerColor);
+  width: 90%;
+  transition: 0.4s ease-in-out;
+  border-radius: 10px;
 }
 .program-card .program-card-text {
   height: 100%;
@@ -4044,6 +4077,30 @@ img {
   border-color: var(--yellowColor);
   background-color: var(--yellowColor);
   top: 23px;
+  transition: 0.4s ease-in-out;
+}
+.features-card .default-button:hover {
+  background-color: var(--whiteColor) !important;
+  color: var(--yellowColor) !important;
+}
+
+.features-card-image {
+  text-align: center;
+}
+.features-card-image img {
+  width: 100%;
+}
+.features-card-image .default-button {
+  position: relative;
+  color: var(--whiteColor);
+  border-color: var(--yellowColor);
+  background-color: var(--yellowColor);
+  top: -25px;
+  transition: 0.4s ease-in-out;
+}
+.features-card-image .default-button:hover {
+  background-color: var(--whiteColor) !important;
+  color: var(--yellowColor) !important;
 }
 
 .article-card {
@@ -4284,6 +4341,48 @@ img {
 .virtual-map .section-content .school-map .btn-gallery-24 {
   left: 49%;
   top: 36%;
+}
+
+.place-list-area {
+  margin-bottom: 50px;
+}
+.place-list-area ul {
+  padding-left: 5px;
+  list-style: none;
+}
+.place-list-area ul li {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 500;
+  color: var(--blueColor);
+  margin-top: 10px;
+}
+.place-list-area ul li a {
+  display: inline-flex;
+  text-decoration: none;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+}
+.place-list-area ul li a span {
+  margin-right: 5px;
+  background-color: var(--blueColor);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--whiteColor);
+  transition: 0.4s ease-in-out;
+}
+.place-list-area ul li a:hover {
+  color: var(--blueColor);
+}
+.place-list-area ul li a:hover span {
+  border: 1px solid var(--blueColor);
+  background-color: #cbd5e1;
+  color: var(--blueColor);
 }
 
 .footer {
@@ -4830,13 +4929,19 @@ img {
 }
 .accreditation .logo-single-accreditation {
   padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.accreditation .logo-single-accreditation .accridation-image {
+  max-width: 150px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   display: flex;
-  justify-content: space-around;
 }
-.accreditation .logo-single-accreditation .accreditation-image {
-  width: 100%;
-}
-.accreditation .logo-single-accreditation .accreditation-image img {
+.accreditation .logo-single-accreditation .accridation-image img {
   width: 100%;
 }
 
