@@ -512,10 +512,15 @@ Header Responsive Area CSS
               right: 13px;
             }
           }
+          .dropdown-menu {
+            top: 63px;
+          }
         }
       }
     }
   }
+
+
 }
 @media only screen and (min-width: 1550px) {
 }

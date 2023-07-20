@@ -451,6 +451,9 @@ Header Responsive Area CSS
     margin-left: 13px;
     margin-right: 13px;
   }
+  .main-nav nav .navbar-nav .nav-item .dropdown-menu {
+    top: 63px;
+  }
 }
 @media only screen and (max-width: 1199px) {
   .main-responsive-nav {
