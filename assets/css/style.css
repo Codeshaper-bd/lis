@@ -221,7 +221,7 @@ a.meanmenu-reveal {
   display: none;
 }
 .main-nav nav .navbar-nav .nav-item a.dropdown-toggle {
-  padding-right: 13px;
+  padding-right: 5px;
 }
 .main-nav nav .navbar-nav .nav-item a.active {
   color: var(--yellowColor);
