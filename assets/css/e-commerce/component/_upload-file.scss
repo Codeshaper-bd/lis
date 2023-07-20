@@ -1,0 +1,73 @@
+// Variables
+$primaryColor: #005af0;
+$secondaryColor: #ffffff;
+$cardShadowColor: rgba(0, 0, 0, 0.3);
+$borderColor: #a3a3a3;
+
+// SCSS code
+.upload-file {
+    width: 100%;
+    background-color: #fcfcfc;
+    margin-top: 20px;
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 0 $cardShadowColor;
+        max-width: 500px;
+        background-color: $secondaryColor;
+        padding: 20px 30px 20px;
+
+        .drop_box {
+            margin: 10px 0;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 3px dotted $borderColor;
+            border-radius: 5px;
+
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                color: #2e2e2e;
+            }
+
+            p {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                font-size: 12px;
+                color: $borderColor;
+            }
+
+            input[type="file"] {
+                margin: 10px 0;
+                width: 100%;
+                background-color: #e2e2e2;
+                border: none;
+                outline: none;
+                padding: 12px 20px;
+                border-radius: 4px;
+            }
+        }
+
+        .btn {
+            text-decoration: none;
+            background-color: $primaryColor;
+            color: $secondaryColor;
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            transition: 0.3s;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $secondaryColor;
+                color: $primaryColor;
+                padding: 10px 20px;
+                border: none;
+                outline: 1px solid #010101;
+            }
+        }
+    }
+}

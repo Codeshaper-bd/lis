@@ -1,0 +1,170 @@
+// Footer Area CSS
+.footer {
+  position: relative;
+  padding: {
+    top: 220px;
+    bottom: 100px;
+  }
+  .container {
+    position: relative;
+    z-index: 3;
+  }
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+    background-color: var(--blueColor);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    background-color: var(--yellowColor);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+}
+
+.footer-logo-area {
+  p {
+    color: var(--whiteColor);
+    margin: {
+      top: 20px;
+      bottom: 20px;
+    }
+    font: {
+      size: 14px;
+      weight: 400;
+      family: var(--SecondaryFont);
+    }
+  }
+}
+
+.footer-social-icons {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
+        border-radius: 50%;
+        margin-right: 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--whiteColor);
+        transition: 0.5s ease-in-out;
+        &:hover {
+          background-color: var(--yellowColor);
+          color: var(--whiteColor);
+        }
+      }
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.footer-links {
+  margin-top: 30px;
+  h3 {
+    color: var(--whiteColor);
+    font: {
+      size: 24px;
+      weight: 700;
+      family: var(--primaryFont);
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      a {
+        margin-top: 12px;
+        display: inline-block;
+        color: var(--whiteColor);
+        transition: 0.5s ease-in-out;
+        font: {
+          size: 16px;
+          weight: 400;
+          family: var(--primaryFont);
+        }
+        &:hover {
+          color: var(--yellowColor);
+        }
+      }
+    }
+  }
+}
+
+.footer-contact {
+  ul {
+    li {
+      padding-left: 50px;
+      position: relative;
+      margin-top: 28px;
+      iconify-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--blueColor);
+        transition: 0.9s ease-in-out;
+        background-color: var(--whiteColor);
+        position: absolute;
+        left: 0;
+        top: 8px;
+      }
+      &:hover {
+        iconify-icon {
+          transform: rotateY(360deg);
+          color: var(--whiteColor);
+          background-color: var(--yellowColor);
+        }
+      }
+    }
+  }
+}
+
+// Copyright Area CSS
+.copyright {
+  border-top: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+  background-color: var(--blueColor);
+  padding: {
+    top: 10px;
+    bottom: 10px;
+  }
+  .copyright-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      margin: 0;
+      color: rgba($color: #ffffff, $alpha: 0.8);
+      a {
+        color: var(--yellowColor);
+      }
+    }
+  }
+}

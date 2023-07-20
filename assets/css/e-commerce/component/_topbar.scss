@@ -1,0 +1,98 @@
+// TopBar Area Start
+.topbar {
+  background-color: var(--blueColor);
+  .topbar-leftside {
+    background-color: var(--yellowColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    &::before {
+      content: "";
+      height: 100%;
+      width: 9999px;
+      // clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+      background-color: var(--yellowColor);
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+    .language {
+      label {
+        position: relative;
+        font-family: "Lato";
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: var(--whiteColor);
+      }
+
+      select {
+        position: relative;
+        text-transform: uppercase;
+        text-align: center;
+        background: none;
+        border: none;
+        color: var(--whiteColor);
+        background-color: #f09020;
+        option {
+          background-color: var(--blueColor);
+          color: var(--whiteColor);
+          font-family: "Lato";
+          font-weight: 500;
+          font-size: 16px;
+          &:hover {
+            background: var(--whiteColor);
+          }
+        }
+        &:focus {
+          outline: none;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.tobar-rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  padding: {
+    top: 10px;
+    bottom: 10px;
+  }
+  .topbar-social-links {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    span {
+      color: var(--whiteColor);
+      font: {
+        size: 16px;
+        weight: 400;
+        family: var(--primaryFont);
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          font-size: 18px;
+          color: #fff;
+          position: relative;
+          top: 3px;
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+}

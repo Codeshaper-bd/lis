@@ -1,0 +1,585 @@
+@media only screen and (max-width: 767px) {
+  .mean-container a.meanmenu-reveal {
+    top: 28px;
+  }
+  .popup-button {
+    position: relative;
+    top: 4px;
+  }
+  .mobile-nav .logo {
+    top: 13px;
+  }
+  .default-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .ptb-140 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-140 {
+    padding-top: 50px;
+  }
+  .pb-140 {
+    padding-bottom: 50px;
+  }
+  .pl-70 {
+    padding-left: 0px;
+  }
+  .pl-30 {
+    padding-left: 0px;
+  }
+  .section-heading h3 {
+    font-size: 36px;
+  }
+  .topbar {
+    overflow: hidden;
+  }
+  .topbar .topbar-leftside .topbar-social-links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .topbar .topbar-leftside .topbar-social-links ul {
+    padding-left: 5px;
+  }
+  .topbar .topbar-leftside .topbar-social-links ul li a {
+    margin-left: 0;
+  }
+  .topbar .topbar-leftside::before {
+    right: -999px;
+  }
+  .topbar .tobar-rightSide {
+    justify-content: center;
+  }
+  .topbar-rightSide-contact-card {
+    margin-right: 0;
+    padding-right: 20px;
+    padding-left: 32px;
+  }
+  .topbar-rightSide-contact-card a {
+    font-size: 14px;
+  }
+  .topbar-rightSide-contact-card iconify-icon {
+    font-size: 28px;
+  }
+  .banner .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+  .mission .mission-content h3 {
+    font-size: 36px;
+  }
+  .mission .mission-content p {
+    font-size: 16px;
+  }
+  .features {
+    padding-top: 0 !important;
+    padding-bottom: 70px !important;
+  }
+  .features-card {
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .features-card h3 {
+    font-size: 24px;
+  }
+  .article-card .articles-img {
+    margin-right: 20px;
+  }
+  .article-card .article-text-area h3 a {
+    font-size: 18px;
+  }
+  .article-card .article-text-area ul li {
+    font-size: 12px;
+  }
+  .article-card .article-text-area .article-card-header .article-date {
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    bottom: 10px;
+  }
+  .partner-logos {
+    flex-wrap: wrap;
+  }
+  .partner-logos img {
+    width: 120px;
+  }
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .footer::before {
+    -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+  }
+  .footer::after {
+    -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .footer .pl-70 {
+    margin-top: 0;
+  }
+  .footer .footer-links {
+    margin-top: 30px;
+  }
+  .footer .footer-links ul li a {
+    font-size: 14px;
+  }
+  .copyright .copyright-content {
+    justify-content: center;
+  }
+  .copyright .copyright-content p {
+    font-size: 14px;
+  }
+  .inner-about-text-area {
+    margin-top: 30px;
+  }
+  .inner-about-card h3 {
+    font-size: 20px;
+  }
+  .inner-about-card p {
+    font-size: 14px;
+  }
+  .about-details-text-area h4 {
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .about-details-text-area .about-details-img p {
+    padding: 15px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.64);
+  }
+  .accreditation h3 {
+    font-size: 28px;
+    line-height: 27px;
+  }
+  .accreditation p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .accreditation .logo-single-accreditation {
+    padding-top: 30px;
+  }
+  .accreditation .logo-single-accreditation img {
+    max-width: 100px;
+  }
+  .inner-page-banner .banner-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .inner-page-banner .banner-content h1 {
+    font-size: 28px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle {
+    width: 100%;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul {
+    padding: 12px 36px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul li {
+    font-size: 16px;
+  }
+  .about-details-text {
+    margin-left: 0;
+    padding: 15px;
+  }
+  .about-details-text p {
+    font-size: 14px;
+  }
+  .calendar h4 {
+    padding-bottom: 20px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .calendar h3 {
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .philosophy .philosophy-wrapper h3 {
+    padding-bottom: 25px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .philosophy .philosophy-wrapper p {
+    padding-top: 24px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .philosophy .philosophy-wrapper ul {
+    padding-left: 25px;
+  }
+  .philosophy .philosophy-wrapper ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-top: 6px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+  }
+  .philosophy .philosophy-wrapper ul li::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 1px;
+    width: 6px;
+    height: 6px;
+    outline-offset: 2px;
+  }
+  .community h3 {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+  }
+  .join p {
+    padding-top: 16px;
+    color: var(--textColor);
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .join h4 {
+    padding-bottom: 32px;
+    font-size: 30px;
+    line-height: 24px;
+  }
+  .join h3 {
+    font-size: 36px;
+    line-height: 30px;
+  }
+  .join .join-card {
+    margin-top: 32px;
+  }
+  .join .join-card .join-card-image {
+    background-color: #d9d9d9;
+    height: 334px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .join .join-banner {
+    margin-top: 32px;
+    background-color: #d9d9d9;
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .learn .learn-wrapper h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .learn .learn-wrapper p {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .learn .learn-wrapper .learn-image-wrapper {
+    padding-top: 24px;
+  }
+  .learn .learn-wrapper .learn-image-wrapper .list-style {
+    list-style-type: none;
+    padding-left: 25px;
+  }
+  .learn .learn-wrapper .learn-image-wrapper .list-style li a {
+    color: var(--blueColor) !important;
+  }
+  .association .parent-association {
+    padding-bottom: 30px;
+  }
+  .association .parent-association h3 {
+    padding-bottom: 10px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .association .parent-association p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .association .parent-association p a {
+    text-decoration: underline;
+    color: var(--yellowColor);
+  }
+  .association .association-event h3 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+  .association .association-event h4 {
+    padding-bottom: 24px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .association .association-event p {
+    color: var(--textColor);
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .association .association-event .list-style {
+    padding-left: 50px;
+    padding-top: 15px;
+    color: var(--blueColor);
+  }
+  .recruitment p {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .recruitment h3 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .recruitment .recruitment-image {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .recruitment .recruitment-image img {
+    border-radius: 8px;
+  }
+  .recruitment .recruitment-content-single {
+    margin-top: 20px;
+  }
+  .recruitment .recruitment-content-single h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .recruitment .blue-button {
+    margin-top: 20px;
+  }
+  .recruitment .blue-button iconify-icon {
+    position: relative;
+    top: 5px;
+  }
+  .school h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .school p {
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .school .our-campus .school-image {
+    padding-top: 25px;
+    width: 100%;
+  }
+  .school .experience-campus {
+    padding-top: 40px;
+  }
+  .school .experience-campus .school-image {
+    width: 100%;
+    padding-top: 28px;
+  }
+  .school .map-campus {
+    width: 100%;
+    max-height: 550px;
+  }
+  .school .accridation-campus .campus-single-accridation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .school .accridation-campus .campus-single-accridation .accridation-image {
+    width: 100%;
+  }
+  .school .accridation-campus .campus-single-accridation .accridation-image img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .topbar {
+    overflow: hidden;
+  }
+  .topbar .topbar-leftside::before {
+    right: 0px;
+  }
+  .topbar .tobar-rightSide {
+    justify-content: end;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mean-container a.meanmenu-reveal {
+    top: 28px;
+  }
+  .popup-button {
+    position: relative;
+    top: 4px;
+  }
+  .mobile-nav .logo {
+    top: 13px;
+  }
+  .default-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .ptb-140 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .pt-140 {
+    padding-top: 80px;
+  }
+  .pb-140 {
+    padding-bottom: 80px;
+  }
+  .pl-70 {
+    padding-left: 0px;
+  }
+  .pl-30 {
+    padding-left: 0px;
+  }
+  .section-heading h3 {
+    font-size: 36px;
+  }
+  .features-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+  }
+  .features-card h3 {
+    font-size: 24px;
+  }
+  .article-card .articles-img {
+    margin-right: 20px;
+  }
+  .article-card .article-text-area h3 a {
+    font-size: 18px;
+  }
+  .article-card .article-text-area ul li {
+    font-size: 12px;
+  }
+  .article-card .article-text-area .article-card-header .article-date {
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    bottom: 10px;
+  }
+  .partner-logos img {
+    width: 120px;
+  }
+  .footer .pl-70 {
+    margin-top: 0;
+  }
+  .accreditation h3 {
+    color: var(--headerColor);
+    font-family: var(--primaryFont);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .accreditation p {
+    padding-top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .accreditation .logo-single-accreditation {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .accreditation .logo-single-accreditation .accreditation-image {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pl-70 {
+    padding-left: 30px;
+  }
+  .ptb-140 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pt-140 {
+    padding-top: 100px;
+  }
+  .pb-140 {
+    padding-bottom: 100px;
+  }
+  .default-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .program-card {
+    padding: 10px;
+  }
+  .program-card .program-card-text h3 a {
+    font-size: 18px;
+  }
+  .program-card .program-card-text p {
+    font-size: 12px;
+  }
+  .program-card .program-card-text .program-card-bottom-area img {
+    width: 35px;
+  }
+  .features-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+  }
+  .features-card h3 {
+    font-size: 32px;
+  }
+  .article-card .articles-img {
+    margin-right: 15px;
+  }
+  .article-card .article-text-area h3 a {
+    font-size: 16px;
+  }
+  .article-card .article-text-area ul li {
+    font-size: 12px;
+  }
+  .article-card .article-text-area .article-card-header .article-date {
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    bottom: 10px;
+  }
+  .inner-page-banner .banner-content {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .inner-page-banner .banner-content h1 {
+    font-size: 44px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle {
+    bottom: -25px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul {
+    padding: 12px 36px;
+  }
+  .inner-page-banner .banner-content .banner-subtitle ul li {
+    font-size: 16px;
+  }
+  .inner-about-img {
+    margin-bottom: 30px;
+  }
+  .about-details-text {
+    margin-left: 0;
+  }
+  .about-details-text-area h4 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .article-card .article-text-area h3 a {
+    font-size: 20px;
+  }
+  .about-details-text p {
+    font-size: 14px;
+  }
+  .about-details-text-area .about-details-img p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
