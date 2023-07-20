@@ -4358,7 +4358,7 @@ img {
   display: inline-flex;
   text-decoration: none;
   width: 100%;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .place-list-area ul li a span {
