@@ -286,11 +286,13 @@ a.meanmenu-reveal {
   transform: translateY(-50%);
   z-index: 99;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   color: var(--blueColor);
   padding-left: 25px;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   font-size: 15px;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -300,7 +302,15 @@ a.meanmenu-reveal {
   opacity: 0 !important;
   visibility: hidden !important;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   top: 20px;
   left: 100%;
   position: absolute;
@@ -310,7 +320,16 @@ a.meanmenu-reveal {
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: var(--blackColor);
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover,
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: var(--blueColor);
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -318,7 +337,15 @@ a.meanmenu-reveal {
   visibility: visible !important;
   top: -5px !important;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li:hover
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
   top: -5px !important;
@@ -535,7 +562,12 @@ Header Responsive Area CSS
   background-color: var(--whiteColor);
   box-shadow: 0px 2px 4px rgba(41, 66, 105, 0.16);
 }
-.mission-area-tab .mission-tab-area .values-tab-area nav .nav-content .nav-link {
+.mission-area-tab
+  .mission-tab-area
+  .values-tab-area
+  nav
+  .nav-content
+  .nav-link {
   transition: 0s ease-in-out;
   border-radius: 25px;
   color: var(--blueColor);
@@ -1102,13 +1134,30 @@ Header Responsive Area CSS
 .alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text {
   margin-top: 10px;
 }
-.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header {
+.alumni
+  .alumni-wrapper
+  .alumni-wrapper-group
+  .alumni-card
+  .alumni-text
+  .header {
   margin-bottom: 20px;
 }
-.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header h3 {
+.alumni
+  .alumni-wrapper
+  .alumni-wrapper-group
+  .alumni-card
+  .alumni-text
+  .header
+  h3 {
   font-size: 30px;
 }
-.alumni .alumni-wrapper .alumni-wrapper-group .alumni-card .alumni-text .header p {
+.alumni
+  .alumni-wrapper
+  .alumni-wrapper-group
+  .alumni-card
+  .alumni-text
+  .header
+  p {
   padding-top: 0;
 }
 
@@ -1415,18 +1464,31 @@ Header Responsive Area CSS
   .co-curricular .co-curricular-wrapper .video-banner-image .video-banner {
     height: 350px;
   }
-  .co-curricular .co-curricular-wrapper .video-banner-image .video-banner .play-btn {
+  .co-curricular
+    .co-curricular-wrapper
+    .video-banner-image
+    .video-banner
+    .play-btn {
     height: 63px;
     width: 63px;
     font-size: 30px;
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .co-curricular .co-curricular-wrapper .video-banner-image .video-banner .play-btn iconify-icon {
+  .co-curricular
+    .co-curricular-wrapper
+    .video-banner-image
+    .video-banner
+    .play-btn
+    iconify-icon {
     position: relative;
     z-index: 2;
   }
-  .co-curricular .co-curricular-wrapper .video-banner-image .video-banner .play-btn::before {
+  .co-curricular
+    .co-curricular-wrapper
+    .video-banner-image
+    .video-banner
+    .play-btn::before {
     content: "";
     width: 150%;
     height: 150%;
@@ -1440,7 +1502,11 @@ Header Responsive Area CSS
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .co-curricular .co-curricular-wrapper .video-banner-image .video-banner .play-btn::after {
+  .co-curricular
+    .co-curricular-wrapper
+    .video-banner-image
+    .video-banner
+    .play-btn::after {
     content: "";
     width: 190%;
     height: 190%;
@@ -1611,7 +1677,10 @@ Header Responsive Area CSS
 .enrollment .enrollment-content-wrapper .enrollment-content-email p {
   text-align: left;
 }
-.enrollment .enrollment-content-wrapper .enrollment-content-email .default-button {
+.enrollment
+  .enrollment-content-wrapper
+  .enrollment-content-email
+  .default-button {
   margin-top: 20px;
   text-align: center;
   line-height: 21px;
@@ -1619,7 +1688,11 @@ Header Responsive Area CSS
   font-size: 18px;
   font-family: var(--primaryFont);
 }
-.enrollment .enrollment-content-wrapper .enrollment-content-email .default-button iconify-icon {
+.enrollment
+  .enrollment-content-wrapper
+  .enrollment-content-email
+  .default-button
+  iconify-icon {
   position: relative;
   top: 3px;
 }
@@ -1785,17 +1858,31 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
   line-height: 32px;
 }
-.policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p {
+.policy
+  .policy-content-wrapper
+  .policy-content-small
+  .policy-content-small-contact
+  p {
   color: var(--textColor);
   font-size: 18px;
   font-family: var(--primaryFont);
   line-height: 27px;
 }
-.policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p a {
+.policy
+  .policy-content-wrapper
+  .policy-content-small
+  .policy-content-small-contact
+  p
+  a {
   color: var(--headerColor);
   font-weight: 600;
 }
-.policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p a:hover {
+.policy
+  .policy-content-wrapper
+  .policy-content-small
+  .policy-content-small-contact
+  p
+  a:hover {
   text-decoration: none;
 }
 .policy .policy-content-wrapper .policy-content-email {
@@ -1816,7 +1903,11 @@ Header Responsive Area CSS
   font-size: 18px;
   font-family: var(--primaryFont);
 }
-.policy .policy-content-wrapper .policy-content-email .default-button iconify-icon {
+.policy
+  .policy-content-wrapper
+  .policy-content-email
+  .default-button
+  iconify-icon {
   position: relative;
   top: 3px;
 }
@@ -1845,7 +1936,11 @@ Header Responsive Area CSS
     font-size: 14px;
     line-height: 22px;
   }
-  .policy .policy-content-wrapper .policy-content-small .policy-content-small-contact p {
+  .policy
+    .policy-content-wrapper
+    .policy-content-small
+    .policy-content-small-contact
+    p {
     font-size: 14px;
     line-height: 22px;
   }
@@ -1878,25 +1973,55 @@ Header Responsive Area CSS
 .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card {
   padding-bottom: 70px;
 }
-.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-image {
+.job-opening
+  .job-opening-wrapper
+  .job-opening-wrapper-group
+  .job-opening-card
+  .job-opening-image {
   border-radius: 50%;
   width: 100%;
   overflow: hidden;
   background-color: #f1f5f9;
 }
-.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-image img {
+.job-opening
+  .job-opening-wrapper
+  .job-opening-wrapper-group
+  .job-opening-card
+  .job-opening-image
+  img {
   width: 100%;
 }
-.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text {
+.job-opening
+  .job-opening-wrapper
+  .job-opening-wrapper-group
+  .job-opening-card
+  .job-opening-text {
   margin-top: 10px;
 }
-.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header {
+.job-opening
+  .job-opening-wrapper
+  .job-opening-wrapper-group
+  .job-opening-card
+  .job-opening-text
+  .header {
   margin-bottom: 20px;
 }
-.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header h3 {
+.job-opening
+  .job-opening-wrapper
+  .job-opening-wrapper-group
+  .job-opening-card
+  .job-opening-text
+  .header
+  h3 {
   font-size: 30px;
 }
-.job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header p {
+.job-opening
+  .job-opening-wrapper
+  .job-opening-wrapper-group
+  .job-opening-card
+  .job-opening-text
+  .header
+  p {
   padding-top: 0;
 }
 .job-opening .job-opening-wrapper .job-opening-testimonial {
@@ -1928,27 +2053,55 @@ Header Responsive Area CSS
   .job-opening .job-opening-wrapper .job-opening-wrapper-group {
     padding-top: 24px;
   }
-  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card {
+  .job-opening
+    .job-opening-wrapper
+    .job-opening-wrapper-group
+    .job-opening-card {
     padding-bottom: 70px;
   }
-  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-image {
+  .job-opening
+    .job-opening-wrapper
+    .job-opening-wrapper-group
+    .job-opening-card
+    .job-opening-image {
     border-radius: 50%;
     width: 60%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
   }
-  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text {
+  .job-opening
+    .job-opening-wrapper
+    .job-opening-wrapper-group
+    .job-opening-card
+    .job-opening-text {
     text-align: center;
     margin-top: 30px;
   }
-  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header {
+  .job-opening
+    .job-opening-wrapper
+    .job-opening-wrapper-group
+    .job-opening-card
+    .job-opening-text
+    .header {
     margin-bottom: 20px;
   }
-  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header h3 {
+  .job-opening
+    .job-opening-wrapper
+    .job-opening-wrapper-group
+    .job-opening-card
+    .job-opening-text
+    .header
+    h3 {
     font-size: 26px;
   }
-  .job-opening .job-opening-wrapper .job-opening-wrapper-group .job-opening-card .job-opening-text .header p {
+  .job-opening
+    .job-opening-wrapper
+    .job-opening-wrapper-group
+    .job-opening-card
+    .job-opening-text
+    .header
+    p {
     font-size: 14px;
     padding-top: 0;
   }
@@ -2113,37 +2266,86 @@ Header Responsive Area CSS
   position: absolute;
   top: -80px;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-image {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-image {
   border-radius: 8px 8px 0 0;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text {
   border-radius: 0 0 8px 8px;
   background-color: #ffffff;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text
+  ul {
   max-width: 295px;
   list-style: none;
   padding: 16px 32px 32px 32px;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text
+  ul
+  li {
   padding-top: 16px;
   display: flex;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li img {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text
+  ul
+  li
+  img {
   width: 30px;
   height: 30px;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text
+  ul
+  li
+  .text {
   padding-left: 16px;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text h6 {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text
+  ul
+  li
+  .text
+  h6 {
   color: var(--headerColor);
   line-height: 20px;
   font-weight: 700;
   font-family: var(--primaryFont);
   font-size: 24px;
 }
-.contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text p {
+.contact-us
+  .contact-form-section
+  .address-card-wrapper
+  .address-card
+  .address-card-text
+  ul
+  li
+  .text
+  p {
   line-height: 27px;
   color: var(--textColor);
   margin-bottom: 0px;
@@ -2173,7 +2375,12 @@ Header Responsive Area CSS
 .contact-us .office-time-wrapper .office-time .office-time-group a {
   width: 100%;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single {
+.contact-us
+  .office-time-wrapper
+  .office-time
+  .office-time-group
+  a
+  .office-time-single {
   margin-top: 30px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -2183,21 +2390,39 @@ Header Responsive Area CSS
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single h4 {
+.contact-us
+  .office-time-wrapper
+  .office-time
+  .office-time-group
+  a
+  .office-time-single
+  h4 {
   color: var(--headerColor);
   line-height: 39px;
   font-weight: 700;
   font-family: var(--primaryFont);
   font-size: 30px;
 }
-.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single p {
+.contact-us
+  .office-time-wrapper
+  .office-time
+  .office-time-group
+  a
+  .office-time-single
+  p {
   line-height: 27px;
   color: var(--textColor);
   font-size: 18px;
   font-weight: 400;
   font-family: var(--primaryFont);
 }
-.contact-us .office-time-wrapper .office-time .office-time-group a .office-time-single h6 {
+.contact-us
+  .office-time-wrapper
+  .office-time
+  .office-time-group
+  a
+  .office-time-single
+  h6 {
   color: var(--headerColor);
   line-height: 27px;
   font-weight: 700;
@@ -2235,10 +2460,26 @@ Header Responsive Area CSS
   .contact-us .contact-form-section .address-card-wrapper .address-card {
     position: unset !important;
   }
-  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text h6 {
+  .contact-us
+    .contact-form-section
+    .address-card-wrapper
+    .address-card
+    .address-card-text
+    ul
+    li
+    .text
+    h6 {
     font-size: 18px;
   }
-  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text p {
+  .contact-us
+    .contact-form-section
+    .address-card-wrapper
+    .address-card
+    .address-card-text
+    ul
+    li
+    .text
+    p {
     line-height: 22px;
     font-size: 16px;
   }
@@ -2253,7 +2494,12 @@ Header Responsive Area CSS
     display: block;
     text-align: center;
   }
-  .contact-us .contact-form-section .contact-form form .default-button iconify-icon {
+  .contact-us
+    .contact-form-section
+    .contact-form
+    form
+    .default-button
+    iconify-icon {
     top: 5px;
   }
   .contact-us .office-time-wrapper {
@@ -2272,7 +2518,11 @@ Header Responsive Area CSS
   .contact-us .office-time-wrapper .office-time {
     z-index: 1;
   }
-  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single {
+  .contact-us
+    .office-time-wrapper
+    .office-time
+    .office-time-group
+    .office-time-single {
     margin-top: 30px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -2282,18 +2532,33 @@ Header Responsive Area CSS
     padding-top: 20px;
     padding-bottom: 25px;
   }
-  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h4 {
+  .contact-us
+    .office-time-wrapper
+    .office-time
+    .office-time-group
+    .office-time-single
+    h4 {
     color: var(--headerColor);
     line-height: 28px;
     font-weight: 700;
     font-family: var(--primaryFont);
     font-size: 26px;
   }
-  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single p {
+  .contact-us
+    .office-time-wrapper
+    .office-time
+    .office-time-group
+    .office-time-single
+    p {
     line-height: 22px;
     font-size: 16px;
   }
-  .contact-us .office-time-wrapper .office-time .office-time-group .office-time-single h6 {
+  .contact-us
+    .office-time-wrapper
+    .office-time
+    .office-time-group
+    .office-time-single
+    h6 {
     color: var(--headerColor);
     line-height: 22px;
     font-size: 16px;
@@ -2324,10 +2589,26 @@ Header Responsive Area CSS
     position: absolute;
     top: -35px;
   }
-  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text h6 {
+  .contact-us
+    .contact-form-section
+    .address-card-wrapper
+    .address-card
+    .address-card-text
+    ul
+    li
+    .text
+    h6 {
     font-size: 18px;
   }
-  .contact-us .contact-form-section .address-card-wrapper .address-card .address-card-text ul li .text p {
+  .contact-us
+    .contact-form-section
+    .address-card-wrapper
+    .address-card
+    .address-card-text
+    ul
+    li
+    .text
+    p {
     line-height: 22px;
     font-size: 16px;
   }
@@ -2412,7 +2693,11 @@ Header Responsive Area CSS
   text-align: center;
   position: relative;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form .login-card-lock-logo {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  .login-card-lock-logo {
   position: absolute;
   background-color: #ffffff;
   height: 100px;
@@ -2429,12 +2714,23 @@ Header Responsive Area CSS
   padding-right: 120px;
   padding-top: 32px;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper {
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 1px solid #cbd5e1;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper h3 {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  h3 {
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
@@ -2443,21 +2739,53 @@ Header Responsive Area CSS
   font-family: var(--primaryFont);
   font-weight: 700;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  p {
   color: var(--textColor);
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p a {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  p
+  a {
   padding-left: 10px;
   color: var(--yellowColor);
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper p a:hover {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  p
+  a:hover {
   color: var(--yellowColor);
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .form-control {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .form-control {
   border: 1px solid var(--textColor) !important;
   border-radius: 8px !important;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .show-pass {
   background-color: #ffffff;
   margin-bottom: 16px;
   border: 1px solid var(--textColor);
@@ -2466,42 +2794,104 @@ Header Responsive Area CSS
   justify-content: center;
   align-items: first baseline;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass .form-control {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .show-pass
+  .form-control {
   padding: 5px 0 0 10px;
   border: none !important;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass .form-control:focus {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .show-pass
+  .form-control:focus {
   background-color: #ffffff;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .show-pass iconify-icon {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .show-pass
+  iconify-icon {
   margin-top: 20px;
   margin-right: 10px;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .default-button {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .default-button {
   text-align: center;
   display: block;
   margin-bottom: 20px;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .default-button iconify-icon {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .default-button
+  iconify-icon {
   position: relative;
   top: 5px;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .forget-pass {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .forget-pass {
   margin-bottom: 32px;
   display: flex;
   justify-content: space-between;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .forget-pass .checkbox {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .forget-pass
+  .checkbox {
   color: var(--textColor);
   line-height: 27px;
   font-size: 16px;
   font-family: var(--primaryFont);
   font-weight: 600;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .forget-pass .checkbox span {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .forget-pass
+  .checkbox
+  span {
   padding-left: 10px;
 }
-.sign-in .login-card-wrapper .login-card .login-card-form form .form-group-wrapper .image-capcha img {
+.sign-in
+  .login-card-wrapper
+  .login-card
+  .login-card-form
+  form
+  .form-group-wrapper
+  .image-capcha
+  img {
   width: 90%;
 }
 .sign-in .login-card-wrapper .login-card h4 {
@@ -2837,7 +3227,13 @@ Header Responsive Area CSS
   content: "";
   width: 100%;
   transition: 0.5s ease-in-out;
-  background-image: linear-gradient(180.5deg, rgba(41, 66, 105, 0), rgba(41, 66, 105, 0), rgba(41, 66, 105, 0.411), #294269);
+  background-image: linear-gradient(
+    180.5deg,
+    rgba(41, 66, 105, 0),
+    rgba(41, 66, 105, 0),
+    rgba(41, 66, 105, 0.411),
+    #294269
+  );
   height: 50%;
   position: absolute;
   bottom: 0;
@@ -3018,7 +3414,12 @@ Header Responsive Area CSS
   font-size: 14px;
   font-family: var(--primaryFont);
 }
-.slider-card-wrapper .slider-card-single .news-content-card a:hover a iconify-icon {
+.slider-card-wrapper
+  .slider-card-single
+  .news-content-card
+  a:hover
+  a
+  iconify-icon {
   position: relative;
   margin-left: 10px;
   line-height: 20px;
@@ -3084,7 +3485,7 @@ Header Responsive Area CSS
   width: 100%;
   height: 70%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 69%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 69%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 69%);
   background-color: var(--blueColor);
   position: absolute;
   left: 0;
@@ -3127,14 +3528,27 @@ Header Responsive Area CSS
   border-radius: 5px;
   background-color: var(--whiteColor);
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item {
   margin-top: 10px;
   border: none;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item:first-child {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item:first-child {
   margin-top: 0;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-button {
   padding: 0;
   color: #000;
   border: none !important;
@@ -3145,46 +3559,112 @@ Header Responsive Area CSS
   font-weight: 500;
   font-family: var(--primaryFont);
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button::after {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-button::after {
   background-image: unset;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button:not(.collapsed) .accordion-icon {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-button:not(.collapsed)
+  .accordion-icon {
   transform: rotate(90deg);
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button .accordion-icon {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-button
+  .accordion-icon {
   transition: 0.3s ease-in-out;
   position: relative;
   top: 0px;
   font-size: 28px;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body {
   padding: 10px 15px 10px;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body
+  ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body
+  ul
+  li {
   transition: 0.5s ease-in-out;
   margin-top: 5px;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li:first-child {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body
+  ul
+  li:first-child {
   margin-top: 0;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li .accordionList-icon {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body
+  ul
+  li
+  .accordionList-icon {
   position: relative;
   top: 4px;
   font-size: 18px;
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li a {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body
+  ul
+  li
+  a {
   transition: 0.5s ease-in-out;
   color: var(--blackColor);
   font-size: 16px;
   font-weight: 400;
   font-family: var(--primaryFont);
 }
-.recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li:hover a {
+.recent-news-card-area
+  .recent-news-card-content
+  .news-list
+  .accordion
+  .accordion-item
+  .accordion-body
+  ul
+  li:hover
+  a {
   padding-left: 5px;
   color: var(--yellowColor);
 }
@@ -3213,7 +3693,7 @@ Header Responsive Area CSS
   height: 100%;
   box-shadow: 1px 10px 5px -3px rgba(0, 0, 0, 0.7960784314);
   -webkit-clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
   background-color: var(--whiteColor);
   position: absolute;
   right: -19px;
@@ -3226,7 +3706,7 @@ Header Responsive Area CSS
   height: 70%;
   box-shadow: 1px 10px 5px -3px rgba(0, 0, 0, 0.7960784314);
   -webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
   background-color: var(--yellowColor);
   position: absolute;
   right: -40px;
@@ -3341,14 +3821,33 @@ Header Responsive Area CSS
   .recent-news-card-area .recent-news-card-content .news-list {
     padding: 15px;
   }
-  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button {
+  .recent-news-card-area
+    .recent-news-card-content
+    .news-list
+    .accordion
+    .accordion-item
+    .accordion-button {
     font-size: 16px;
   }
-  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button .accordion-icon {
+  .recent-news-card-area
+    .recent-news-card-content
+    .news-list
+    .accordion
+    .accordion-item
+    .accordion-button
+    .accordion-icon {
     font-size: 24px;
     top: 2px;
   }
-  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li a {
+  .recent-news-card-area
+    .recent-news-card-content
+    .news-list
+    .accordion
+    .accordion-item
+    .accordion-body
+    ul
+    li
+    a {
     font-size: 12px;
   }
   .lis-news-details-area h3 {
@@ -3406,14 +3905,33 @@ Header Responsive Area CSS
   .recent-news-card-area .recent-news-card-content .news-list {
     padding: 15px;
   }
-  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button {
+  .recent-news-card-area
+    .recent-news-card-content
+    .news-list
+    .accordion
+    .accordion-item
+    .accordion-button {
     font-size: 16px;
   }
-  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-button .accordion-icon {
+  .recent-news-card-area
+    .recent-news-card-content
+    .news-list
+    .accordion
+    .accordion-item
+    .accordion-button
+    .accordion-icon {
     font-size: 24px;
     top: 2px;
   }
-  .recent-news-card-area .recent-news-card-content .news-list .accordion .accordion-item .accordion-body ul li a {
+  .recent-news-card-area
+    .recent-news-card-content
+    .news-list
+    .accordion
+    .accordion-item
+    .accordion-body
+    ul
+    li
+    a {
     font-size: 12px;
   }
   .lis-news-details-area h3 {
@@ -3455,7 +3973,11 @@ Header Responsive Area CSS
 .booking .booking-card-wrapper .booking-wrapper .form-group .form-control {
   background-color: #f1f5f9 !important;
 }
-.booking .booking-card-wrapper .booking-wrapper .form-group .form-control:focus {
+.booking
+  .booking-card-wrapper
+  .booking-wrapper
+  .form-group
+  .form-control:focus {
   background-color: #f1f5f9 !important;
 }
 .booking .booking-card-wrapper .booking-wrapper .blue-button {
@@ -4241,105 +4763,106 @@ img {
 .virtual-map .section-content .school-map .btn-gallery {
   width: 45px;
   height: 45px;
+
 }
 .virtual-map .section-content .school-map .btn-gallery {
   position: absolute;
   opacity: 1;
 }
 .virtual-map .section-content .school-map .btn-gallery-1 {
-  left: 10.5%;
-  bottom: 22%;
+  left: 9.7%;
+  bottom: 21%;
 }
 .virtual-map .section-content .school-map .btn-gallery-2 {
-  left: 22.5%;
-  bottom: 44%;
+  left: 21%;
+  bottom: 43%;
 }
 .virtual-map .section-content .school-map .btn-gallery-3 {
-  left: 28.5%;
-  top: 39%;
+  left: 27%;
+  top: 37.5%;
 }
 .virtual-map .section-content .school-map .btn-gallery-4 {
-  left: 33.5%;
-  top: 27%;
+  left: 32%;
+  top: 25%;
 }
 .virtual-map .section-content .school-map .btn-gallery-5 {
-  left: 34.5%;
-  top: 18%;
+  left: 32.5%;
+  top: 17%;
 }
 .virtual-map .section-content .school-map .btn-gallery-6 {
-  left: 39%;
-  top: 24%;
+  left: 36%;
+  top: 22%;
 }
 .virtual-map .section-content .school-map .btn-gallery-7 {
-  left: 40%;
-  top: 16%;
+  left: 37%;
+  top: 15%;
 }
 .virtual-map .section-content .school-map .btn-gallery-8 {
-  left: 43%;
-  top: 8%;
+  left: 40%;
+  top: 6%;
 }
 .virtual-map .section-content .school-map .btn-gallery-9 {
-  left: 48%;
+  left: 44%;
   top: 53px;
 }
 .virtual-map .section-content .school-map .btn-gallery-10 {
-  left: 52%;
-  top: 23%;
+  left: 48%;
+  top: 21%;
 }
 .virtual-map .section-content .school-map .btn-gallery-11 {
-  left: 56%;
-  top: 10%;
+  left: 52%;
+  top:9%;
 }
 .virtual-map .section-content .school-map .btn-gallery-12 {
-  left: 67%;
-  top: 10%;
+  left: 62%;
+  top: 9%;
 }
 .virtual-map .section-content .school-map .btn-gallery-13 {
-  left: 60%;
-  top: 33%;
+  left: 56%;
+  top: 32%;
 }
 .virtual-map .section-content .school-map .btn-gallery-14 {
-  left: 73%;
+  left: 67%;
   top: 35%;
 }
 .virtual-map .section-content .school-map .btn-gallery-15 {
-  left: 83%;
+  left: 77%;
   top: 40%;
 }
 .virtual-map .section-content .school-map .btn-gallery-16 {
-  left: 82%;
-  bottom: 35%;
+  left: 75%;
+  bottom: 32%;
 }
 .virtual-map .section-content .school-map .btn-gallery-17 {
-  left: 42%;
-  bottom: 23%;
+  left: 39%;
+  bottom: 21%;
 }
 .virtual-map .section-content .school-map .btn-gallery-18 {
-  left: 30%;
-  bottom: 18%;
-}
-.virtual-map .section-content .school-map .btn-gallery-19 {
-  left: 22%;
+  left: 28%;
   bottom: 17%;
 }
+.virtual-map .section-content .school-map .btn-gallery-19 {
+  left: 20%;
+  bottom: 15%;
+}
 .virtual-map .section-content .school-map .btn-gallery-20 {
-  left: 38%;
-  bottom: 43%;
+  left: 35%;
+  bottom: 41%;
 }
 .virtual-map .section-content .school-map .btn-gallery-21 {
-  left: 41%;
-  top: 43%;
+  left: 32%;
+  bottom: 34%;
 }
 .virtual-map .section-content .school-map .btn-gallery-22 {
-  left: 42%;
-  top: 31%;
+  left: 39%;
+  top: 30%;
 }
 .virtual-map .section-content .school-map .btn-gallery-23 {
-  left: 44%;
-  top: 36%;
+  left: 41%;
+  top: 35%;
 }
 .virtual-map .section-content .school-map .btn-gallery-24 {
-  left: 49%;
+  left: 45%;
   top: 36%;
 }
 
@@ -4399,7 +4922,7 @@ img {
   width: 100%;
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
   background-color: var(--blueColor);
   position: absolute;
   left: 0;
@@ -4411,7 +4934,7 @@ img {
   width: 100%;
   height: 100%;
   -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   background-color: var(--yellowColor);
   position: absolute;
   left: 0;
@@ -5064,4 +5587,4 @@ img {
 .recruitment .blue-button iconify-icon {
   position: relative;
   top: 5px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
